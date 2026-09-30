@@ -33,9 +33,7 @@ const read = f => readFileSync(join(ROOT, f), 'utf8');
 // 档位规则和 index.html 的 COST_W、e.ratio 两行一致；那两行改了这里必须跟着改，所以先比对一次
 const indexText = read('index.html');
 const COST_W_LINE = "const COST_W = { money:{'0':0,'少':1,'多':2}, time:{'少':0,'中':1,'多':2}, will:{'否':0,'些':1,'是':2} };";
-const RATIO_LINE = "e.ratio = e.level === '大' ? (e.cs === 0 ? '极高' : (e.cs <= 2 ? '高' : '一般'))";
 if (!indexText.includes(COST_W_LINE)) throw new Error('index.html 的 COST_W 行变了，请同步本脚本里的成本权重');
-if (!indexText.includes(RATIO_LINE)) throw new Error('index.html 的 e.ratio 行变了，请同步本脚本里的档位规则');
 
 const W = {
   money: { '0': 0, '少': 1, '多': 2 },
@@ -44,8 +42,8 @@ const W = {
 };
 
 function ratioOf(cost, level) {
-  if (level === '大') return cost === 0 ? '极高' : cost <= 2 ? '高' : '一般';
-  return level === '中' && cost === 0 ? '高' : '一般';
+  if (level === '大' || level === 'Lớn') return cost === 0 ? '极高' : cost <= 2 ? '高' : '一般';
+  return (level === '中' || level === 'Vừa') && cost === 0 ? '高' : '一般';
 }
 
 const bookFiles = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).sort();
@@ -57,11 +55,11 @@ const ratio = { '极高': 0, '高': 0, '一般': 0 };
 for (const f of bookFiles) {
   for (const line of read(join('book', f)).split(/\r?\n/)) {
     if (line.startsWith('### ')) entries++;
-    const g = line.match(/^- 证据等级：([ABC])/);
-    if (g) grade[g[1]]++;
-    if (line.startsWith('- 备注：争议')) dispute++;
-    if (/待核实|TODO/.test(line)) todo++;
-    if (/^- (来源|备注)：/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
+    const g = line.match(/^- (?:证据等级|Mức độ bằng chứng)[：:]\s*([ABC])/i);
+    if (g) grade[g[1].toUpperCase()]++;
+    if (/^- (?:备注：争议|Ghi chú:\s*Tranh cãi|Ghi chú:\s*Có tranh cãi)/i.test(line)) dispute++;
+    if (/待核实|TODO|Chưa thẩm định|Cần thẩm định/i.test(line)) todo++;
+    if (/^- (?:来源|Nguồn|备注|Ghi chú)[：:]/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
     const t = line.match(/<!--\s*成本标签:\s*钱=(\S+)\s+时间=(\S+)\s+毅力=(\S+)\s+收益=(\S+)\s+口径=/);
     if (t) ratio[ratioOf(W.money[t[1]] + W.time[t[2]] + W.will[t[3]], t[4])]++;
   }
@@ -88,24 +86,16 @@ console.log(`性价比 极高 ${ratio['极高']}（${pct['极高']}%） 高 ${ra
 console.log('');
 
 const EDITS = [
-  ['README.md', '首屏条目数', /(\d+) 条建议/g, `${entries} 条建议`],
-  ['README.md', '条目徽章', /%E6%9D%A1%E7%9B%AE-(\d+)%20%E6%9D%A1/g, `%E6%9D%A1%E7%9B%AE-${entries}%20%E6%9D%A1`],
+  ['README.md', '首屏条目数', /(\d+) lời khuyên thực tiễn/g, `${entries} lời khuyên thực tiễn`],
+  ['README.md', '条目徽章', /M%E1%BB%A5c-(\d+)%20m%E1%BB%A5c/g, `M%E1%BB%A5c-${entries}%20m%E1%BB%A5c`],
   ['README.md', '证据分级徽章', /A%20(\d+)%20%C2%B7%20B%20\d+%20%C2%B7%20C%20\d+/g, `A%20${grade.A}%20%C2%B7%20B%20${grade.B}%20%C2%B7%20C%20${grade.C}`],
-  ['README.md', '文献链接徽章', /-(\d+)%20%E6%9D%A1%E9%93%BE%E6%8E%A5/g, `-${links}%20%E6%9D%A1%E9%93%BE%E6%8E%A5`],
-  ['README.md', '怎么读里的 A 级数', /大型试验的 (\d+) 条/g, `大型试验的 ${grade.A} 条`],
-  ['README.md', '怎么读里的极高条数', /勾选性价比「极高」，得到 (\d+) 条/g, `勾选性价比「极高」，得到 ${ratio['极高']} 条`],
-  ['README.md', '证据分级段', /全书 (\d+) 条中 A 级 \d+ 条、B 级 \d+ 条、C 级 \d+ 条，另有 \d+ 条标注了争议、\d+ 处/g,
-    `全书 ${entries} 条中 A 级 ${grade.A} 条、B 级 ${grade.B} 条、C 级 ${grade.C} 条，另有 ${dispute} 条标注了争议、${todo} 处`],
-  ['README.md', '性价比段', /全书 (\d+) 条中性价比极高 \d+ 条（\d+%）、高 \d+ 条（\d+%）、一般 \d+ 条（\d+%）/g,
-    `全书 ${entries} 条中性价比极高 ${ratio['极高']} 条（${pct['极高']}%）、高 ${ratio['高']} 条（${pct['高']}%）、一般 ${ratio['一般']} 条（${pct['一般']}%）`],
-  ['README.md', '正文文件数', /正文按节拆成 (\d+) 个文件/g, `正文按节拆成 ${sections} 个文件`],
-  ['index.html', '五处描述', /(\d+) 条建议/g, `${entries} 条建议`],
+  ['README.md', '文献链接徽章', /-(\d+)%20li%C3%AAn%20k%E1%BA%BFt/g, `-${links}%20li%C3%AAn%20k%E1%BA%BFt`],
+  ['README.md', '正文文件数', /chia thành (\d+) tệp/g, `chia thành ${sections} tệp`],
+  ['index.html', '五处描述', /(\d+) lời khuyên/g, `${entries} lời khuyên`],
   ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
-  ['index.html', '页头条目数', /\d+ 节 (\d+) 条/g, `${sections} 节 ${entries} 条`],
-  ['index.html', '页脚文件数', /下的 (\d+) 个文件/g, `下的 ${sections} 个文件`],
-  ['tools/og.html', 'og 条目数', /<b>(\d+)<\/b> 条建议/g, `<b>${entries}</b> 条建议`],
-  ['tools/og.html', 'og A 级数', /A 级证据 <b>(\d+)<\/b> 条/g, `A 级证据 <b>${grade.A}</b> 条`],
-  ['tools/og.html', 'og 链接数', /<b>(\d+)<\/b> 条原始文献链接/g, `<b>${links}</b> 条原始文献链接`],
+  ['tools/og.html', 'og 条目数', /<b>(\d+)<\/b> lời khuyên/g, `<b>${entries}</b> lời khuyên`],
+  ['tools/og.html', 'og A 级数', /Bằng chứng cấp A <b>(\d+)<\/b> mục/g, `Bằng chứng cấp A <b>${grade.A}</b> mục`],
+  ['tools/og.html', 'og 链接数', /<b>(\d+)<\/b> liên kết tài liệu gốc/g, `<b>${links}</b> liên kết tài liệu gốc`],
 ];
 
 const texts = new Map();

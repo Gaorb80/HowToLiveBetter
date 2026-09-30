@@ -61,8 +61,8 @@ for (const f of files) {
     total++;
     const where = `第 ${sec} 节第 ${no} 条`;
     const problems = [];
-    const len = [...plain.replace(/\s/g, '')].length;
-    if (len > MAX) { problems.push(`${len} 字，超过 ${MAX}`); count.长度++; }
+    const len = plain.trim().split(/\s+/).length;
+    if (len > 120) { problems.push(`${len} từ, vượt quá 120 từ`); count.长度++; }
     const jar = JARGON.filter(([re]) => re.test(plain)).map(([re, name]) => `${name}「${plain.match(re)[0]}」`);
     if (jar.length) { problems.push(...jar); count.行话++; }
     if (NUMBERS) {
@@ -77,8 +77,12 @@ for (const f of files) {
   for (const line of lines) {
     const h = line.match(/^### (\d+)\. (.*)$/);
     if (h) { flush(); no = Number(h[1]); title = h[2]; fields = {}; continue; }
-    const m = line.match(/^- (说人话|成本|收益)：(.*)$/);
-    if (m && no) fields[m[1]] = m[2];
+    const m = line.match(/^- (?:说人话|Giải thích dễ hiểu|成本|Chi phí|收益|Lợi ích)[：:]\s*(.*)$/);
+    if (m && no) {
+      if (line.includes('说人话') || line.includes('Giải thích dễ hiểu')) fields['说人话'] = m[1];
+      else if (line.includes('成本') || line.includes('Chi phí')) fields['成本'] = m[1];
+      else if (line.includes('收益') || line.includes('Lợi ích')) fields['收益'] = m[1];
+    }
   }
   flush();
 }
