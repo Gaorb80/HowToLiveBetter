@@ -1,6 +1,8 @@
 # AGENTS.md
 
-这个仓库是《高性价比人生指南》的正文。
+Kho này chứa nội dung của **Cẩm nang cuộc sống tối ưu chi phí hiệu quả**.
 
-- **改这本书**（增删条目、改正文、动工具脚本）：规则全在 [CLAUDE.md](CLAUDE.md) 里，全部适用，先读完再动手。文件名叫 CLAUDE.md 只是历史原因，内容与工具无关。
-- **用这本书回答问题**（有人问该不该做、值不值、怎么选、出事了先做什么、能领哪笔钱、犯不犯法）：按 [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md) 执行，先查条目再答，答复里注明出自第几节第几条。装到别的目录去用的办法见 [skills/life-decision-guide/README.md](skills/life-decision-guide/README.md)。
+- **Chỉnh sửa sách** (thêm hoặc xóa mục, sửa nội dung, thay đổi công cụ): đọc hết [CLAUDE.md](CLAUDE.md) trước khi thực hiện và áp dụng mọi quy tắc trong đó. Tên CLAUDE.md chỉ có lý do lịch sử; nội dung áp dụng cho mọi công cụ.
+- **Dùng sách để trả lời câu hỏi** (có nên làm, có đáng không, chọn thế nào, gặp sự cố nên làm gì trước, nhận được khoản trợ cấp nào, có vi phạm pháp luật không): làm theo [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md). Tra cứu các mục trước khi trả lời, ghi rõ chương và mục được sử dụng. Cách cài vào thư mục khác nằm trong [skills/life-decision-guide/README.md](skills/life-decision-guide/README.md).
+
+Đây là fork tiếng Việt. Yêu cầu Việt hóa của chủ fork được ưu tiên hơn các quy tắc ngôn ngữ dành cho kho gốc tiếng Trung. Giữ nguyên số liệu, cấp bằng chứng, DOI, URL nguồn và bối cảnh pháp luật Trung Quốc khi dịch.

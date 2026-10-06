@@ -1,5 +1,5 @@
 // 交叉引用对照表：把正文里每一处「第 X 条」引用解析成它实际指向的条目标题，
-// 写进 docs/引用对照.md。那份文件入库，所以插入或删除条目导致引用指向变化时，
+// 写进 docs/doi-chieu-tham-chieu.md。那份文件入库，所以插入或删除条目导致引用指向变化时，
 // git diff 会直接把变化摆出来——条号没动而标题变了，就是错位。
 //
 //   node tools/check-refs.mjs            # 重新生成对照表（sync-stats.mjs 会自动调用）
@@ -28,9 +28,9 @@ const files = readdirSync(resolve(ROOT, 'book')).filter(f => /^\d\d-.*\.md$/.tes
 // docs/ 下的长文也扫。它们和节首引言一样，长期不在扫描范围内：条号被顺延撞歪时
 // --check 照常显示通过，对照表的 diff 里也看不到这些引用。2026-09-21 清点时
 // 三篇长文里有 23 处「第 X 节第 Y 条」，一处都没被查过。
-// 只取 docs/ 根下的 .md。子目录 docs/核实记录/ 不扫：那些文件记的是当时的核实过程，
+// 只取 docs/ 根下的 .md。子目录 docs/ho-so-kiem-chung/ 不扫：那些文件记的是当时的核实过程，
 // 里面的条号是历史状态，不该跟着正文走。对照表自己也排除掉。
-const docs = readdirSync(resolve(ROOT, 'docs')).filter(f => f.endsWith('.md') && f !== '引用对照.md').sort();
+const docs = readdirSync(resolve(ROOT, 'docs')).filter(f => f.endsWith('.md') && f !== 'doi-chieu-tham-chieu.md').sort();
 
 // 先把每节的条目标题读出来：sections[节号] = { file, titles: { 条号: 标题 } }
 const sections = new Map();
@@ -315,5 +315,5 @@ if (CHECK_ONLY) {
   process.exit(bad ? 1 : 0);
 }
 
-writeFileSync(resolve(ROOT, 'docs/引用对照.md'), body, 'utf8');
-console.log(`已写入 docs/引用对照.md，共 ${total} 处引用`);
+writeFileSync(resolve(ROOT, 'docs/doi-chieu-tham-chieu.md'), body, 'utf8');
+console.log(`已写入 docs/doi-chieu-tham-chieu.md，共 ${total} 处引用`);

@@ -22,7 +22,7 @@ Cuốn sách chia những giá trị thu về thành 4 nhóm độc lập: **Tu�
 
 ## Bước 1: Tiếp cận nội dung sách
 
-**Trên máy cục bộ**: Thư mục hiện tại hoặc thư mục cha có `README.md` và `book/01-不要早死.md`, đó là chế độ cục bộ, đọc trực tiếp.
+**Trên máy cục bộ**: Thư mục hiện tại hoặc thư mục cha có `README.md` và `book/01-dung-chet-som.md`, đó là chế độ cục bộ, đọc trực tiếp.
 
 **Từ xa**: Nếu chưa có, tải về bản sao chép nông (shallow clone) nhanh chóng:
 
@@ -45,7 +45,7 @@ Tìm kiếm theo từ khóa trong các file chương.
 Mỗi mục có cấu trúc:
 ```markdown
 ### Y. [Tiêu đề hành động]
-<!-- 成本标签: 钱=... 时间=... 毅力=... 收益=... 口径=... -->
+<!-- Nhãn chi phí: Tiền=... Thời_gian=... Ý_chí=... Lợi_ích=... Tiêu_chí=... -->
 - Chi phí: ...
 - Giải thích dễ hiểu: ...
 - Lợi ích: ...

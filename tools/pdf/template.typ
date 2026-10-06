@@ -23,7 +23,7 @@ $--
 #set text(
   // 西文用 typst 自带的 Libertinus，中文按可用性往后找：CI 上是 Noto，本机是雅黑
   font: ("Libertinus Serif", "Noto Serif CJK SC", "Noto Serif SC", "Source Han Serif SC", "Noto Sans CJK SC", "Microsoft YaHei", "SimSun"),
-  size: 10.5pt, lang: "zh", region: "cn",
+  size: 10.5pt, lang: "vi", region: "vn",
 )
 #set par(justify: false, leading: 0.78em, spacing: 0.9em)
 #set list(indent: 0.6em, spacing: 0.75em)
@@ -56,15 +56,15 @@ $--
   #block(width: 80%)[#text(11.5pt, fill: luma(60))[$subtitle$]]
   #v(2cm)
   #text(10pt, fill: luma(90))[
-    生成于 $builddate$（北京时间）　·　正文提交 $commit$ \
-    正文每天都在改，以在线版为准：$site$ \
-    在线检索、EPUB 与本 PDF 的最新版都在 $repo$
+    Tạo lúc $builddate$ (giờ Việt Nam) · Commit $commit$ \
+    Nội dung tiếp tục được cập nhật. Xem bản trực tuyến: $site$ \
+    Tra cứu, EPUB và PDF mới nhất: $repo$
   ]
 ]
 
 // ---------- 目录 ----------
 #pagebreak()
-#outline(title: [目录], depth: 1, indent: 1em)
+#outline(title: [Mục lục], depth: 1, indent: 1em)
 
 // ---------- 正文 ----------
 #pagebreak(weak: true)

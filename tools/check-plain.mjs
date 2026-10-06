@@ -11,7 +11,7 @@
 // 法律和金钱条目里举例用的金额（「借 1000 元」）都会被当成新数字，而这些是合法写法。
 // 检查四样：
 // ① 长度：120 字以内（空格不算字）。
-// ② 研究行话：统计缩写、研究设计、样本量。读者关心方向和量级，不关心谁做的、做了多少人。
+// ② 研究行话：Viết tắt thống kê、Thiết kế nghiên cứu、Cỡ mẫu。读者关心方向和量级，不关心谁做的、做了多少人。
 // ③ 新数字：说人话里的每个阿拉伯数字都要在同一条的标题、成本或收益栏里出现过。
 //    说人话只翻译收益栏，不许添数字。「四成多」「四分之一」这类汉字说法不查。
 // ④ 抽象腔：要读者自己翻译一遍的比喻和套话，名单见 VAGUE。只收确实出过问题的词，
@@ -27,10 +27,10 @@ const NUMBERS = process.argv.includes('--numbers');
 const MAX = 120;
 
 const JARGON = [
-  [/\b(HR|RR|OR|CI|RCT|OR值)\b/, '统计缩写'],
-  [/队列|荟萃|综述|随机|对照组|安慰剂组|双盲|样本/, '研究设计'],
-  [/\d[\d,.]*\s*(例|名受试者|名参与者|家医院|项研究|篇研究|个国家)/, '样本量'],
-  [/那组|两组|各组|组的人/, '分组'],
+  [/\b(HR|RR|OR|CI|RCT|OR值)\b/, 'Viết tắt thống kê'],
+  [/队列|荟萃|综述|随机|对照组|安慰剂组|双盲|样本/, 'Thiết kế nghiên cứu'],
+  [/\d[\d,.]*\s*(例|名受试者|名参与者|家医院|项研究|篇研究|个国家)/, 'Cỡ mẫu'],
+  [/那组|两组|各组|组的人/, 'Chia nhóm'],
 ];
 const VAGUE = ['另一头', '产出', '干净的结局', '这条路没有', '说到底', '本质上', '换句话说'];
 
@@ -47,7 +47,7 @@ function derived(n, p) {
 }
 
 const bad = [];
-const count = { 长度: 0, 行话: 0, 新数字: 0, 抽象腔: 0 };
+const count = { 'Độ dài': 0, 'Thuật ngữ': 0, 'Số mới': 0, 'Diễn đạt trừu tượng': 0 };
 let total = 0;
 
 const files = readdirSync(resolve(ROOT, 'book')).filter(f => /^\d\d-.*\.md$/.test(f)).sort();
@@ -59,19 +59,19 @@ for (const f of files) {
     const plain = fields['说人话'];
     if (!no || plain == null) return;
     total++;
-    const where = `第 ${sec} 节第 ${no} 条`;
+    const where = `Chương ${sec}, mục ${no}`;
     const problems = [];
     const len = plain.trim().split(/\s+/).length;
-    if (len > 120) { problems.push(`${len} từ, vượt quá 120 từ`); count.长度++; }
+    if (len > 120) { problems.push(`${len} từ, vượt quá 120 từ`); count['Độ dài']++; }
     const jar = JARGON.filter(([re]) => re.test(plain)).map(([re, name]) => `${name}「${plain.match(re)[0]}」`);
-    if (jar.length) { problems.push(...jar); count.行话++; }
+    if (jar.length) { problems.push(...jar); count['Thuật ngữ']++; }
     if (NUMBERS) {
-      const pool = numbers([title, fields['成本'] ?? '', fields['收益'] ?? ''].join(' '));
+      const pool = numbers([title, fields['成本'] ?? '', fields['Lợi_ích'] ?? ''].join(' '));
       const fresh = [...new Set(numbers(plain))].filter(n => !pool.some(p => derived(n, p)));
-      if (fresh.length) { problems.push(`收益栏里没有的数字 ${fresh.join('、')}`); count.新数字++; }
+      if (fresh.length) { problems.push(`收益栏里没有的数字 ${fresh.join('、')}`); count['Số mới']++; }
     }
     const vague = VAGUE.filter(w => plain.includes(w));
-    if (vague.length) { problems.push(`抽象说法「${vague.join('」「')}」`); count.抽象腔++; }
+    if (vague.length) { problems.push(`抽象说法「${vague.join('」「')}」`); count['Diễn đạt trừu tượng']++; }
     if (problems.length) bad.push(`${f}  ${where}：${problems.join('；')}`);
   };
   for (const line of lines) {
@@ -81,13 +81,13 @@ for (const f of files) {
     if (m && no) {
       if (line.includes('说人话') || line.includes('Giải thích dễ hiểu')) fields['说人话'] = m[1];
       else if (line.includes('成本') || line.includes('Chi phí')) fields['成本'] = m[1];
-      else if (line.includes('收益') || line.includes('Lợi ích')) fields['收益'] = m[1];
+      else if (line.includes('Lợi_ích') || line.includes('Lợi ích')) fields['Lợi_ích'] = m[1];
     }
   }
   flush();
 }
 
 if (!STAT) for (const b of bad) console.log(b);
-console.log(`\n说人话共 ${total} 条，不合格 ${bad.length} 条：` +
+console.log(`\nTổng ${total} đoạn giải thích dễ hiểu, ${bad.length} đoạn chưa đạt: ` +
   Object.entries(count).map(([k, v]) => `${k} ${v}`).join('，'));
 if (bad.length && !STAT) process.exit(1);

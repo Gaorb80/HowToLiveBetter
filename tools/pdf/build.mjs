@@ -2,7 +2,7 @@
 // 用法：node tools/pdf/build.mjs [输出路径]   默认输出 dist/HowToLiveBetter.pdf
 // 需要 pandoc（≥3.1，要有 typst 输出）和 typst（≥0.13）在 PATH 上，或用环境变量 PANDOC、TYPST 指路径。
 // 版面在 tools/pdf/template.typ 里；正文一个字都不改，只做三件事：
-// 去掉「← 回总目录」、给每节的标题挂上锚点、把仓库内的链接改成书内跳转或 GitHub 网址。
+// 去掉「← 回总Mục lục」、给每节的标题挂上锚点、把仓库内的链接改成书内跳转或 GitHub 网址。
 import { writeFileSync, mkdirSync, statSync } from 'node:fs';
 import { resolve, dirname, posix, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -12,7 +12,7 @@ const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.pdf');
 const WORK = resolve(ROOT, 'dist/pdf-build.md');
 const PANDOC = process.env.PANDOC ?? 'pandoc';
 const TYPST = process.env.TYPST ?? 'typst';
-const STAMP = buildStamp();          // 「（北京时间）」写在模板和版本说明里，传给 pandoc 的值保持纯 ASCII
+const STAMP = buildStamp();          // 「（北京时间）」写在模板和Thông tin phiên bản里，传给 pandoc 的值保持纯 ASCII
 const COMMIT = gitCommit();
 
 const { description, frontMd, contentsMd, bookFiles, docFiles } = readBook();
@@ -23,32 +23,32 @@ bookFiles.forEach(f => anchorOf.set(f, 'sec-' + (basename(f).match(/^\d+/)?.[0] 
 docFiles.forEach((f, i) => anchorOf.set(f, `doc-${i + 1}`));
 
 const pages = [
-  { src: 'README.md', md: `# 前言\n\n${description}\n\n${frontMd}`, anchor: 'front' },
-  { src: 'README.md', md: contentsMd.replace(/^## 目录/, '# 各节简介'), anchor: 'contents' },
+  { src: 'README.md', md: `# Lời mở đầu\n\n${description}\n\n${frontMd}`, anchor: 'front' },
+  { src: 'README.md', md: contentsMd.replace(/^## Mục lục/, '# Giới thiệu các chương'), anchor: 'contents' },
   ...[...bookFiles, ...docFiles].map(src => ({ src, md: stripBackLink(read(src)), anchor: anchorOf.get(src) })),
   { src: 'README.md', md: aboutMd(), anchor: 'about' },
 ];
 
 function aboutMd() {
-  const commitLine = COMMIT ? `- 对应提交：${COMMIT.slice(0, 7)}\n` : '';
-  return `# 版本说明
+  const commitLine = COMMIT ? `- Commit tương ứng: ${COMMIT.slice(0, 7)}\n` : '';
+  return `# Thông tin phiên bản
 
-这本 PDF 由仓库里的 Markdown 正文自动排版，正文一改就重新排一本。手里这本的版本：
+PDF được tạo tự động từ các tệp Markdown trong kho. Khi nội dung thay đổi, sách được tạo lại.
 
-- 生成时间：${STAMP}（北京时间）
-${commitLine}- 最新版下载、在线检索、提意见：${REPO}
-- 在线检索页（按关键词、章节、证据等级和成本筛选，也能存成单文件离线看）：${SITE}
+- Thời điểm tạo: ${STAMP} (giờ Việt Nam)
+${commitLine}- Tải bản mới nhất, tra cứu và góp ý: ${REPO}
+- Tra cứu theo từ khóa, chương, cấp bằng chứng và chi phí; có bản HTML ngoại tuyến: ${SITE}
 
-正文里指向书内其他节的链接已改成书内跳转；指向核实记录、许可证这类没排进书的文件的链接改成了 GitHub 网址。
+Liên kết tới các chương đã được đổi thành liên kết bên trong sách. Các tệp không đưa vào sách, như hồ sơ kiểm chứng và giấy phép, được liên kết tới GitHub.
 
-正文以 CC BY 4.0 发布（https://creativecommons.org/licenses/by/4.0/）。可以转载、改编、商用，要写明出处「高性价比人生指南」并附仓库链接，改过内容的要注明改过。`;
+Nội dung phát hành theo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Bạn có thể chia sẻ, cải biên và sử dụng thương mại. Hãy ghi nguồn Cẩm nang cuộc sống tối ưu chi phí hiệu quả, kèm liên kết kho và ghi rõ các chỉnh sửa.`;
 }
 
 // ---------- 链接：书内的改成锚点，书外的改成绝对网址 ----------
 function rewriteLinks(md, src) {
   return md.replace(/\]\(([^)\s]+)(\s+"[^"]*")?\)/g, (all, href, title) => {
     if (/^(https?:|mailto:)/.test(href)) return all;
-    // README 里指向自身小节的锚点（#目录 这种）在书里不一定有，指回 GitHub 上的 README
+    // README 里指向自身小节的锚点（#Mục lục 这种）在书里不一定有，指回 GitHub 上的 README
     if (href.startsWith('#')) return `](${REPO}/blob/main/README.md${href}${title ?? ''})`;
     const [path] = href.split('#');
     const target = posix.normalize(posix.join(posix.dirname(src), path));
@@ -85,7 +85,7 @@ run(PANDOC, [
   '--from=gfm+attributes', '--to=typst', '--wrap=none',
   `--template=${resolve(ROOT, 'tools/pdf/template.typ')}`,
   '-V', `booktitle=${TITLE}`, '-V', `subtitle=${description}`,
-  '-V', `builddate=${STAMP}`, '-V', `commit=${COMMIT.slice(0, 7) || '未知'}`,
+  '-V', `builddate=${STAMP}`, '-V', `commit=${COMMIT.slice(0, 7) || 'không rõ'}`,
   '-V', `site=${SITE}`, '-V', `repo=${REPO}`,
   '-o', typFile, WORK,
 ]);

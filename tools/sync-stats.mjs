@@ -1,6 +1,6 @@
 // 统计对齐：改完条目跑一次。按顺序做四件事：
 // ① 重算全书的统计数字，回写 README.md、index.html、tools/og.html；
-// ② 调 check-refs.mjs 重算 docs/引用对照.md；
+// ② 调 check-refs.mjs 重算 docs/doi-chieu-tham-chieu.md；
 // ③ 调 check-plain.mjs 查说人话，不合格只提示不中断；
 // ④ 用无头 Chrome 把 tools/og.html 重新截成 og.png。
 //
@@ -32,25 +32,25 @@ const read = f => readFileSync(join(ROOT, f), 'utf8');
 
 // 档位规则和 index.html 的 COST_W、e.ratio 两行一致；那两行改了这里必须跟着改，所以先比对一次
 const indexText = read('index.html');
-const COST_W_LINE = "const COST_W = { money:{'0':0,'少':1,'多':2}, time:{'少':0,'中':1,'多':2}, will:{'否':0,'些':1,'是':2} };";
+const COST_W_LINE = "const COST_W = { money:{'0':0,'Ít':1,'Nhiều':2}, time:{'Ít':0,'Vừa':1,'Nhiều':2}, will:{'Không':0,'Một_chút':1,'Có':2} };";
 if (!indexText.includes(COST_W_LINE)) throw new Error('index.html 的 COST_W 行变了，请同步本脚本里的成本权重');
 
 const W = {
-  money: { '0': 0, '少': 1, '多': 2 },
-  time: { '少': 0, '中': 1, '多': 2 },
-  will: { '否': 0, '些': 1, '是': 2 },
+  money: { '0': 0, 'Ít': 1, 'Nhiều': 2 },
+  time: { 'Ít': 0, 'Vừa': 1, 'Nhiều': 2 },
+  will: { 'Không': 0, 'Một_chút': 1, 'Có': 2 },
 };
 
 function ratioOf(cost, level) {
-  if (level === '大' || level === 'Lớn') return cost === 0 ? '极高' : cost <= 2 ? '高' : '一般';
-  return (level === '中' || level === 'Vừa') && cost === 0 ? '高' : '一般';
+  if (level === 'Lớn') return cost === 0 ? 'Rất_cao' : cost <= 2 ? 'Cao' : 'Bình_thường';
+  return (level === 'Vừa') && cost === 0 ? 'Cao' : 'Bình_thường';
 }
 
 const bookFiles = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).sort();
 const sections = bookFiles.length;
 let entries = 0, dispute = 0, todo = 0, links = 0;
 const grade = { A: 0, B: 0, C: 0 };
-const ratio = { '极高': 0, '高': 0, '一般': 0 };
+const ratio = { 'Rất_cao': 0, 'Cao': 0, 'Bình_thường': 0 };
 
 for (const f of bookFiles) {
   for (const line of read(join('book', f)).split(/\r?\n/)) {
@@ -60,18 +60,18 @@ for (const f of bookFiles) {
     if (/^- (?:备注：争议|Ghi chú:\s*Tranh cãi|Ghi chú:\s*Có tranh cãi)/i.test(line)) dispute++;
     if (/待核实|TODO|Chưa thẩm định|Cần thẩm định/i.test(line)) todo++;
     if (/^- (?:来源|Nguồn|备注|Ghi chú)[：:]/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
-    const t = line.match(/<!--\s*成本标签:\s*钱=(\S+)\s+时间=(\S+)\s+毅力=(\S+)\s+收益=(\S+)\s+口径=/);
+    const t = line.match(/<!--\s*Nhãn chi phí:\s*Tiền=(\S+)\s+Thời_gian=(\S+)\s+Ý_chí=(\S+)\s+Lợi_ích=(\S+)\s+Tiêu_chí=/);
     if (t) ratio[ratioOf(W.money[t[1]] + W.time[t[2]] + W.will[t[3]], t[4])]++;
   }
 }
 
-const tagged = ratio['极高'] + ratio['高'] + ratio['一般'];
+const tagged = ratio['Rất_cao'] + ratio['Cao'] + ratio['Bình_thường'];
 if (tagged !== entries) console.warn(`警告：有 ${entries - tagged} 条缺成本标签，性价比三档对不上条目数`);
 if (grade.A + grade.B + grade.C !== entries) console.warn('警告：证据等级行数和条目数对不上，检查有没有条目漏写证据等级');
 
 // 三档百分比用最大余数法分配：先向下取整，剩下的百分点按小数部分从大到小补。
 // 三个数各自四舍五入会凑出 99 或者 101（2026-09-21 加第 33 节时碰到过），这里保证加起来正好 100。
-const ORDER = ['极高', '高', '一般'];
+const ORDER = ['Rất_cao', 'Cao', 'Bình_thường'];
 const pct = {}, rem = {};
 for (const k of ORDER) {
   const exact = ratio[k] * 100 / entries;
@@ -82,7 +82,7 @@ const short = 100 - ORDER.reduce((s, k) => s + pct[k], 0);
 for (const k of [...ORDER].sort((a, b) => rem[b] - rem[a]).slice(0, Math.max(short, 0))) pct[k]++;
 
 console.log(`条目 ${entries} ｜ 节 ${sections} ｜ A ${grade.A} B ${grade.B} C ${grade.C} ｜ 争议 ${dispute} ｜ TODO ${todo} ｜ 链接 ${links}`);
-console.log(`性价比 极高 ${ratio['极高']}（${pct['极高']}%） 高 ${ratio['高']}（${pct['高']}%） 一般 ${ratio['一般']}（${pct['一般']}%）`);
+console.log(`性价比 极高 ${ratio['Rất_cao']}（${pct['Rất_cao']}%） 高 ${ratio['Cao']}（${pct['Cao']}%） 一般 ${ratio['Bình_thường']}（${pct['Bình_thường']}%）`);
 console.log('');
 
 const EDITS = [
@@ -133,7 +133,7 @@ for (const [file, text] of texts) if (text !== read(file)) writeFileSync(join(RO
 const runTool = name => spawnSync(process.execPath, [join(ROOT, 'tools', name)], { stdio: 'inherit' }).status;
 console.log('');
 if (runTool('check-refs.mjs') !== 0) throw new Error('check-refs.mjs 失败');
-console.log('提交前扫一眼 docs/引用对照.md 的 diff：条号没动而「指向的条目」变了，就是被顺延撞歪的引用。');
+console.log('提交前扫一眼 docs/doi-chieu-tham-chieu.md 的 diff：条号没动而「指向的条目」变了，就是被顺延撞歪的引用。');
 
 // ③ 说人话检查只提示不中断：数字已经同步完了，卡在这里反而让人以为统计没更新。CI 里它会红
 console.log('');
