@@ -1,44 +1,46 @@
-# 排查：「只给禁止、不给出路」的条目 · 记录（2026-09-18）
+# Hồ sơ kiểm chứng: Rà soát chỉ cấm mà không nêu giải pháp — 2026-09-18
 
-任务来源：第 24 节第 12 条初稿被用户指出冷血（「我爸就给抢救过来我的医生送了烟，那个医生通宵抢救我，一晚上没睡觉……啥都不送也不说谢谢吗」），改完之后用户要求「看看其他地方有没有这个问题」。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-排查口径（和 2026-09-09 那轮「免责越界 / 受益人错配」不同，这是第三类）：条目否定的是一件出于正当情感动机的事（感激、孝心、关心、悼念、疼爱、帮忙、面子），却只写了「不要、没用、违规」，没有给这份动机一个正当出口；或者把当事人的处境当成错误来写。
+Nhiệm vụ Nguồn Chương 2: 24 Chương 3 12 Bài viết đầu tiên được người dùng lưu ý là máu lạnh: "Cha tôi đã gửi thuốc lá cho bác sĩ cứu tôi, bác sĩ cứu tôi cả đêm, một đêm tôi không ngủ.……Sau khi thay đổi, người dùng yêu cầu "Hãy xem có vấn đề này ở những nơi khác không".」。
 
-## 排查范围与结果
+Đánh dấu tiêu chí đánh giá (và 2026-09-09 Chuyển đổi trách nhiệm vượt biên / người hưởng lợi "Thật khác nhau, đây là thứ ba": mục Sự từ chối là một việc có động lực cảm xúc hợp lý (tạ ơn, lòng trân trọng, quan tâm, tang tạ, yêu thương, giúp đỡ, khuôn mặt) nhưng chỉ viết "không, không cần thiết, vi phạm" và không đưa ra lý do hợp lý cho động lực đó; Hoặc viết sai lầm về tình trạng của người bị cáo。
 
-扫全书 522 条标题里所有否定式表述（不要 / 别 / 少 / 拒绝 / 停），再按「动机是不是人之常情」筛出高风险条目逐条读原文。另用「送礼、随礼、人情、孝心、心意、孝顺、礼品」全文搜一遍。
+## phạm vi kiểm tra và kết quả
 
-复核后**没有问题**的（都已经自带出口或免责，不改）：
+Tham khảo toàn bộ sách 522 Đạo luật tiêu đề Tất cả các biểu hiện tiêu cực trong bài viết này / Không. / Thêm hơn / Quyết định / Bắt đầu, bạn có thể tạo ra những rủi ro cao bằng cách nhấn vào "hướng dẫn không phải là tình trạng của người". mục Đọc bản gốc từng đoạn. Bạn có thể tìm kiếm toàn bộ nội dung của bài viết này bằng cách sử dụng: "Giúp quà, làm ơn, tình nhân, lòng trắc ẩn, tâm tình, lòng trắc ẩn, quà tặng".。
 
-| 条目 | 已有的出口 |
+Sau khi kiểm tra**Không có vấn đề**Các nhà sản xuất đã tự xuất khẩu hoặc miễn phí, không thay đổi）：
+
+| mục | Xuất khẩu đã có |
 |---|---|
-| 第 20 节第 4 条（前 6 个月纯母乳） | 说人话和备注两处都写了「母乳不足或不能哺乳时用配方奶，不必内疚，效应量的差距远小于安全睡眠那条」 |
-| 第 29 节第 8 条（别一上来就花钱做哀伤咨询） | 备注写明「这条说的是『不必人人做』，不是『都别做』」，并指回第 4、7 条那两类该做的人 |
-| 第 29 节第 12 条（别拿死当还债的办法） | 备注写明「本节和第 1 节其他条目说的是别走到这一步」，指向 12356、第 1 节第 25、30 条 |
-| 第 13 节第 2、26、40 条（扶老人、溺水、救人之后） | 标题里就写了「陌生人这档走开也合法」，第 40 条给的是救人受伤之后的救济路径 |
-| 第 30 节第 7 条（不买「治愈近视」产品） | 备注指向真正有证据的两件事：户外 2 小时、规范验光与复查 |
-| 第 20 节第 11 条（大件按借、二手、新的顺序） | 明写「本书不做推荐也不做否定」，并给出安全座椅不买二手的例外 |
-| 第 18 节第 6 条、第 10 节第 17 条（为长辈生 / 为长辈结婚） | 都写了「别人的期待可以是你的考虑因素」，并要求把不做的后果也写下来对照 |
-| 第 8 节第 17 条（替人担保） | 落点是「签之前先问自己愿不愿意替他还」，不是「一律不担保」 |
-| 第 5 节第 8 条（不打赏不充值） | 给的是可执行的替代动作（关免密、设限额、解绑支付方式） |
+| Thứ nhất 20 Chương 3 4 Bài trước 6 Sữa mẹ nguyên chất mỗi tháng） | Giải thích dễ hiểu và Ghi chú Cả hai đều viết rằng: "Không cần phải đổ lỗi về việc sử dụng sữa công thức khi thiếu sữa mẹ hoặc không thể cho con bú, khoảng cách về hiệu quả nhỏ hơn nhiều so với giấc ngủ an toàn.」 |
+| Thứ nhất 29 Chương 3 8 Bài viết này được viết bởi:） | Ghi chú Ông viết: "Điều này nói là 'không cần phải người ta làm' chứ không phải 'không nên làm tất cả'". 4、7 Những người có thể làm điều đó |
+| Thứ nhất 29 Chương 3 12 Điều 3: Đừng dùng cái chết để trả nợ） | Ghi chú Bài viết này và phần 2 1 Các phần khác mục "Đừng đi tới đây" là điều mà tôi muốn nói. 12356、Thứ nhất 1 Chương 3 25、30 Đạo luật |
+| Thứ nhất 13 Chương 3 2、26、40 Đạo luật cứu người già, cứu người chết sau khi chết đuối） | tiêu đề Trong bài viết này, ông viết: "Thế là hợp pháp để người lạ bỏ đi". 40 Điều này cung cấp cho những con đường cứu hộ sau khi bị thương |
+| Thứ nhất 30 Chương 3 7 Không mua sản phẩm chữa bệnh cận thị） | Ghi chú Có hai điều thực sự có bằng chứng: ngoài trời 2 Hoạt động giải trí: |
+| Thứ nhất 20 Chương 3 11 Bài viết: "Điều lớn vay, thứ hai, thứ tự mới"） | Ông viết: "Thư này không được khuyến cáo và không được phủ nhận" và đưa ra ngoại lệ không mua ghế an toàn. |
+| Thứ nhất 18 Chương 3 6 Định luật: 10 Chương 3 17 Bài viết này được viết bởi: / Tự ly hôn） | Trong bài viết này, ông viết: "Những gì người khác mong đợi có thể là một yếu tố quan trọng của bạn", và yêu cầu bạn viết về những hậu quả của việc không làm. |
+| Thứ nhất 8 Chương 3 17 Lưu ý: bảo lãnh） | Câu trả lời là: "Hãy tự hỏi mình trước khi đăng ký" chứ không phải "Không". bảo lãnh」 |
+| Thứ nhất 5 Chương 3 8 Không đánh giá và không có giá trị） | Các hoạt động thay thế có thể thực hiện được: miễn mật khẩu, đặt giới hạn, giải tỏa các phương thức thanh toán） |
 
-## 改动
+## Sự thay đổi
 
-### 一、第 6 节第 10 条（保健品、膏方、滋补品）——真问题，已改
+### Thứ nhất. 6 Chương 3 10 Điều này đã được thay đổi bởi các nhà khoa học và các nhà khoa học.
 
-原条目自己在收益栏里写明「送礼场景下购买决策由人情而非证据驱动」，等于点出了动机是孝心和人情，然后整条没有给这份钱任何去处，读起来就是「你对父母的那点心意是智商税」。这和第 24 节第 12 条初稿是同一个毛病。
+Nguyên tắc mục Tôi đang mục lợi ích Nó viết rằng "các quyết định mua trong tình huống tặng quà được thúc đẩy bởi lòng nhân hậu chứ không phải bằng chứng" và chỉ ra động cơ là lòng nhân hậu và lòng nhân hậu, và sau đó không đưa tiền đó ra bất cứ nơi nào, và đọc là "Những gì bạn nghĩ đến cha mẹ của bạn là thuế IQ". Điều này và 24 Chương 3 12 Bài viết đầu tiên là vấn đề tương tự。
 
-改法（不动收益栏和证据等级，只改说人话与备注，不新增来源）：说人话末尾补一段「同样的钱换成这些」，每一项都指回书里已有的条目——老年人流感疫苗（第 1 节第 20 条）、50 岁以上带状疱疹疫苗（第 21 条）、65 岁以上肺炎球菌疫苗（第 22 条）、血压计与按医嘱服降压药（第 7 条）、防跌倒改造与平衡训练（第 13 条）、到年纪的癌症筛查（第 17 到 19 条）、长期卧床的压疮与长期护理保险（第 17 节第 7、8 条），提东西上门就换成水果米面。备注补一句：这条否的是产品不是心意；老人自己已经在吃、又没拿它替掉正在吃的药的，不必上门争这一场，真正要拦的是会顶替药物的那一类和「先交钱的投资养老」（第 17 节第 5 条）。
+Cách thức thay đổi: mục lợi ích và Mức độ bằng chứng Chỉ cần thay đổi. Giải thích dễ hiểu Với Ghi chú Không tăng thêm Nguồn ）： Giải thích dễ hiểu Cuối cùng, bạn thêm một đoạn "những tiền tương tự cho những thứ này", và mỗi đoạn chỉ ra những gì đã có trong cuốn sách. mục Vắc-xin chống cúm ở người già 1 Chương 3 20 Đạo luật）、50 Vaccine shingles trên tuổi: 21 Đạo luật）、65 Tiêm vắc-xin ung thư viêm phổi cao tuổi 22 Cục đo huyết áp và thuốc giảm huyết áp theo yêu cầu của bác sĩ 7 (b) Đào tạo chống sụp đổ và cân bằng (b) 13 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 Điều 3 17 đến 19 (c) Giảm áp suất giường ngủ dài và bảo hiểm chăm sóc dài hạn (Phần 2) 17 Chương 3 7、8 Cụ thể, người ta có thể thay đổi những thứ này bằng bánh mì trái cây. Ghi chú Một câu nói: không phải là sản phẩm không phải là ý chí; Người già đã ăn và không dùng nó để thay thế thuốc mà họ đang ăn, không cần phải lên cửa tranh luận, thực sự ngăn chặn là loại người sẽ thay thế thuốc và "thuế độ hưu trí đầu tư tiền đầu tiên". 17 Chương 3 5 Đạo luật）。
 
-### 二、第 25 节第 6 条（殡葬基础项目清单）——温度不足，已补一句
+### Thứ hai. 25 Chương 3 6 Bài viết: Đồ sơ dự án chôn cất cơ sở) Chất điện không đủ nhiệt độ, đã thêm một câu
 
-原备注只教怎么问清单、怎么谈价。补：「想把亲人的后事办得体面一点不是错，这条不劝人从简，只解决哪些项目有清单、有依法定的收费标准，哪些是自选。」
+Nguyên tắc Ghi chú Chỉ cần dạy họ cách hỏi danh sách, cách đàm phán giá. Thêm: "Không có gì sai trái khi muốn làm việc tốt cho người thân, điều này không khuyến khích mọi người từ Jane, chỉ giải quyết những dự án có danh sách, có tiêu chuẩn lệ phí theo pháp luật, những dự án tự chọn.。」
 
-### 三、第 17 节第 4 条（给老人一句挡箭牌话术）——温度不足，已补一句
+### Bước 3: 17 Chương 3 4 Một câu nói cho người già là:  không đủ nhiệt độ, đã được bổ sung một câu
 
-「话术」两个字容易读成防着老人。补：「这句话不是用来防着老人的，是给他一个不用当场硬顶的台阶——被推销围住时最难的从来不是判断真假，而是在一屋子人面前开口拒绝。」
+「Từ ngữ: "Hai từ dễ đọc để bảo vệ người già". Thêm vào: "Thật ngữ này không được dùng để bảo vệ người già, mà là điều khó khăn nhất khi người ta bán một cái cầu thang không có mái nhà cứng được bao vây không bao giờ là đánh giá sự thật, mà là từ chối mở cửa trước một người ở trong căn nhà.。」
 
-## 没动的
+## Không động.
 
-- 三处改动都没有新增条目、没有新增来源、没有改证据等级，条目数 522、A 级 342、链接 1051 均不变。
-- 第 3 节第 16 条（减少让你消耗的人际关系）读起来偏冷，但它的备注已经写明「哪些关系算『消耗』没有客观标准，只能自己判断」，且证据本身就弱（C 级、横断面），再加缓冲会变成和证据不匹配的劝导，维持原样。
+- 3 thay đổi không được bổ sung mục Không có sự gia tăng Nguồn Không thay đổi Mức độ bằng chứng ， mục Số lượng 522、A cấp độ 342、Liên kết 1051 Không thay đổi。
+- Thứ nhất 3 Chương 3 16 Điều này có vẻ khá lạnh lùng, nhưng nó có thể làm cho bạn cảm thấy khó khăn hơn. Ghi chú Đã được viết rằng "những mối quan hệ nào được tính là tiêu thụ không có tiêu chuẩn khách quan, chỉ có thể tự đánh giá" và bằng chứng của nó là yếu.（C + buffer sẽ trở thành lời khuyên không phù hợp với bằng chứng, giữ nguyên。

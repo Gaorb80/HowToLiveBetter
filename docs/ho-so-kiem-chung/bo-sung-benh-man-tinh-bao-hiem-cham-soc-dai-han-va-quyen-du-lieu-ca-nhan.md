@@ -1,37 +1,39 @@
-# ho-so-kiem-chung：第 14、16、17 节各补条
+# Hồ sơ kiểm chứng: Bệnh mãn tính bảo hiểm chăm sóc dài hạn và quyền dữ liệu cá nhân — 14, 16, 17
 
-核实日期：2026-09-07。全书 327 → 333 条。第 14 节 5 → 7、第 16 节 4 → 7、第 17 节 4 → 5。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-这三节原来是全书最薄的几节。第 15 节（租房与买房）本轮没能补上，原因见第二部分。
+Ngày xác minh：2026-09-07。Tất cả sách 327 → 333 Định luật: Thứ nhất 14 Chương 3 5 → 7、Thứ nhất 16 Chương 3 4 → 7、Thứ nhất 17 Chương 3 4 → 5。
+
+Những phần này là những phần nhỏ nhất trong cuốn sách. Thứ nhất 15 Lần này không thể hoàn thành, vì xem phần 2.。
 
 ---
 
-## 一、逐条核对到的原文
+## 1 - Bản gốc được xác minh từng đoạn
 
-| 来源 | 核对到的原文 | 用在哪 |
+| Nguồn | Bản gốc được xác minh | Đi đâu? |
 | --- | --- | --- |
-| 国务院办公厅《关于加快建设分级诊疗体系的若干措施》（2026-04）<https://www.gov.cn/zhengce/zhengceku/202604/content_7065031.htm> | 「对于符合条件的慢性病患者，基层医疗卫生机构单次可开具不超过12周用药的长期处方。」「原则上统筹地区内医疗卫生机构住院报销比例逐级拉开10个百分点左右的差距。」「紧密型医联体内上级医院要在基层医疗卫生机构开设高血压、糖尿病、慢性阻塞性肺疾病等常见病、慢性病门诊」 | 第 16 节「一次可以开到 12 周的药」 |
-| 同上 | 「加强基层门诊付费与签约服务政策联动，基本服务包按规定纳入医保支付；个性化服务包由签约基层医疗卫生机构按程序向县级卫生健康部门备案，费用由个人支付。」 | 第 16 节「签家庭医生之前问清楚哪些进医保」 |
-| 美国糖尿病学会《糖尿病诊疗标准 2026》第 12 章，Diabetes Care, doi:10.2337/dc26-S012（PMC12690177） | 「People with type 2 diabetes should have an initial dilated and comprehensive eye examination by an ophthalmologist or optometrist at the time of the diabetes diagnosis.」「Adults with type 1 diabetes should have an initial dilated and comprehensive eye examination by an ophthalmologist or optometrist 5 years after the onset of diabetes.」「If there is no evidence of retinopathy from one or more annual eye exams and glycemic indicators are within the goal range, then screening every 1–2 years may be considered.」「Perform a comprehensive foot evaluation at least annually to identify risk factors for ulcers and amputations.」 | 第 16 节「确诊糖尿病就去查一次眼底」 |
-| 国家医保局等八部门《加快建立长期护理保险制度实施方案》（2026-03）<https://www.gov.cn/zhengce/zhengceku/202603/content_7063915.htm> | 「按规定参保缴费且失能状态长期持续（一般为6个月以上），经申请通过评估认定的失能人员，可按规定享受相关待遇。长期护理保险制度起步阶段保障重度失能人员。」「待遇享受不设起付标准。符合规定的长期护理服务费用，按未就业城乡居民参保政策参保的，基金支付比例为50%左右；按单位职工参保政策参保的，基金支付比例为70%左右，退休人员享受单位职工参保待遇」「参保人员基金年度最高支付限额不超过统筹地区上年度城乡居民人均可支配收入的50%」「待遇享受固定等待期原则上按照6个月设置」「对机构床位费、膳食费等非护理服务费用以及应由医疗保险支付的医疗费用，基金不予支付。领取工伤保险生活护理费的参保人员，不重复享受长期护理保险相关服务待遇。」「原则上参保人首次评估通过的评估服务费……由基金支付」「鼓励使用居家和社区护理服务，在支付比例上给予适当倾斜」 | 第 17 节「申请长期护理保险」 |
-| 《个人信息保护法》，中国人大网全文 <http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html> | 第六条「收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息。」第十五条撤回同意权。第十六条「个人信息处理者不得以个人不同意处理其个人信息或者撤回同意为由，拒绝提供产品或者服务；处理个人信息属于提供产品或者服务所必需的除外。」 | 第 14 节「别为了用 App 点『全部同意』」 |
-| 同上 | 第四十五条查阅、复制权与可携带权；第四十六条更正、补充权；第四十七条五种应当主动删除的情形，「个人信息处理者未删除的，个人有权请求删除」；第五十条「拒绝个人行使权利的请求的，应当说明理由」「个人可以依法向人民法院提起诉讼」 | 第 14 节「有权查看、复制、更正和删除」 |
+| Văn phòng Quốc vụ viện Báo cáo về các biện pháp để tăng tốc xây dựng hệ thống điều trị cấp》（2026-04）<https://www.gov.cn/zhengce/zhengceku/202604/content_7065031.htm> | 「Đối với bệnh nhân mãn tính đủ điều kiện, các cơ sở y tế cấp dưới có thể mở thiết bị không quá một lần 12 Tiêu chuẩn dùng thuốc trong thời gian dài "Đối với các cơ quan y tế trong khu vực được thống nhất về nguyên tắc, tỷ lệ thanh toán bệnh viện sẽ được giảm dần. 10 Một khoảng cách khoảng một phần trăm. "Các bệnh viện cấp cao trong tập đoàn y tế chặt chẽ sẽ mở phòng khám cho các bệnh phổ biến như huyết áp cao, tiểu đường, bệnh phổi bị tắc nghẽn mãn tính, bệnh mãn tính ở các cơ sở y tế cấp dưới.」 | Thứ nhất 16 "Một lần có thể mở ra" 12 Thuốc trong tuần」 |
+| Tương tự | 「Củng cố việc kết nối các khoản thanh toán phòng khám cơ bản với chính sách dịch vụ ký kết, bao gồm các gói dịch vụ cơ bản trong các khoản thanh toán y tế theo quy định; Các gói dịch vụ cá nhân được đăng ký bởi các cơ quan y tế cấp cốt lõi theo quy trình với các cơ quan y tế cấp quận, chi phí được trả bởi cá nhân。」 | Thứ nhất 16 Chương trình "Hãy hỏi bác sĩ gia đình trước khi đăng ký bảo hiểm」 |
+| Hiệp hội tiểu đường Hoa Kỳ đưa ra các tiêu chuẩn lâm sàng cho bệnh tiểu đường 2026》Thứ nhất 12 Chương 3，Diabetes Care, doi:10.2337/dc26-S012（PMC12690177） | 「People with type 2 diabetes should have an initial dilated and comprehensive eye examination by an ophthalmologist or optometrist at the time of the diabetes diagnosis.」「Adults with type 1 diabetes should have an initial dilated and comprehensive eye examination by an ophthalmologist or optometrist 5 years after the onset of diabetes.」「If there is no evidence of retinopathy from one or more annual eye exams and glycemic indicators are within the goal range, then screening every 1–2 years may be considered.」「Perform a comprehensive foot evaluation at least annually to identify risk factors for ulcers and amputations.」 | Thứ nhất 16 Chương 3: Chứng minh bệnh tiểu đường」 |
+| 8 cơ quan khác như Cơ quan Y tế và An ninh Quốc gia đã thúc đẩy việc xây dựng bảo hiểm chăm sóc dài hạn Chương trình thực hiện》（2026-03）<https://www.gov.cn/zhengce/zhengceku/202603/content_7063915.htm> | 「Các khoản tiền bảo hiểm và trạng thái bất lực kéo dài theo quy định thường là: 6 Hơn một tháng) sau khi nộp đơn, người khuyết tật được xác định được đánh giá có thể được đối xử theo quy định. bảo hiểm chăm sóc dài hạn Chương trình bảo vệ người khuyết tật nặng trong giai đoạn đầu. "Bạn sẽ được đối xử không cần phải trả tiêu chuẩn. Thuế dịch vụ chăm sóc lâu dài phù hợp với quy định, được bảo hiểm theo chính sách bảo hiểm cho người dân thị trấn và nông thôn không có việc làm. 50%và bên trái; Theo chính sách bảo hiểm lao động của đơn vị, số tiền được thanh toán từ quỹ là: 70%Ở phía bên kia, người nghỉ hưu được hưởng điều trị bảo hiểm cho nhân viên đơn vị "Tỷ lệ tối đa thanh toán hàng năm của quỹ bảo hiểm nhân viên không vượt quá mức thu nhập có sẵn cho mỗi cư dân thị trấn và nông thôn trong khu vực thống nhất. 50%」「Trong khi đó, đối xử được hưởng thời gian chờ cố định theo nguyên tắc 6 Đặt "Các khoản phí dịch vụ không chăm sóc, chẳng hạn như chi phí giường tại cơ sở, chi phí ăn uống và chi phí y tế phải trả bởi bảo hiểm y tế, không được quỹ trả". Các nhân viên bảo hiểm nhận được tiền bảo hiểm nhân thọ, không được hưởng lại bảo hiểm chăm sóc dài hạn Điều trị dịch vụ liên quan. "Thiết phí dịch vụ đánh giá được đánh giá lần đầu tiên của người bảo hiểm……"Tăng cường sử dụng dịch vụ chăm sóc hộ gia đình và cộng đồng, giảm tỷ lệ thanh toán phù hợp"」 | Thứ nhất 17 Phần "Giá đơn" bảo hiểm chăm sóc dài hạn」 |
+| 《Luật bảo vệ thông tin cá nhân, Trung Quốc Bài viết trọn vẹn <http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html> | Điều 6: Việc thu thập thông tin cá nhân phải được giới hạn trong phạm vi tối thiểu để đạt được mục đích xử lý và không được thu thập thông tin cá nhân quá mức. "Điều 15 thu hồi quyền đồng ý". Điều 16 - Người xử lý thông tin cá nhân không được từ chối cung cấp sản phẩm hoặc dịch vụ khi không đồng ý với cá nhân về việc xử lý thông tin cá nhân của mình hoặc rút lại sự đồng ý của mình; Việc xử lý thông tin cá nhân không liên quan đến việc cung cấp sản phẩm hoặc dịch vụ。」 | Thứ nhất 14 Chương "Đừng sử dụng" App Điểm "Tất cả đồng ý"』」 |
+| Tương tự | Điều 45: Quyền truy cập, sao chép và di chuyển; Điều 46 Điều chỉnh và bổ sung quyền; Điều 47:5 Các trường hợp phải được xóa chủ động: "Người xử lý thông tin cá nhân không bị xóa, cá nhân có quyền yêu cầu xóa". Điều 50: "Người yêu cầu từ chối quyền thực hiện quyền của cá nhân phải nêu rõ lý do" "Người cá nhân có thể khởi kiện theo pháp luật tại Tòa án Nhân dân」 | Thứ nhất 14 Khung "có quyền xem, sao chép, sửa đổi và xóa"」 |
 
-## 二、未取得 / 未采用
+## 2 Không đạt được / Không được áp dụng
 
-| 想找的 | 结果 | 处理 |
+| Tìm kiếm | Kết quả | xử lý |
 | --- | --- | --- |
-| 《商品房屋租赁管理办法》（住建部令第 6 号，隔断房与按床位出租的禁令） | 不在国务院政策文件库中；mohurd.gov.cn 上的文件页返回 404 | 第 15 节「隔断房」一条未写 |
-| 二手房交易资金监管、房屋网签备案的规范性文件 | 检索「房地产经纪」「住房租赁条例」在国务院政策文件库中均无对应文件 | 第 15 节这两条未写 |
-| 养老诈骗（以房养老、保健品会销）的官方案例 | 检索「养老诈骗」在国务院政策文件库中无对应文件；未取得可引的最高检典型案例 | 第 17 节这一条未写 |
-| 支付账户的小额免密免签与限额设置依据 | 未找到可逐字核对的官方规定 | 第 14 节这一条未写 |
+| 《Quy định quản lý thuê nhà hàng hóa 6 Không cho phép thuê phòng riêng biệt và chỗ ngủ） | Không. Quốc vụ viện Thư viện chính sách；mohurd.gov.cn Lưu ý về trang trên 404 | Thứ nhất 15 Một bài viết không được viết trong phần "Phòng riêng biệt" |
+| Tài liệu quy định về việc quản lý tài chính giao dịch bằng tay, hồ sơ đăng ký mạng lưới nhà | Các nhà môi giới bất động sản và các quy định về thuê nhà Quốc vụ viện Không có tài liệu tương ứng trong thư viện tài liệu chính sách | Thứ nhất 15 Các bài viết không được viết |
+| Ví dụ về chương trình chính thức lừa đảo người già (trợ cấp tiền lương nhà, dịch vụ chăm sóc sức khỏe) | Các nhà khoa học đã phát hiện ra rằng "sự lừa đảo về lương hưu" Quốc vụ viện Không có tài liệu tương ứng trong thư viện tài liệu chính sách; Các trường hợp điển hình cao nhất không được kiểm tra | Thứ nhất 17 Điều này không được viết |
+| Số tiền thanh toán tài khoản miễn phí visa và giới hạn dựa trên | Không tìm thấy quy định chính thức có thể xác minh bằng chữ | Thứ nhất 14 Điều này không được viết |
 
-> **更正（同日）**：本节表格中判断为「不在国务院政策文件库中」的文件，实际是检索参数用错（`searchfield=title|default`）导致的漏检。改用 `searchfield=title` 后均已命中并逐字核对，见 [bo-sung-bo-sung-chuong-15-va-muc-ho-so-benh-an.md](bo-sung-bo-sung-chuong-15-va-muc-ho-so-benh-an.md)。相关条目已补写。
+> **Khôi phục cùng ngày）**：Trong bảng của mục này, đánh giá là "không". Quốc vụ viện Tài liệu trong thư viện tài liệu chính sách thực tế là lấy lại các tham số sai（`searchfield=title|default`）Nguyên nhân gây ra。 Chuyển đổi `searchfield=title` Sau đó, cả hai đã được đánh và xác nhận theo chữ, xem [bo-sung-bo-sung-chuong-15-va-muc-ho-so-benh-an.md](bo-sung-bo-sung-chuong-15-va-muc-ho-so-benh-an.md)。Liên quan mục Được viết thêm。
 
-## 三、口径与收益量级
+## Ba: tiêu chí đánh giá Với mức độ lợi ích
 
-- 第 16 节的长期处方定「口径=时间、收益=中」：它换回的主要是每月往返医院的半天，不是钱；按时间口径的阈值（每周小时级为中）取中。
-- 家庭医生签约定「金钱、中」：避免的是几百到几千元的自费服务包。
-- 眼底与足部筛查定「死亡率、大」：终点是失明与截肢，属于可预防的严重健康终点。
-- 长护险定「金钱、大」：支付比例 50%–70%、年度限额挂钩人均可支配收入的 50%，属万元级。
-- 第 14 节两条定「口径=自由」（本书的自由口径含个人信息），但收益量级的三档阈值是按刑责/行政处罚/民事纠纷划的，对个人信息类条目套不上。两条都按判断定「中」：它们改变的是长期的信息暴露面，既不涉及刑事或行政后果，也不只是一次性的民事纠纷。这是本轮唯一没有机械套阈值的地方。
+- Thứ nhất 16 Một trong những điều đáng chú ý nhất là: tiêu chí đánh giá=Thời gian. Lợi ích=Trung tâm:"Đó là một nửa ngày mỗi tháng để đến bệnh viện, không phải là tiền; Theo thời gian tiêu chí đánh giá Giá trị thâm hụt:。
+- Bác sĩ gia đình ký hợp đồng "thuộc tiền": tránh hàng trăm đến hàng ngàn đô la gói dịch vụ tự trả。
+- "Bạn sẽ phải kiểm tra dưới mắt và dưới chân". tỷ lệ tử vong "Lớn": Kết thúc là mù quáng và cắt chân, một trong những điểm kết thúc sức khỏe nghiêm trọng có thể ngăn ngừa được。
+- Bảo hiểm dài hạn: "Tiền, lớn": tỷ lệ thanh toán 50%–70%、Tỷ lệ thu nhập có thể được sử dụng mỗi năm 50%，Tỷ lệ hàng ngàn đồng。
+- Thứ nhất 14 Điều 2 quy định:" tiêu chí đánh giá=Tự do của cuốn sách tiêu chí đánh giá Có thông tin cá nhân) nhưng mức độ lợi ích 3 loại thâm hụt là hình phạt/xử phạt hành chính/Các cuộc tranh chấp dân sự, về các loại thông tin cá nhân mục Không thể. Cả hai đều được đánh giá là "trung trọng": chúng thay đổi sự lộ diện thông tin lâu dài, không liên quan đến hậu quả hình sự hoặc hành chính, và không chỉ là tranh chấp dân sự một lần. Đây là vị trí duy nhất mà bánh xe này không có cục thâm hụt.。

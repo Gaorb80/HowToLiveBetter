@@ -1,36 +1,38 @@
-# issue #37：职称怎么报、怎么考、别踩什么坑（2026-09-27）
+# Hồ sơ kiểm chứng: issue37 chức danh nghề nghiệp — 2026-09-27
 
-任务来源：GitHub issue #37（superman-death），问能不能完善职称方面的信息：怎么获取、准备什么资料、去什么机构。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 范围怎么定的
+Nhiệm vụ Nguồn：GitHub issue #37（superman-death），Làm thế nào để có được thông tin, chuẩn bị những thông tin, và đến các tổ chức.。
 
-此前全书没有专业技术职称的条目，只在第 24、31、32、33 节顺带提到。第 23 节第 8、11 条讲的是职业资格和技能等级，不是职称。
+## Phạm vi
 
-不开新节，在第 23 节末尾追加 4 条（第 20 到 23 条），不插中间，避免第 14 到 19 条被顺延（这几条被别处引用了十几次）。
+Trước đây, toàn bộ sách không có chức năng kỹ thuật chuyên nghiệp. mục Chỉ trong đoạn 24、31、32、33 Các đoạn liên tiếp đề cập đến: Thứ nhất 23 Chương 3 8、11 Điều này đề cập đến trình độ và kỹ năng nghề nghiệp, chứ không phải chức năng。
 
-「准备什么资料」没有写成清单。职称分 27 个系列，材料清单、申报时间和业绩条件由各系列、各省每年的申报通知定，全国没有统一版本。逐项写就成了没法维护的地方办事指南。正文只指路：先找本省人社厅当年的申报通知。
+Không mở chương trình mới, 23 Thêm vào cuối phần 4 Điều 3 20 đến 23 (c) không đính vào giữa, tránh 14 đến 19 Các bài báo này được trích dẫn nhiều lần ở những nơi khác.）。
 
-## 逐条核对
+「"Điều gì chuẩn bị" không được viết trong danh sách. Các chức vụ 27 Một loạt, danh sách vật liệu, thời gian khai báo và điều kiện hiệu quả được thông báo bởi các loạt, các tỉnh và các tờ khai hàng năm, không có phiên bản thống nhất trên toàn quốc. Việc viết từng mục trở thành một hướng dẫn làm việc nơi không thể duy trì. nội dung chính Chỉ cần chỉ đường: Tìm thông báo khai báo năm đó trước khi đến văn phòng xã hội của tỉnh。
 
-| 用到哪 | 来源 | 复核方式 | 原文要点 |
+## Kiểm tra từng đoạn
+
+| Làm gì? | Nguồn | Cách kiểm tra | Nguyên tắc: |
 |---|---|---|---|
-| 23-20、22、23 | 人社部令第 40 号《职称评审管理暂行规定》，gov.cn 国务院公报 | 抓全文逐字核 | 第二条适用于企业、事业单位、社会团体、个体经济组织及自由职业者，结果是聘用考核晋升的重要依据；第十三条离退休不得申报、事业单位记过以上处分期间不得申报；第十四条一般逐级申报；第十五条能网核的不得要求额外证明；第十六条单位公示不少于 5 个工作日；第十七条非公与自由职业者由人事代理机构等审核推荐；第十八条一次性告知补正；第二十九条流动时重新评审或确认；第三十九条撤销职称、记入诚信档案库、纳入全国信用信息共享平台、记录期限 3 年；第四十四条 2019-09-01 施行 |
-| 23-20 | 人社厅《关于进一步做好民营企业职称工作的通知》（2020），gov.cn | 抓全文逐字核 | 劳动关系所在地申报；受理服务点、人才中介服务机构、工商联、行业协会商会、学会；派驻外地连续一年以上可在派驻地申报 |
-| 23-20、22 | 新华社 2024-10-09《职称评审进入高峰，信息如何查？》，gov.cn 转载 | 抓全文逐字核 | 27 个职称系列；12333 网页、客户端、人社部官网、微信公众号查询；自由职业者按属地原则参加当地人社部门评审 |
-| 23-20、21、23 | 中办国办《关于深化职称制度改革的意见》（2016），gov.cn 国务院公报 2017 年第 3 号 | 抓全文逐字核 | （六）取得职业资格即可认定相应职称，初中级全国统考的专业不再评审；（八）不将论文作为应用型人才限制性条件，职称外语和计算机不作统一要求；（十一）高技能人才可参加工程系列评审，公务员不得参加评审；（十五）事业单位在岗位结构比例内评审，其余可评聘分开 |
-| 23-21 | 人社部、财政部《关于深化会计人员职称制度改革的指导意见》（2019），gov.cn | 抓全文逐字核 | 助理会计师、会计师全国统考；高级会计师考评结合，正高级一般评审；助理会计师高中以上学历；会计师博士，或硕士满 1 年、第二学士或研究生班满 2 年、本科满 4 年、大专满 5 年；公务员可考不可评 |
-| 23-21 | 财政部等《关于做好会计专业学位与会计专业技术资格衔接有关工作的通知》（2024），gov.cn | 抓全文逐字核 | 会计硕士、博士专业学位报考中级可免试《财务管理》 |
-| 23-22 | 人社部《职称评审监管暂行办法》（2024），gov.cn | 抓全文逐字核 | 第五条申报人四类违规；第十五条查处中介虚假网站、虚假宣传、合同陷阱、假冒评审、假证；第十七条承诺不实 3 年内不得申报、记录 3 年、一经核实即撤销；第二十七条严重的移送 |
-| 23-22 | 人社厅《关于进一步做好职称评审工作的通知》（2022），gov.cn | 抓全文逐字核 | 未经备案的评审委员会，评审结果不纳入全国职称评审信息查询验证系统 |
+| 23-20、22、23 | Bộ nhân sự 40 Quy định tạm thời quản lý thẩm định chức vụ số 0》，gov.cn Quốc vụ viện Thông báo | Chụp toàn văn bản theo từng chữ | Điều 2 Có thể áp dụng cho các doanh nghiệp, doanh nghiệp, cộng đồng xã hội, tổ chức kinh tế cá nhân và người tự do, kết quả là cơ sở quan trọng cho việc tuyển dụng và thăng cấp; Điều 13 không thể khai báo về việc nghỉ hưu, không thể khai báo trong thời gian các doanh nghiệp ghi lại số tiền này; Điều 14 Thông báo chung từng bước; Điều 15 không yêu cầu chứng minh thêm về năng lượng lưới điện; Điều 16 công bố không ít hơn 5 Một ngày làm việc; Điều 17 khuyến cáo kiểm tra của các công nhân phi công và tự do bởi các cơ quan nhân sự, chẳng hạn; Điều 18, thông báo hoàn chỉnh một lần; Điều 29 Đánh giá hoặc xác nhận lại khi lưu động; Điều 39: Tháo lại danh hiệu, ghi vào thư viện trung thực, đưa vào nền tảng chia sẻ thông tin tín dụng quốc gia, thời hạn ghi lại 3 Năm; Điều 44 2019-09-01 Thực hiện |
+| 23-20 | Lưu ý thông báo về việc cải thiện công việc trong doanh nghiệp tư nhân》（2020），gov.cn | Chụp toàn văn bản theo từng chữ | khai báo nơi có mối quan hệ lao động; Các điểm tiếp nhận dịch vụ, các cơ quan dịch vụ trung gian nhân sự, các hiệp hội thương mại, các hiệp hội thương mại, các hiệp hội công nghiệp; Có thể nộp đơn xin cư trú tại nước ngoài hơn một năm liên tiếp |
+| 23-20、22 | Xinhua 2024-10-09《Đánh giá chức vụ lên đỉnh, cách kiểm tra thông tin？》，gov.cn Chuyển | Chụp toàn văn bản theo từng chữ | 27 Một loạt các chức vụ；12333 Các trang web, khách hàng, website của Bộ nhân sự, tài khoản công khai WeChat Các câu hỏi: Các chuyên gia tự do tham gia vào đánh giá của bộ phận cộng đồng địa phương theo nguyên tắc thuộc địa |
+| 23-20、21、23 | Quan điểm của Văn phòng Trung Quốc về cải cách hệ thống chức vụ sâu sắc》（2016），gov.cn Quốc vụ viện Thông báo 2017 Năm thứ 1 3 Số 1 | Chụp toàn văn bản theo từng chữ | （6) đạt được trình độ nghề nghiệp có thể được xác định là phù hợp với chức năng, và các chuyên môn được đánh giá trên các kỳ thi quốc gia cấp tiểu học không còn được đánh giá; (e) không đưa luận án như là điều kiện giới hạn tài năng ứng dụng, chức năng ngoại ngữ và máy tính không phải là yêu cầu thống nhất; 11. Các nhân viên có kỹ năng cao có thể tham gia vào các cuộc đánh giá về kỹ thuật, và các công chức không được tham gia vào các cuộc đánh giá; (15) Các đơn vị được đánh giá theo tỷ lệ cấu trúc vị trí, phần còn lại có thể được đánh giá riêng biệt |
+| 23-21 | Bộ nhân dân, Bộ Tài chính Đề xuất hướng dẫn về cải cách cơ chế bổ nhiệm nhân viên kế toán sâu sắc》（2019），gov.cn | Chụp toàn văn bản theo từng chữ | Trợ lý kế toán, kiểm toán viên quốc gia; Thử nghiệm kiểm toán viên cao cấp kết hợp với Thử nghiệm tổng thể cao cấp; Trợ lý kế toán có trình độ cao hơn; Tiến sĩ kế toán, hoặc Thầy Câm 1 Năm, sinh viên đại học hoặc sau đại học đầy đủ 2 Trở thành Phụ nữ 4 Thậm chí nhiều hơn. 5 Năm; Công chức không được đánh giá |
+| 23-21 | Bộ Tài chính Cần được thông báo về việc làm tốt bằng đại học kế toán và đủ điều kiện kỹ thuật chuyên môn kế toán》（2024），gov.cn | Chụp toàn văn bản theo từng chữ | Thạc sĩ, Tiến sĩ về kế toán miễn phí kiểm tra quản lý tài chính》 |
+| 23-22 | Phương pháp tạm thời quản lý đánh giá chức vụ của Bộ nhân sự》（2024），gov.cn | Chụp toàn văn bản theo từng chữ | Điều 5: Bốn loại vi phạm của người khai báo; Điều 15 kiểm tra các trang web giả mạo, tuyên truyền giả mạo, cạm bẫy hợp đồng, đánh giá giả mạo, chứng thực giả mạo; Điều 17 Thỏa thuận không thực sự 3 Không được khai báo, ghi lại trong năm 3 Năm, khi được xác nhận, bị hủy bỏ; Điều 27 - Di chuyển nghiêm trọng |
+| 23-22 | Thông báo về việc tiến hành đánh giá chức vụ》（2022），gov.cn | Chụp toàn văn bản theo từng chữ | Ủy ban đánh giá không có hồ sơ, kết quả đánh giá không được đưa vào hệ thống xác minh thông tin truy vấn đánh giá chức năng quốc gia |
 
-## 没写的
+## Không viết
 
-- 「职业资格与职称对应关系」的具体对照表：政策文件库按标题查不到，只引了 2016 年意见里的原则性规定。
-- 积分落户、人才补贴看职称：各地政策不同，没有找到全国性原文，第 23 条备注里没写。
-- 各系列是否统考：只核了会计一个系列，其他系列让读者查该系列的「深化××职称制度改革的指导意见」。
+- 「Bảng kiểm soát cụ thể về sự tương quan giữa trình độ nghề nghiệp và chức năng: Thư viện tài liệu chính sách theo tiêu đề Không thấy, chỉ dẫn 2016 Các quy định về nguyên tắc trong ý kiến hàng năm。
+- Đề xuất: Các chính sách khác nhau ở mọi nơi, không tìm thấy bản gốc quốc gia. 23 Đạo luật Ghi chú Nó không viết.。
+- Có phải các bộ truyện được kiểm tra: chỉ có một bộ truyện về kế toán, các bộ truyện khác cho phép người đọc xem "sự sâu sắc" của bộ truyện.××Các hướng dẫn về cải cách hệ thống chức vụ」。
 
-## 收益量级怎么定的
+## mức độ lợi ích Định nghĩa
 
-- 第 20、21 条：口径定为时间，效果是一次性少跑弯路，按阈值套「小」。
-- 第 22 条：口径定为自由，后果是撤销职称、3 年失信记录、3 年内不能申报，性质接近行政处理，按「避免行政处罚」套「中」。
-- 第 23 条：口径定为金钱，但文件里没有「评上涨多少」的数字，凭判断定「小」，证据等级 B。
+- Thứ nhất 20、21 Bài viết: tiêu chí đánh giá Đặt thời gian, hiệu quả là một vòng tròn ít chạy một lần, nút đặt giá trị "tỏ"」。
+- Thứ nhất 22 Bài viết: tiêu chí đánh giá Tự do, kết quả là việc hủy bỏ chức vụ、3 Lịch sử mất tín dụng、3 Không thể khai báo trong năm, tính chất gần xử lý hành chính, theo "đánh tránh" xử phạt hành chính "Phần trung"」。
+- Thứ nhất 23 Bài viết: tiêu chí đánh giá Định nghĩa là tiền bạc, nhưng không có số "đánh giá được bao nhiêu" trong tài liệu, theo đánh giá là "tỏ", Mức độ bằng chứng B。

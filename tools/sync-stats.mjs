@@ -1,25 +1,25 @@
-// 统计对齐：改完条目跑一次。按顺序做四件事：
-// ① 重算全书的统计数字，回写 README.md、index.html、tools/og.html；
-// ② 调 check-refs.mjs 重算 docs/doi-chieu-tham-chieu.md；
-// ③ 调 check-plain.mjs 查说人话，不合格只提示不中断；
-// ④ 用无头 Chrome 把 tools/og.html 重新截成 og.png。
+// Kết hợp thống kê: đã hoàn thành mục Cứ chạy đi. 4 điều theo thứ tự：
+// ① Đánh giá lại số liệu thống kê của toàn bộ sách, viết lại README.md、index.html、tools/og.html；
+// ② Định hướng check-refs.mjs Đánh giá lại docs/doi-chieu-tham-chieu.md；
+// ③ Định hướng check-plain.mjs Đánh giá Giải thích dễ hiểu Không đủ điều kiện, chỉ cần yêu cầu không ngừng.；
+// ④ Không có đầu Chrome Đưa ra tools/og.html Cắt lại og.png。
 //
-//   node tools/sync-stats.mjs                   # 全做
-//   node tools/sync-stats.mjs --no-screenshot   # 不截图
-//   node tools/sync-stats.mjs --check           # 只比对 ① 不写，有过时的数字则退出码 1（CI 用）
+//   node tools/sync-stats.mjs                   # Được rồi.
+//   node tools/sync-stats.mjs --no-screenshot   # Không chụp
+//   node tools/sync-stats.mjs --check           # Chỉ là đúng. ① Không viết, có những con số lỗi thời và rút mã 1（CI Được sử dụng）
 //
-// Chrome 按常见安装位置找，装在别处就设环境变量 CHROME 指到可执行文件。
-// og.html 用的是微软雅黑，Linux 上没有就会换成别的字体，截出来的图和 Windows 上不一样；
-// CI 只跑 --check 不截图，也是这个原因。
+// Chrome Tìm vị trí lắp đặt thông thường, lắp đặt các biến môi trường ở nơi khác CHROME Hướng dẫn:。
+// og.html Được sử dụng bởi Microsoft.，Linux Nếu không có, bạn sẽ thay đổi chữ cái khác, các biểu đồ được cắt và Windows Không giống nhau.；
+// CI Chỉ cần chạy thôi. --check Đó là lý do tại sao chúng ta không chụp ảnh.。
 //
-// 2026-09-29 从 sync-stats.ps1 移植过来，ps1 已删：它只在 Windows 上跑，
-// 网页上直接合并的外部 PR 完全经过不了它，数字过时了也没有任何检查会红。
-// ① 只替换数字本身，不动任何其他文字。
-// 数字口径：条目数 = book/*.md 里的 ### 标题数；节数 = book/*.md 的文件数；
-// A/B/C = 证据等级行的首字母（带（争议）后缀的照样算）；争议 = 备注以「争议」开头的条数；
-// TODO = 正文里含「待核实」或「TODO」的行数；链接 = 「- 来源：」和「- 备注：」行里的 http(s) 总数；
-// 性价比三档的规则抄自 index.html。
-// 切行用 /\r?\n/，理由见 check-refs.mjs 文件头。
+// 2026-09-29 Từ sync-stats.ps1 Cấy ghép，ps1 Đã bị xóa: nó chỉ là Windows Đi lên.，
+// Bên ngoài kết hợp trực tiếp trên trang web PR Nếu không hoàn toàn vượt qua nó, số liệu đã lỗi thời và không có kiểm tra nào sẽ đỏ.。
+// ① Chỉ thay đổi số tự nó mà không động bất kỳ chữ cái nào khác。
+// Số tiêu chí đánh giá ： mục Số lượng = book/*.md Lilly ### tiêu đề Số; Số đoạn = book/*.md Số tài liệu；
+// A/B/C = Mức độ bằng chứng Các chữ cái đầu tiên của dòng là: Có tranh cãi (văn số tương tự như sau); Có tranh cãi = Ghi chú Bạn có thể nói: Có tranh cãi "Điều đầu tiên"；
+// TODO = nội dung chính Trong đó có: Cần kiểm chứng "hoặc「TODO」số dãy; Liên kết = 「- Nguồn "và「- Ghi chú "Trong đường": http(s) Tổng số；
+// Các quy tắc về giá cả của giới tính index.html。
+// Thử dụng /\r?\n/，Lý do check-refs.mjs Đầu tài liệu。
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdtempSync, rmSync, statSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -30,10 +30,10 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK = process.argv.includes('--check');
 const read = f => readFileSync(join(ROOT, f), 'utf8');
 
-// 档位规则和 index.html 的 COST_W、e.ratio 两行一致；那两行改了这里必须跟着改，所以先比对一次
+// Quy tắc xếp hạng và index.html của COST_W、e.ratio 2 dòng đồng nhất; Khi hai dòng thay đổi ở đây, chúng ta phải thay đổi theo đó, vì vậy chúng ta phải thay đổi trước một lần.
 const indexText = read('index.html');
 const COST_W_LINE = "const COST_W = { money:{'0':0,'Ít':1,'Nhiều':2}, time:{'Ít':0,'Vừa':1,'Nhiều':2}, will:{'Không':0,'Một_chút':1,'Có':2} };";
-if (!indexText.includes(COST_W_LINE)) throw new Error('index.html 的 COST_W 行变了，请同步本脚本里的成本权重');
+if (!indexText.includes(COST_W_LINE)) throw new Error("index.html của COST_W Định hướng thay đổi, hãy đồng bộ trong kịch bản Chi phí trọng lượng");
 
 const W = {
   money: { '0': 0, 'Ít': 1, 'Nhiều': 2 },
@@ -66,11 +66,11 @@ for (const f of bookFiles) {
 }
 
 const tagged = ratio['Rất_cao'] + ratio['Cao'] + ratio['Bình_thường'];
-if (tagged !== entries) console.warn(`警告：有 ${entries - tagged} 条缺成本标签，性价比三档对不上条目数`);
-if (grade.A + grade.B + grade.C !== entries) console.warn('警告：证据等级行数和条目数对不上，检查有没有条目漏写证据等级');
+if (tagged !== entries) console.warn(`Cảnh báo: Có ${entries - tagged} Lắng mặt nhãn chi phí Thêm vào đó, tình dục có giá cả cao hơn ba cấp. mục Số lượng`);
+if (grade.A + grade.B + grade.C !== entries) console.warn("Cảnh báo: Mức độ bằng chứng số dãy và mục Số không đúng, kiểm tra xem có mục Không được viết Mức độ bằng chứng");
 
-// 三档百分比用最大余数法分配：先向下取整，剩下的百分点按小数部分从大到小补。
-// 三个数各自四舍五入会凑出 99 或者 101（2026-09-21 加第 33 节时碰到过），这里保证加起来正好 100。
+// Các tỷ lệ phần trăm được phân bổ theo cách số dư lớn nhất: lấy toàn xuống trước, phần trăm còn lại được phân bổ theo phần nhỏ từ phần lớn đến phần nhỏ。
+// 3 số 4 và 5 trong số đó sẽ được đưa ra 99 Hoặc là 101（2026-09-21 Gaddai 33 Tôi đã gặp nhau ở thời điểm lễ hội) và đảm bảo kết hợp đúng. 100。
 const ORDER = ['Rất_cao', 'Cao', 'Bình_thường'];
 const pct = {}, rem = {};
 for (const k of ORDER) {
@@ -81,21 +81,21 @@ for (const k of ORDER) {
 const short = 100 - ORDER.reduce((s, k) => s + pct[k], 0);
 for (const k of [...ORDER].sort((a, b) => rem[b] - rem[a]).slice(0, Math.max(short, 0))) pct[k]++;
 
-console.log(`条目 ${entries} ｜ 节 ${sections} ｜ A ${grade.A} B ${grade.B} C ${grade.C} ｜ 争议 ${dispute} ｜ TODO ${todo} ｜ 链接 ${links}`);
-console.log(`性价比 极高 ${ratio['Rất_cao']}（${pct['Rất_cao']}%） 高 ${ratio['Cao']}（${pct['Cao']}%） 一般 ${ratio['Bình_thường']}（${pct['Bình_thường']}%）`);
+console.log(`Mục ${entries} ｜ Chương ${sections} ｜ A ${grade.A} B ${grade.B} C ${grade.C} ｜ Có tranh cãi ${dispute} ｜ TODO ${todo} ｜ Liên kết ${links}`);
+console.log(`Hiệu quả/chi phí: rất cao ${ratio['Rất_cao']}（${pct['Rất_cao']}%） cao ${ratio['Cao']}（${pct['Cao']}%） Thông thường ${ratio['Bình_thường']}（${pct['Bình_thường']}%）`);
 console.log('');
 
 const EDITS = [
-  ['README.md', '首屏条目数', /(\d+) lời khuyên thực tiễn/g, `${entries} lời khuyên thực tiễn`],
-  ['README.md', '条目徽章', /M%E1%BB%A5c-(\d+)%20m%E1%BB%A5c/g, `M%E1%BB%A5c-${entries}%20m%E1%BB%A5c`],
-  ['README.md', '证据分级徽章', /A%20(\d+)%20%C2%B7%20B%20\d+%20%C2%B7%20C%20\d+/g, `A%20${grade.A}%20%C2%B7%20B%20${grade.B}%20%C2%B7%20C%20${grade.C}`],
-  ['README.md', '文献链接徽章', /-(\d+)%20li%C3%AAn%20k%E1%BA%BFt/g, `-${links}%20li%C3%AAn%20k%E1%BA%BFt`],
-  ['README.md', '正文文件数', /chia thành (\d+) tệp/g, `chia thành ${sections} tệp`],
-  ['index.html', '五处描述', /(\d+) lời khuyên/g, `${entries} lời khuyên`],
+  ['README.md', "số mục đầu trang", /(\d+) lời khuyên thực tiễn/g, `${entries} lời khuyên thực tiễn`],
+  ['README.md', 'huy hiệu số mục', /M%E1%BB%A5c-(\d+)%20m%E1%BB%A5c/g, `M%E1%BB%A5c-${entries}%20m%E1%BB%A5c`],
+  ['README.md', "huy hiệu cấp bằng chứng", /A%20(\d+)%20%C2%B7%20B%20\d+%20%C2%B7%20C%20\d+/g, `A%20${grade.A}%20%C2%B7%20B%20${grade.B}%20%C2%B7%20C%20${grade.C}`],
+  ['README.md', "số liên kết nguồn", /-(\d+)%20li%C3%AAn%20k%E1%BA%BFt/g, `-${links}%20li%C3%AAn%20k%E1%BA%BFt`],
+  ['README.md', "số tệp nội dung", /chia thành (\d+) tệp/g, `chia thành ${sections} tệp`],
+  ['index.html', 'các mô tả trang', /(\d+) lời khuyên/g, `${entries} lời khuyên`],
   ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
-  ['tools/og.html', 'og 条目数', /<b>(\d+)<\/b> lời khuyên/g, `<b>${entries}</b> lời khuyên`],
-  ['tools/og.html', 'og A 级数', /Bằng chứng cấp A <b>(\d+)<\/b> mục/g, `Bằng chứng cấp A <b>${grade.A}</b> mục`],
-  ['tools/og.html', 'og 链接数', /<b>(\d+)<\/b> liên kết tài liệu gốc/g, `<b>${links}</b> liên kết tài liệu gốc`],
+  ['tools/og.html', "số mục trên ảnh bìa", /<b>(\d+)<\/b> lời khuyên/g, `<b>${entries}</b> lời khuyên`],
+  ['tools/og.html', "số mục cấp A trên ảnh bìa", /Bằng chứng cấp A <b>(\d+)<\/b> mục/g, `Bằng chứng cấp A <b>${grade.A}</b> mục`],
+  ['tools/og.html', "số liên kết trên ảnh bìa", /<b>(\d+)<\/b> liên kết tài liệu gốc/g, `<b>${links}</b> liên kết tài liệu gốc`],
 ];
 
 const texts = new Map();
@@ -103,45 +103,45 @@ const stale = [];
 for (const [file, label, pattern, repl] of EDITS) {
   const text = texts.get(file) ?? read(file);
   const found = [...text.matchAll(pattern)];
-  if (found.length === 0) throw new Error(`${file} 里找不到「${label}」，模式：${pattern}`);
+  if (found.length === 0) throw new Error(`${file} Không tìm thấy「${label}」，Mô hình：${pattern}`);
   const old = found[0][1];
-  // 用函数做替换值，免得替换串里的 $ 被当成分组引用
+  // Đổi giá trị bằng hàm để tránh thay thế các chuỗi $ được trích dẫn trong nhóm thành phần
   const updated = text.replace(pattern, () => repl);
   texts.set(file, updated);
   if (updated === text) {
-    console.log(`  ${file} ${label}：${old}（未变）`);
+    console.log(`  ${file} ${label}：${old}（Không thay đổi）`);
     continue;
   }
   stale.push(`${file} ${label}`);
-  console.log(`  ${file} ${label}：${old} -> ${CHECK ? '过时' : `已更新（${found.length} 处）`}`);
+  console.log(`  ${file} ${label}：${old} -> ${CHECK ? 'lỗi thời' : `Được cập nhật（${found.length} Ở đâu）`}`);
 }
 
 if (CHECK) {
   if (stale.length === 0) {
-    console.log('\n统计数字检查通过');
+    console.log("\nKiểm tra số liệu thống kê: đạt");
     process.exit(0);
   }
-  console.log(`\n有 ${stale.length} 处统计数字过时。本地跑 node tools/sync-stats.mjs（顺带重出 og.png），然后提交。`);
+  console.log(`\nCó. ${stale.length} Số liệu thống kê đã lỗi thời. Đúng là chạy node tools/sync-stats.mjs（Trở lại theo dõi og.png），Sau đó nộp。`);
   process.exit(1);
 }
 
 for (const [file, text] of texts) if (text !== read(file)) writeFileSync(join(ROOT, file), text);
 
-// ② 重算交叉引用对照表：插入或删除条目会让后面的「第 X 条」集体错位，而错位后的条号
-// 往往仍在范围内（2026-09-19 第 7 节那 6 处就是），只有把「引用 → 目标标题」摊开入库，
-// diff 才看得见。放在截图之前，--no-screenshot 也要跑到
+// ② Đánh giá lại Bảng đối chiếu tham chiếu chéo Thêm hoặc xóa: mục "Điều thứ hai" sau đó X Điều "Thế độ sai lầm tập thể, số sai lầm sau đó"
+// Thường vẫn còn trong phạm vi（2026-09-19 Thứ nhất 7 Giáng sinh 6 Đúng là, chỉ cần "thích dẫn" → Mục tiêu tiêu đề "Hãy mở thư viện".，
+// diff Chúng ta sẽ thấy. Trước khi được chụp，--no-screenshot Và phải chạy.
 const runTool = name => spawnSync(process.execPath, [join(ROOT, 'tools', name)], { stdio: 'inherit' }).status;
 console.log('');
-if (runTool('check-refs.mjs') !== 0) throw new Error('check-refs.mjs 失败');
-console.log('提交前扫一眼 docs/doi-chieu-tham-chieu.md 的 diff：条号没动而「指向的条目」变了，就是被顺延撞歪的引用。');
+if (runTool('check-refs.mjs') !== 0) throw new Error("check-refs.mjs Thất bại");
+console.log("Xem trước khi nộp docs/doi-chieu-tham-chieu.md của diff：Đơn vị không di chuyển và \"định hướng\" mục \"Điều đã thay đổi, đó là một trích dẫn bị lật ngược.。");
 
-// ③ 说人话检查只提示不中断：数字已经同步完了，卡在这里反而让人以为统计没更新。CI 里它会红
+// ③ kiểm tra cách diễn đạt dễ hiểu Chỉ cần gợi ý không bị gián đoạn: số liệu đã được đồng bộ hóa, và thẻ ở đây khiến người ta nghĩ rằng số liệu không được cập nhật.。CI Nó sẽ đỏ.
 console.log('');
-if (runTool('check-plain.mjs') !== 0) console.log('上面列出的说人话不合格，提交前改掉（规则见 tools/check-plain.mjs 文件头）。');
+if (runTool('check-plain.mjs') !== 0) console.log("Danh sách trên Giải thích dễ hiểu Không đủ điều kiện, thay đổi quy tắc trước khi nộp tools/check-plain.mjs Đầu tài liệu）。");
 
 if (process.argv.includes('--no-screenshot')) process.exit(0);
 
-// ④ 截 og.png
+// ④ Đánh dấu og.png
 const CHROME_PATHS = [
   process.env.CHROME,
   'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
@@ -153,14 +153,14 @@ const CHROME_PATHS = [
   '/usr/bin/chromium-browser',
 ];
 const chrome = CHROME_PATHS.find(p => p && existsSync(p));
-if (!chrome) throw new Error('找不到 Chrome，设环境变量 CHROME 指到它，或者加 --no-screenshot 跳过截图');
+if (!chrome) throw new Error("Không tìm thấy Chrome，Variable môi trường CHROME chỉ ra nó, hoặc thêm --no-screenshot Chuyển qua bức ảnh");
 
-// 每次用全新的 user-data-dir：否则 Chrome 会拿缓存里的旧 og.html 渲染，截出来还是旧数字。
-// --screenshot 必须给绝对路径：给相对路径 Chrome 什么都不写，还照样返回 0
+// Mỗi lần sử dụng một cái mới user-data-dir：Nếu không Chrome Tôi sẽ giữ những thứ cũ trong kho. og.html Xác định, cắt hoặc số cũ。
+// --screenshot Đặt một con đường hoàn toàn: Đặt một con đường tương đối Chrome Không viết gì, và vẫn quay lại 0
 const profile = mkdtempSync(join(tmpdir(), 'og-shot-'));
 const target = join(ROOT, 'og.png');
 const startedAt = Date.now();
-// Chrome 把「xxx bytes written」这类信息写在 stderr 上，不是报错，直接丢掉
+// Chrome Đưa ra「xxx bytes written」Những thông tin này được viết stderr Không phải sai lầm, bỏ đi.
 spawnSync(chrome, [
   '--headless', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1',
   '--window-size=1200,630', `--user-data-dir=${profile}`, `--screenshot=${target}`,
@@ -168,8 +168,8 @@ spawnSync(chrome, [
 ], { stdio: 'ignore' });
 rmSync(profile, { recursive: true, force: true });
 
-// 自检：文件是这次写的、大小在正常区间。过了这两关就不必再打开图看，省一次读图的开销
+// Bản kiểm tra: Tài liệu được viết lần này, kích thước nằm trong khoảng bình thường. Sau hai liên kết này, bạn sẽ không cần phải mở các biểu đồ để xem, tiết kiệm chi phí đọc một biểu đồ.
 const png = statSync(target);
-if (png.mtimeMs < startedAt - 1000) throw new Error('og.png 没有被这次运行写入，截图失败了');
-if (png.size < 120 * 1024 || png.size > 400 * 1024) throw new Error(`og.png 大小异常（${png.size} 字节），正常在 120KB 到 400KB，打开看一眼是不是渲染坏了`);
-console.log(`\nog.png 已重出：${png.size} 字节，自检通过。改过 tools/og.html 的版式才需要打开图确认。`);
+if (png.mtimeMs < startedAt - 1000) throw new Error("og.png Không được ghi lại trong cuộc điều hành này, chụp thất bại");
+if (png.size < 120 * 1024 || png.size > 400 * 1024) throw new Error(`og.png Sự bất thường nhỏ（${png.size} Byte), bình thường là 120KB đến 400KB，Hãy mở ra để xem liệu nó có bị nhiễm trùng không.`);
+console.log(`\nog.png Đã xuất hiện lại：${png.size} Byte, tự kiểm tra qua. Thay đổi tools/og.html Vị bản mới cần mở biểu đồ để xác nhận。`);

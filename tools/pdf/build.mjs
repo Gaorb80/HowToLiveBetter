@@ -1,8 +1,8 @@
-// 把 README + book/*.md + docs/*.md 排成一本 PDF：pandoc 把 Markdown 转成 typst，typst 排版。
-// 用法：node tools/pdf/build.mjs [输出路径]   默认输出 dist/HowToLiveBetter.pdf
-// 需要 pandoc（≥3.1，要有 typst 输出）和 typst（≥0.13）在 PATH 上，或用环境变量 PANDOC、TYPST 指路径。
-// 版面在 tools/pdf/template.typ 里；正文一个字都不改，只做三件事：
-// 去掉「← 回总Mục lục」、给每节的标题挂上锚点、把仓库内的链接改成书内跳转或 GitHub 网址。
+// Đưa ra README + book/*.md + docs/*.md Dòng 1 PDF：pandoc Đưa ra Markdown Chuyển đổi typst，typst Phiên bản。
+// Sử dụng：node tools/pdf/build.mjs [Đường dẫn xuất]   Tiết xuất mặc định dist/HowToLiveBetter.pdf
+// cần thiết pandoc（≥3.1，Nếu có typst sản xuất) và typst（≥0.13）Trong PATH trên, hoặc bằng các biến môi trường PANDOC、TYPST Hướng dẫn。
+// Trang này là tools/pdf/template.typ Trò chơi nội dung chính Không thay đổi một lời, chỉ làm ba điều.：
+// Tránh đi.「← Tổng cộngMục lục」、Đọc cho mỗi đoạn tiêu đề Đăng vào các nút, chuyển các liên kết trong kho thành sách hoặc GitHub Địa chỉ。
 import { writeFileSync, mkdirSync, statSync } from 'node:fs';
 import { resolve, dirname, posix, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -12,12 +12,12 @@ const OUT = resolve(ROOT, process.argv[2] ?? 'dist/HowToLiveBetter.pdf');
 const WORK = resolve(ROOT, 'dist/pdf-build.md');
 const PANDOC = process.env.PANDOC ?? 'pandoc';
 const TYPST = process.env.TYPST ?? 'typst';
-const STAMP = buildStamp();          // 「（北京时间）」写在模板和Thông tin phiên bản里，传给 pandoc 的值保持纯 ASCII
+const STAMP = buildStamp();          // 「（Thời gian Bắc Kinh) " viết trên mẫu vàThông tin phiên bảnLee, đưa cho tôi. pandoc Giá trị giữ nguyên ASCII
 const COMMIT = gitCommit();
 
 const { description, frontMd, contentsMd, bookFiles, docFiles } = readBook();
 
-// ---------- 页（每页一个一级标题，一级标题在 typst 里另起一页） ----------
+// ---------- Trang: Mỗi trang một cấp độ tiêu đề cấp 1 tiêu đề Trong typst Một trang khác.） ----------
 const anchorOf = new Map();
 bookFiles.forEach(f => anchorOf.set(f, 'sec-' + (basename(f).match(/^\d+/)?.[0] ?? anchorOf.size + 1)));
 docFiles.forEach((f, i) => anchorOf.set(f, `doc-${i + 1}`));
@@ -44,11 +44,11 @@ Liên kết tới các chương đã được đổi thành liên kết bên tro
 Nội dung phát hành theo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Bạn có thể chia sẻ, cải biên và sử dụng thương mại. Hãy ghi nguồn Cẩm nang cuộc sống tối ưu chi phí hiệu quả, kèm liên kết kho và ghi rõ các chỉnh sửa.`;
 }
 
-// ---------- 链接：书内的改成锚点，书外的改成绝对网址 ----------
+// ---------- Liên kết: Điểm chuyển đổi trong sách, chuyển đổi ngoài sách thành địa chỉ web tuyệt đối ----------
 function rewriteLinks(md, src) {
   return md.replace(/\]\(([^)\s]+)(\s+"[^"]*")?\)/g, (all, href, title) => {
     if (/^(https?:|mailto:)/.test(href)) return all;
-    // README 里指向自身小节的锚点（#Mục lục 这种）在书里不一定有，指回 GitHub 上的 README
+    // README Nhìn vào các điểm nhỏ của bản thân（#Mục lục "Điều này không nhất thiết phải có trong cuốn sách. GitHub Nhanh lên README
     if (href.startsWith('#')) return `](${REPO}/blob/main/README.md${href}${title ?? ''})`;
     const [path] = href.split('#');
     const target = posix.normalize(posix.join(posix.dirname(src), path));
@@ -61,9 +61,9 @@ function rewriteLinks(md, src) {
 
 const body = pages.map(p => {
   const md = rewriteLinks(p.md, p.src)
-    .replace(/<!--[\s\S]*?-->/g, '')                       // 成本标签这类 HTML 注释不进 PDF
-    .replace(/^(# .+?)\s*$/m, `$1 {#${p.anchor}}`);        // 给这一页的一级标题挂锚点
-  if (!md.includes(`{#${p.anchor}}`)) throw new Error(`${p.src} 里没找到一级标题，挂不上锚点`);
+    .replace(/<!--[\s\S]*?-->/g, '')                       // nhãn chi phí Các loại HTML Không tham gia PDF
+    .replace(/^(# .+?)\s*$/m, `$1 {#${p.anchor}}`);        // Một cấp độ cho trang này tiêu đề Điểm treo
+  if (!md.includes(`{#${p.anchor}}`)) throw new Error(`${p.src} Tôi không tìm thấy một cấp độ. tiêu đề Không có chỗ nào để ngã.`);
   return md.trim();
 }).join('\n\n');
 
@@ -75,8 +75,8 @@ const run = (cmd, args) => {
   try {
     return execFileSync(cmd, args, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
   } catch (err) {
-    if (err.code === 'ENOENT') throw new Error(`找不到 ${cmd}，装上它或用环境变量 ${cmd === PANDOC ? 'PANDOC' : 'TYPST'} 指到可执行文件`);
-    throw new Error(`${cmd} 失败：\n${err.stderr || err.stdout || err.message}`);
+    if (err.code === 'ENOENT') throw new Error(`Không tìm thấy ${cmd}，Thiết lập nó hoặc sử dụng các biến môi trường ${cmd === PANDOC ? 'PANDOC' : 'TYPST'} Hướng dẫn:`);
+    throw new Error(`${cmd} Thất bại：\n${err.stderr || err.stdout || err.message}`);
   }
 };
 
@@ -94,4 +94,4 @@ if (log.trim()) console.log(log.trim());
 
 const entries = pages.filter(p => bookFiles.includes(p.src))
   .reduce((n, p) => n + p.md.split('\n').filter(l => l.startsWith('### ')).length, 0);
-console.log(`已生成 ${OUT}：${bookFiles.length} 节 ${entries} 条，附录 ${docFiles.length} 篇，${(statSync(OUT).size / 1048576).toFixed(1)} MB`);
+console.log(`Đã tạo ${OUT}：${bookFiles.length} chương, ${entries} mục; phụ lục: ${docFiles.length} bài，${(statSync(OUT).size / 1048576).toFixed(1)} MB`);

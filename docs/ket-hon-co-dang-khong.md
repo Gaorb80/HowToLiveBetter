@@ -1,4 +1,4 @@
-# Kết hôn có đáng không: Bóc tách một mớ bòng bong thành 5 khoản tính toán rành mạch
+# Kết hôn có đáng không — 5
 
 Nhiều người muốn hỏi một câu hỏi rất chung chung: Rốt cuộc kết hôn là "lỗ" hay "lãi". Câu hỏi này nhồi nhét rất nhiều thứ vào cùng một chỗ: Đối phương có mang lại sự nâng đỡ về mặt cảm xúc không, có chia sẻ việc nhà không, có kiếm được tiền không, và có nên kết hôn chỉ để đối phó với sự thúc giục của phụ huynh không. Những thứ này không thể quy đổi chung về một đơn vị, gộp chung lại thì không thể có câu trả lời xác đáng, vì vậy bài viết này sẽ bóc tách rành mạch từng khoản. Mỗi phép tính chỉ sử dụng số liệu thống kê chính thức hoặc phân tích gộp (meta-analysis tổng hợp nhiều nghiên cứu lớn), chỗ nào khoa học chưa tính ra được thì nói thẳng là không tính được. Cuối bài là một bảng biểu để bạn tự điền con số thực tế của chính mình, toàn văn không đưa ra kết luận áp đặt "nên hay không nên kết hôn".
 

@@ -1,6 +1,6 @@
 [← Quay lại mục lục](../README.md)
 
-# Gặp người lạ bị nạn trên đường: Bỏ đi hay dừng lại giúp
+# Có nên dừng lại giúp người lạ bị nạn
 
 Đây là bài viết chi tiết mở rộng cho Mục 2 Chương 13 (Người già ngã hoặc có người nằm gục đừng vội đỡ dậy ngay). Cuốn sách này phân chia người thụ hưởng thành 4 cấp bậc, tiêu chuẩn xếp hạng dựa trên khả năng lợi ích đó sẽ quay trở lại với bạn trong tương lai. Người lạ là cấp thấp nhất. Khả năng trông cậy họ đền đáp là rất nhỏ, và bạn cũng không biết rõ họ là người như thế nào. Vì vậy bài viết này không khuyên bạn phải làm gì, chỉ liệt kê đầy đủ cái giá phải trả của cả 3 ngã rẽ, chọn con đường nào là do bạn tự quyết định.
 

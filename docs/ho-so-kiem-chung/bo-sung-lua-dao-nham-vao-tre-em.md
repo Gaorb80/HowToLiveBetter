@@ -1,29 +1,31 @@
-# 追加：针对孩子的骗局 · ho-so-kiem-chung（2026-09-08）
+# Hồ sơ kiểm chứng: Lừa đảo nhắm vào trẻ em — 2026-09-08
 
-任务来源：「有人说要加防骗的」那轮盘点的第三处也是最后一处真空白。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-原有覆盖：第 5 节第 8 条（不给主播打赏、不给游戏充值）和第 9 条（孩子充值打赏未经追认可以主张退，引民法典第十九、二十、一百四十五条）。这两条讲的都是「孩子自己花掉的钱」，走民事追认路径；被骗子骗走的钱是另一回事，全书原来没有。第 14 节是账号与信息安全，第 20 节只到婴幼儿，都不覆盖。
+Nhiệm vụ Nguồn Và phần thứ ba của bảng xếp hạng: "Mọi người nói rằng chúng ta cần phải chống lại lừa đảo" cũng là phần trống cuối cùng của bảng xếp hạng.。
 
-落点：第 5 节新增 1 条（第 10 条），紧跟第 9 条，原第 10 条起顺延至第 30 条。放在这里而不是第 8 或第 14 节，是因为它和第 9 条构成一组对照：同样是孩子在家长手机上花了钱，充值打赏能退，被骗转走的退不了。
+Bài viết được bao gồm: 5 Chương 3 8 Đề án: Không thưởng cho người dẫn chương trình, không bổ sung game) 9 Đạo luật: Trẻ em có thể yêu cầu trả tiền mà không nhận được. Bộ luật Dân sự Điều 19, 20, 1145): Cả hai đều nói về "những khoản tiền mà trẻ em đã chi tiêu" để đi theo con đường công dân. Những người lừa đảo đã lừa đảo tiền bạc là một điều khác, toàn bộ cuốn sách không có. Thứ nhất 14 Mục là an ninh tài khoản và thông tin, 20 Không bao gồm cả trẻ sơ sinh。
 
-## 第 5 节第 10 条（针对孩子的六类骗局）
+Điểm hạ cánh: 5 Sự gia tăng 1 Điều 3 10 Cần theo dõi 9 Đạo luật: 10 Định hướng tiếp theo: 30 Định luật: Đặt ở đây chứ không phải ở đây 8 hoặc 14 Điều này có nghĩa là: 9 Điều này tạo thành một nhóm đối lập: cũng như việc trẻ em chi tiền trên điện thoại của cha mẹ, giá trị của phần thưởng có thể trở lại, và không thể trở lại khi bị lừa đảo.。
 
-| URL | 复核 | 原文引句 |
+## Thứ nhất 5 Chương 3 10 6 loại lừa đảo đối với trẻ em）
+
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <http://gat.fujian.gov.cn/ztzl/fjjffpzxrx/spjq/202510/t20251028_7026836.htm>（福建省公安厅识骗技巧专栏转载，标注来源「泉州市反诈骗中心」，2025-10-28，文中写明由泉州市反诈骗中心联合泉州市教育局等单位制作） | 是 | 六类：①游戏账号/装备交易——小王私下转 260 元，对方称「未成年人转账违规，账号要冻结」，发「核查链接」让他用爸爸手机操作，「结果爸爸账户 3 万多块全被转走」；②「解除防沉迷」——对方威胁「不转账取消，你家长要坐牢」，小杨用妈妈手机转 7000 元，「游戏防沉迷是官方设定，根本没有『私下解锁』渠道」；③短视频/直播打赏——「官方客服」称未成年人打赏能退，要求「用家长支付宝给指定直播间刷礼物才能退款」，「结果妈妈账户 7.3 万元全被打赏」，「有人加你让你『刷礼物退款』，100% 是诈骗！」；④冒充熟人/老师——盗号后发语音报名字借钱；开学季「混进班级群，冒充老师发『交学杂费 500 元』通知，用一样的头像昵称，还安排『托』说『已交』」；⑤追星——拉进「明星粉丝群，领 888 元红包」，先转 48.88 元「验证」，再吓唬「未成年人参与违规，平台要冻结 8 万，家长要坐牢」，共 1.6 万元，「真警察、律师绝不会在网上联系未成年人调查，更不会要家长手机操作」；⑥网络虚假购物——二手平台低价诱导脱离平台私下转账。三条红线：银行卡电话卡「不借、不卖、不租」（「可能构成『帮助信息网络犯罪活动罪』，面临罚款、留案底，影响考研、考公、进国企」）、「手机口」兼职、境外「高薪招聘」 |
+| <http://gat.fujian.gov.cn/ztzl/fjjffpzxrx/spjq/202510/t20251028_7026836.htm>（Văn phòng An ninh Công cộng tỉnh Fujian thông báo kỹ thuật lừa đảo Nguồn Trung tâm chống gian lận thành phố Quangzhou」，2025-10-28，Bài viết được viết bởi Trung tâm chống gian lận của thành phố Quangzhou và các cơ quan như Cơ quan Giáo dục của thành phố Quangzhou） | Đúng vậy | Chương 6：① Tài khoản trò chơi/Truyện giao dịch thiết bị của Nguyễn Xuân 260 Người khác gọi là "transaction of minors violation, the accounts are frozen" và đưa ra "check link" để anh ta sử dụng điện thoại di động của cha mình, "những kết quả là tài khoản của cha mình". 3 Nhiều triệu đô la đã được chuyển đi」；②「"Đừng chuyển tiền, cha mẹ của bạn sẽ bị bỏ tù". 7000 Trước đây, "trong game addiction là một thiết lập chính thức, không có kênh 'private unlock'」；③ Video ngắn/"Nhà khách hàng chính thức" cho biết những người trẻ tuổi có thể trả lại phần thưởng, yêu cầu "trái lại các món quà mà cha mẹ trả tiền cho các phòng phát trực tiếp được chỉ định", "những tài khoản đã bị xóa". 7.3 "Bất cứ một người nào cũng cho bạn một khoản tiền hoàn lại quà tặng".』，100% Sự gian lận！」；④ Giả sử bạn quen/Các giáo viên đã vay tiền để đăng ký bài báo tiếng nói sau khi bị trộm; Mùa học đầu tiên: "Trong nhóm lớp, giả vờ giáo viên đưa ra tiền học phí" 500 Địa ngục" thông báo, với cùng một tiêu đề, và sắp xếp 'Tô' để nói 'đã giao'』」；⑤ Người hâm mộ "Stars" đang theo dõi các ngôi sao. 888 "Bỏ đỏ cũ", quay đầu. 48.88 "Điều xác minh" trước đây, và "những người trẻ tuổi tham gia vào vi phạm, nền tảng sẽ bị đóng băng". 8 "Bọn bố mẹ phải ngồi tù". 1.6 Wang Yi nói: "Các cảnh sát và luật sư thực sự sẽ không bao giờ liên hệ với các cuộc điều tra trẻ em trực tuyến, và họ sẽ không yêu cầu các bậc cha mẹ điều khiển điện thoại di động.」；⑥ Các nền tảng mua sắm giả mạo trên mạng có giá thấp dẫn đến việc chuyển tiền tư nhân ra khỏi nền tảng. Ba dòng đỏ: thẻ điện thoại ngân hàng "không cho vay, không bán, không thuê"; "có thể là "giá tội hỗ trợ hoạt động tội phạm mạng thông tin", phải đối mặt với tiền phạt, việc lưu giữ, ảnh hưởng đến nghiên cứu, tuyển sinh, doanh nghiệp nhập cảnh"; "cổng điện thoại" làm việc bán thời gian; việc tuyển dụng cao lương ở nước ngoài;」 |
 
-定级 B：官方给的是话术拆解和个案，没有发案率、也没有「讲过这一课后被骗率下降多少」的统计。收益量级「大」——金钱口径，材料里的个案损失是 7000 元到 7.3 万元，够到万元级；成本 钱=0 时间=少 毅力=些（要真做到「被骗了先说不骂」），合成为「高」。
+Định nghĩa B：Các thống kê chính thức cho thấy không có tỷ lệ vụ án, và không có "nhiều tỷ lệ bị lừa đảo giảm sau khi nói bài học này". mức độ lợi ích "Lớn" kiếm tiền tiêu chí đánh giá Một số người bị thiệt hại trong tài liệu là 7000 Tới đây. 7.3 Trong khi đó, người dân Việt Nam có thể nhận được một khoản tiền cao hơn một triệu đồng. Chi phí Tiền=0 Thời gian=Thêm sức mạnh=Một số trong số đó là "được lừa dối trước khi nói không nói xấu" và "được cao".」。
 
-条目的落点是把六类归到一个可执行的判断上：**六类的最后一步都是让孩子拿家长的手机操作或报验证码**，所以正文的标题写成这句，具体类型放在收益栏里当识别清单。另一个反复出现的话术是「你违规了、你家长要坐牢」，正文点明这句话本身就是骗局标志。
+mục Điểm cuối cùng là đưa 6 vào một phán quyết có thể thực hiện được.：**Bước cuối cùng trong lớp 6 là để con cái lấy điện thoại của cha mẹ hoặc xác nhận mã xác thực.**，Vì vậy, nội dung chính của tiêu đề Trong bài viết này, các loại cụ thể được đặt vào mục lợi ích Trong danh sách nhận dạng. Một thuật ngữ khác xuất hiện nhiều lần là: "Bạn đã vi phạm, cha mẹ của bạn sẽ đi tù". nội dung chính Những câu này chính là dấu hiệu của sự lừa đảo.。
 
-未采用：同一专栏里的《已有多名孩子中招！暑期警惕"冒充公安"骗局》（2026-08-26）和《抽奖送签名、加偶像私号？诈骗团伙盯上学生追星族》（2026-05-13）与本条第 5 类重复，不重复引。全国口径的未成年人受骗发案统计没找到官方来源（公安部官网 mps.gov.cn 恒 521），因此正文不写占比。
+Không được áp dụng: Thằng bé trong cùng một bìa đã có nhiều đứa trẻ bị ám ảnh! Cảnh sát mùa hè"Giả sử an ninh công cộng"Sự gian lận》（2026-08-26）Và họ gửi một số chữ ký và một số hình ảnh cá nhân? Nhóm lừa đảo nhắm vào sinh viên theo dõi ngôi sao》（2026-05-13）Điều này có nghĩa là: 5 Bài học lặp đi lặp lại, không lặp lại. Quốc gia tiêu chí đánh giá Báo cáo về tình trạng lừa đảo trẻ vị thành niên không tìm thấy chính thức Nguồn （ Bộ Công an Trang web chính thức mps.gov.cn Tương tự 521），Vì vậy, nội dung chính Không viết tỷ lệ。
 
-## 顺带改正的过时引用
+## Quảng cáo lỗi thời được sửa đổi
 
-第 5 节内部有四处「本节第 N 条」在本轮之前就已经错位（应是更早某次插条时漏改），一并对齐：变相杠杆的利率「本节第 3 条」→第 7 条；「买宽基指数基金（本节第 11 条）」→第 17 条；应急金条里的「本节第 3 条」→第 7 条；「七日无理由退货见本节第 15 条」→第 22 条。docs/danh-sach-trang-bi-khan-cap-gia-dinh.md 里的「第 5 节第 22 条」（不为划线价囤货）因本轮插条顺延为第 23 条。docs/ho-so-kiem-chung 里的旧记录按当时编号保留，不回改。
+Thứ nhất 5 Trong phần này có các phần "Bản này" N Điều "đã đã được đặt sai trước vòng này (có lẽ phải được thay đổi sớm hơn khi một lần trục trặc), phù hợp: tỷ lệ lãi suất thay đổi" 3 Đạo luật」→Thứ nhất 7 Đạo luật: "Quỹ Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản trị Quản 11 Đạo luật）」→Thứ nhất 17 Đạo luật: "Bản mục này trong số các bài báo khẩn cấp" 3 Đạo luật」→Thứ nhất 7 Đạo luật: "Thứ bảy ngày không có lý do để quay trở lại". 15 Đạo luật」→Thứ nhất 22 Đạo luật。docs/danh-sach-trang-bi-khan-cap-gia-dinh.md "Thứ thứ hai" 5 Chương 3 22 Điều " (((không được chi trả giá) vì điều khoản này được kéo dài theo thời gian đến mục 23 Đạo luật。docs/ho-so-kiem-chung Lịch sử cũ của Lee được giữ theo số của thời điểm đó và không được thay đổi。
 
-另记一处已知但本轮未动的不一致：第 5 节第 8 条备注里仍留着「TODO（待核实：民法典第十九条、第一百四十五条原文，npc.gov.cn 与 gov.cn 页面均无法打开）」，但第 9 条已经从最高检转载全文里逐字引到了这两条。这个 TODO 可以删，涉及全书 TODO 计数，留给下一轮统一处理。
+Một ghi chú khác được biết đến nhưng không có sự bất đồng trong vòng này: 5 Chương 3 8 Đạo luật Ghi chú Nó vẫn còn.「TODO（Cần kiểm chứng ： Bộ luật Dân sự Điều 19 Chương 1 - 45，npc.gov.cn Với gov.cn Không thể mở tất cả các trang) " 9 Điều này đã được trích dẫn từ toàn văn bản từ các bài kiểm tra tối cao. Cái này. TODO Có thể xóa, bao gồm cả sách TODO Số lượng, để lại cho vòng xử lý thống nhất tiếp theo。
 
-## 统计
+## Thống kê
 
-全书 379 → 380 条，B 级 94 → 95，性价比「高」188 → 189，book/ 目录下的原始文献链接 734 → 735。
+Tất cả sách 379 → 380 Đạo luật，B cấp độ 94 → 95，Giá cả "tối cao"」188 → 189，book/ Hồ sơ gốc trong thư mục tài liệu tham khảo Liên kết 734 → 735。

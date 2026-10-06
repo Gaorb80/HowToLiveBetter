@@ -1,38 +1,40 @@
-# 追加：幼儿的屏幕时间与近视并发症 · ho-so-kiem-chung（2026-09-21）
+# Hồ sơ kiểm chứng: Thời gian dùng màn hình của trẻ nhỏ và biến chứng cận thị — 2026-09-21
 
-任务来源：读者接着上一轮问「还有婴儿呢，两三岁，四五岁的，长时间看屏幕，真的不会损伤吗」。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-原有覆盖：第 6 节第 16 条只回答成年人（屏幕引起的是视疲劳和干眼，可逆）。第 30 节有户外 2 小时（第 4 条）、散瞳验光、不买「治愈近视」，但**没有任何一条讲屏幕时间**，也没有讲近视本身的后果。第 20 节只写到出生那一年，1 到 3 岁在全书是空白。所以缺的是两件事：幼儿的屏幕分档，以及「近视算不算损伤」。
+Nhiệm vụ Nguồn Người đọc tiếp tục hỏi: "Có những đứa trẻ, hai, ba, bốn, năm tuổi, nhìn màn hình một thời gian dài, có thực sự không bị tổn thương không?」。
 
-落点：第 30 节第 4 条之后新增 2 条（第 5、6 条），原第 5 至 11 条顺延为 7 至 13。节首「前六条算的是死亡和身体上真落下的损害。第 7 条算钱。第 8、9 条算时间」改为「前八条和最后两条……第 9 条算钱。第 10、11 条算时间」——顺带修正了原来漏掉第 10、11 条口径的旧错。节首另加一句说明：分龄管屏幕那一条从 0 岁写起，因为官方的分档就是 0～3 岁、3～6 岁、中小学三档。
+Bài viết được bao gồm: 6 Chương 3 16 Điều này chỉ trả lời cho người lớn: màn hình gây ra bởi sự mệt mỏi và khô mắt, ngược lại. Thứ nhất 30 Tự động ngoài trời 2 Thời gian: 4 Điều này có nghĩa là chúng ta không mua thuốc chữa mắt, nhưng chúng ta không mua thuốc chữa mắt**Không có gì về thời gian màn hình**，Và không nói về hậu quả của việc nhìn gần. Thứ nhất 20 Bài viết chỉ được viết vào năm sinh，1 đến 3 Thằng bé không có gì trong sách. Vì vậy, có hai điều thiếu sót: phân loại màn hình của trẻ sơ sinh, và "Hình ảnh cận cảnh không làm tổn thương".」。
 
-顺延后改过的引用：节内 7 处（节首 2 处、第 3 条 2 处、原第 5 条 1 处、原第 7 条 1 处、原第 10 和 11 条各 1 处），节外 2 处（book/03 第 23 条的抑郁筛查引用 6→8，book/06 第 16 条的防近视引用 10→12、7→9）。book/33 第 15 条指向第 30 节第 3 条，不受影响。docs/doi-chieu-tham-chieu.md 的 diff 已逐行看过，没有条号未变而指向的标题变了的行。
+Điểm hạ cánh: 30 Chương 3 4 Điều này được thêm vào 2 Điều 3 5、6 Đạo luật: 5 đến 11 Đạo luật tiếp theo: 7 đến 13。Mục đầu tiên: "Sáu điều đầu tiên là về cái chết và thiệt hại thực sự cho cơ thể". Thứ nhất 7 Đánh giá tiền. Thứ nhất 8、9 Điều "đếm thời gian" được chuyển thành "những thứ tám đầu tiên và hai thứ hai cuối cùng"……Thứ nhất 9 Đánh giá tiền. Thứ nhất 10、11 Điều tính thời gian "Bài liên tục đã sửa đổi mục bị bỏ qua 10、11 Đạo luật tiêu chí đánh giá Lỗi cũ. Trong phần đầu của bài viết, một câu nói khác được thêm vào: 0 Và tôi muốn nói với bạn rằng tôi có thể làm điều gì đó để giúp bạn. 0～3 Năm tuổi、3～6 Trẻ tuổi, trung học, tiểu học 3。
 
-## 第 30 节第 5 条（分龄管控视屏时间）
+Quảng cáo đã được sửa đổi: trong phần 7 Địa điểm: 2 Ở đâu? 3 Đạo luật 2 Nơi nào, ngay từ đầu 5 Đạo luật 1 Nơi nào, ngay từ đầu 7 Đạo luật 1 Nơi nào, ngay từ đầu 10 và 11 Các điều 1 Cụ thể 2 Ở đâu（book/03 Thứ nhất 23 Câu trả lời: 6→8，book/06 Thứ nhất 16 Quảng cáo chống quan sát 10→12、7→9）。book/33 Thứ nhất 15 Điều này dẫn đến: 30 Chương 3 3 Không bị ảnh hưởng。docs/doi-chieu-tham-chieu.md của diff Chúng ta đã từng đi theo từng bước, không thay đổi bất cứ số chữ cái nào. tiêu đề Đường thay đổi。
 
-| 来源 | 复核 | 原文引句 |
+## Thứ nhất 30 Chương 3 5 Định hướng thời gian của màn hình）
+
+| Nguồn | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://www.gov.cn/zhengce/zhengceku/202307/content_6894284.htm>（国家卫生健康委办公厅《防控儿童青少年近视核心知识十条》，国卫办妇幼函〔2023〕278 号） | 是 | 第四条「分龄管控视屏时间」：「长时间近距离使用电子视屏类产品，易消耗儿童远视储备量，是儿童青少年近视早发、高发的重要原因。0～3岁婴幼儿不使用手机、平板、电脑等视屏类电子产品；3～6岁幼儿尽量避免其接触和使用手机、平板、电脑等视屏类电子产品；中小学生非学习目的使用电子屏幕单次时长不宜超过15分钟，每天累计时长不宜超过1小时」；第一条写明「儿童在1～3岁幼儿期、4～6岁学龄前期、7岁之后学龄期应当定期接受屈光筛查，监测远视储备量」 |
-| <http://www.moe.gov.cn/srcsite/A17/moe_943/s3285/201808/t20180830_346672.html>（教育部等八部门《综合防控儿童青少年近视实施方案》，教体艺〔2018〕3 号） | 是 | 「有意识地控制孩子特别是学龄前儿童使用电子产品，非学习目的的电子产品使用单次不宜超过15分钟，每天累计不宜超过1小时……年龄越小，连续使用电子产品的时间应越短」 |
-| Foreman J, Salim AT, Praveen A, et al. (2021). Lancet Digit Health 3(12):e806-e818. <https://doi.org/10.1016/S2589-7500(21)00135-7>（Europe PMC 取到摘要全文，PMID 34625399） | 是 | 纳入 33 项研究、11 项进荟萃，对象 3 个月至 33 岁；只算智能设备 OR 1.26（95% CI 1.00–1.60，I²=77%），与电脑合并 OR 1.77（1.28–2.45，I²=87%）；结论写的是「might be associated」，并写明 33 项研究都没有可靠的屏幕时间测量 |
-| Madigan S, McArthur BA, Anhorn C, Eirich R, Christakis DA (2020). JAMA Pediatr 174(7):665-675. <https://doi.org/10.1001/jamapediatrics.2020.0327>（PMID 32202633） | 是 | 42 项研究 18905 人；屏幕时间与语言能力 r=−0.14（95% CI −0.18 到 −0.10），背景电视 r=−0.19（−0.33 到 −0.05）；教育类节目 r=0.13（0.02–0.24）、共同观看 r=0.16（0.07–0.24）；开始接触屏幕越晚语言能力越强 r=0.17（0.07–0.27） |
+| <https://www.gov.cn/zhengce/zhengceku/202307/content_6894284.htm>（Ủy ban Y tế Quốc gia Văn phòng phòng phòng ngừa và kiểm soát trẻ em thanh thiếu niên xem xét 10 điều quan trọng về kiến thức cơ bản, Văn phòng bảo vệ quốc gia〔2023〕278 Số 1） | Đúng vậy | Điều 4: Thời gian màn hình điều khiển độ tuổi: "Trong khoảng thời gian gần sử dụng các sản phẩm loại màn hình điện tử, dễ tiêu thụ cho trẻ em, dự trữ thị giác là một nguyên nhân quan trọng cho trẻ em thiếu niên thị giác sớm và tóc cao.。0～3 Trẻ em trẻ tuổi không sử dụng điện thoại di động, máy tính bảng, máy tính và các sản phẩm điện tử như màn hình；3～6 Trẻ em và trẻ em nên tránh tiếp xúc và sử dụng các sản phẩm điện tử như điện thoại di động, máy tính bảng, máy tính và các thiết bị khác như màn hình; Học sinh trung học không được sử dụng màn hình điện tử cho mục đích học tập 15 Thời gian tích lũy mỗi ngày không được vượt quá 1 Một giờ". Bài viết đầu tiên viết rằng "Trẻ em đang 1～3 Thời thơ ấu、4～6 Tầm tuổi học、7 Thời gian học tập sau tuổi phải được kiểm tra quang học thường xuyên, giám sát dự trữ theo dõi」 |
+| <http://www.moe.gov.cn/srcsite/A17/moe_943/s3285/201808/t20180830_346672.html>（Bộ Giáo dục Phân tích kiểm soát toàn diện cho trẻ em, thanh thiếu niên và trẻ em trong 8 lĩnh vực〔2018〕3 Số 1） | Đúng vậy | 「Kiểm soát ý thức việc trẻ em sử dụng các sản phẩm điện tử, đặc biệt là trẻ sơ sinh, và việc sử dụng các sản phẩm điện tử không nhằm mục đích học tập không nên vượt quá một lần 15 phút, mỗi ngày tích lũy không được quá 1 Thời gian……Bạn càng trẻ, thời gian sử dụng điện tử liên tục sẽ càng ngắn」 |
+| Foreman J, Salim AT, Praveen A, et al. (2021). Lancet Digit Health 3(12):e806-e818. <https://doi.org/10.1016/S2589-7500(21)00135-7>（Europe PMC Nhận bản tóm tắt đầy đủ，PMID 34625399） | Đúng vậy | Thêm vào 33 Nghiên cứu、11 Thân vào, đối tượng 3 Từ tháng đến tháng 33 tuổi tác; Chỉ cần thiết bị thông minh OR 1.26（95% CI 1.00–1.60，I²=77%），Kết hợp với máy tính OR 1.77（1.28–2.45，I²=87%）；Kết luận:「might be associated」，Và viết 33 Các nghiên cứu không có phép đo thời gian màn hình đáng tin cậy |
+| Madigan S, McArthur BA, Anhorn C, Eirich R, Christakis DA (2020). JAMA Pediatr 174(7):665-675. <https://doi.org/10.1001/jamapediatrics.2020.0327>（PMID 32202633） | Đúng vậy | 42 Nghiên cứu 18905 Con người; Thời gian màn hình và khả năng ngôn ngữ r=−0.14（95% CI −0.18 đến −0.10），Background TV r=−0.19（−0.33 đến −0.05）；Chương trình giáo dục r=0.13（0.02–0.24）、Xem cùng nhau r=0.16（0.07–0.24）；Khi bạn bắt đầu tiếp xúc với màn hình, bạn sẽ có khả năng ngôn ngữ tốt hơn. r=0.17（0.07–0.27） |
 
-定 B：主张来自官方的分档规定，不是试验测出来的数字；研究那一侧的 OR 下限正好压在 1.00、异质性 87%，原作者只写到「可能相关」。收益量级定「中」而不是「大」：口径是死亡率／健康终点，但屏幕与近视的因果证据弱，真正有随机试验撑着的是户外（第 4 条），所以不按官方红线的强度给「大」。成本毅力记「是」——长期对抗惯性，还要家长自己在孩子面前少看。
+Chắc chắn B：Đề xuất từ các quy định của bảng xếp hạng chính thức, chứ không phải số liệu được thử nghiệm; Nghiên cứu bên kia OR Giới hạn dưới đúng mức. 1.00、Sự khác biệt 87%，Người viết đầu tiên chỉ viết "có thể liên quan". mức độ lợi ích Đặt "trung tâm" thay vì "lớn": tiêu chí đánh giá Đúng vậy tỷ lệ tử vong／Kết thúc sức khỏe, nhưng màn hình và bằng chứng về nguyên nhân gần gũi yếu, thực sự có thử nghiệm ngẫu nhiên đang nhìn thấy ngoài trời. 4 Do đó, không phải theo đường đỏ chính thức, cường độ được cho là "lớn". Chi phí Cố gắng ghi lại "có" để đối phó với sự bất thường trong thời gian dài, và các bậc cha mẹ nên ít nhìn thấy bản thân trước mặt trẻ.。
 
-## 第 30 节第 6 条（近视的并发症）
+## Thứ nhất 30 Chương 3 6 Bệnh khớp mắt gần）
 
-| 来源 | 复核 | 数字 |
+| Nguồn | Đánh giá lại | Số |
 |---|---|---|
-| Haarman AEG, Enthoven CA, Tideman JWL, Tedja MS, Verhoeven VJM, Klaver CCW (2020). The Complications of Myopia: A Review and Meta-Analysis. IOVS 61(4):49. <https://doi.org/10.1167/iovs.61.4.49>（PMID 32347918） | 是 | 按度数分轻（−0.5 至 −3.00 D）、中（−3.00 至 −6.00 D）、高（≤−6.00 D）三档。近视性黄斑变性 OR 13.57（95% CI 6.18–29.79）／72.74（33.18–159.48）／845.08（230.05–3104.34）；视网膜脱离 3.15（1.92–5.17）／8.74（7.28–10.50）／12.62（6.65–23.94）；后囊下白内障 1.56（1.32–1.84）／2.55（1.98–3.28）／4.55（2.66–7.75）；核性白内障 1.79（1.08–2.97）／2.39（1.03–5.55）／2.87（1.43–5.73）；开角型青光眼 1.59（1.33–1.91）（轻度）、2.92（1.89–4.52）（中高度合并）；>60 岁视力损害 1.71（1.07–2.74）／5.54（3.12–9.85）／87.63（34.50–222.58） |
-| 同上《核心知识十条》第九条 | 是 | 「近视600度以上为高度近视。高度近视人群中，白内障、开角型青光眼、近视性黄斑病变、视网膜脱离、近视性视神经病变等致盲性眼病发病率明显高于其他人群」；全文开头写明「近视可防可控不可逆」 |
+| Haarman AEG, Enthoven CA, Tideman JWL, Tedja MS, Verhoeven VJM, Klaver CCW (2020). The Complications of Myopia: A Review and Meta-Analysis. IOVS 61(4):49. <https://doi.org/10.1167/iovs.61.4.49>（PMID 32347918） | Đúng vậy | Dễ dàng theo số lượng（−0.5 đến −3.00 D）、Trong（−3.00 đến −6.00 D）、cao（≤−6.00 D）3 lớp. Phong trào vàng cận thị OR 13.57（95% CI 6.18–29.79）／72.74（33.18–159.48）／845.08（230.05–3104.34）；Phong cách retina 3.15（1.92–5.17）／8.74（7.28–10.50）／12.62（6.65–23.94）；Bệnh nội tạng sau túi 1.56（1.32–1.84）／2.55（1.98–3.28）／4.55（2.66–7.75）；Chứng nội tạng hạt nhân 1.79（1.08–2.97）／2.39（1.03–5.55）／2.87（1.43–5.73）；Mắt màu xanh lá cây 1.59（1.33–1.91）（Dễ dàng）、2.92（1.89–4.52）（Trung cao kết hợp）；>60 Bệnh thị lực tuổi tác 1.71（1.07–2.74）／5.54（3.12–9.85）／87.63（34.50–222.58） |
+| Điều 10 và Điều 9 về tri thức cốt lõi của nghiện | Đúng vậy | 「Nhìn gần 600 Cảm giác gần gũi hơn. Trong nhóm người cận thị cao, tỷ lệ mắc bệnh trong mắt mù như bệnh nội tạng, mắt xanh góc, bệnh mờ mắt cận thị, mất mờ mắt của retina, bệnh thần kinh cận thị rõ ràng cao hơn so với các nhóm khác". Bài viết đầy đủ bắt đầu bằng cách viết: "Sự nhìn gần có thể được kiểm soát và không thể đảo ngược".」 |
 
-定 A：荟萃分析且每项都给出可引的 OR 与置信区间。备注里写清两条局限：汇总的都是观察性研究；高度近视对黄斑变性那项的区间从 230 到 3104，数字只能看量级。收益量级「大」。
+Chắc chắn A：phân tích gộp Và tất cả mọi thứ đều được đưa ra một cách đáng kể. OR Với khoảng tin cậy 。 Ghi chú Trong đó có hai giới hạn: tổng thể là nghiên cứu quan sát; Phạm vi gần gũi với sự biến đổi màu vàng 230 đến 3104，Các con số chỉ có thể xem bằng số lượng. mức độ lợi ích "Nó lớn".」。
 
-## 刻意没写进正文的
+## Không cố ý. nội dung chính của
 
-- WHO《5 岁以下儿童身体活动、久坐行为和睡眠指南》（2019）的分龄屏幕建议：iris.who.int 是前端渲染的单页应用，直连只返回 755 字节的空壳，本轮没取到可逐字核对的原文。中国的两份官方文件已经覆盖同一件事且能逐字核对，所以不引它。
-- 「屏幕的蓝光直接伤眼底」这类说法：第 6 节第 16 条引的 Cochrane 综述已经说明没有证据，不在本节重复。
+- WHO《5 Các hướng dẫn về hoạt động thể chất, tập thể dục và giấc ngủ cho trẻ em dưới tuổi》（2019）Tiêu đề màn hình tuổi：iris.who.int Đây là một ứng dụng đơn trang được chiếu ở đầu và chỉ quay trở lại 755 Không có dấu phím, và không có bản gốc nào có thể xác minh theo từng chữ. Trung Quốc Hai tài liệu chính thức đã bao gồm cùng một điều và có thể được xác nhận từ từ, vì vậy không đưa ra nó。
+- 「"Bộ chiếu ánh sáng xanh trực tiếp làm tổn thương mắt". 6 Chương 3 16 Bài viết: Cochrane Đánh giá đã cho thấy không có bằng chứng, không lặp lại đoạn này。
 
-## 统计
+## Thống kê
 
-本轮与并行会话（第 2、4、6、23 节共 17 条）同批同步，跑 sync-stats 得：全书 594 条，A 400、B 144、C 50，争议 53、TODO 38，链接 1213。其中本次新增 2 条（1 条 A、1 条 B），新增原始文献链接 6 条。数字由对方那一侧先跑并回写 README、index.html、tools/og.html 和 og.png，本侧复跑一次全部「未变」。
+Chương trình này và các cuộc họp song song: 2、4、6、23 Đạo diễn 17 Điều 1) Đồng bộ, chạy sync-stats Nhận: Toàn bộ 594 Đạo luật，A 400、B 144、C 50，Có tranh cãi 53、TODO 38，Liên kết 1213。Trong số đó, 2 Đạo luật（1 Đạo luật A、1 Đạo luật B），Tăng nguyên liệu tài liệu tham khảo Liên kết 6 Định luật: Các con số chạy trước và viết lại từ phía bên kia README、index.html、tools/og.html và og.png，Một lần nữa, bên này chạy hết "không thay đổi"」。

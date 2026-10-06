@@ -1,29 +1,31 @@
-# 追加：「要不要死记硬背」· ho-so-kiem-chung（2026-09-21）
+# Hồ sơ kiểm chứng: Có nên học thuộc máy móc — 2026-09-21
 
-任务来源：读者问「有没有加关于要不要死记硬背的内容」。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-原有覆盖：第 23 节第 14 至 18 条（并行会话同日新增）讲的是**怎么学**——合上书自测、把时间摊到几天、别把划重点和反复读当主力、几种题型混着练、学习风格没有证据。没有一条正面回答**要不要背**。而且第 16 条容易被读反：它否掉的是「反复读、抄书」这种反复输入，不是否掉「背」。日常说的「死记硬背」两种意思混在一起（反复输入 vs 主动提取），不拆开就答不清楚。
+Nhiệm vụ Nguồn Người đọc hỏi: "Có bất kỳ nội dung nào về việc không nên chết để ghi lại những điều khó khăn không?"」。
 
-落点：第 23 节末尾新增 1 条（第 19 条），不涉及条号顺延。节内引用 3 处，都是新条目自己指向第 14、15、16 条，对照表 diff 里只有这三行新增，没有被撞歪的。
+Bài viết được bao gồm: 23 Chương 3 14 đến 18 Điều này được bổ sung vào cùng một ngày.**Cách học**——Làm việc tự kiểm tra, phân thời gian trong vài ngày, không tập trung và đọc nhiều lần như là chủ yếu, làm việc với nhiều chủ đề, phong cách học không có bằng chứng. Không có câu trả lời tích cực**Đừng quay lưng lại**。Và 16 Điều này dễ dàng được đọc lại: nó không bị loại bỏ là "đọc lại, sao chép lại" như vậy, không bị loại bỏ "cái lại". Những gì chúng ta thường nói là "người chết với cái lưng cứng" là sự trộn lẫn giữa hai ý nghĩa. vs Tự động khai thác), không giải phóng không rõ。
 
-## 第 23 节第 19 条
+Điểm hạ cánh: 23 Kết thúc chương trình 1 Điều 3 19 (b) không liên quan đến số chương tiếp theo. Lời trích dẫn trong đoạn 3 Mọi thứ đều mới. mục Bản thân mình chỉ ra đoạn 14、15、16 Bảng kiểm tra diff Trong đó, chỉ có ba dòng mới được thêm vào mà không bị trục trặc.。
 
-| 文献 | 复核 | 数字 |
+## Thứ nhất 23 Chương 3 19 Đạo luật
+
+| tài liệu tham khảo | Đánh giá lại | Số |
 |---|---|---|
-| Pan SC, Rickard TC (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. Psychological Bulletin 144(7):710-756. <https://doi.org/10.1037/bul0000151>（Europe PMC 取到摘要全文，PMID 29733621） | 是 | 67 篇已发表与未发表文章、122 个实验、192 个迁移效应量，N=10382；随机效应模型下相对于「再次接触但不测验」的对照，d=0.40（95% CI 0.31–0.50）。迁移最强：跨测验形式、应用与推理题、医学诊断类问题、中介词与相关词线索；最弱：重排的刺激—反应项、初学时见过但未被测验的材料、例题类问题。调节因素：作答形式一致性、精细化提取练习、初次测验成绩。用 PET-PEESE 和多种选择模型做发表偏倚校正后，调节因素的效应量受影响很小，但截距预测被明显压低，「常常表明在上述调节因素都不具备时没有正向迁移」 |
+| Pan SC, Rickard TC (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis. Psychological Bulletin 144(7):710-756. <https://doi.org/10.1037/bul0000151>（Europe PMC Nhận bản tóm tắt đầy đủ，PMID 29733621） | Đúng vậy | 67 Bài viết được xuất bản và chưa xuất bản、122 Một thí nghiệm、192 Tỷ lệ tác động di chuyển，N=10382；Trong mô hình hiệu ứng ngẫu nhiên tương đối với "sự tiếp xúc lại nhưng không kiểm tra".，d=0.40（95% CI 0.31–0.50）。Di chuyển mạnh nhất: hình thức thử nghiệm xuyên, ứng dụng với các vấn đề lý luận, các vấn đề chẩn đoán y tế, từ trung gian và tín hiệu từ liên quan; Điểm yếu nhất: các câu hỏi về phản ứng thổi phồng kích thích, các vấn đề về vật liệu chưa được thử nghiệm trong trường tiểu học. Các yếu tố điều chỉnh: sự phù hợp của hình thức câu trả lời, tinh tế rút tập luyện, kết quả thử nghiệm đầu tiên. Được sử dụng PET-PEESE Với nhiều mô hình lựa chọn được đưa ra các chỉnh sửa thiên vị, hiệu quả của các yếu tố điều chỉnh bị ảnh hưởng rất nhỏ, nhưng dự đoán khoảng cách bị giảm đáng kể, "thường cho thấy không di chuyển đúng hướng khi không có các yếu tố điều chỉnh trên.」 |
 
-定 A：荟萃分析，效应量与置信区间可逐字核对，还自带发表偏倚校正。收益量级「中」，口径时间——它不省时间，是提高同样时间的产出，与同簇的第 14、15、16 条口径一致。成本毅力记「些」：要改的是练法，不是加量。
+Chắc chắn A：phân tích gộp Tỷ lệ tác dụng khoảng tin cậy Có thể xác nhận theo từng chữ, cũng như tự đưa ra sự điều chỉnh thiên vị. mức độ lợi ích "Phần trung" tiêu chí đánh giá Thời gian làm cho nó không tiết kiệm thời gian, là tăng sản lượng của thời gian tương tự, với số đồng thời 14、15、16 Đạo luật tiêu chí đánh giá Thỏa thuận. Chi phí Cố gắng ghi lại "một số": thay đổi là cách luyện tập, không phải tăng cân。
 
-证据支持的结论是**按将来要用的形式去提取**，不是背与不背的二选一。截距被压低那一段必须写进收益栏——它正是「原样背、练法和考法错位」时迁移可能为零的直接依据，删掉就会把这条读成「背了都能用出去」。
+Kết luận được chứng minh là:**Quá trình khai thác theo các hình thức trong tương lai**，Không phải là sự lựa chọn thứ hai. Những đoạn cắt đứt phải được viết vào mục lợi ích Đặt nó là "sự trượt ngược, thực hành sai lệch và sai lệch" khi di chuyển có thể là một cơ sở trực tiếp không, và xóa nó sẽ đọc như "sự trượt ngược đều có thể được sử dụng ra".」。
 
-**标题返工一次（当天）**：初稿写成「『要不要死记硬背』问错了：该背的照背，但要按将来用的形式背」，用户当场指出这是在回答提问的人，不是在给读者写建议——读者手里没有这个问题，「问错了」没有指向。条目格式本来就要求标题是一句动词开头的建议。改成「要背的内容按将来的用法出题考自己，别原样背一遍就算完」，说人话末尾的「所以该问的不是背不背，是按什么形式背」和备注里「日常骂的『死记硬背』……挨骂不冤」一并删掉，同样是对着提问者说话、还带评价口吻。收益栏、证据等级、来源未动。
+**tiêu đề Một ngày trở về làm việc）**：Bài viết đầu tiên viết rằng: "Đừng chết ghi lại đằng sau cứng" hỏi sai: đằng sau đằng sau, nhưng theo hình thức sử dụng trong tương lai", người dùng cho biết đó là người trả lời câu hỏi, không phải là người viết cho người đọc để khuyên rằng không có vấn đề này trong tay người đọc. mục Mô hình đã yêu cầu tiêu đề Đó là lời khuyên bắt đầu từ động từ. Trong khi đó, người ta đã thay đổi nó thành "những nội dung mà bạn muốn làm, hãy tự kiểm tra nó theo cách bạn sẽ sử dụng trong tương lai, và đừng lặp lại nó một lần nữa". Giải thích dễ hiểu Cuối cùng, "Vì vậy, câu hỏi không phải là về mặt lưng, nhưng về hình dạng của lưng" và Ghi chú Trong bài viết này, ông viết:』……"Bất cứ điều gì có thể xảy ra, chúng ta cũng không thể làm được điều đó". mục lợi ích 、 Mức độ bằng chứng 、 Nguồn Không hoạt động。
 
-改备注时踩了一次 `tools/check-refs.mjs` 的坑：它会跳过「第 N 条」前 16 个字里出现「法」「办法」「规定」等字样的引用（那多半是法条条款号）。返工后的备注里写了「排队的综述里排最低一档，见第 16 条」「说的做法，也要分几天做，见第 15 条」，「学法」「做法」正好落进这个窗口，三处节内引用被静默吞掉、从对照表里消失，而 `--check` 因为无引用可查反而显示通过。靠对照表少了三行才发现。措辞改成「想看评级本身见第 16 条」「具体见第 14 条」「而且要分几天做，见第 15 条」之后，423 处恢复。本节主题就是学习方法，「学法」「做法」高频，写这一节的引用时要专门避开。
+Thay đổi Ghi chú Một bước đi `tools/check-refs.mjs` Crater: nó sẽ trượt qua N Trước "" 16 Những từ như "lề luật", "cách thức", "các quy định" (đối đa là số điều khoản của điều luật) xuất hiện trong các từ. Sau khi trở về làm việc Ghi chú Trong bài viết này, nó viết rằng: "Điều ít nhất trong phân tích xếp hàng, xem mục 16 Bài viết: "Điều mà bạn nói, bạn cũng nên làm trong vài ngày. 15 "Điều học" và "hành vi" nằm ngay trong cửa sổ này, khi các tài khoản trong ba đoạn được ngâm lặng, biến mất khỏi bảng điều khiển. `--check` Bởi vì không có tài liệu tham khảo mà chỉ ra thông qua。 Trong khi đó, nó đã được phát hiện bởi một bảng kiểm tra ít hơn ba dòng. Từ ngữ được chuyển thành "Hãy xem đánh giá chính nó" 16 Điều "Còn cụ thể, xem mục 14 Điều "và sẽ được làm trong vài ngày, xem đoạn 15 Sau ""，423 Tôi đã hồi phục. Chủ đề của phần này là phương pháp học tập, "các cách học" và "các cách thực hành" thường xuyên, nên đặc biệt tránh khi trích dẫn phần này.。
 
-## 没有写进去的
+## Không viết vào
 
-「有些基础内容必须背，因为它是后续能力的底座」这一半（背景知识对理解的作用、基础事实自动化腾出工作记忆）本轮没有找到能逐字核对的荟萃分析级来源，按仓库规矩宁可不写，没有凑 C 级。
+「Một số nội dung cơ bản phải trở lại, bởi vì nó là nền tảng của khả năng tiếp theo". phân tích gộp cấp độ Nguồn Theo quy tắc của kho, bạn không nên viết, bạn không nên viết. C cấp độ。
 
-## 统计
+## Thống kê
 
-全书 594 → 595 条，A 级 400 → 401，B 级 144、C 级 50 不变；争议 53、TODO 38 不变；链接 1213 → 1214；性价比极高 106、高 272 不变，一般 216 → 217。README、index.html、tools/og.html 已回写，og.png 已重出。
+Tất cả sách 594 → 595 Đạo luật，A cấp độ 400 → 401，B cấp độ 144、C cấp độ 50 Không thay đổi; Có tranh cãi 53、TODO 38 Không thay đổi; Liên kết 1213 → 1214；Giá cả rất cao 106、cao 272 Không thay đổi. 216 → 217。README、index.html、tools/og.html Được viết lại，og.png Đã xuất hiện lại。

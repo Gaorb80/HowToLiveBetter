@@ -1,59 +1,61 @@
-# 第 34 节：家里的常备药别吃出事
+# Hồ sơ kiểm chứng: Thuốc dự phòng gia đình đừng uống bừa gây họa — 34
 
-2026-09-29。起因是 issue #43，读者提议加「非处方药物使用指南」，想让书回答解热镇痛、肠胃用药、感冒三块。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-先查了已有覆盖：全书讲非处方药的只有两处。第 2 节戒烟药那条提到尼古丁替代品是非处方药，第 28 节讲了处方药与非处方药的分类销售规定。没有一条讲这些药自己买来怎么吃才不出事。和用户确认后新开第 34 节。
+2026-09-29。Do đó, issue #43，Người đọc đề xuất thêm "Thông huấn sử dụng thuốc không kê đơn" để trả lời 3 câu trả lời cho cơn đau nóng bỏng, thuốc tiêu hóa và cảm lạnh.。
 
-定位：不写成用药手册，不讲每种病该吃什么药。只收「一个动作就能避开重后果」的条目，共 9 条。口径全部是死亡率（含肝衰竭、胃出血、新生儿肾衰竭这类健康终点）。
+Trước đó, kiểm tra đã được bao gồm: toàn bộ sách chỉ nói về hai loại thuốc không kê toa. Thứ nhất 2 Lệnh cấm hút thuốc nói về thuốc thay thế nicotine không phải là thuốc theo toa, 28 Chương trình giải thích quy định phân loại bán hàng thuốc theo toa và thuốc không theo toa. Không có người nào nói rằng họ mua thuốc để ăn mà không có vấn đề gì. và mở mới sau khi người dùng xác nhận 34 Chương 3。
 
-## 来源逐条核对
+Định vị: Không được viết trong cuốn sách sử dụng thuốc, không nói về loại thuốc nên dùng cho mỗi bệnh. "Một hành động có thể tránh được hậu quả". mục  9 Định luật: tiêu chí đánh giá Tất cả đều là tỷ lệ tử vong (Những kết thúc sức khỏe này bao gồm suy gan, chảy máu dạ dày, suy gan trẻ sơ sinh)）。
 
-### 中文官方文件（全部逐字取到原文）
+## Nguồn Kiểm tra từng đoạn
 
-nmpa.gov.cn 用 Invoke-WebRequest 仍是 412，但**无头 Chrome 带代理能取到渲染后的正文**，附件 docx 用 curl 带代理、浏览器 UA 和 Referer 能直接下。
+### Tiếng Trung Các tài liệu chính thức được lấy từ văn bản）
 
-| 文件 | 取法 | 用在 | 核对到的原文要点 |
+nmpa.gov.cn Được sử dụng Invoke-WebRequest vẫn còn 412，Nhưng**Không có đầu Chrome Người dùng có thể lấy nó sau khi chiếu phim nội dung chính**，Phụ lục docx Được sử dụng curl Với đại diện, trình duyệt UA và Referer Tôi có thể trực tiếp xuống。
+
+| Tài liệu | Sử dụng | Được sử dụng | Điểm gốc được kiểm tra |
 | --- | --- | --- | --- |
-| 国家药监局 2020 年第 15 号公告（对乙酰氨基酚说明书修订） | 湖南省药监局转载页 + 附件 2 的 .doc，antiword 取全文 | 第 1 条 | 附件 2（非处方药）注意事项第 3 项「建议对乙酰氨基酚口服一日最大量不超过2克」；第 4 项「应尽量避免合并使用含有对乙酰氨基酚或其他解热镇痛药的药品，以避免药物过量或导致毒性协同作用」；不良反应项「过量使用对乙酰氨基酚可引起严重肝损伤」。**附件里没有饮酒的规定**，喝酒那句改引美国法规 |
-| 国食药监安〔2011〕209 号（尼美舒利口服制剂使用管理） | nmpa 原页，无头 Chrome | 第 2 条 | 「尼美舒利口服制剂禁止用于12岁以下儿童」；二线用药、最大单次 100mg、疗程不超过 15 天 |
-| 国家药监局 2020 年第 34 号公告（安乃近相关品种说明书修订） | nmpa 原页 + 附件 1 至 3 的 docx | 第 2 条 | 安乃近片、复方青蒿安乃近片、重感灵片（胶囊）三份修订要求都有「本品禁用于18岁以下青少年儿童」；安乃近片警示语「本品一般不作为首选用药，仅在病情急重，且无其他有效药品治疗的情况下使用」；不良反应含粒细胞缺乏症、再生障碍性贫血、过敏性休克 |
-| 国家药监局 2021 年第 57 号公告（氨酚麻美口服溶液等 14 个品种说明书修订） | nmpa 原页 + 附件 .doc | 第 4 条 | 14 个品种名单逐字；警示语「不建议家长或监护人自行给2岁以下婴幼儿使用本品，应在医师或药师的指导下使用」；注意事项新增「应严格按照药品说明书用法用量使用，避免用药过量」，并把旧句改为「应避免合并使用含有相同或相似活性成份的抗感冒药」 |
-| 国家药监局 2022 年第 68 号公告（奥美拉唑肠溶片转非处方药）及附件 2 说明书范本 | nmpa 原页 + 附件 docx | 第 6 条 | 适应症「用于胃酸过多引起的烧心和反酸症状的短期缓解」；注意事项第 1 项「使用不得超过7天」、第 2 项「两个月以内不得再次服用」、第 3 项吞咽困难或疼痛、呕血、便血或黑便请勿使用；第 13 项报警症状与排除恶性肿瘤；第 18 项避免与氯吡格雷联用；第 29 项 55 岁以上症状新出现或变化应咨询医生 |
+| Cơ quan quản lý dược phẩm quốc gia 2020 Năm thứ 1 15 Thông báo số: paracetamol Quá trình sửa đổi） | Văn phòng quản lý thuốc của tỉnh Hunan + Phụ lục 2 của .doc，antiword lấy toàn văn bản | Thứ nhất 1 Đạo luật | Phụ lục 2（Không kê đơn thuốc) Lưu ý 3 Đề nghị paracetamol Không được dùng nhiều hơn một ngày 2 "X" và "X" Thứ nhất 4 "Điều tốt nhất để tránh sử dụng kết hợp có chứa paracetamol hoặc các loại thuốc làm giảm đau nhiệt để tránh quá nhiều thuốc hoặc gây tác động đồng tác độc hại". Phản ứng xấu: "Việc sử dụng quá mức" paracetamol Có thể gây tổn thương gan nghiêm trọng」。**Không có quy định về uống rượu trong phụ lục**，Việc uống rượu thay đổi quy định của Hoa Kỳ |
+| Cơ quan quản lý thực phẩm quốc gia〔2011〕209 Địa điểm: nimesulide Quản lý sử dụng thuốc uống） | nmpa Trang gốc, không có đầu Chrome | Thứ nhất 2 Đạo luật | 「nimesulide Thuốc uống bị cấm sử dụng 12 trẻ em dưới tuổi"; Tiêu chuẩn sử dụng thuốc thứ hai, tối đa một lần 100mg、Điều trị không quá 15 Thiên Đàng |
+| Cơ quan quản lý dược phẩm quốc gia 2020 Năm thứ 1 34 Thông báo số: metamizole sửa đổi hướng dẫn giống liên quan） | nmpa Trang đầu tiên + Phụ lục 1 đến 3 của docx | Thứ nhất 2 Đạo luật | metamizole Trẻ, nếp nhượng ếch metamizole Các viên thuốc, viên thuốc cảm ứng nặng, capsules) 3 yêu cầu sửa đổi đều có: "Sản phẩm bị cấm sử dụng". 18 trẻ em vị thành niên dưới tuổi"; metamizole Lời cảnh báo: "Sản phẩm này thường không được sử dụng như một loại thuốc ưu tiên, chỉ trong trường hợp bệnh nặng và không có phương pháp điều trị có hiệu quả khác". Phản ứng không tốt: thiếu tế bào hạt, thiếu máu có thể tái sinh, tình trạng dị ứng |
+| Cơ quan quản lý dược phẩm quốc gia 2021 Năm thứ 1 57 Thông báo số: Aminoaminoaminoaminoaminoaminoaminoaminoaminoaminoaminoaminoaminoaminoaminoaminoam 14 sửa đổi hướng dẫn giống） | nmpa Trang đầu tiên + Phụ lục .doc | Thứ nhất 4 Đạo luật | 14 Một danh sách giống theo từng chữ; Lời cảnh báo: "Đừng khuyến cáo cha mẹ hoặc người giám hộ tự cung cấp 2 Trẻ sơ sinh dưới tuổi sử dụng sản phẩm này nên được sử dụng theo hướng dẫn của bác sĩ hoặc dược sĩ". Lưu ý mới: "Được sử dụng nghiêm ngặt theo quy định sử dụng của hướng dẫn sử dụng thuốc, tránh sử dụng quá mức thuốc" và thay đổi câu cũ thành "Được tránh kết hợp sử dụng thuốc chống cảm lạnh có chứa các thành phần hoạt tính tương tự hoặc tương tự".」 |
+| Cơ quan quản lý dược phẩm quốc gia 2022 Năm thứ 1 68 Thông báo số: omeprazole Các loại thuốc không kê đơn và phụ kiện 2 Mô hình sách giải thích | nmpa Trang đầu tiên + Phụ lục docx | Thứ nhất 6 Đạo luật | bệnh thích ứng "sự giảm bớt ngắn hạn các triệu chứng đau tim và chống acid gây ra bởi quá nhiều axit dạ dày"; Lưu ý: 1 "Không được sử dụng nhiều hơn" 7 Thiên Đàng. 2 "Không được dùng lại trong vòng 2 tháng" 3 Không được sử dụng khi khó tiêu thụ hoặc đau đớn, chảy máu, chảy máu hoặc đen; Thứ nhất 13 Các triệu chứng cảnh báo và loại bỏ các khối u độc hại; Thứ nhất 18 Tránh sử dụng liên kết với Grey; Thứ nhất 29 Các mục 55 Những triệu chứng mới hoặc thay đổi trên tuổi tuổi nên gặp bác sĩ |
 
-网上流传的「2025 年起 2 岁以下儿童禁用含可待因、右美沙芬的止咳药」只在二手转述里看到，没找到药监局原文，**没写**。吉林省药监局科普页（转载自微信公众号）列的「阿司匹林 16 岁以下慎用、赖氨匹林 3 个月以下禁用」「柴胡注射液儿童禁用」同样因为只有公众号转载，**没写**。
+Những thông tin trên mạng「2025 Năm tháng 2 Bệnh cấm trẻ em dưới tuổi có nguyên nhân có thể được sử dụng, thuốc chống khô cough " chỉ được xem trong bản sao sử dụng, không tìm thấy nguồn gốc của Cơ quan Y tế.，**Không viết**。Cảnh sát Chứng khoán Dược phẩm Girin (CAP) tài khoản công khai WeChat "Bạn có thể làm được gì?" aspirin 16 Lưu ý: 3 Thiết bị cấm trong vòng một tháng "Chính sách cấm cho trẻ em tiêm thuốc cho trẻ em" cũng được đăng tải bởi số công chúng.，**Không viết**。
 
-### 美国法规与监管文件
+### Các quy định và quy định của Hoa Kỳ
 
-| 文件 | 用在 | 核到的原文 |
+| Tài liệu | Được sử dụng | Nguồn gốc |
 | --- | --- | --- |
-| 21 CFR 201.326(a)(1)(iii)(A)，eCFR 现行版 | 第 1 条 | 成人用对乙酰氨基酚非处方药的 Liver warning，必须是 Warnings 下的第一条；三种情形：超过 24 小时最大量、with other drugs containing acetaminophen、3 or more alcoholic drinks every day |
-| 21 CFR 201.326(a)(2)(iii)(A) | 第 3 条 | Stomach bleeding warning 的六种情形：age 60 or older；stomach ulcers or bleeding problems；blood thinning (anticoagulant) or steroid drug；other drugs containing NSAIDs；3 or more alcoholic drinks every day；take more or for a longer time than directed |
-| FDA Drug Safety Communication 2020-10-15（NSAIDs 与孕 20 周） | 第 5 条 | 20 周以后可致胎儿肾功能问题与羊水过少；覆盖处方和 OTC；FAERS 截至 2017-07-21 共 35 例，全部严重，5 例新生儿死亡且均伴新生儿肾衰竭；多数停药后 72 小时到 6 天恢复；81 mg 小剂量阿司匹林例外；OTC 标签原先只警告最后 3 个月；「Many OTC medicines contain NSAIDs, including those used for pain, colds, flu, and insomnia」；「Other medicines, such as acetaminophen, are available」 |
+| 21 CFR 201.326(a)(1)(iii)(A)，eCFR Bản hiện tại | Thứ nhất 1 Đạo luật | Người lớn paracetamol Không kê đơn thuốc Liver warning，Nó phải là Warnings Điều 1 sau đây; 3 tình huống: hơn 24 Số giờ tối đa、with other drugs containing acetaminophen、3 or more alcoholic drinks every day |
+| 21 CFR 201.326(a)(2)(iii)(A) | Thứ nhất 3 Đạo luật | Stomach bleeding warning 6 tình huống：age 60 or older；stomach ulcers or bleeding problems；blood thinning (anticoagulant) or steroid drug；other drugs containing NSAIDs；3 or more alcoholic drinks every day；take more or for a longer time than directed |
+| FDA Drug Safety Communication 2020-10-15（NSAIDs Với thai nhi 20 Tuần） | Thứ nhất 5 Đạo luật | 20 Những vấn đề về chức năng thai nhi và ít nước cừu có thể gây ra sau một tuần; Bao gồm các loại thuốc và OTC；FAERS Tới 2017-07-21 Nhìn chung 35 Ví dụ, tất cả đều nghiêm trọng，5 Các trường hợp trẻ sơ sinh chết và bị suy sương trong thai nhi; Sau khi ngừng dùng thuốc 72 Giờ đã đến rồi. 6 Đời trở lại；81 mg Tiêu chuẩn nhỏ aspirin ngoại lệ；OTC Đánh dấu chỉ cảnh báo cuối cùng 3 Một tháng；「Many OTC medicines contain NSAIDs, including those used for pain, colds, flu, and insomnia」；「Other medicines, such as acetaminophen, are available」 |
 
-### 英文文献（Europe PMC 取摘要原文）
+### Tiếng Anh tài liệu tham khảo（Europe PMC Bài viết bắt nguồn）
 
-| 文献 | 用在 | 核到的数字 |
+| tài liệu tham khảo | Được sử dụng | Số lượng hạt nhân |
 | --- | --- | --- |
-| Larson 2005, Hepatology 42(6):1364-1372, doi:10.1002/hep.20948 | 第 1 条 | 22 家中心、6 年、662 例急性肝衰竭；275 例（42%）为对乙酰氨基酚；中位剂量 24 g；非故意 131 例（48%）；非故意组 38% 同时服两种以上制剂；65% 存活、27% 未移植死亡、8% 移植 |
-| Belay 1999, NEJM 340(18):1377-1382, doi:10.1056/NEJM199905063401801 | 第 2 条 | 1981—1997 年 18 岁以下 1207 例；1980 年高峰 555 例，1987 年起每年不超过 36 例；82% 血水杨酸可测；病死率 31%；1980 年开始发布水杨酸类药警告 |
-| CNT Collaboration 2013, Lancet 382(9894):769-779, doi:10.1016/S0140-6736(13)60900-9 | 第 3 条 | 280 项 NSAID 对安慰剂试验、124513 人；上消化道并发症 ibuprofen 3.97（2.22–7.10）、naproxen 4.22（2.71–6.56）、diclofenac 1.89（1.16–3.09）；所有 NSAID 心衰风险约翻倍；结论讲的是 high-dose |
-| Smith 2014, Cochrane CD001831.pub5 | 第 4 条 | 29 项试验（19 成人、10 儿童）；儿童中止咳药、抗组胺药、抗组胺加减充血剂、止咳加支气管扩张剂均不优于安慰剂；21 项报告不良反应，含抗组胺药和右美沙芬者更多；蜂蜜一项试验优于安慰剂；未合并 |
-| Kenealy 2025, Cochrane CD000247.pub4 | 第 7 条 | 摘要写「For this 2013 update」；普通感冒 6 项 1147 人 RR 0.83（0.60–1.14）；不良反应 1.8（1.01–3.21），成人 2.62（1.32–5.18），儿童 0.91（0.51–1.63）；脓性鼻炎 0.73（0.47–1.13），不良反应 1.46（1.10–1.94） |
-| Hahn 2002, Cochrane CD002847 | 第 8 条 | 8 项试验，低渗对标准口服补液盐的计划外静脉输液 OR 0.59（0.45–0.79） |
-| ICHD-3（Cephalalgia 2018, doi:10.1177/0333102417738202）在线版 8.2、8.2.3、8.2.5 | 第 9 条 | 8.2 每月头痛 ≥15 天、过量 >3 个月；8.2.3 非阿片镇痛药 ≥15 天/月，多种非阿片镇痛药累计算；8.2.5 复方镇痛药 ≥10 天/月，复方定义含咖啡因这类辅助成分；「more than half of people with headache on 15 or more days/month have」MOH；多数停药后改善、预防治疗反应变好 |
+| Larson 2005, Hepatology 42(6):1364-1372, doi:10.1002/hep.20948 | Thứ nhất 1 Đạo luật | 22 Trung tâm nhà、6 Năm、662 Cụ thể suy gan cấp tính；275 Ví dụ（42%）Đối với paracetamol ； liều trung bình 24 g；Không cố ý 131 Ví dụ（48%）；Nhóm không cố ý 38% + 2 loại thuốc cùng lúc；65% sống sót、27% Người chết không được cấy ghép、8% Cấy ghép |
+| Belay 1999, NEJM 340(18):1377-1382, doi:10.1056/NEJM199905063401801 | Thứ nhất 2 Đạo luật | 1981—1997 Năm 18 Thanh niên 1207 Ví dụ；1980 Tốc độ cao nhất 555 Ví dụ，1987 Năm lên không quá năm 36 Ví dụ；82% Phân tích acid trong máu; Tỷ lệ tử vong 31%；1980 Năm bắt đầu ra cảnh báo về thuốc hydrochloric acid |
+| CNT Collaboration 2013, Lancet 382(9894):769-779, doi:10.1016/S0140-6736(13)60900-9 | Thứ nhất 3 Đạo luật | 280 Các mục NSAID Các thử nghiệm giả dược、124513 Con người; Các biến chứng trong đường tiêu hóa ibuprofen 3.97（2.22–7.10）、naproxen 4.22（2.71–6.56）、diclofenac 1.89（1.16–3.09）；Tất cả NSAID nguy cơ suy tim tăng gấp đôi; Kết luận: high-dose |
+| Smith 2014, Cochrane CD001831.pub5 | Thứ nhất 4 Đạo luật | 29 Thử nghiệm（19 Người lớn、10 Trẻ em); Trẻ em ngừng sử dụng thuốc khô, thuốc kháng histamine, thuốc giảm huyết áp kháng histamine, thuốc mở đường ống khô không tốt hơn thuốc giả；21 Phản ứng không tốt được báo cáo, có nhiều thuốc kháng hominid và mi-safen; Một thử nghiệm mật ong tốt hơn một loại thuốc thay thế; Không hợp nhất |
+| Kenealy 2025, Cochrane CD000247.pub4 | Thứ nhất 7 Đạo luật | Bản tóm tắt「For this 2013 update」；Tiếng lạnh bình thường 6 Các mục 1147 Người dân RR 0.83（0.60–1.14）；Phản ứng xấu 1.8（1.01–3.21），Người lớn 2.62（1.32–5.18），Trẻ em 0.91（0.51–1.63）；Bệnh sưng phế quản 0.73（0.47–1.13），Phản ứng xấu 1.46（1.10–1.94） |
+| Hahn 2002, Cochrane CD002847 | Thứ nhất 8 Đạo luật | 8 Thử nghiệm truyền máu tĩnh mạch ngoài kế hoạch với chất lỏng bổ sung bằng đường uống tiêu chuẩn OR 0.59（0.45–0.79） |
+| ICHD-3（Cephalalgia 2018, doi:10.1177/0333102417738202）Phiên bản trực tuyến 8.2、8.2.3、8.2.5 | Thứ nhất 9 Đạo luật | 8.2 Đau đầu mỗi tháng ≥15 Thời gian, quá nhiều >3 Một tháng；8.2.3 Thuốc giảm đau không opioid ≥15 Thiên Đàng/Tháng, nhiều loại thuốc giảm đau phi opioid；8.2.5 Thuốc thuốc giảm đau ≥10 Thiên Đàng/Phân hợp định nghĩa các thành phần hỗ trợ chứa caffeine；「more than half of people with headache on 15 or more days/month have」MOH；Phản ứng phòng ngừa và điều trị cải thiện sau nhiều lần ngừng dùng thuốc |
 
-### 世卫组织
+### Tổ chức Y tế
 
-WHO (2005) The treatment of diarrhoea, 4th revision。iris.who.int 是前端渲染，走 DSpace API（`/server/api/pid/find?id=hdl:10665/43209` 拿 uuid，再查 bundles）取到英文和中文版的文本层。第 2.6 节与第 10.2 节：「止泻」药和止吐药对儿童急性或迁延性腹泻没有实际益处，绝不能给 5 岁以下儿童；抗蠕动药（洛哌丁胺等）可致严重麻痹性肠梗阻、可致命、可能拖长感染。第 4.5.1 节：含糖过多的饮料（软饮料、市售果汁饮料）会造成高钠性脱水。低渗配方总渗透压 245 mOsm/l，比标准配方（311）计划外静脉输液少 33%。第 6 节：儿童血便多数由志贺菌引起，要用抗生素。
+WHO (2005) The treatment of diarrhoea, 4th revision。iris.who.int Đó là mặt trước, đi. DSpace API（`/server/api/pid/find?id=hdl:10665/43209` Đưa đi. uuid，Xem lại bundles）Tiếng Anh và Tiếng Trung Lớp văn bản của phiên bản. Thứ nhất 2.6 Chương và Chương 10.2 Chương: Thuốc ngăn chặn và thuốc ngăn chặn nôn không có lợi ích thực tế đối với chứng tiêu chảy cấp tính hoặc diarrhea diarrhea ở trẻ em và không bao giờ được sử dụng 5 trẻ em dưới tuổi; Các loại thuốc chống loxin (như loxinidine) có thể gây ra tắc nghẽn ruột nghiêm trọng, gây tử vong và có thể kéo dài nhiễm trùng. Thứ nhất 4.5.1 Lưu ý: đồ uống có quá nhiều đường (những đồ uống mềm, nước trái cây được bán trên thị trường) có thể gây ra tình trạng mất nước cao độ. Phương pháp truyền áp suất thấp 245 mOsm/l，Phương thức tiêu chuẩn（311）Giảm lượng máu tĩnh mạch ngoài kế hoạch 33%。Thứ nhất 6 Bài viết: Máu trẻ em chủ yếu gây ra bởi viêm gan, cần sử dụng kháng sinh。
 
-## 证据等级与收益量级怎么定的
+## Mức độ bằng chứng Với mức độ lợi ích Định nghĩa
 
-- A：第 3 条（个体数据荟萃，有 RR）、第 7 条（Cochrane，有 RR）、第 8 条（WHO 手册 + Cochrane 有 OR）。
-- B：第 1、2、5 条数字来自病例登记、监测或不良事件报告，没有对照；第 4 条 Cochrane 未合并；第 6 条是说明书规定；第 9 条是诊断标准。
-- 收益量级：第 1 条定大（急性肝衰竭近三成死亡）；第 2 条定大（警告后病例从 555 降到 ≤36，降幅九成以上）；第 3 条定大（上消化道并发症约 4 倍，相对降幅远超 20%）。其余六条的数字都不能直接换算成「做了能少几成」，按后果轻重判断为中，理由写在各条备注。第 8 条特别说明：手里的数字比的是两种补液盐配方，不是喝与不喝，所以不套 ≥20% 的机械阈值。
+- A：Thứ nhất 3 Điều này có nghĩa là: RR）、Thứ nhất 7 Đạo luật（Cochrane，Có. RR）、Thứ nhất 8 Đạo luật（WHO Cuốn sách + Cochrane Có. OR）。
+- B：Thứ nhất 1、2、5 Các số liệu được lấy từ việc đăng ký, giám sát hoặc báo cáo các sự cố không tốt, không có kiểm soát; Thứ nhất 4 Đạo luật Cochrane Không hợp nhất; Thứ nhất 6 Điều này là quy định của hướng dẫn; Thứ nhất 9 Điều này là tiêu chuẩn chẩn đoán。
+- mức độ lợi ích Chương 2: 1 Cần 30% tử vong do suy gan cấp tính; Thứ nhất 2 Các trường hợp xảy ra sau khi cảnh báo 555 Thả xuống ≤36，giảm hơn 90%); Thứ nhất 3 Bệnh tật đường tiêu hóa lớn 4 Tỷ lệ giảm tương đối cao hơn 20%）。Cả sáu số còn lại không thể được chuyển đổi trực tiếp thành "được làm ít hơn một vài phần trăm", và các lý do được ghi lại trong các đoạn. Ghi chú 。 Thứ nhất 8 Điều này đặc biệt nêu rõ: số trong tay của tôi là so sánh hai công thức muối bổ sung, không uống và không uống, vì vậy không phù hợp. ≥20% Tỷ giá thiết bị。
 
-## 没写进去的
+## Không viết vào.
 
-- 2 岁以下禁用含可待因、右美沙芬止咳药的「2025 年新规」：只有二手转述，没找到原文。
-- 儿童退烧药按体重的具体剂量、布洛芬与对乙酰氨基酚交替用：各说明书不同，本节只指路到医生和药师。
-- 药品过期、家庭药箱清单：后果轻，性价比低。
+- 2 Thiết bị thuốc chống ngứa tuổi có thể được sử dụng「2025 Đạo luật năm mới: chỉ có bản sao và không tìm thấy bản gốc。
+- Các loại thuốc giảm sốt cho trẻ em theo trọng lượng, ibuprofen Với paracetamol Sử dụng thay thế: Các hướng dẫn khác nhau, phần này chỉ hướng đến bác sĩ và dược sĩ。
+- Thuốc hết hạn, danh sách hộp thuốc gia đình: hậu quả nhẹ, giá rẻ。

@@ -1,48 +1,50 @@
-# 追加：后循环卒中、主动脉夹层、霹雳样头痛与中暑补液 · ho-so-kiem-chung（2026-09-08）
+# Hồ sơ kiểm chứng: Đột quỵ tuần hoàn sau bóc tách mạch đau đầu và bù dịch khi sốc nhiệt — 2026-09-08
 
-任务来源：读者提了两件事——「中暑了不要马上喝冷饮」；「疾病的特征什么的，某个医生感觉头晕，就拿手指头点鼻子，发现点不到，马上就去医院了，是脑梗」。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-原有覆盖：第 13 节第 2 条只有 FAST 三个动作（脸歪、胳膊无力、说话不清），对后循环（小脑、脑干）梗死的眩晕、复视、走路不稳、指鼻不准零命中，全书搜「小脑」「复视」「眩晕」也是零；第 3 条胸痛只写心梗，「主动脉夹层」「撕裂样」全书零命中；「蛛网膜下腔出血」「霹雳样头痛」全书零命中——突发剧烈头痛没有任何落点。中暑只有第 16 条，写了降温和「意识不清不喂水」，但清醒者到底喝什么、怎么喝没写，读者关心的「能不能喝冰的」也没答。
+Nhiệm vụ Nguồn Người đọc đã đề cập đến hai điều: "Đừng uống nước lạnh ngay khi nóng". "Điều gì đặc trưng của căn bệnh này, một bác sĩ cảm thấy sợ hãi, lấy ngón tay vào mũi, nhận ra nó không có gì, ngay lập tức đến bệnh viện, đó là một cơn đau não.」。
 
-落点：第 13 节新增 4 条。第 3 条（后循环卒中，插在 FAST 条之后）、第 5 条（主动脉夹层）、第 6 条（霹雳样头痛）、第 20 条（中暑补液，插在中暑条之后）。原第 3 条顺延为第 4 条，原第 4 至 16 条顺延为 7 至 19，原第 17 至 29 条顺延为 21 至 33。跟着改的引用：book/01 第 26 条与 docs/danh-sach-trang-bi-khan-cap-gia-dinh.md 里指向止血带的「第 13 节第 4 条」改为第 7 条，装备清单里烧烫伤第 6 条改第 9 条、肾上腺素第 7 条改第 10 条、火灾第 17 条改第 21 条，book/19 第 11 条里化学品第 13 条改第 16 条；第 13 节内部第 15 条（误服）里「一氧化碳见第 11 条、烧烫伤见第 6 条」改为 14 条和 9 条，第 16 条（化学灼伤）里「误服见第 12 条」改为第 15 条，第 30 条（野兽）里指向咬伤的「第 3 条」原本就是旧编号残留，一并改为第 8 条。
+Bài viết được bao gồm: 13 Chương 3 2 Điều này chỉ FAST Ba hành động (người ngửa mặt, khó nói, không rõ ràng) về vòng tròn sau (thủy não, bộ não) đau đớn, nhìn lại, đi bộ không ổn định, mũi không cho phép không sống, toàn bộ cuốn sách tìm kiếm "thủy não" "thủy nhìn" "thủy" cũng là không; Thứ nhất 3 Cơn đau ngực chỉ là một cơn đau trong lòng, "Lớp động mạch chủ" "có vẻ như bị xé" toàn bộ cuốn sách. "Bloody under the spider retina" "Headache" toàn bộ cuốn sách là một cơn đau đầu đột ngột nghiêm trọng mà không có điểm dừng lại. Mùa hè trung bình 16 Điều này viết về sự lạnh lùng và "nhận thức không thể nấu nước", nhưng người tỉnh táo không biết uống gì, và người đọc quan tâm đến "không thể uống kem" cũng không trả lời.。
 
-## 第 3 条（后循环卒中：眩晕、复视、指鼻不准）
+Điểm hạ cánh: 13 Sự gia tăng 4 Định luật: Thứ nhất 3 Bài viết này được viết bởi: FAST (văn khoái) 5 Bài tiếp theo: 6 Bài viết trên: 20 Bài viết này được viết bởi: Nguyên nhân 3 Bài tiếp theo: 4 Đạo luật: 4 đến 16 Đạo luật tiếp theo: 7 đến 19，Nguyên nhân 17 đến 29 Đạo luật tiếp theo: 21 đến 33。Sau khi được thay đổi：book/01 Thứ nhất 26 Điều 1 và docs/danh-sach-trang-bi-khan-cap-gia-dinh.md Trong bài viết này, ông nói: 13 Chương 3 4 Điều "được đổi thành" 7 Đạo luật, danh sách thiết bị số 1 6 Điều 6 9 Lưu ý: 7 Điều 6 10 Chương: Hỏa hoạn 17 Điều 6 21 Đạo luật，book/19 Thứ nhất 11 Loại hóa chất 13 Điều 6 16 Đạo luật: Thứ nhất 13 Phần bên trong 15 Trong bài viết (trầm lẫn) "Carbon oxide" xem mục 11 Đau chốt, vết thương 6 Điều "được đổi thành 14 Điều 1 và 9 Điều 3 16 Trong bài viết "Bọ cháy hóa học", "Thật nhầm nhìn" 12 Điều "được đổi thành" 15 Điều 3 30 Trong bài viết "The Beast", "The Beast" nói về vết cắn. 3 Điều "Trước đây là số còn lại cũ, được chuyển thành số 8 Đạo luật。
 
-| 文献 | 复核 | 原文数字 |
+## Thứ nhất 3 Bệnh đột quỵ sau chu kỳ: ngắt mắt, ngắt mắt, ngón mũi）
+
+| tài liệu tham khảo | Đánh giá lại | Số nguyên bản |
 |---|---|---|
-| Aroor S, Singh R, Goldstein LB (2017). BE-FAST (Balance, Eyes, Face, Arm, Speech, Time): Reducing the Proportion of Strokes Missed Using the FAST Mnemonic. Stroke, 48(2), 479-481. <https://doi.org/10.1161/STROKEAHA.116.015169>（PMID 28082668） | 是（Europe PMC 摘要逐字） | 「Of 736 eligible patients with acute ischemic stroke, 14.1% presented without FAST symptoms. When gait imbalance, leg weakness, and visual symptoms were included, the proportion of missed strokes decreased to 4.4%.」作者结论中写明「suggested prospective validation before updating public education programs」 |
+| Aroor S, Singh R, Goldstein LB (2017). BE-FAST (Balance, Eyes, Face, Arm, Speech, Time): Reducing the Proportion of Strokes Missed Using the FAST Mnemonic. Stroke, 48(2), 479-481. <https://doi.org/10.1161/STROKEAHA.116.015169>（PMID 28082668） | Đúng vậy（Europe PMC Bài viết ngắn gọn） | 「Of 736 eligible patients with acute ischemic stroke, 14.1% presented without FAST symptoms. When gait imbalance, leg weakness, and visual symptoms were included, the proportion of missed strokes decreased to 4.4%.」Trong kết luận của tác giả「suggested prospective validation before updating public education programs」 |
 
-定 B 不定 A：单中心（肯塔基大学卒中中心）2014 一年的回顾性分析，736 例有具体数字但只此一项研究，作者自己要求前瞻验证。收益量级「大」——口径是死亡率，漏诊等于错过溶栓窗口。成本三项全零，性价比档极高。
+Chắc chắn B Không chắc. A：Một trung tâm: Trung tâm tốt nghiệp Đại học Kentucky）2014 Một năm phân tích lại，736 Trong trường hợp có số liệu cụ thể nhưng chỉ có một nghiên cứu, các tác giả tự yêu cầu xác minh trước. mức độ lợi ích "Lớn". tiêu chí đánh giá Đúng vậy tỷ lệ tử vong Nếu bạn không làm điều đó, bạn sẽ không thể làm điều đó. Chi phí 3 loại hoàn toàn không, tỷ lệ giá cao nhất。
 
-读者说的「手指点不到鼻子」是指鼻试验，查的是小脑共济失调，属于 BE-FAST 里 Balance 那一支的体征。正文写它是提示、不写它能排除卒中：没有任何单个床旁动作有足够的阴性预测值，所以落笔是「突然出现且不缓解就打 120」。
+Người đọc nói rằng "những ngón tay không đến mũi" là một thử nghiệm mũi, xem xét các rối loạn tâm thần nhỏ, thuộc BE-FAST Trò chơi Balance Một trong những biểu tượng này. nội dung chính Viết nó là một lời khuyên, không viết nó có thể loại trừ đột quỵ: không có bất kỳ động thái bên cạnh giường nào có đủ giá trị dự đoán tiêu cực, vì vậy bút chì là "đáng ra đột ngột và không giảm nhẹ". 120」。
 
-## 第 5 条（主动脉夹层）
+## Thứ nhất 5 Lớp động mạch）
 
-| 文献 | 复核 | 原文数字 |
+| tài liệu tham khảo | Đánh giá lại | Số nguyên bản |
 |---|---|---|
-| Hagan PG, Nienaber CA, Isselbacher EM, et al. (2000). The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA, 283(7), 897-903. <https://doi.org/10.1001/jama.283.7.897>（PMID 10685714） | 是（Europe PMC 摘要逐字） | 464 例，12 家中心；「While sudden onset of severe sharp pain was the single most common presenting complaint, the clinical presentation was diverse.」总住院死亡率 27.4%；A 型未手术、仅药物治疗者死亡率 58% |
+| Hagan PG, Nienaber CA, Isselbacher EM, et al. (2000). The International Registry of Acute Aortic Dissection (IRAD): new insights into an old disease. JAMA, 283(7), 897-903. <https://doi.org/10.1001/jama.283.7.897>（PMID 10685714） | Đúng vậy（Europe PMC Bài viết ngắn gọn） | 464 Ví dụ，12 Trung tâm nhà；「While sudden onset of severe sharp pain was the single most common presenting complaint, the clinical presentation was diverse.」Bệnh viện thường trú tỷ lệ tử vong 27.4%；A Những người không phẫu thuật, chỉ điều trị bằng thuốc tỷ lệ tử vong 58% |
 
-定 B：多中心登记而非队列研究或试验，464 例规模中等，死亡率是登记内的观察值。收益量级「大」——夹层被误当心梗给抗凝溶栓会致命，识别的价值在于改变处置方向。「疼痛沿主动脉走行迁移」「两臂血压差」是教科书体征，摘要里没有可逐字引的比例，因此只写在备注的定性提示里，不给数字。
+Chắc chắn B：Đăng ký đa trung tâm nghiên cứu đoàn hệ Hoặc thử nghiệm，464 Các trường hợp có quy mô trung bình tỷ lệ tử vong là giá trị quan sát trong đăng ký. mức độ lợi ích Các lớp sáp "lớn" có thể gây chết người khi bị nhầm lẫn, và giá trị của việc nhận ra là thay đổi hướng xử lý. "Cách đau di chuyển dọc theo động mạch chủ động" "Phân trọng huyết áp trong hai cánh tay" là biểu tượng của sách giáo khoa, không có tỷ lệ có thể trích dẫn theo từng chữ trong bản tóm tắt, vì vậy chỉ được viết trong Ghi chú Trong bài báo về chất lượng, không đưa ra số。
 
-未采用的数字：广为流传的「未治疗的 A 型夹层每小时死亡率 1%~2%」来自 1958 年 Hirst 的尸检系列，本次没有取到可逐字核对的原文，不写进正文。
+Số chưa được sử dụng: "Không được điều trị" phổ biến A Lớp cáp mỗi giờ tỷ lệ tử vong 1%~2%」Từ: 1958 Năm Hirst Trong khi đó, các nhà nghiên cứu đã đưa ra một số nghiên cứu về việc xác định xác định xác định xác định xác định xác định xác định xác định xác định xác định xác định xác định. nội dung chính。
 
-## 第 6 条（霹雳样头痛与蛛网膜下腔出血）
+## Thứ nhất 6 Bệnh đầu và chảy máu dưới ruột nhện）
 
-| 文献 | 复核 | 原文数字 |
+| tài liệu tham khảo | Đánh giá lại | Số nguyên bản |
 |---|---|---|
-| Perry JJ, Stiell IG, Sivilotti MLA, et al. (2013). Clinical decision rules to rule out subarachnoid hemorrhage for acute headache. JAMA, 310(12), 1248-1255. <https://doi.org/10.1001/jama.2013.278018>（PMID 24065011） | 是（Europe PMC 摘要逐字） | 2131 例「headache peaking within one hour」的前瞻多中心队列，132 例（6.2%）为蛛网膜下腔出血；渥太华 SAH 规则敏感性「100% (95% CI, 97.2%-100.0%)」，特异性「15.3% (95% CI, 13.8%-16.9%)」；规则条目为 age 40 years or older、neck pain or stiffness、witnessed loss of consciousness、onset during exertion、thunderclap headache、limited neck flexion on examination |
+| Perry JJ, Stiell IG, Sivilotti MLA, et al. (2013). Clinical decision rules to rule out subarachnoid hemorrhage for acute headache. JAMA, 310(12), 1248-1255. <https://doi.org/10.1001/jama.2013.278018>（PMID 24065011） | Đúng vậy（Europe PMC Bài viết ngắn gọn） | 2131 Ví dụ「headache peaking within one hour」Đường hàng đa trung tâm phía trước，132 Ví dụ（6.2%）Dây máu dưới ruột mực của con nhện; Ottawa SAH Sự nhạy cảm với quy tắc「100% (95% CI, 97.2%-100.0%)」，Đặc biệt「15.3% (95% CI, 13.8%-16.9%)」；Quy tắc mục Đối với age 40 years or older、neck pain or stiffness、witnessed loss of consciousness、onset during exertion、thunderclap headache、limited neck flexion on examination |
 
-定 A：加拿大 10 家急诊前瞻队列，样本量与敏感性区间齐全。收益量级「大」，成本记「钱=少 时间=中」（急诊头颅 CT 与等结果的半天），性价比档高。
+Chắc chắn A：Canada 10 Đường xếp trước phòng cấp cứu, cỡ mẫu Một trong những điều đáng chú ý nhất là: mức độ lợi ích "Điều lớn" Chi phí "Tiền"=Thời gian ngắn hơn=Trong số đó là "Xem phòng cấp cứu". CT Một nửa ngày so với kết quả tương đương)。
 
-正文强调的是「达峰速度」而不是「疼痛强度」，因为规则的入组条件就是一小时内达峰；特异性只有 15.3% 这一点写进备注，避免读者以为符合一条就大概率是出血。
+nội dung chính nhấn mạnh là "tốc độ đỉnh" chứ không phải "tốc độ đau" vì điều kiện hợp nhất của quy tắc là một giờ đỉnh; Sự đặc biệt chỉ có 15.3% Hãy viết nó lên. Ghi chú Và để tránh người đọc nghĩ rằng nếu một bài viết phù hợp thì có khả năng chảy máu.。
 
-## 第 20 条（中暑补液）
+## Thứ nhất 20 Bài viết:）
 
-| URL | 复核 | 原文引句 |
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| 中国疾控中心《公众高温中暑预防与紧急处理指南（2014 版）》 <https://niohp.chinacdc.cn/sndt/201405/t20140530_97623.htm> | 是 | 「不论运动量的大小，都需要增加液体的摄入，不应等到口渴时才喝水」「至少每小时喝2~4杯凉水（500~1000ml），水温不宜过高，饮水应少量多次」「不要饮用含酒精或大量糖分的饮料。这些饮料会导致失去更多的体液。同时，还应避免饮用过凉的冰冻饮料」；热射病处理写明「不要给病人喝水」；降温方法含「将病人浸泡在浴缸的凉水里；将病人放在凉水淋浴下；用凉水擦拭病人的身体；凉湿毛巾或冰袋冷敷头部、腋下及大腿根部」 |
-| US CDC/NIOSH. Heat-Related Illnesses. <https://www.cdc.gov/niosh/heat-stress/about/illnesses.html> | 是 | 热射病「Cool the worker quickly... With a cold water or ice bath, if possible」；热衰竭「Encourage frequent sips of cool water」；热痉挛「Drink water and have a snack or a drink that replaces carbohydrates and electrolytes (such as sports drinks) every 15 to 20 minutes」「Avoid salt tablets」 |
+| Trung Quốc Centers for Disease Control đưa ra hướng dẫn phòng ngừa và xử lý khẩn cấp cho công chúng（2014 Phiên bản）》 <https://niohp.chinacdc.cn/sndt/201405/t20140530_97623.htm> | Đúng vậy | 「Bất kể kích thước vận động của bạn, bạn cần phải tăng lượng chất lỏng, và bạn không nên chờ đợi để uống nước khi khát". 2~4 Một ly nước lạnh（500~1000ml），Nhiệt độ nước không nên quá cao, nên uống nước một số ít nhiều lần. Những loại đồ uống này làm mất nhiều nước trong cơ thể hơn. Trong khi đó, người ta nên tránh uống đồ uống quá lạnh". Điều trị bệnh x-ray viết: "Đừng cho bệnh nhân uống nước"; Phương pháp làm mát bao gồm "lặn bệnh nhân trong nước mát trong bồn tắm; Đưa người bệnh xuống nước lạnh, Hãy dùng nước mát để rửa cho người bệnh. khăn tắm hoặc túi băng lạnh trên đầu, chân và chân chân」 |
+| US CDC/NIOSH. Heat-Related Illnesses. <https://www.cdc.gov/niosh/heat-stress/about/illnesses.html> | Đúng vậy | Bệnh phát xạ nhiệt「Cool the worker quickly... With a cold water or ice bath, if possible」；Nhiệt quốc「Encourage frequent sips of cool water」；Chất nóng「Drink water and have a snack or a drink that replaces carbohydrates and electrolytes (such as sports drinks) every 15 to 20 minutes」「Avoid salt tablets」 |
 
-定 B：两份都是官方处置口径，没有「照做能降低多少死亡」的效应量。收益量级「中」——补液本身是支持治疗，救命的是降温和送医。
+Chắc chắn B：Cả hai đều được cấp phép. tiêu chí đánh giá Không có hiệu quả "giống như vậy có thể làm giảm tử vong". mức độ lợi ích "Trung bình" là chất bổ sung để hỗ trợ điều trị, cứu hộ là làm mát và đưa đến bệnh viện.。
 
-**读者的说法在正文里既采纳也划界**：中国疾控的指南确实写了「避免饮用过凉的冰冻饮料」，所以「中暑别马上灌冰饮」有官方出处，正文照写；但指南给的理由是怕胃痉挛，没有量化证据，而同一份指南推荐的一线降温手段恰恰是冷水浸泡、凉水淋浴、冰袋冷敷。所以备注里写清楚：冷的是往身上用，不是往嘴里灌，别把「不喝冰的」误读成「不能用冷的」。另一半是含盐——大量出汗后只补白水会稀释血钠，两份材料都指向含电解质的饮料而不是纯白开水。
+**Người đọc nói rằng nội dung chính Trong đó có cả việc chấp nhận và giới hạn.**：Trung Quốc Tuy nhiên, theo hướng dẫn của WHO, "đừng uống đồ uống đông lạnh quá mức", vì vậy có nguồn tin chính thức cho rằng "đừng uống đồ uống đông lạnh ngay giữa mùa hè". nội dung chính Như đã viết; Tuy nhiên, chỉ dẫn này được đưa ra bởi vì không có bằng chứng định lượng, và một trong những phương pháp làm mát được đề xuất bởi chỉ dẫn này chính xác là ngâm nước lạnh, tắm nước lạnh, đóng túi lạnh. Vì vậy, Ghi chú Nó viết rõ ràng: lạnh là dùng cho cơ thể, chứ không dùng cho miệng, và đừng hiểu sai "không uống băng" là "không dùng lạnh". Một nửa còn lại là nước trắng sẽ làm loãng máu sau khi có nhiều mồ hôi có hàm lượng muối, và cả hai vật liệu đều hướng đến đồ uống có chất điện phân thay vì nước trắng nguyên chất.。

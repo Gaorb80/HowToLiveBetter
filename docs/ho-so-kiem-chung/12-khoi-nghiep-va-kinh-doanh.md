@@ -1,143 +1,145 @@
-# 第 12 节来源ho-so-kiem-chung（2026-09-07）
+# Hồ sơ kiểm chứng: Khởi nghiệp và kinh doanh: Đừng để mất sạch gia sản — 12, 2026-09-07
 
-核实方式：本会话 WebSearch 配额已用尽，法规定位改用中国政府网政策文件库检索接口（sousuo.www.gov.cn/search-gov/data，只用它找 URL，不作为来源）。每个 URL 先用 WebFetch 打开确认标题、文号与条文；法律全文页另用 curl 下载到 scratchpad（s12/page_*.html），剥标签后按「第 X 条」逐字定位原文，下面引句均来自本地定位。人社部页面有反爬脚本，WebFetch 返回空白，改用 curl 携带脚本计算出的 cookie 打开并取得全文（已核对页面标题与版本行）。商务部特许经营系统证书与域名不匹配，WebFetch 报错，改用 curl -k 打开并核对标题。DOI 经 doi.org 跳转到 pubsonline.informs.org 返回 403，改用 Crossref API 与 Semantic Scholar API 核对题录和摘要。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 已确认的来源
+Làm thế nào để xác minh: Hội nghị WebSearch Quảng cáo đã hết hạn, luật định thay đổi vị trí Trung Quốc Thư viện Chính sách Chính phủ Internet truy cập giao diện（sousuo.www.gov.cn/search-gov/data，Chỉ cần sử dụng nó. URL，Không hoạt động Nguồn ）。 Mỗi người URL Được sử dụng WebFetch Mở xác nhận tiêu đề Địa điểm: Luật toàn văn bản curl Tải xuống scratchpad（s12/page_*.html），Sau khi lấy nhãn, hãy nhấn "vín" X Điều "định vị bằng chữ gốc, các trích dẫn dưới đây đều được lấy từ vị trí địa phương". Các trang xã hội có kịch bản phản hồi，WebFetch Trở lại trống và sử dụng lại curl Tiêu đề: cookie mở và truy cập toàn văn bản tiêu đề Dưới dòng phiên bản: Các giấy chứng nhận hệ thống thương mại của Bộ Thương mại không phù hợp với tên miền，WebFetch Trích lỗi, sử dụng lại curl -k mở và xác minh tiêu đề。DOI Thông qua doi.org Chuyển vào pubsonline.informs.org Trở lại 403，Chuyển đổi Crossref API Với Semantic Scholar API Các bài kiểm tra và bản tóm tắt。
 
-### 1. 民法典
-- URL：<https://www.spp.gov.cn/spp/fl/202006/t20200602_463888.shtml>（最高检法律法规库）
-- 页面标题「中华人民共和国民法典」，版本行「2020年5月28日第十三届全国人民代表大会第三次会议通过」。WebFetch 与本地定位均确认。
-- 第五十六条：「个体工商户的债务，个人经营的，以个人财产承担；家庭经营的，以家庭财产承担；无法区分的，以家庭财产承担。」
-- 第一百八十四条：「因自愿实施紧急救助行为造成受助人损害的，救助人不承担民事责任。」
-- 第四百六十九条：「当事人订立合同，可以采用书面形式、口头形式或者其他形式。书面形式是合同书、信件、电报、电传、传真等可以有形地表现所载内容的形式。」
-- 第五百八十五条：「当事人可以约定一方违约时应当根据违约情况向对方支付一定数额的违约金……约定的违约金低于造成的损失的，人民法院或者仲裁机构可以根据当事人的请求予以增加；约定的违约金过分高于造成的损失的，人民法院或者仲裁机构可以根据当事人的请求予以适当减少。」
-- 第五百八十六条：「当事人可以约定一方向对方给付定金作为债权的担保。定金合同自实际交付定金时成立。定金的数额由当事人约定；但是，不得超过主合同标的额的百分之二十，超过部分不产生定金的效力。」
-- 第五百八十七条：「给付定金的一方不履行债务……无权请求返还定金；收受定金的一方不履行债务……应当双倍返还定金。」
-- 第五百八十八条：「当事人既约定违约金，又约定定金的，一方违约时，对方可以选择适用违约金或者定金条款。」
-- 第六百六十八条：「借款合同应当采用书面形式，但是自然人之间借款另有约定的除外。借款合同的内容一般包括借款种类、币种、用途、数额、利率、期限和还款方式等条款。」
-- 第六百八十一条：「保证合同是为保障债权的实现，保证人和债权人约定，当债务人不履行到期债务或者发生当事人约定的情形时，保证人履行债务或者承担责任的合同。」
-- 第六百八十七条：「当事人在保证合同中约定，债务人不能履行债务时，由保证人承担保证责任的，为一般保证。一般保证的保证人在主合同纠纷未经审判或者仲裁，并就债务人财产依法强制执行仍不能履行债务前，有权拒绝向债权人承担保证责任」
-- 第六百八十八条：「当事人在保证合同中约定保证人和债务人对债务承担连带责任的，为连带责任保证。连带责任保证的债务人不履行到期债务……债权人可以请求债务人履行债务，也可以请求保证人在其保证范围内承担保证责任。」
-- 第一千零六十四条：「夫妻双方共同签名或者夫妻一方事后追认等共同意思表示所负的债务……属于夫妻共同债务。夫妻一方在婚姻关系存续期间以个人名义超出家庭日常生活需要所负的债务，不属于夫妻共同债务；但是，债权人能够证明该债务用于夫妻共同生活、共同生产经营或者基于夫妻双方共同意思表示的除外。」
+## Được xác nhận Nguồn
 
-### 2. 公司法（2023 年修订）
-- URL：<https://www.gov.cn/yaowen/liebiao/202312/content_6923395.htm>（中国政府网）
-- 页面标题「中华人民共和国公司法」，版本行含「2023年12月29日第十四届全国人民代表大会常务委员会第七次会议第二次修订」。WebFetch 与本地定位均确认，条款号按 2023 年修订本核对。
-- 第四条：「有限责任公司的股东以其认缴的出资额为限对公司承担责任；股份有限公司的股东以其认购的股份为限对公司承担责任。」
-- 第二十三条：「公司股东滥用公司法人独立地位和股东有限责任，逃避债务，严重损害公司债权人利益的，应当对公司债务承担连带责任。……只有一个股东的公司，股东不能证明公司财产独立于股东自己的财产的，应当对公司债务承担连带责任。」
-- 第四十七条：「有限责任公司的注册资本为在公司登记机关登记的全体股东认缴的出资额。全体股东认缴的出资额由股东按照公司章程的规定自公司成立之日起五年内缴足。」
-- 第四十九条：「股东应当按期足额缴纳公司章程规定的各自所认缴的出资额。……股东未按期足额缴纳出资的，除应当向公司足额缴纳外，还应当对给公司造成的损失承担赔偿责任。」
-- 第五十条：「有限责任公司设立时，股东未按照公司章程规定实际缴纳出资……设立时的其他股东与该股东在出资不足的范围内承担连带责任。」
-- 第五十三条：「公司成立后，股东不得抽逃出资。违反前款规定的，股东应当返还抽逃的出资」
-- 第五十四条：「公司不能清偿到期债务的，公司或者已到期债权的债权人有权要求已认缴出资但未届出资期限的股东提前缴纳出资。」
+### 1. Bộ luật Dân sự
+- URL：<https://www.spp.gov.cn/spp/fl/202006/t20200602_463888.shtml>（Thư viện pháp luật và quy định cao nhất）
+- Trang tiêu đề Cộng hòa Nhân dân Trung Quốc Bộ luật Dân sự " , dòng phiên bản「2020 Năm 5 Mặt trăng 28 Đại hội nghị nhân dân quốc gia lần thứ ba lần thứ 13 được thông qua」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 56: "Các khoản nợ của các doanh nhân cá nhân, do cá nhân quản lý, được đảm bảo trên tài sản cá nhân; gia đình, được quản lý bằng tài sản gia đình; Không thể phân biệt được với tài sản gia đình。」
+- Điều 1884: "Vì tự nguyện thực hiện" sơ cứu Những hành động hỗ trợ gây thiệt hại cho người được hỗ trợ, người cứu hộ không chịu trách nhiệm dân sự。」
+- Điều 469: "Các bên ký hợp đồng có thể được áp dụng dưới dạng văn bản, bằng lời nói hoặc các hình thức khác". Các hình thức văn bản có thể hình thức hóa nội dung của bản hợp đồng, thư, điện thoại, truyền tải điện tử, fax, vv.。」
+- Điều 585: "Các bên có thể thỏa thuận một bên phải trả cho bên kia một số tiền cố định nhất định, tùy thuộc vào tình huống của sự cố.……Số tiền cố chấp được thỏa thuận thấp hơn thiệt hại gây ra, tòa án nhân dân hoặc cơ quan trọng tài có thể tăng lên theo yêu cầu của bên; Số tiền cố định quá cao so với thiệt hại gây ra, tòa án nhân dân hoặc cơ quan trọng tài có thể giảm thích hợp theo yêu cầu của bên。」
+- Điều 586: "Các bên có thể thỏa thuận về một hướng cho nhau. tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Như một khoản nợ bảo lãnh 。 tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Thỏa thuận thực tế tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Được thành lập. tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng số tiền được thỏa thuận bởi các bên; Tuy nhiên, không được vượt quá 20% số tiền của các hợp đồng chủ chốt và không được tạo ra hơn một phần tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng hiệu quả。」
+- Điều 587: "Đưa cho" tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Một bên không hoàn thành nợ……Không được yêu cầu trả lại tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng ； Được tiếp nhận tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Một bên không hoàn thành nợ……Cần trả gấp đôi tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng。」
+- Điều 588: "Các bên đã ký hợp đồng và đã ký hợp đồng. tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Trong khi đó, một bên có thể lựa chọn sử dụng tiền bất hợp pháp hoặc tiền bất hợp pháp. tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Điều khoản。」
+- Điều 668: "Các hợp đồng vay phải được áp dụng dưới dạng văn bản, ngoại trừ khi có thỏa thuận khác cho vay giữa người tự nhiên". Các hợp đồng vay thường bao gồm các điều khoản như loại vay, loại tiền tệ, mục đích, số tiền, lãi suất, thời hạn và cách thanh toán.。」
+- Điều 681: "Các hợp đồng bảo đảm là một hợp đồng để đảm bảo các khoản nợ, hợp đồng giữa nhà bảo đảm và chủ nợ, khi chủ nợ không thực hiện các khoản nợ hết hạn hoặc xảy ra các tình huống mà bên ký kết, nhà bảo đảm thực hiện các khoản nợ hoặc chịu trách nhiệm.。」
+- Điều 687: "Các bên đảm bảo thỏa thuận trong hợp đồng, khi người nợ không thể thực hiện nợ, được đảm bảo bởi người bảo đảm. bảo lãnh Đáp lại trách nhiệm, để đảm bảo cho công chúng. Người đảm bảo chung có quyền từ chối đối phó với chủ nợ trước khi tranh chấp theo hợp đồng chủ yếu được xét xử hoặc giải quyết và không có khả năng thực hiện theo pháp luật về tài sản của chủ nợ. bảo lãnh Chứng minh trách nhiệm」
+- Điều 688: "Các bên đảm bảo trong hợp đồng thỏa thuận đảm bảo và người nợ chịu trách nhiệm đối với nợ, đảm bảo chịu trách nhiệm đối với nợ". Thậm chí những người nợ có bảo hiểm trách nhiệm cũng không thực hiện các khoản nợ hết hạn……Người nợ có thể yêu cầu người nợ thực hiện nợ hoặc người bảo đảm phải chịu trách nhiệm trong phạm vi bảo đảm của mình. bảo lãnh Chứng minh trách nhiệm。」
+- Điều 1 664: "Điều đồng ý của hai cặp vợ chồng là đồng ý ký hợp đồng hoặc đồng ý chấp nhận một cặp vợ chồng sau một vụ kiện".……Cần phải trả nợ chung của vợ chồng. Các khoản nợ của một bên trong hôn nhân vượt quá nhu cầu sống chung của gia đình trong thời gian tồn tại của mối quan hệ hôn nhân, trong danh tính cá nhân, không thuộc về khoản nợ chung của hai bên; Tuy nhiên, chủ nợ có thể chứng minh khoản nợ được sử dụng cho cuộc sống chung, hoạt động chung sản xuất của cặp vợ chồng hoặc dựa trên ý muốn chung của cặp vợ chồng.。」
 
-### 3. 合伙企业法（2006 年修订）
-- URL：<http://www.gov.cn/gongbao/content/2006/content_413955.htm>（国务院公报 2006 年第 29 号）
-- 页面标题「中华人民共和国主席令（第五十五号）　中华人民共和国合伙企业法」，「2006年8月27日修订通过……自2007年6月1日起施行」。WebFetch 与本地定位均确认。
-- 第二条：「普通合伙企业由普通合伙人组成，合伙人对合伙企业债务承担无限连带责任。……有限合伙企业由普通合伙人和有限合伙人组成，普通合伙人对合伙企业债务承担无限连带责任，有限合伙人以其认缴的出资额为限对合伙企业债务承担责任。」
+### 2. Luật Công ty（2023 Quá trình sửa đổi）
+- URL：<https://www.gov.cn/yaowen/liebiao/202312/content_6923395.htm>（Trung Quốc Internet của chính phủ）
+- Trang tiêu đề Luật Công ty của Cộng hòa Nhân dân Trung Quốc, phiên bản có nội dung「2023 Năm 12 Mặt trăng 29 Cuộc điều tra lần thứ hai tại cuộc họp thứ 7 của Ủy ban Thường vụ Đại hội đồng nhân dân quốc gia lần thứ 14」。WebFetch Được xác nhận với vị trí địa phương, điều khoản 2023 Năm sửa đổi kiểm tra。
+- Điều 4: "Các cổ đông của công ty có trách nhiệm đối với công ty theo giới hạn khoản đầu tư mà họ đã ghi nhận; Các cổ đông của Tập đoàn cổ phần có trách nhiệm đối với công ty với giới hạn cổ phần họ đã ký kết。」
+- Điều 23 "Các cổ đông của công ty lạm dụng tư cách độc lập của công ty và trách nhiệm hạn chế của cổ đông, trốn tránh nợ, gây thiệt hại nghiêm trọng cho lợi ích của chủ nợ của công ty, nên chịu trách nhiệm liên quan đến nợ của công ty.。……Một công ty chỉ có một cổ đông, và cổ đông không thể chứng minh tài sản của công ty độc lập với tài sản của cổ đông, phải chịu trách nhiệm về các khoản nợ của công ty.。」
+- Điều 47: "Tiền vốn đăng ký của một công ty có trách nhiệm hạn chế là số tiền đầu tư được ghi nhận của tất cả các cổ đông được đăng ký tại cơ quan đăng ký của công ty". Số tiền đóng góp của tất cả các cổ đông được đóng góp bởi các cổ đông trong vòng 5 năm kể từ ngày thành lập của công ty theo quy định của quy định của Công ty。」
+- Điều 49: "Các cổ đông phải trả theo khoản tiền bổ sung theo quy định của quy định quy định của công ty.。……Các cổ đông không đóng góp theo khoản tiền dự định, ngoài việc phải đóng góp cho công ty, họ cũng phải chịu trách nhiệm về các thiệt hại gây ra cho công ty.。」
+- Điều 50: "Khi thành lập một công ty có trách nhiệm hạn chế, cổ đông đã không thực sự đóng góp theo quy định của quy định của công ty.……Các cổ đông khác tại thời điểm thành lập phải chịu trách nhiệm với cổ đông đó trong phạm vi đầu tư thiếu hụt。」
+- Điều 53: "Khi công ty thành lập, cổ đông không được rút vốn. Trong trường hợp vi phạm quy định của khoản trước, các cổ đông phải trả lại các khoản đầu tư đã rút ra」
+- Điều 54: "Các cổ đông của công ty không thể thanh toán nợ hết hạn, và các cổ đông của công ty hoặc các chủ nợ đã hết hạn có quyền yêu cầu các cổ đông đã ghi nhận vốn nhưng chưa hết hạn thanh toán phải trả tiền trước.。」
 
-### 4. 商业特许经营管理条例
+### 3. Luật công ty hợp tác（2006 Quá trình sửa đổi）
+- URL：<http://www.gov.cn/gongbao/content/2006/content_413955.htm>（Quốc vụ viện Thông báo 2006 Năm thứ 1 29 Số 1）
+- Trang tiêu đề "Định luật 55 của Tổng thống Cộng hòa Nhân dân Trung Quốc"）　Luật doanh nghiệp hợp tác của Cộng hòa Nhân dân Trung Quốc」，「2006 Năm 8 Mặt trăng 27 Ngày sửa đổi được thông qua……Tự trị 2007 Năm 6 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 2 "Các công ty hợp tác thông thường bao gồm các đối tác thông thường, đối tác chịu trách nhiệm liên kết vô hạn đối với các khoản nợ của công ty hợp tác.。……Công ty đối tác giới hạn bao gồm các đối tác chung và các đối tác giới hạn, đối tác chung chịu trách nhiệm liên kết vô hạn đối với nợ của công ty đối tác, đối tác giới hạn chịu trách nhiệm đối với nợ của công ty đối tượng theo giới hạn khoản đầu tư được ghi nhận của họ.。」
+
+### 4. Quy định quản lý thương mại
 - URL：<https://www.gov.cn/zhengce/zhengceku/2008-03/28/content_4179.htm>
-- 页面标题「商业特许经营管理条例」，文号「国令第485号」，「2007年1月31日国务院第167次常务会议通过……自2007年5月1日起施行」。WebFetch 与本地定位均确认。
-- 第七条第二款：「特许人从事特许经营活动应当拥有至少2个直营店，并且经营时间超过1年。」
-- 第八条：「特许人应当自首次订立特许经营合同之日起15日内，依照本条例的规定向商务主管部门备案。」
-- 第十二条：「特许人和被特许人应当在特许经营合同中约定，被特许人在特许经营合同订立后一定期限内，可以单方解除合同。」
-- 第二十二条：列出 12 项应提供信息，含「（三）特许经营费用的种类、金额和支付方式（包括是否收取保证金以及保证金的返还条件和返还方式）」「（八）在中国境内现有的被特许人的数量、分布地域以及经营状况评估」「（九）最近2年的经会计师事务所审计的财务会计报告摘要和审计报告摘要」「（十）最近5年内与特许经营相关的诉讼和仲裁情况」。
-- 第二十三条：「特许人隐瞒有关信息或者提供虚假信息的，被特许人可以解除特许经营合同。」
-- 第二十五条：「特许人未依照本条例第八条的规定向商务主管部门备案的，由商务主管部门责令限期备案，处1万元以上5万元以下的罚款；逾期仍不备案的，处5万元以上10万元以下的罚款，并予以公告。」
+- Trang tiêu đề "Đạo luật quản lý thương mại thương mại" có tiêu đề: 485 Số 1」，「2007 Năm 1 Mặt trăng 31 Ngày Quốc vụ viện Thứ nhất 167 Hội nghị thường trực tiếp tiếp tiếp……Tự trị 2007 Năm 5 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 7: Thứ hai: "Người được phép làm việc trong hoạt động nhượng quyền phải có ít nhất 2 Một cửa hàng trực tiếp và hoạt động lâu hơn 1 Năm。」
+- Điều 8 "Nhà nhượng quyền phải được ký hợp đồng nhượng quyền từ ngày ký hợp đồng nhượng quyền lần đầu tiên. 15 Trong thời gian đó, theo quy định của quy định này, nộp hồ sơ cho cơ quan quản lý thương mại。」
+- Điều 12: "Người thầu và người được thầu sẽ được thỏa thuận trong hợp đồng nhượng quyền thương mại, trong một thời hạn sau khi người thầu ký hợp đồng nhượng quyền thương mại có thể thả hợp đồng một bên.。」
+- Điều 22: Danh sách 12 Các thông tin cần được cung cấp, bao gồm:" (3) Các loại, số tiền và phương thức thanh toán của phí nhượng quyền, bao gồm cả việc thu hồi bảo hiểm và các điều kiện và phương thức trả lại bảo hiểm". Trung Quốc Số lượng người được ủy quyền hiện có trong nước, khu vực phân phối và đánh giá tình hình kinh doanh" 2 Bản tóm tắt của báo cáo tài chính được kiểm toán bởi các công ty kế toán và bản tóm tắt của báo cáo kiểm toán hàng năm. 5 Các vụ kiện và trọng tài liên quan đến thương hiệu trong năm」。
+- Điều 23 "Người được cấp quyền có thể tháo lại hợp đồng quyền hạn khi người được cấp quyền giấu thông tin hoặc cung cấp thông tin sai.。」
+- Điều 25: "Người được phép không tuân thủ quy định này Điều 8 Theo quy định, các hồ sơ được gửi đến cơ quan quản lý thương mại, được ủy quyền bởi cơ quan quản lý thương mại, 1 Hơn 1 nghìn đô la 5 bồi thường ít hơn 10.000 USD; Tuy nhiên, có một số trường hợp khác trong trường hợp này. 5 Hơn 1 nghìn đô la 10 Hình phạt dưới 10.000 USD và thông báo。」
 
-### 5. 商业特许经营信息披露管理办法
-- URL：<http://www.gov.cn/gongbao/content/2012/content_2177025.htm>（国务院公报 2012 年第 19 号）
-- 页面标题「中华人民共和国商务部令（2012年第2号）　商业特许经营信息披露管理办法」，「自2012年4月1日起施行」。WebFetch 与本地定位均确认。
-- 第五条（八）2：「现有被特许人的经营状况，包括被特许人实际的投资额、平均销售量、成本、毛利、纯利等信息，同时应当说明上述信息的来源。」
-- 第九条：「特许人隐瞒影响特许经营合同履行致使不能实现合同目的的信息或者披露虚假信息的，被特许人可以解除特许经营合同。」
+### 5. Cách quản lý việc tiết lộ thông tin thương mại
+- URL：<http://www.gov.cn/gongbao/content/2012/content_2177025.htm>（Quốc vụ viện Thông báo 2012 Năm thứ 1 19 Số 1）
+- Trang tiêu đề Bộ Thương mại Cộng hòa Nhân dân Trung Quốc（2012 Năm thứ 1 2 Số 1）　Quản lý công bố thông tin về thương mại 2012 Năm 4 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 5 (8)）2：「Tình trạng hoạt động hiện tại của người được ủy quyền, bao gồm số lượng đầu tư thực tế của người được ủy quyền, doanh số bán hàng trung bình, Chi phí Thông tin về lợi nhuận, lợi nhuận thuần túy và các thông tin khác, đồng thời phải giải thích các thông tin trên: Nguồn。」
+- Điều 9: "Người được ủy quyền có thể tháo lại hợp đồng khi ẩn giấu thông tin ảnh hưởng đến việc thực hiện hợp đồng nhượng quyền cho phép không thể thực hiện mục đích hợp đồng hoặc tiết lộ thông tin sai lệch.。」
 
-### 6. 商务部商业特许经营信息管理系统
+### 6. Hệ thống quản lý thông tin thương mại thương mại của Bộ Thương mại
 - URL：<https://txjy.syggs.mofcom.gov.cn/>
-- WebFetch 因证书域名不匹配报错；curl -k 打开返回 200，页面标题「商务部业务系统统一平台-商业特许经营信息管理」，页内有企业登录、注册与备案信息链接。已确认为商务部系统。
+- WebFetch Tên miền không phù hợp vì giấy chứng nhận；curl -k Mở lại 200，Trang tiêu đề Một nền tảng thống nhất cho hệ thống kinh doanh của Bộ Thương mại-Quản lý thông tin thương mại quyền sở hữu thương mại" có liên kết đăng ký doanh nghiệp, đăng ký và thông tin đăng ký trong trang. Hệ thống của Bộ Thương mại đã được xác định。
 
-### 7. 无证无照经营查处办法
+### 7. Cách kiểm tra không có giấy chứng nhận
 - URL：<https://www.gov.cn/zhengce/zhengceku/2017-08/23/content_5219861.htm>
-- 页面标题「无证无照经营查处办法」，文号「国令第684号」，「2017年10月1日起施行」。WebFetch 与本地定位均确认。
-- 第五条：「经营者未依法取得许可从事经营活动的，由法律、法规、国务院决定规定的部门予以查处」
-- 第六条：「经营者未依法取得营业执照从事经营活动的，由履行工商行政管理职责的部门……予以查处。」
-- 第十三条：「法律、行政法规对无照经营的处罚没有明确规定的，由工商行政管理部门责令停止违法行为，没收违法所得，并处1万元以下的罚款。」
+- Trang tiêu đề "Việc kiểm tra hoạt động không có giấy phép", tiêu đề: 684 Số 1」，「2017 Năm 10 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 5: "Các nhà khai thác không được phép thực hiện các hoạt động kinh doanh theo luật pháp, quy định, Quốc vụ viện Các cơ quan quyết định xem xét」
+- Điều 6: "Các nhà khai thác không được cấp phép hoạt động theo pháp luật, được thực hiện bởi các bộ phận thực hiện trách nhiệm quản lý hành chính của doanh nghiệp……Được kiểm tra。」
+- Điều 13: "Các quy định pháp lý và hành pháp không quy định rõ ràng về hình phạt đối với hoạt động không giám sát, các cơ quan quản lý hành pháp thương mại yêu cầu chấm dứt các hành vi vi phạm pháp luật, tịch thu thu thu nhập trái pháp luật và xử lý. 1 Hình phạt dưới 10.000 USD。」
 
-### 8. 食品经营许可和备案管理办法
-- URL：<https://www.gov.cn/gongbao/2023/issue_10606/202307/content_6894763.html>（国务院公报 2023 年第 21 号）
-- 页面标题「国家市场监督管理总局令（第78号）　食品经营许可和备案管理办法」，「自2023年12月1日起施行」。WebFetch 与本地定位均确认。
-- 第四条：「在中华人民共和国境内从事食品销售和餐饮服务活动，应当依法取得食品经营许可。下列情形不需要取得食品经营许可：……（二）仅销售预包装食品」
+### 8. Cách quản lý giấy phép và hồ sơ hoạt động thực phẩm
+- URL：<https://www.gov.cn/gongbao/2023/issue_10606/202307/content_6894763.html>（Quốc vụ viện Thông báo 2023 Năm thứ 1 21 Số 1）
+- Trang tiêu đề "Chính quyền giám sát thị trường quốc gia 78 Số 1）　Quản lý tài liệu và giấy phép hoạt động thực phẩm". 2023 Năm 12 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 4: "Các doanh nghiệp bán và phục vụ thức ăn trong Cộng hòa Nhân dân Trung Quốc phải có giấy phép vận hành thức ăn theo pháp luật". Các trường hợp sau đây không cần phải có giấy phép hoạt động thực phẩm：……（(b) Chỉ bán thực phẩm đóng gói trước」
 
-### 9. 刑法（1997 年修订本文）
-- URL：<https://www.spp.gov.cn/spp/fl/201802/t20180206_364975.shtml>（最高检法律法规库）
-- 页面标题「中华人民共和国刑法（1997年修订）」。WebFetch 与本地定位均确认。
-- 第二百零五条：「虚开增值税专用发票或者虚开用于骗取出口退税、抵扣税款的其他发票的，处三年以下有期徒刑或者拘役，并处二万元以上二十万元以下罚金；虚开的税款数额较大或者有其他严重情节的，处三年以上十年以下有期徒刑，并处五万元以上五十万元以下罚金；虚开的税款数额巨大或者有其他特别严重情节的，处十年以上有期徒刑或者无期徒刑……虚开增值税专用发票或者虚开用于骗取出口退税、抵扣税款的其他发票，是指有为他人虚开、为自己虚开、让他人为自己虚开、介绍他人虚开行为之一的。」页面为 1997 年文本，含已被修正案（八）删去的死刑款，正文未引用该款。
-- 第二百二十五条：「违反国家规定，有下列非法经营行为之一，扰乱市场秩序，情节严重的，处五年以下有期徒刑或者拘役，并处或者单处违法所得一倍以上五倍以下罚金；情节特别严重的，处五年以上有期徒刑……（一）未经许可经营法律、行政法规规定的专营、专卖物品或者其他限制买卖的物品的；……（三）未经国家有关主管部门批准非法经营证券、期货、保险业务的，或者非法从事资金支付结算业务的」（页面标注该项依修正案（七）修改）。
+### 9. Bộ luật Hình sự（1997 Năm sửa đổi）
+- URL：<https://www.spp.gov.cn/spp/fl/201802/t20180206_364975.shtml>（Thư viện pháp luật và quy định cao nhất）
+- Trang tiêu đề Cộng hòa Nhân dân Trung Quốc Bộ luật Hình sự（1997 Quá trình sửa đổi）」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 2: "Các tờ khai thuế giá trị tăng đặc biệt hoặc các tờ khai khác được dùng để lừa đảo thuế xuất khẩu, tiền thuế khấu trừ, có thể bị kết án tù hoặc giam giữ ít hơn 3 năm và có thể bị phạt ít hơn 20 nghìn đồng và ít hơn 200 nghìn đồng; Số tiền thuế bị bỏ lỡ lớn hơn hoặc có nguyên nhân nghiêm trọng khác, bị kết án tù ít hơn 3 năm và ít hơn 10 năm, và bị phạt ít hơn 50 nghìn đồng và ít hơn 500 nghìn đồng; Số tiền thuế bị bỏ lỡ lớn hoặc có những tình huống đặc biệt nghiêm trọng khác, có thể bị kết án tù hoặc vô hạn trong hơn 10 năm……Tiền thuế giá trị tăng giá không được khai thác đặc biệt hoặc tiền khác được sử dụng để gian lận về thuế xuất khẩu, chiết khấu thuế, có nghĩa là việc khai thác cho người khác, khai thác cho chính mình, khiến người khác khai thác cho chính mình, giới thiệu một trong những hành vi khai thác cho người khác. "trang này là 1997 Văn bản hàng năm, bao gồm các khoản án tử hình đã được sửa đổi (8) nội dung chính Không tham khảo đoạn。
+- Điều 225: "Trong vi phạm các quy định của quốc gia, có một trong những hành vi bất hợp pháp sau đây, làm gián đoạn trật tự thị trường, tình huống nghiêm trọng, có án tù hoặc giam giữ ít hơn năm năm, và bị phạt gấp đôi hoặc ít hơn gấp năm lần tiền thu được bất hợp pháp; Tình hình đặc biệt nghiêm trọng, bị kết án 5 năm tù……（(a) Các sản phẩm chuyên dụng, chuyên dụng hoặc các sản phẩm khác bị hạn chế mua bán mà không được phép hoạt động theo luật pháp, quy định hành chính；……（(iii) Những người hoạt động bất hợp pháp trong các hoạt động giao dịch chứng khoán, tương lai, bảo hiểm hoặc thanh toán bất hợp pháp mà không được chính quyền có liên quan của quốc gia phê duyệt".）。
 
-### 10. 财政部 税务总局公告 2023 年第 19 号
+### 10. Bộ Tài chính Thông báo của Tổng Cục Thuế 2023 Năm thứ 1 19 Số 1
 - URL：<https://www.gov.cn/zhengce/zhengceku/202308/content_6896287.htm>
-- 页面标题「关于增值税小规模纳税人减免增值税政策的公告」，文号「财政部 税务总局公告2023年第19号」。WebFetch 与本地定位均确认。
-- 「一、对月销售额10万元以下（含本数）的增值税小规模纳税人，免征增值税。」「二、增值税小规模纳税人适用3%征收率的应税销售收入，减按1%征收率征收增值税」「三、本公告执行至2027年12月31日。」
+- Trang tiêu đề "Sự tuyên bố về chính sách giảm thuế giá trị tăng lên cho người đóng thuế nhỏ", theo tiêu đề: Bộ Tài chính Thông báo của Tổng Cục Thuế 2023 Năm thứ 1 19 Số 1」。WebFetch Được xác nhận với vị trí địa phương。
+- 「1 doanh số bán hàng hàng tháng 10 Người nộp thuế giá trị tăng giá nhỏ dưới 10 triệu USD (bao gồm cả số này) không bị đánh thuế giá trị tăng giá. "Trong hai, thuế giá trị tăng lên áp dụng cho người đóng thuế nhỏ 3%Tỷ lệ thu nhập bán hàng phải chịu thuế, giảm theo 1%"Thứ ba, thông báo này được thực hiện cho đến 2027 Năm 12 Mặt trăng 31 Ngày。」
 
-### 11. 劳动合同法
+### 11. Luật hợp đồng lao động
 - URL：<https://www.gov.cn/gongbao/content/2007/content_711013.htm>
-- 页面版本行「2007年6月29日通过……自2008年1月1日起施行」。WebFetch 与本地定位均确认。
-- 第十条：「已建立劳动关系，未同时订立书面劳动合同的，应当自用工之日起一个月内订立书面劳动合同。」
-- 第十七条：「劳动合同应当具备以下条款：……（六）劳动报酬；（七）社会保险」
-- 第三十条：「用人单位应当按照劳动合同约定和国家规定，向劳动者及时足额支付劳动报酬。用人单位拖欠或者未足额支付劳动报酬的，劳动者可以依法向当地人民法院申请支付令」
-- 第八十二条：「用人单位自用工之日起超过一个月不满一年未与劳动者订立书面劳动合同的，应当向劳动者每月支付二倍的工资。」
+- Phiên bản trang「2007 Năm 6 Mặt trăng 29 Ngày qua……Tự trị 2008 Năm 1 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 10 "Những người có mối quan hệ lao động được thiết lập và không đồng thời ký hợp đồng lao động bằng văn bản phải ký hợp đồng lao động bằng văn bản trong vòng một tháng kể từ ngày làm việc tự do.。」
+- Điều 17: "Các hợp đồng lao động phải có các điều khoản sau đây:：……（(v) lương lao động; 7 Bảo hiểm xã hội」
+- Điều 30: "Các đơn vị nhân viên phải trả lương lao động cho người lao động một cách kịp thời và đầy đủ theo hợp đồng lao động và các quy định của quốc gia". Người lao động bị người sử dụng trễ hoặc không trả đầy đủ lương lao động có thể nộp đơn xin thanh toán tại tòa án nhân dân địa phương theo luật pháp」
+- Điều 82: "Các nhân viên không ký hợp đồng lao động bằng văn bản với công nhân hơn một tháng kể từ ngày làm việc tự do, phải trả cho công nhân lương gấp đôi mỗi tháng.。」
 
-### 12. 社会保险法（2018 年修正）
-- URL：<https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394629.html>（人力资源社会保障部）
-- WebFetch 被反爬脚本拦截返回空白；curl 携带脚本计算的 cookie 取得全文 93 KB，页面标题「中华人民共和国社会保险法_中华人民共和国人力资源和社会保障部」，版本行「2010年10月28日……通过 根据2018年12月29日……《关于修改〈中华人民共和国社会保险法〉的决定》修正」。链接来自该部「法律」栏目列表页（<https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/>）。
-- 第五十八条：「用人单位应当自用工之日起三十日内为其职工向社会保险经办机构申请办理社会保险登记。」
-- 第六十条：「用人单位应当自行申报、按时足额缴纳社会保险费，非因不可抗力等法定事由不得缓缴、减免。」
-- 第八十四条：「用人单位不办理社会保险登记的，由社会保险行政部门责令限期改正；逾期不改正的，对用人单位处应缴社会保险费数额一倍以上三倍以下的罚款，对其直接负责的主管人员和其他直接责任人员处五百元以上三千元以下的罚款。」
-- 第八十六条：「用人单位未按时足额缴纳社会保险费的，由社会保险费征收机构责令限期缴纳或者补足，并自欠缴之日起，按日加收万分之五的滞纳金；逾期仍不缴纳的，由有关行政部门处欠缴数额一倍以上三倍以下的罚款。」
+### 12. Luật Bảo hiểm Xã hội（2018 Năm sửa đổi）
+- URL：<https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394629.html>（Bộ Nhân lực và An sinh xã hội）
+- WebFetch Trở lại trống khi bị chặn bởi kịch bản phản hồi；curl Những người có tính toán kịch bản cookie Nhận văn bản đầy đủ 93 KB，Trang tiêu đề Luật Bảo hiểm Xã hội Cộng hòa Nhân dân Trung Quốc_Bộ nhân lực và an ninh xã hội của Cộng hòa Nhân dân Trung Quốc".「2010 Năm 10 Mặt trăng 28 Ngày……Thông qua 2018 Năm 12 Mặt trăng 29 Ngày……《Về việc sửa đổi〈Luật Bảo hiểm Xã hội Cộng hòa Nhân dân Trung Quốc〉Đáp lại quyết định". Liên kết đến từ trang danh sách "Legal" của Bộ luật（<https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/>）。
+- Điều 58: "Các đơn vị nhân viên phải nộp đơn xin đăng ký bảo hiểm xã hội cho nhân viên của mình vào cơ quan quản lý bảo hiểm xã hội trong vòng 30 ngày kể từ ngày làm việc.。」
+- Điều 6: "Các đơn vị nhân viên phải tự khai báo, phải trả tiền bảo hiểm xã hội đúng thời gian, không bị trì hoãn hoặc giảm bớt trong các trường hợp pháp lý, chẳng hạn như không thể kháng cự.。」
+- Điều 84: "Các đơn vị không được đăng ký bảo hiểm xã hội được yêu cầu sửa đổi thời hạn bởi Cơ quan quản lý bảo hiểm xã hội; Hình phạt không được sửa đổi quá trễ đối với đơn vị nhân viên phải trả một lần hoặc hơn ba lần số tiền bảo hiểm xã hội và ít hơn 5.000 đồng đối với người quản lý trực tiếp chịu trách nhiệm và người khác chịu trách nhiệm trực tiếp。」
+- Điều 86: "Người lao động không trả đủ số tiền bảo hiểm xã hội theo thời gian, được yêu cầu phải trả hoặc bổ sung theo thời hạn của các cơ quan tính phí bảo hiểm xã hội, và phải nhận thêm 5 phần trăm tiền trễ mỗi ngày kể từ ngày nộp nợ; Các hình phạt không được thanh toán trong thời gian trễ và ít hơn gấp đôi hoặc ba lần số tiền phải thanh toán từ các cơ quan hành chính có liên quan。」
 
-### 13. Camuffo 等 2020（RCT）
+### 13. Camuffo Được rồi. 2020（RCT）
 - DOI：<https://doi.org/10.1287/mnsc.2018.3249>
-- WebFetch 打开 doi.org 返回 302 跳转 <https://pubsonline.informs.org/doi/10.1287/mnsc.2018.3249>，该页返回 403。改用 Crossref API（api.crossref.org/works/10.1287/mnsc.2018.3249）确认：题名「A Scientific Approach to Entrepreneurial Decision Making: Evidence from a Randomized Control Trial」，Management Science 66(2):564-586，2020 年 2 月，作者 Camuffo, Cordova, Gambardella, Spina。Semantic Scholar API 取得摘要：「The panel sample of our randomized control trial includes 116 Italian startups and 16 data points over a period of about one year. … We find that entrepreneurs who behave like scientists perform better, are more likely to pivot to a different idea, and are not more likely to drop out than the control group in the early stages of the startup. … a scientific approach improves precision—it reduces the odds of pursuing projects with false positive returns」。正文只用摘要陈述，未写具体效应量。
+- WebFetch Mở ra doi.org Trở lại 302 Chuyển <https://pubsonline.informs.org/doi/10.1287/mnsc.2018.3249>，Trang này trở lại 403。Chuyển đổi Crossref API（api.crossref.org/works/10.1287/mnsc.2018.3249）Được xác nhận: Title「A Scientific Approach to Entrepreneurial Decision Making: Evidence from a Randomized Control Trial」，Management Science 66(2):564-586，2020 Năm 2 Tháng, tác giả Camuffo, Cordova, Gambardella, Spina。Semantic Scholar API Tóm lại：「The panel sample of our randomized control trial includes 116 Italian startups and 16 data points over a period of about one year. … We find that entrepreneurs who behave like scientists perform better, are more likely to pivot to a different idea, and are not more likely to drop out than the control group in the early stages of the startup. … a scientific approach improves precision—it reduces the odds of pursuing projects with false positive returns」。nội dung chính Chỉ sử dụng các tuyên bố tóm tắt mà không ghi lại số lượng tác dụng cụ thể。
 
-### 14. 强制性产品认证管理规定
-- URL：<http://www.gov.cn/gongbao/content/2010/content_1533513.htm>（国务院公报 2010 年第 5 号）
-- 页面标题「国家质量监督检验检疫总局令（第117号）　强制性产品认证管理规定」，「自2009年9月1日起施行」。WebFetch 与本地定位均确认。
-- 第二条：「国家规定的相关产品必须经过认证（以下简称强制性产品认证），并标注认证标志后，方可出厂、销售、进口或者在其他经营活动中使用。」
-- 第四十九条：「列入目录的产品未经认证，擅自出厂、销售、进口或者在其他经营活动中使用的，由地方质检两局依照认证认可条例第六十七条规定予以处罚。」
+### 14. Quy định quản lý chứng nhận sản phẩm bắt buộc
+- URL：<http://www.gov.cn/gongbao/content/2010/content_1533513.htm>（Quốc vụ viện Thông báo 2010 Năm thứ 1 5 Số 1）
+- Trang tiêu đề "Cơ quan giám sát chất lượng quốc gia kiểm tra và kiểm soát vắc-xin 117 Số 1）　Các quy định về quản lý chứng nhận sản phẩm bắt buộc". 2009 Năm 9 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 2 "Các sản phẩm có liên quan được quy định bởi quốc gia phải được chứng nhận (được gọi là chứng nhận sản phẩm bắt buộc) và được đánh dấu bằng chứng nhận để các bên có thể sản xuất, bán, nhập khẩu hoặc sử dụng trong các hoạt động kinh doanh khác.。」
+- Điều 49: "Các sản phẩm được liệt kê trong danh sách không được chứng nhận, không được phép sản xuất, bán, nhập khẩu hoặc sử dụng trong các hoạt động kinh doanh khác, được hai cơ quan kiểm tra chất lượng địa phương trừng phạt theo quy định của Điều 67 của quy định về chứng nhận.。」
 
-### 15. 护士条例
+### 15. Quy định về y tá
 - URL：<http://www.gov.cn/zhengce/zhengceku/2008-03/28/content_6169.htm>
-- 页面标题「护士条例」，文号「国令第517号」，「2008年1月23日国务院第206次常务会议通过……自2008年5月12日起施行」。WebFetch 与本地定位均确认。为 2008 年原文，2020 年修订本未找到官方全文页。
-- 第十七条：「护士在执业活动中，发现患者病情危急，应当立即通知医师；在紧急情况下为抢救垂危患者生命，应当先行实施必要的紧急救护。护士发现医嘱违反法律、法规、规章或者诊疗技术规范规定的，应当及时向开具医嘱的医师提出；必要时，应当向该医师所在科室的负责人或者医疗卫生机构负责医疗服务管理的人员报告。」
+- Trang tiêu đề "Đạo luật về y tá" có tiêu đề: "Đạo luật quốc gia No. 517 Số 1」，「2008 Năm 1 Mặt trăng 23 Ngày Quốc vụ viện Thứ nhất 206 Hội nghị thường trực tiếp tiếp tiếp……Tự trị 2008 Năm 5 Mặt trăng 12 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương. Đối với 2008 Nguồn gốc，2020 Bản sửa đổi năm không tìm thấy trang chính thức đầy đủ。
+- Điều 17: "Người y tá phải báo cho bác sĩ ngay lập tức khi thấy bệnh nhân đang trong tình trạng nguy hiểm trong hoạt động thực hành; Trong trường hợp khẩn cấp, các hành động khẩn cấp cần thiết phải được thực hiện trước để cứu sống những người đang gặp nguy hiểm sơ cứu Bảo vệ. Một y tá phát hiện ra rằng đơn xin điều trị vi phạm quy định của pháp luật, quy định, quy định hoặc quy định về kỹ thuật y tế, nên được đưa đến bác sĩ có giấy xin trong thời gian thích hợp; Nếu cần thiết, phải báo cáo cho người đứng đầu phòng của bác sĩ hoặc nhân viên của cơ quan y tế chịu trách nhiệm quản lý dịch vụ y tế。」
 
-### 16. 市场主体登记管理条例
+### 16. Quy định quản lý đăng ký đối tượng thị trường
 - URL：<https://www.gov.cn/zhengce/zhengceku/2021-08/24/content_5632964.htm>
-- 页面标题「中华人民共和国市场主体登记管理条例」，文号「国令第746号」，「自2022年3月1日起施行」。WebFetch 与本地定位均确认。
-- 第三十一条：「市场主体因解散、被宣告破产或者其他法定事由需要终止的，应当依法向登记机关申请注销登记。」
-- 第三十二条：「清算组应当自清算结束之日起30日内向登记机关申请注销登记。」
-- 第三十三条：「市场主体未发生债权债务或者已将债权债务清偿完结，未发生或者已结清清偿费用、职工工资、社会保险费用、法定补偿金、应缴纳税款（滞纳金、罚款），并由全体投资人书面承诺对上述情况的真实性承担法律责任的，可以按照简易程序办理注销登记。……公示期为20日。……个体工商户按照简易程序办理注销登记的，无需公示……有关部门在10日内没有提出异议的，可以直接办理注销登记。……被列入经营异常名录的，不适用简易注销程序。」
+- Trang tiêu đề "Đạo luật quản lý đăng ký đối tượng thị trường của Cộng hòa Nhân dân Trung Quốc", có tiêu đề: 746 ###, ####, #####, #### 2022 Năm 3 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 31: "Các công ty trên thị trường bị phá sản, tuyên bố phá sản hoặc các vụ pháp lý khác buộc phải chấm dứt, phải nộp đơn xin hủy đăng ký cho cơ quan đăng ký theo pháp luật.。」
+- Điều 32: "Nhóm thanh toán phải bắt đầu từ ngày thanh toán kết thúc. 30 Đơn xin hủy đăng ký với cơ quan đăng ký trong ngày。」
+- Điều 33: "Các chủ thể trên thị trường không mắc nợ hoặc đã thanh toán nợ nợ, không mắc nợ hoặc đã thanh toán các khoản thanh toán, lương lao động, bảo hiểm xã hội, khoản bồi thường pháp lý, tiền phải nộp thuế, tiền trì hoãn, tiền phạt) và tất cả các nhà đầu tư cam kết bằng văn bản về tính thực tế của tình huống trên. trách nhiệm pháp lý Đăng ký của bạn có thể được xử lý theo các quy trình đơn giản。……Thời gian công bố: 20 Ngày。……Các doanh nghiệp cá nhân được đăng ký hủy bỏ theo thủ tục đơn giản, không cần phải công bố……Các bộ phận liên quan 10 Không có phản đối trong ngày, có thể trực tiếp xử lý việc hủy đăng ký。……Được ghi vào danh sách hoạt động bất thường, không áp dụng quy trình đơn giản hủy bỏ。」
 
-### 17. 企业注销指引（2025 年修订）
+### 17. Định hướng phá sản của doanh nghiệp（2025 Quá trình sửa đổi）
 - URL：<https://www.gov.cn/zhengce/zhengceku/202512/content_7053238.htm>
-- 页面标题「市场监管总局等六部门关于发布《企业注销指引（2025年修订）》的公告」，文号「2025年第52号」。WebFetch 与本地定位均确认。
-- 「简易注销流程 1.适用对象。企业（上市股份有限公司除外）在存续期间未发生债权债务或已将债权债务清偿完结……可以按照简易程序办理注销登记。企业有下列情形之一的，不适用简易注销程序：……在经营异常名录或者市场监督管理严重违法失信名单中」
+- Trang tiêu đề "Sáu cơ quan như Cơ quan quản lý thị trường Trung ương về việc phát hành hướng dẫn hủy bỏ các doanh nghiệp dầu mỏ（2025 Năm sửa đổi) thông báo của thằng bé " , số「2025 Năm thứ 1 52 Số 1」。WebFetch Được xác nhận với vị trí địa phương。
+- 「Quá trình thanh toán đơn giản 1.Đối tượng áp dụng. Công ty (trừ công ty có cổ phần được đưa ra thị trường) không có nợ nợ trong thời gian tồn tại hoặc đã thanh toán nợ nợ nợ đã hoàn thành……Việc hủy đăng ký có thể được thực hiện theo một quy trình đơn giản. Các doanh nghiệp có một trong những trường hợp sau đây không áp dụng quy trình đơn giản hủy bỏ：……Trong danh sách hoạt động bất thường hoặc danh sách vi phạm nghiêm trọng về quản lý thị trường」
 
-### 18. 企业破产法
-- URL：<http://www.gov.cn/gongbao/content/2006/content_413952.htm>（国务院公报 2006 年第 29 号）
-- 页面标题「中华人民共和国主席令（第五十四号）　中华人民共和国企业破产法」，「自2007年6月1日起施行」。WebFetch 与本地定位均确认。
-- 第二条：「企业法人不能清偿到期债务，并且资产不足以清偿全部债务或者明显缺乏清偿能力的，依照本法规定清理债务。」
-- 第七条：「债务人有本法第二条规定的情形，可以向人民法院提出重整、和解或者破产清算申请。……企业法人已解散但未清算或者未清算完毕，资产不足以清偿债务的，依法负有清算责任的人应当向人民法院申请破产清算。」
+### 18. Luật phá sản doanh nghiệp
+- URL：<http://www.gov.cn/gongbao/content/2006/content_413952.htm>（Quốc vụ viện Thông báo 2006 Năm thứ 1 29 Số 1）
+- Trang tiêu đề "Định luật 54 của Tổng thống Cộng hòa Nhân dân Trung Quốc"）　Luật phá sản doanh nghiệp của Cộng hòa Nhân dân Trung Quốc". 2007 Năm 6 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 2 "Các doanh nghiệp không thể thanh toán nợ hết hạn và tài sản không đủ để thanh toán toàn bộ nợ hoặc không có khả năng thanh toán rõ ràng, phải thanh toán nợ theo quy định của Luật này.。」
+- Điều 7: "Người nợ có luật này" Điều 2 Trong các trường hợp được quy định, có thể nộp đơn tái lập, giải quyết hoặc thanh toán phá sản cho Tòa án Nhân dân。……Người có trách nhiệm thanh toán theo pháp luật phải nộp đơn thanh toán phá sản cho Tòa án Nhân dân nếu doanh nghiệp đã tan rã nhưng chưa được thanh toán hoặc chưa hoàn thành thanh toán, tài sản chưa đủ để thanh toán nợ.。」
 
-### 19. 企业信息公示暂行条例
+### 19. Công ty thông tin công bố quy định tạm thời
 - URL：<https://www.gov.cn/zhengce/zhengceku/2014-08/23/content_9038.htm>
-- 页面标题「企业信息公示暂行条例」，文号「国令第654号」，「自2014年10月1日起施行」。WebFetch 与本地定位均确认。
-- 第十七条：「（一）企业未按照本条例规定的期限公示年度报告……列入经营异常名录……满3年未依照本条例规定履行公示义务的……列入严重违法企业名单……被列入严重违法企业名单的企业的法定代表人、负责人，3年内不得担任其他企业的法定代表人、负责人。」
-- 另核对国务院令第 777 号《国务院关于修改和废止部分行政法规的决定》（<https://www.gov.cn/zhengce/zhengceku/202403/content_6939591.htm>）：「七、将《企业信息公示暂行条例》第二条、第五条第一款、第六条第一款、第七条、第八条第一款、第十条第二款、第十三条第一款、第十四条、第十五条、第二十四条中的“工商行政管理部门”修改为“市场监督管理部门”。」未列第十七条。是否另有 2024 年单独修订，标 TODO。
+- Trang tiêu đề "Đạo luật tạm thời công bố thông tin doanh nghiệp" có tiêu đề: 654 ###, ####, #####, #### 2014 Năm 10 Mặt trăng 1 Hoạt động từ ngày」。WebFetch Được xác nhận với vị trí địa phương。
+- Điều 17: " (1) Các doanh nghiệp không công bố báo cáo hàng năm theo thời hạn quy định trong quy định này……Đăng vào danh sách hoạt động bất thường……Thấp đầy 3 Năm không thực hiện nghĩa vụ công bố theo quy định của quy định này……Đăng vào danh sách các doanh nghiệp phạm pháp nghiêm trọng……Đại diện pháp lý, người đứng đầu các doanh nghiệp được đưa vào danh sách các doanh nghiệp vi phạm nghiêm trọng，3 Không được làm đại diện pháp lý, người đứng đầu các doanh nghiệp khác trong một năm。」
+- Chuyển đổi Quốc vụ viện Đánh giá 777 Địa điểm: Quốc vụ viện Quyết định sửa đổi và bãi bỏ một số quy định hành chính》（<https://www.gov.cn/zhengce/zhengceku/202403/content_6939591.htm>）：「Báo cáo về việc công bố thông tin doanh nghiệp Điều 2 Điều 5, Điều 6, Điều 7, Điều 1 và Điều 7, Điều 8 Bài đầu tiên Điều 10 Điều 2, Điều 13, Điều 1, Điều 14 Điều 15 và Điều 24 của Bộ quản lý hành chính ngành công nghiệp thạch kim được sửa đổi thành Bộ quản lý giám sát thị trường thạch kim. "Không nằm trong Điều 17". Có người khác không? 2024 Năm sửa đổi riêng biệt, tiêu chuẩn TODO。
 
-## 未能核实、未引用
-- 企业存活率/平均寿命官方统计：国家统计局站内搜索与 gov.cn 检索接口均无可核实原文；未写数字。
-- 最高法《关于适用〈公司法〉若干问题的规定（三）》第二十四条（股权代持）：最高法官网原文页未能定位（court.gov.cn 猜测 URL 404，最高检司法解释库无此件）；第 4 条标 TODO，定 B 级。
-- 医师法（2021）第二十三条：国家卫健委站点对脚本抓取返回 412，gov.cn 政策库不收人大法律；未引用。
-- 商标法（2019 修正）第三十一条申请在先：国家知识产权局站点未定位到全文页；第 12 条只作提醒，不引条文。
-- 深圳经济特区个人破产条例：未定位官方原文；第 14 条备注只说「个别地区试点」，不引。
-- 食品安全法第一百二十二条无证经营罚则：未定位官方全文页；第 6 条改引无证无照经营查处办法与食品经营许可办法。
+## Không được xác minh, không được trích dẫn
+- Tỷ lệ sống sót của doanh nghiệp/Tỷ lệ tuổi thọ trung bình chính thức: Cục Thống kê Quốc gia Tìm kiếm nội bộ và gov.cn Không xác minh bản gốc của bất kỳ giao diện tìm kiếm nào; Không viết số。
+- Pháp luật tối cao về việc áp dụng〈Luật Công ty〉Các quy định về một số vấn đề (3) Điều 24: Không được định vị（court.gov.cn Giả sử URL 404，Không có thư viện giải thích pháp lý của Tòa án Tối cao); Thứ nhất 4 Chứng chỉ TODO，Chắc chắn B cấp độ。
+- Luật bác sĩ（2021）Điều 23 Trang web của Ủy ban Y tế Quốc gia lấy lại kịch bản 412，gov.cn Các chính sách không chứa các luật pháp lớn; Không được trích dẫn。
+- Luật thương hiệu（2019 sửa đổi) Điều 31: Đơn trước: Trang web của Cơ quan Quyền trí tuệ quốc gia đã không được định vị vào trang đầy đủ; Thứ nhất 12 Điều này chỉ là một lời nhắc nhở, không trích dẫn。
+- Quy tắc phá sản cá nhân của khu vực kinh tế đặc biệt Shenzhen: chưa được xác định chính thức; Thứ nhất 14 Đạo luật Ghi chú Chỉ cần nói "điểm thử nghiệm khu vực riêng lẻ", không trích dẫn.。
+- Điều 122 của Đạo luật An toàn Thực phẩm: Không xác định toàn văn bản chính thức; Thứ nhất 6 Định luật về cách kiểm tra hoạt động không có giấy chứng nhận và cách cho phép hoạt động thực phẩm。

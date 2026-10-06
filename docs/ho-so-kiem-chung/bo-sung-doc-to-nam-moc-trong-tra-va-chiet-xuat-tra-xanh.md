@@ -1,21 +1,23 @@
-# 第 2 节第 26 条补充：茶叶霉菌毒素与绿茶提取物（2026-09-23）
+# Hồ sơ kiểm chứng: Độc tố nấm mốc trong trà và chiết xuất trà xanh — 2, 26, 2026-09-23
 
-任务来源：GitHub issue #27（ccpfucker），标题「反对喝茶有益健康的观点」。原文主张「没事喝点水和进口纯牛奶，少去喝茶」，理由是茶叶可能被霉菌毒素污染、高浓度茶提取物有肝毒性，结论是「喝茶有益健康」不能作为普遍结论，茶应当看成普通饮料。附了三篇文献。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 三篇文献逐篇核对
+Nhiệm vụ Nguồn：GitHub issue #27（ccpfucker），tiêu đề "Đối với những quan điểm chống lại việc uống trà có lợi cho sức khỏe". Nguồn gốc cho rằng "không có vấn đề gì khi uống một chút nước và nhập khẩu sữa tinh khiết, ít uống trà hơn" và lý do là trà có thể bị ô nhiễm độc tố vi khuẩn, chiết xuất trà có hàm lượng cao có độc tính gan, kết luận rằng "nước trà có lợi cho sức khỏe" không thể là kết luận phổ biến, nên được coi là đồ uống bình thường. Thêm 3 bài tài liệu tham khảo。
 
-| URL | 复核 | 摘要原文要点 |
+## 3 bài tài liệu tham khảo Kiểm tra từng lần
+
+| URL | Đánh giá lại | Bài viết có nội dung |
 |---|---|---|
-| <https://doi.org/10.1016/j.fct.2020.111830>（Cui P 等, 2020, Food and Chemical Toxicology；PMID 33127496） | 是（Europe PMC 摘要） | 158 份国产后发酵黑茶测 4 种黄曲霉毒素，「Two out of 158 samples were positive… (occurrence rate 1.27%)」。高暴露人群上界暴露 9.19 × 10⁻⁶ μg/kg/天，「lower than the JECFA acceptable value of 1.0 ng kg⁻¹ day⁻¹ on liver risk」；概率评估的致癌风险第 95 百分位「equally below the acceptable carcinogenic risk level」 |
-| <https://doi.org/10.3390/toxins14070452>（Zhou H 等, 2022, Toxins；PMID 35878190） | 是（Europe PMC 摘要） | 352 份国产茶测 16 种霉菌毒素，「Average concentrations of almost all mycotoxins in tea samples were below the established regulations, except for ochratoxin A in the dark tea samples」。结论「there is no dietary risk of exposure to mycotoxins through tea consumption in the Chinese population」 |
-| <https://doi.org/10.1016/j.yrtph.2018.03.019>（Hu J 等, 2018, Regulatory Toxicology and Pharmacology；PMID 29580974） | 是（Europe PMC 摘要） | 159 项人体干预研究：「a limited range of concentrated, catechin-rich green tea preparations resulted in hepatic AEs in a dose-dependent manner when ingested in large bolus doses, but not when consumed as brewed tea or extracts in beverages or as part of food」。一次吞服的安全量 338 mg EGCG/天，饮料形式的观察安全量 704 mg EGCG/天 |
+| <https://doi.org/10.1016/j.fct.2020.111830>（Cui P Được rồi., 2020, Food and Chemical Toxicology；PMID 33127496） | Đúng vậy（Europe PMC Tóm lại） | 158 Kiểm tra cà phê đen bơm sau khi sản xuất 4 Thuốc xyloacetide，「Two out of 158 samples were positive… (occurrence rate 1.27%)」。Khả năng tiếp xúc cao 9.19 × 10⁻⁶ μg/kg/Thiên Đàng，「lower than the JECFA acceptable value of 1.0 ng kg⁻¹ day⁻¹ on liver risk」；Đánh giá khả năng nguy cơ ung thư 95 Tỷ lệ %「equally below the acceptable carcinogenic risk level」 |
+| <https://doi.org/10.3390/toxins14070452>（Zhou H Được rồi., 2022, Toxins；PMID 35878190） | Đúng vậy（Europe PMC Tóm lại） | 352 Thử nghiệm trà quốc gia 16 Loại độc mầm，「Average concentrations of almost all mycotoxins in tea samples were below the established regulations, except for ochratoxin A in the dark tea samples」。Kết luận「there is no dietary risk of exposure to mycotoxins through tea consumption in the Chinese population」 |
+| <https://doi.org/10.1016/j.yrtph.2018.03.019>（Hu J Được rồi., 2018, Regulatory Toxicology and Pharmacology；PMID 29580974） | Đúng vậy（Europe PMC Tóm lại） | 159 Nghiên cứu can thiệp về cơ thể：「a limited range of concentrated, catechin-rich green tea preparations resulted in hepatic AEs in a dose-dependent manner when ingested in large bolus doses, but not when consumed as brewed tea or extracts in beverages or as part of food」。Mức độ an toàn một lần 338 mg EGCG/Ngày, hình thức thức thức uống 704 mg EGCG/Thiên Đàng |
 
-## 处理决定
+## xử lý quyết định
 
-**不改结论、不改证据等级、不改标题。** 三篇文献自己的结论都是「按正常喝茶的量没有风险」：第一篇暴露量低于 JECFA 可接受值，第二篇明写中国人群通过喝茶没有膳食风险，第三篇明写冲泡茶不出现肝脏不良事件。它们驳不倒 China-PAR 的死亡率关联，issue 的结论比它引的证据走得更远。「进口纯牛奶」替代的建议 issue 没给证据，不采纳。
+**Không thay đổi kết luận, không thay đổi Mức độ bằng chứng Không thay đổi. tiêu đề。** 3 bài tài liệu tham khảo Kết luận của mình là "không có nguy cơ khi uống trà bình thường": lượng tiếp xúc đầu tiên thấp hơn JECFA Giá trị được chấp nhận, thứ hai được viết rõ ràng Trung Quốc Người dân uống trà không có nguy cơ ăn uống, và thứ ba nói rõ rằng uống trà không gây ra bệnh gan. Chúng không thể phủ nhận China-PAR của tỷ lệ tử vong Liên quan，issue Kết luận đi xa hơn bằng chứng mà nó đưa ra. Đề xuất thay thế cho "những sản phẩm nhập khẩu sữa nguyên chất" issue Không đưa ra bằng chứng, không chấp nhận。
 
-**采纳的部分写进备注。** 读者确实可能担心发霉茶叶，也确实有人拿绿茶提取物胶囊当「喝茶」的替代，这两件事条目原来没说。所以备注补两段：霉菌毒素的检出情况和风险评估结论、提取物与冲泡茶的区别，落点是「这条只算泡的茶，别拿提取物保健品代替」。三篇文献按规矩全部进来源栏，备注不带链接。
+**Các phần được chấp nhận Ghi chú。** Người đọc có thể đang lo lắng về việc uống trà, và có những người sử dụng Green Tea Extract Capsules để thay thế cho việc uống trà, cả hai. mục Tôi không nói. Vì vậy, Ghi chú Kết luận về phát hiện và đánh giá rủi ro của độc mầm mầm, sự khác biệt giữa chiết xuất và tách trà, điểm đến là: "Đây chỉ là tách trà, đừng thay thế bằng các loại thuốc chăm sóc sức khỏe chiết xuất". 3 bài tài liệu tham khảo Tất cả đều theo quy tắc. mục nguồn ， Ghi chú Không có liên kết。
 
-**「受潮发霉的别喝」是常识性提示（C 级口径），没有单独来源。** issue 提到储存条件影响安全性，但三篇文献都没给储存方面的数字，所以只写动作不写数字。
+**「"Đừng uống với cơn bão" là một lời khuyên thông thường.（C cấp độ tiêu chí đánh giá ), không riêng biệt Nguồn。** issue Trong khi đó, có một số thông tin khác được đưa ra. tài liệu tham khảo Không có số liệu về lưu trữ, vì vậy chỉ viết hành động mà không viết số。
 
-**「争议」开头保留，量级不动。** 收益栏没改，说人话也不用改。
+**「Có tranh cãi "Bắt đầu giữ lại, lượng không chuyển động"。** mục lợi ích Không thay đổi. Giải thích dễ hiểu Không cần phải thay đổi.。

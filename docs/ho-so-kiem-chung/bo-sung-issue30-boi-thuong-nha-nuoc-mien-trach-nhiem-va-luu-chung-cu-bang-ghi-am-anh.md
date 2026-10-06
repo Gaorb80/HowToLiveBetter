@@ -1,22 +1,24 @@
-# issue #30：国家赔偿的免责情形补全，加录音、拍照留证两条（2026-09-25）
+# Hồ sơ kiểm chứng: issue30 bồi thường nhà nước miễn trách nhiệm và lưu chứng cứ bằng ghi âm ảnh — 2026-09-25
 
-任务来源：GitHub issue #30（ceiminya）。一是指出第 8 节第 35 条（国家赔偿）只写了国家赔偿法第十九条第一项，漏了相对不起诉等不赔情形；二是建议加「录音」「拍现场」两条取证条目，附了草稿。issue 里的草稿和引文只当线索，下表每一条都是本轮自己抓原文逐字核的。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 逐条核对
+Nhiệm vụ Nguồn：GitHub issue #30（ceiminya）。Điều 1 chỉ ra 8 Chương 3 35 Điều 4 của luật quốc gia chỉ viết về luật quốc gia. Điều 19 Thứ nhất, việc bỏ qua các trường hợp không bị buộc tội tương đối; Thứ hai là đề nghị thêm hai giấy chứng nhận "phát âm" và "phát cảnh". mục Dùng bản thảo。issue Các bản thảo và trích dẫn của Lee chỉ là một clue, và mỗi bài viết dưới đây đều là bản gốc của bản thảo này.。
 
-| 用到哪 | 来源 | 复核方式 | 原文要点 |
+## Kiểm tra từng đoạn
+
+| Làm gì? | Nguồn | Cách kiểm tra | Nguyên tắc: |
 |---|---|---|---|
-| 第 35 条 | 国家赔偿法（2012 修正）第十九条，<https://www.stats.gov.cn/gk/tjfg/xgfxfg/202503/t20250306_1958899.html> | curl 直取 | 六项全文与 issue 表格一致；第三项引「刑事诉讼法第十五条、第一百七十三条第二款、第二百七十三条第二款、第二百七十九条」 |
-| 第 35 条 | 法释〔2015〕24 号，<https://www.court.gov.cn/zixun/xiangqing/16409.html> | curl 直取 | 第七条：不负刑事责任的人和依第十五条、第一百七十三条第二款不追究的人被羁押，国家不赔；起诉后错判并已执行的，判决确定后继续监禁期间要赔。第八条：以第十九条第一、五项免责的，赔偿义务机关举证 |
-| 第 35 条 | 刑事诉讼法（2018 修正），<https://www.spp.gov.cn/zdgz/201810/t20181027_396818.shtml> | curl 直取 | 条号对应：原 15→16（六种不追究情形），原 173 条第二款→177 条第二款（犯罪情节轻微可以不起诉），原 273 条第二款→284 条第二款（附条件不起诉考验期满），原 279→290（和解后不起诉）；第一百八十一条：对 177 条第二款不起诉不服，7 日内向检察院申诉 |
-| 第 41、42 条 | 民事诉讼法（2023 修正）第六十六条，上海市发改委转载 | curl 直取 | 证据八类，含物证、视听资料、电子数据。issue 给的 cicc.court.gov.cn 链接本机只返回 141 字节，改用仓库已在用的转载页 |
-| 第 41 条 | 民诉法解释（2022 第二次修正）第一百零六条，<https://www.court.gov.cn/fabu/xiangqing/353651.html> | curl 直取 | 「对以严重侵害他人合法权益、违反法律禁止性规定或者严重违背公序良俗的方法形成或者获取的证据，不得作为认定案件事实的根据」 |
-| 第 41、42 条 | 民事诉讼证据规定（2019 修正）第十四、十五、九十条，<https://www.court.gov.cn/zixun/xiangqing/212721.html> | curl 直取 | 第十四条电子数据含图片、音频、视频；第十五条视听资料交原始载体、电子数据交原件；第九十条第四项存有疑点的视听资料、电子数据不能单独作为认定事实的根据 |
-| 第 41 条 | 《电影〈消失的她〉中的法律》，<https://www.court.gov.cn/zixun/xiangqing/406032.html> | curl 直取 | 实为人民法院报刊发、义乌法院法官刘丹妮署名、最高法官网「法官文苑」转载，不是 issue 说的「最高人民法院公开普法案例」，来源栏按实际作者写。要点：不得窃听、窥探隐私、侵入住宅取证，不能威胁胁迫；原始载体、不剪辑、连贯、与案件有关 |
+| Thứ nhất 35 Đạo luật | Luật bồi thường quốc gia（2012 (được sửa đổi) Điều 19，<https://www.stats.gov.cn/gk/tjfg/xgfxfg/202503/t20250306_1958899.html> | curl Định hướng | 6 bài viết đầy đủ và issue hình dạng phù hợp; Điều thứ ba đề cập đến "Điều 15 của Đạo luật Thiếu Nại, Điều 173 thứ hai, Điều 273 thứ hai, Điều 279.」 |
+| Thứ nhất 35 Đạo luật | Lời giải thích〔2015〕24 Số 1，<https://www.court.gov.cn/zixun/xiangqing/16409.html> | curl Định hướng | Điều 7: Không trách nhiệm hình sự Những người bị bắt giữ và những người không được truy tố theo Điều 15 và Điều 173, Điều 2, và không bị quốc gia thiệt hại; Những người bị truy tố đã bị kết án sai và đã được thực hiện, tiếp tục bị giam giữ sau khi kết án được xác định. Điều 8 Địa điểm: Điều 19 Thứ nhất, 5 cơ quan trách nhiệm và trách nhiệm bồi thường chứng minh |
+| Thứ nhất 35 Đạo luật | Luật kiện hình sự（2018 sửa đổi），<https://www.spp.gov.cn/zdgz/201810/t20181027_396818.shtml> | curl Định hướng | Đáp ứng: Nguyên tắc 15→16（6 trường hợp không được điều tra) 173 Điều 2→177 Điều 2 (nếu tội có thể không bị truy tố một chút) 273 Điều 2→284 Điều 2 (nếu nại miễn trừ khi kết thúc kỳ thi) 279→290（Không khởi kiện sau khi hòa giải); Điều 1881: Đúng vậy 177 Điều 2 không truy tố và không tuân thủ，7 Báo cáo với công tố viên trong ngày |
+| Thứ nhất 41、42 Đạo luật | Luật kiện dân sự（2023 sửa đổi) Điều 66, Ủy ban cải cách thành phố Thượng Hải | curl Định hướng | 8 loại bằng chứng, bằng chứng về vật chất, thông tin trực quan, dữ liệu điện tử。issue Đưa ra cicc.court.gov.cn Địa chỉ quay trở lại 141 Byte, trang chuyển nhượng đã được sử dụng trong kho |
+| Thứ nhất 41 Đạo luật | Luật kiện dân sự giải thích（2022 Cửa đổi thứ hai) Điều 1006，<https://www.court.gov.cn/fabu/xiangqing/353651.html> | curl Định hướng | 「Bằng chứng được hình thành hoặc thu được nhằm xâm phạm nghiêm trọng quyền lợi hợp pháp của người khác, vi phạm các quy định cấm kỵ của pháp luật hoặc các phương pháp vi phạm nghiêm trọng trật tự có thể không được dựa trên các trường hợp xác định.」 |
+| Thứ nhất 41、42 Đạo luật | Cụ thể bằng chứng trong vụ kiện dân sự（2019 Điều 14, 15, 90, sửa đổi，<https://www.court.gov.cn/zixun/xiangqing/212721.html> | curl Định hướng | Điều 14 Dữ liệu điện tử bao gồm hình ảnh, âm thanh và video; Điều 15 Cụ thể gốc chuyển giao thông tin trực quan, cỗ nguyên liệu chuyển giao dữ liệu điện tử; Điều 90 Điều IV: Thông tin trực tuyến và dữ liệu điện tử có thể không được sử dụng một cách độc lập để xác định thực tế. |
+| Thứ nhất 41 Đạo luật | 《Bộ phim〈Cô ấy đã biến mất〉Luật pháp》，<https://www.court.gov.cn/zixun/xiangqing/406032.html> | curl Định hướng | Đánh văn của thẩm phán Hồ Đào Nha đã được công bố cho tòa án nhân dân, Đánh văn của thẩm phán Hồ Đào Nha, Đánh văn của thẩm phán Hồ Đào Nha đã được đăng tải trên Internet. issue Ông nói: "Điều kiện của Tòa án Nhân dân Tối cao là luật công khai". mục nguồn Đọc theo tác giả thực tế. Điểm quan trọng: không được nghe lén, không được tìm kiếm sự riêng tư, không được xâm nhập vào nhà và không bị đe dọa; Cụ thể nguyên thủy, không cắt, liên kết, liên quan đến vụ án |
 
-## 处理
+## xử lý
 
-- 第 35 条：收益栏把第十九条六项写全，补法释〔2015〕24 号第七、八条；说人话换掉「有一种情况国家不赔」；备注加「先看不起诉决定书写的依据」和 7 日申诉；来源栏补两处并注明 2012/2018 刑诉法条号对应。标题未改（标题只许加字，现标题的「不起诉」读者看了备注和说人话即可知道有例外）。
-- 第 41 条（录音）：A。受益人是自己和家人。补了 issue 草稿没有的两点：录音别发网上（隐私与名誉纠纷，指向第 16 条），本条依据是民事诉讼规则。
-- 第 42 条（拍现场）：C。法律只管照片录像能当证据、要交原件，「全景—位置—细节」顺序是经验，issue 自己也提到可以降为 C。
-- 两条追加在第 8 节末尾，不插中间，避免条号顺延。引用对照从 548 处涨到 551 处，新增 3 处，对得上。
+- Thứ nhất 35 Bài viết: mục lợi ích Đưa ra Điều 19 6 bài viết đầy đủ, bổ sung giải thích〔2015〕24 Điều 7 và 8; Giải thích dễ hiểu Đổi lại là "Có một trường hợp quốc gia không thua cuộc"; Ghi chú + "không nhìn thấy bằng chứng bằng văn bản trước khi kiện quyết định" và 7 ngày khiếu nại; mục nguồn Thêm cả hai và ghi nhận 2012/2018 Đạo luật truy tố hình sự số tương ứng. tiêu đề Không thay đổi tiêu đề Chỉ cần thêm chữ nữa. tiêu đề Những người đọc "không cáo buộc" đã xem Ghi chú và Giải thích dễ hiểu Có những trường hợp ngoại lệ.）。
+- Thứ nhất 41 Bài viết:）：A。người hưởng lợi Tôi và gia đình tôi. Đáp lại issue Hai điểm không có trong bản thảo: bản ghi âm không được đưa ra trực tuyến: tranh chấp về quyền riêng tư và danh dự, chỉ ra mục 16 Điều 2, quy định của quy định về các vụ kiện dân sự。
+- Thứ nhất 42 Lưu ý:）：C。Luật pháp chỉ cho phép hình ảnh và video là bằng chứng, để cung cấp các nguyên nhân, theo thứ tự "sự chi tiết về vị trí toàn cảnh" là kinh nghiệm.，issue Tôi cũng đề cập đến việc có thể giảm xuống C。
+- Hai bài viết được thêm vào 8 Kết thúc đoạn, không nhúng giữa, để tránh các dòng tiếp theo. Quảng cáo đối lập từ 548 Đang đến 551 Địa điểm mới 3 Đúng rồi.。

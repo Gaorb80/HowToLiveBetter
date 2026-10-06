@@ -637,7 +637,7 @@ const ITEMS = new Map();
 const SECS = new Map();
 let CUR_SEC = '';
 const NUMS = '[\\d、,]+(?:\\s*(?:đến|到)\\s*\\d+)?';
-const XREF_RE = new RegExp(`Mục\\s*(${NUMS})\\s*Chương\\s*(\\d+)|Chương\\s*(\\d+)\\s*Mục\\s*(${NUMS})|Chương\\s*([\\d,、]+)|Mục\\s*(${NUMS})|第\\s*(\\d+)\\s*节第\\s*(${NUMS})\\s*条|第\\s*(${NUMS})\\s*条|第\\s*([\\d、]+)\\s*节`, 'gi');
+const XREF_RE = new RegExp(`Mục\\s*(${NUMS})\\s*Chương\\s*(\\d+)|Chương\\s*(\\d+)\\s*Mục\\s*(${NUMS})|Chương\\s*([\\d,、]+)|Mục\\s*(${NUMS})|Thứ nhất\\s*(\\d+)\\s*Chương 3\\s*(${NUMS})\\s*Đạo luật|Thứ nhất\\s*(${NUMS})\\s*Đạo luật|Thứ nhất\\s*([\\d、]+)\\s*Chương 3`, 'gi');
 
 const xrefKeys = (sec, spec) => {
   const ns = [];
@@ -661,8 +661,8 @@ function xrefInto(el, s, terms){
     else if (m[3] && m[4]) keys = xrefKeys(m[3], m[4]); // Chương Y Mục X
     else if (m[5]) keys = String(m[5]).split(/[、,]/).map(x => x.trim()).filter(x => SECS.has(x)).map(x => 's' + x); // Chương X
     else if (m[6]) keys = xrefKeys(CUR_SEC, m[6]); // Mục X
-    else if (m[7] && m[8]) keys = xrefKeys(m[7], m[8]); // 第 X 节第 Y 条
-    else if (m[9]) keys = xrefKeys(CUR_SEC, m[9]); // 第 Y 条
+    else if (m[7] && m[8]) keys = xrefKeys(m[7], m[8]); // Thứ nhất X Chương 3 Y Đạo luật
+    else if (m[9]) keys = xrefKeys(CUR_SEC, m[9]); // Thứ nhất Y Đạo luật
     else if (m[10]) keys = String(m[10]).split(/[、,]/).map(x => x.trim()).filter(x => SECS.has(x)).map(x => 's' + x);
 
     if (!keys.length) continue;

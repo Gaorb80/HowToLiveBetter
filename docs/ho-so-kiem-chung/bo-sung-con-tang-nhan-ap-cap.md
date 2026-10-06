@@ -1,29 +1,31 @@
-# 追加：青光眼急性发作与防蓝光条目的边界 · ho-so-kiem-chung（2026-09-21）
+# Hồ sơ kiểm chứng: Cơn tăng nhãn áp cấp — 2026-09-21
 
-任务来源：读者问第 6 节第 16 条（防蓝光眼镜）是不是有问题——「如果连续看十几个小时熬夜通宵呢」。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-原有覆盖：第 6 节第 16 条的前半句（防蓝光镜片没用）有 Cochrane 撑着，没问题。后半句「看屏幕的眼酸眼干能缓过来」写成了一句不带边界的话，读起来像「看屏幕伤不了眼」。全书搜「青光眼」「眼压」零命中，第 13 节的眼科急症只有第 5 条（一只眼突然黑掉，不疼不红那种）。所以缺的是另一半：疼、红、看灯有彩虹圈的那种。它是急性闭角型青光眼发作，几天就能把视神经压坏，而「暗处、长时间低头、瞳孔散大」正是熬夜刷手机的姿势。
+Nhiệm vụ Nguồn Người đọc hỏi: 6 Chương 3 16 Có vấn đề gì nếu bạn nhìn hàng chục giờ trôi qua cả đêm?」。
 
-落点：第 13 节新增 1 条（第 6 条，插在第 5 条之后，原第 6 至 42 条顺延为 7 至 43）；第 6 节第 16 条改标题、改说人话、备注里补这个例外并指路。
+Bài viết được bao gồm: 6 Chương 3 16 Trong phần đầu của bài viết (không sử dụng kính chống ánh sáng xanh) có Cochrane Nhìn lại, không sao đâu. Phần sau của câu: "Hãy xem màn hình có thể làm chậm lại" viết thành một câu không có biên giới, và đọc như "Hãy xem màn hình không làm tổn thương mắt". Đọc toàn bộ cuốn sách tìm kiếm "Mắt xanh" "Mắt áp lực" 0 hits, số 2 13 Bệnh mắt đột quỵ chỉ có 1 lần 5 Một mắt đột nhiên bị đen, không đau và không đỏ) Vì vậy, còn thiếu một nửa khác: đau đớn, đỏ, nhìn vào ánh sáng với vòng tràng. Đó là một cơn đau mắt xanh ngập ngập, có thể làm tổn thương thần kinh thị giác trong vài ngày, trong khi "năm tối, đầu dài, mắt đầm rỗng" là tư thế của một chiếc điện thoại di động trong đêm.。
 
-顺延后改过的引用：book/01 第 26、31、32 条（第 13 节第 11→12、18→19、19→20、10→11 条），book/08 第 11 条（38→39），book/17 第 8 条（10→11），book/19 第 11 条（20→21），docs/danh-sach-trang-bi-khan-cap-gia-dinh.md 四处（25→26、11→12、13→14、14→15），docs/co-nen-dung-lai-giup-nguoi-la-bi-nan.md 一处（40→41），第 13 节内部十一处。第 13 节第 38 条备注里的《指导意见》第 5、9 条是法条条款号，没动。docs/doi-chieu-tham-chieu.md 的 diff 已逐行看过：每一行都是条号变、指向的标题不变，没有被撞歪的。
+Điểm hạ cánh: 13 Sự gia tăng 1 Điều 3 6 Địa chỉ: 5 Sau đó, 6 đến 42 Đạo luật tiếp theo: 7 đến 43）；Thứ nhất 6 Chương 3 16 Đạo luật tiêu đề Thay đổi. Giải thích dễ hiểu 、 Ghi chú Cung cấp cho sự ngoại lệ và hướng dẫn。
 
-## 第 13 节第 6 条（急性闭角型青光眼）
+Quảng cáo được sửa đổi theo thời gian：book/01 Thứ nhất 26、31、32 Điều 3 13 Chương 3 11→12、18→19、19→20、10→11 Đạo luật），book/08 Thứ nhất 11 Đạo luật（38→39），book/17 Thứ nhất 8 Đạo luật（10→11），book/19 Thứ nhất 11 Đạo luật（20→21），docs/danh-sach-trang-bi-khan-cap-gia-dinh.md Tất cả mọi nơi（25→26、11→12、13→14、14→15），docs/co-nen-dung-lai-giup-nguoi-la-bi-nan.md Một nơi（40→41），Thứ nhất 13 11 phần bên trong. Thứ nhất 13 Chương 3 38 Đạo luật Ghi chú Những lời khuyên của Lee Hsien Loong 5、9 Điều này là số điều khoản của luật, không động。docs/doi-chieu-tham-chieu.md của diff Tôi đã xem từng dòng: mỗi dòng đều thay đổi số và hướng. tiêu đề Không thay đổi, không bị lộn xộn.。
 
-| 文献 | 复核 | 数字 |
+## Thứ nhất 13 Chương 3 6 Bắt mắt xanh ngón kín cấp tính）
+
+| tài liệu tham khảo | Đánh giá lại | Số |
 |---|---|---|
-| Zhou L, Wu S, Wang Y, Bao X, Peng T, Luo W, Ortega-Usobiaga J (2022). Clinical presentation of acute primary angle closure during the COVID-19 epidemic lockdown. Front Med 9:1078237. <https://doi.org/10.3389/fmed.2022.1078237>（Europe PMC 取到摘要全文，PMID 36590933） | 是 | 2020 年封控 76 天 54 人 64 眼，2021 年同期 46 人 51 眼；失明比例 21.87% 对 7.84%；症状到治疗 241.84±211.95 h 对 121.53±96.12 h（P=0.001）；就诊眼压 52.63±12.45 对 45.16±9.79 mmHg（P=0.001）；瞳孔直径 5.47±1.62 对 4.33±1.27 mm（P=0.001）；青光眼性视神经病变 20/64（31.25%）对 7/51（13.73%）（P=0.03） |
-| Sung MS, Kim HJ, Park SW (2023). Predictors of long-term visual field outcome after an episode of acute primary angle closure. Clin Exp Ophthalmol 51(4):291-299. <https://doi.org/10.1111/ceo.14206>（PMID 36641235） | 是 | 50 人 50 眼，发作后做了摘除晶状体手术，1 年后 25 眼（50%）有视野缺损；症状出现到降眼压的时间（p=0.005）、就诊眼压（p=0.014）、虹膜曲度平坦（p=0.037）是三个预测因素，三者合起来 AUC=0.921 |
-| Wang J, Wang J, Ng TK, Huang C (2025). Asymmetric intraocular pressure changes in dominant and contralateral eyes: the dark room prone provocative test. Semin Ophthalmol 40(4):325-331. <https://doi.org/10.1080/08820538.2024.2443972>（PMID 39844657） | 是 | 43 名前房浅者 86 眼，暗室俯卧 1 小时后两眼眼压均显著升高（p<.01）；主视眼升幅中位数 3.60 mmHg，对侧眼 2.70 mmHg（p<.05） |
+| Zhou L, Wu S, Wang Y, Bao X, Peng T, Luo W, Ortega-Usobiaga J (2022). Clinical presentation of acute primary angle closure during the COVID-19 epidemic lockdown. Front Med 9:1078237. <https://doi.org/10.3389/fmed.2022.1078237>（Europe PMC Nhận bản tóm tắt đầy đủ，PMID 36590933） | Đúng vậy | 2020 Quá trình kiểm soát 76 Thiên Đàng 54 Người dân 64 Đôi mắt，2021 cùng kỳ năm 46 Người dân 51 mắt; Tỷ lệ mù 21.87% Đúng vậy 7.84%；Các triệu chứng đến điều trị 241.84±211.95 h Đúng vậy 121.53±96.12 h（P=0.001）；Bệnh áp lực mắt 52.63±12.45 Đúng vậy 45.16±9.79 mmHg（P=0.001）；Diameter pupil 5.47±1.62 Đúng vậy 4.33±1.27 mm（P=0.001）；Bệnh thần kinh thị giác xanh 20/64（31.25%）Đúng vậy 7/51（13.73%）（P=0.03） |
+| Sung MS, Kim HJ, Park SW (2023). Predictors of long-term visual field outcome after an episode of acute primary angle closure. Clin Exp Ophthalmol 51(4):291-299. <https://doi.org/10.1111/ceo.14206>（PMID 36641235） | Đúng vậy | 50 Người dân 50 Bắt, phẫu thuật cắt lớp sau cơn đau，1 Nhiều năm sau 25 Đôi mắt（50%）bị mất tầm nhìn; Thời gian mà các triệu chứng xuất hiện đến khi giảm áp lực mắt（p=0.005）、Bệnh áp lực mắt（p=0.014）、Độ cong phẳng của tràng quang（p=0.037）Đó là 3 yếu tố dự đoán, 3 yếu tố kết hợp. AUC=0.921 |
+| Wang J, Wang J, Ng TK, Huang C (2025). Asymmetric intraocular pressure changes in dominant and contralateral eyes: the dark room prone provocative test. Semin Ophthalmol 40(4):325-331. <https://doi.org/10.1080/08820538.2024.2443972>（PMID 39844657） | Đúng vậy | 43 Những người từng sống trong căn nhà 86 Mắt, phòng tối nằm xuống. 1 Tăng huyết áp trong hai mắt sau một giờ（p<.01）；Đường trung bình tăng mắt 3.60 mmHg，Nhìn bên ngoài 2.70 mmHg（p<.05） |
 
-定 B：三项都是观察性研究，前两项还是单中心回顾性的，武汉那一组混着封控本身带来的差别。收益量级「大」——口径是死亡率／健康终点，失明不可逆。成本按第 13 节其余急症条的惯例记「钱=0 时间=中」。
+Chắc chắn B：Ba trong số đó là nghiên cứu theo dõi, hai trong số đó là nghiên cứu theo dõi đơn trung tâm, và nhóm người Vũ Hán đã trộn lẫn các sự khác biệt trong việc kiểm soát chính nó. mức độ lợi ích "Lớn". tiêu chí đánh giá Đúng vậy tỷ lệ tử vong／Chứng khoán, mù quáng không thể đảo ngược được. Chi phí Theo đoạn 13 Những điều thường xảy ra trong các giai đoạn còn lại của bệnh chẩn đoán là tiền.=0 Thời gian=Trong」。
 
-刻意没写进正文的：① 没有任何研究证明「看手机会导致青光眼」，正文只写暗环境加长时间低头是发作的诱因，并点明高危人群是 50 岁以上、远视、前房浅的人，年轻人通宵不走这条路；② 中心性浆液性脉络膜视网膜病变（熬夜和压力相关，Retina 2016 的荟萃给睡眠障碍 OR=1.90）没写，因为该摘要印的 95% CI 是 1.28–1.83，下限大于上限，明显是排印错误，拿不到可逐字核对的正确区间；③ 屏幕工作者干眼患病率（BMJ Open 2016，三项客观标准判定为 11.6%，95% CI 10.5–12.9）没写进收益栏，只在第 6 节第 16 条备注里留了一句「干眼拖久了会变成慢性病」，仍算 C 级共识。
+Không cố ý. nội dung chính của：① Tuy nhiên, không có nghiên cứu nào chứng minh rằng "cơ hội xem ảnh hưởng đến ánh sáng xanh". nội dung chính Chỉ cần viết về môi trường bóng tối là nguyên nhân gây ra các cơn đau và chỉ ra rằng những người có nguy cơ cao là 50 Những người lớn tuổi, những người tầm nhìn xa, những người thiếu nhà, những người trẻ tuổi không đi trên con đường này cả đêm；② Phòng lơ lửng trung tâm của lơ lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng lửng，Retina 2016 Bệnh gây rối loạn giấc ngủ OR=1.90）Không viết vì bản tóm tắt đã được in 95% CI Đúng vậy 1.28–1.83，Giới hạn dưới lớn hơn giới hạn trên, rõ ràng là sai sót, không có khoảng cách đúng để xác minh theo từng từ；③ Tỷ lệ bệnh nhân khô mắt trên màn hình（BMJ Open 2016，3 tiêu chuẩn khách quan được xác định là 11.6%，95% CI 10.5–12.9）Không ghi. mục lợi ích Chỉ trong đoạn 6 Chương 3 16 Đạo luật Ghi chú Trong đó có một câu nói: "Mắt khô lâu sẽ biến thành bệnh mãn tính". C Sự đồng thuận cấp độ。
 
-## 第 6 节第 16 条（防蓝光眼镜）的改动
+## Thứ nhất 6 Chương 3 16 Những thay đổi về kính chống ánh sáng xanh
 
-证据等级、来源、收益栏一个字没动。改了三处：标题末尾加「，但眼睛胀痛发红要当急症」；说人话按 120 字以内重写，去掉了收益栏里没有的断言；备注补上这个例外、它的诱因和高危人群，并加了一句干眼可能转慢性，指路第 13 节第 6 条。
+Mức độ bằng chứng 、 Nguồn 、 mục lợi ích Một lời cũng không động. Có 3 thay đổi: tiêu đề Cuối cùng, bạn thêm "nhưng mắt bùng nổ và đỏ sẽ trở nên cấp bách". Giải thích dễ hiểu Theo: 120 Nó được viết lại trong chữ và bị loại bỏ mục lợi ích Những lời khẳng định không có trong đó; Ghi chú Thêm vào sự ngoại lệ này, các nguyên nhân của nó và các nhóm nguy hiểm cao, và thêm một câu nói khô có thể chuyển sang mãn tính. 13 Chương 3 6 Đạo luật。
 
-## 统计
+## Thống kê
 
-全书 574 → 575 条，A 级 385 不变，B 级 139 → 140，C 级 50 不变；争议 51、TODO 38 不变；book/ 下的原始文献链接 1176 → 1179；性价比极高 105、高 267、一般 203。
+Tất cả sách 574 → 575 Đạo luật，A cấp độ 385 Không thay đổi，B cấp độ 139 → 140，C cấp độ 50 Không thay đổi; Có tranh cãi 51、TODO 38 Không thay đổi；book/ Dưới đây là nguyên thủy tài liệu tham khảo Liên kết 1176 → 1179；Giá cả rất cao 105、cao 267、Thông thường 203。

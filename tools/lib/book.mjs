@@ -43,10 +43,10 @@ export function readBook() {
     if (a < 0 || b < 0) throw new Error(`README: Không tìm thấy đoạn giữa ${fromPatterns} và ${toPatterns}`);
     return lines.slice(a, b).join('\n');
   };
-  const description = between(['# Cẩm nang cuộc sống', '# 高性价比人生指南'], '[![')
+  const description = between(['# Cẩm nang cuộc sống', "# Cẩm nang cuộc sống tối ưu chi phí hiệu quả"], '[![')
     .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join('');
-  const frontMd = between(['## Những câu hỏi cuốn sách muốn trả lời', '## 这本书想回答的问题'], ['## Mục lục', '## 目录']);
-  const contentsMd = between(['## Mục lục', '## 目录'], ['## Nội dung chính', '## 正文'])
+  const frontMd = between(['## Những câu hỏi cuốn sách muốn trả lời', "## Những câu hỏi mà cuốn sách này muốn trả lời"], ['## Mục lục', "## Thư mục"]);
+  const contentsMd = between(['## Mục lục', "## Thư mục"], ['## Nội dung chính', "## nội dung chính"])
     .split('\n\n').filter(p => !p.includes('index.html')).join('\n\n');
   const bookFiles = unique([...contentsMd.matchAll(/\]\((book\/[^)#]+\.md)\)/g)].map(m => m[1]));
   const docFiles = unique([...readme.matchAll(/\]\((docs\/[^)#/]+\.md)\)/g)].map(m => m[1]));

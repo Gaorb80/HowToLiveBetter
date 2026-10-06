@@ -1,6 +1,6 @@
-// 把 README + book/*.md + docs/*.md 打成一本 EPUB 3。
-// 用法：node tools/epub/build.mjs [输出路径]   默认输出 dist/HowToLiveBetter.epub
-// 只依赖 marked；zip 自己写（EPUB 要求 mimetype 第一个且不压缩，通用 zip 库不一定保证）。
+// Đưa ra README + book/*.md + docs/*.md Tạo một bản EPUB 3。
+// Sử dụng：node tools/epub/build.mjs [Đường dẫn xuất]   Tiết xuất mặc định dist/HowToLiveBetter.epub
+// Chỉ phụ thuộc marked；zip Tự viết（EPUB yêu cầu mimetype Thứ nhất, không bị nén, phổ biến zip Kyu không cần phải đảm bảo）。
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname, posix } from 'node:path';
 import { deflateRawSync } from 'node:zlib';
@@ -16,13 +16,13 @@ const COMMIT = gitCommit();
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const plain = html => html.replace(/<[^>]+>/g, '');
 
-// ---------- 从 README 取内容与文件清单 ----------
+// ---------- Từ README Thu thập danh sách nội dung và tài liệu ----------
 const book = readBook();
 const { description, frontMd, bookFiles, docFiles } = book;
 const contentsMd = book.contentsMd.replace(/^## Mục lục/, '# Giới thiệu các chương');
 
-// ---------- 页面清单 ----------
-// 每页：xhtml 文件名、来源 md 的仓库路径（用来解析相对链接）、md 正文
+// ---------- Danh sách trang ----------
+// Mỗi trang：xhtml Tên tập tin, Nguồn md Đường bộ kho được sử dụng để phân tích các liên kết tương đối）、md nội dung chính
 const pages = [
   { file: 'front.xhtml', src: 'README.md', title: 'Lời mở đầu', md: `# ${TITLE}\n\n${description}\n\n${frontMd}` },
   { file: 'contents.xhtml', src: 'README.md', title: 'Giới thiệu các chương', md: contentsMd },
@@ -51,13 +51,13 @@ Nội dung phát hành theo CC BY 4.0 (https://creativecommons.org/licenses/by/4
 }
 
 // ---------- Markdown → XHTML ----------
-let current = null; // 正在转换的页
+let current = null; // Trang đang chuyển đổi
 let headingSeq = 0;
 const marked = new Marked({ gfm: true });
 marked.use({
-  // GFM 的裸网址自动链接只在空白处断开，「www.12333.gov.cn网页、手机12333客户端」这种
-  // 中文紧贴网址的写法会把后面整串中文都吞进链接，epubcheck 判为非法 URL（RSC-020）。
-  // 裸网址里本来就不该有非 ASCII 字符，遇到就截在那里，截下的前半段照常按默认规则建链接。
+  // GFM tự động liên kết trang web khỏa thân chỉ bị phá vỡ trong không gian trống，「www.12333.gov.cnTrang web, điện thoại di động12333"Nhà khách hàng" như vậy
+  // Tiếng Trung Đơn vị viết của một trang web sẽ tạo ra một chuỗi phía sau Tiếng Trung Tất cả đều ngâm vào các liên kết，epubcheck Được kết án là bất hợp pháp URL（RSC-020）。
+  // Không có gì trong trang web khỏa thân ASCII Các ký tự, được gặp, được cắt ở đó, phần đầu của đoạn cắt thường được liên kết theo quy tắc mặc định。
   tokenizer: {
     url(src) {
       const tok = Tokenizer.prototype.url.call(this, src);
@@ -121,7 +121,7 @@ for (const p of pages) {
   p.xhtml = wrap(p.title, `<section epub:type="chapter">\n${body}</section>\n`);
 }
 
-// ---------- 导航 ----------
+// ---------- Định hướng ----------
 const navItems = pages.map(p => {
   const [first, ...rest] = p.headings;
   const top = first?.depth === 1 ? { href: `${p.file}#${first.id}`, text: p.title } : { href: p.file, text: p.title };
@@ -160,7 +160,7 @@ ${navItems.map(navPoint).join('\n')}
 </ncx>
 `;
 
-// ---------- Bìa sách、OPF、容器 ----------
+// ---------- Bìa sách、OPF、Đồ chứa ----------
 const coverXhtml = wrap(TITLE, `<div class="cover"><img src="cover.png" alt="${esc(TITLE)}"/></div>\n`);
 const modified = NOW.toISOString().replace(/\.\d{3}Z$/, 'Z');
 const manifestPages = pages.map(p => `<item id="${p.file.replace('.xhtml', '')}" href="${p.file}" media-type="application/xhtml+xml"/>`);
@@ -198,7 +198,7 @@ const container = `<?xml version="1.0" encoding="UTF-8"?>
 </container>
 `;
 
-// ---------- 打 zip ----------
+// ---------- Chơi zip ----------
 const entries = [
   { name: 'mimetype', data: Buffer.from('application/epub+zip'), store: true },
   { name: 'META-INF/container.xml', data: Buffer.from(container) },
@@ -213,7 +213,7 @@ const entries = [
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, zip(entries));
 const entryCount = pages.filter(p => p.file.startsWith('ch')).reduce((n, p) => n + p.headings.filter(h => h.depth === 3).length, 0);
-console.log(`已生成 ${OUT}：${bookFiles.length} 节 ${entryCount} 条，附录 ${docFiles.length} 篇，${(entries.reduce((n, e) => n + e.data.length, 0) / 1024 | 0)} KB 未压缩`);
+console.log(`Đã tạo ${OUT}：${bookFiles.length} chương, ${entryCount} mục; phụ lục: ${docFiles.length} bài，${(entries.reduce((n, e) => n + e.data.length, 0) / 1024 | 0)} KB trước khi nén`);
 
 function zip(files) {
   const crcTable = new Int32Array(256).map((_, n) => {

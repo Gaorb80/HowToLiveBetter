@@ -1,60 +1,62 @@
-# 全书排查：说人话栏与收益栏对齐（2026-09-19）
+# Hồ sơ kiểm chứng: Rà soát giải thích dễ hiểu khớp với lợi ích — 2026-09-19
 
-任务来源：用户从第 6 节献血条读出「『脸色差、怕冷』不是瞎编」这句看不懂——他不知道谁说过脸色差，而书里也确实没有任何来源提过「脸色差」。用户随后指出问题的普遍性：「读者很多都习惯直接看说人话的，不看来源也不看ho-so-kiem-chung」，要求全书排查同类问题。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 排查方法
+Nhiệm vụ Nguồn Người dùng: 6 Ông không biết ai nói về mặt xấu, và thực sự không có bất cứ điều gì trong cuốn sách. Nguồn Ông nói: "Thật xấu mặt". Người dùng sau đó lưu ý đến sự phổ biến của vấn đề: "Nhiều người đọc thường xem trực tiếp. Giải thích dễ hiểu Vâng, không thấy Nguồn Không xem.ho-so-kiem-chung」，yêu cầu toàn bộ cuốn sách xem xét các vấn đề tương tự。
 
-先做了两轮机械扫描（反驳型措辞 19 个词在说人话行的命中、第 6 节全部引号断言与收益栏逐项比对），只抓出冷水澡条一处新问题，说明机械扫描覆盖不足。随后派 6 个审校 agent 并行逐条比对，覆盖 book/ 下全部 32 个文件、544 个条目，每个 agent 拿到同一份判据：
+## Phương pháp kiểm tra
 
-四类要找的问题：**【新增数字】**说人话里的数字在本条收益栏找不到；**【新增事实】**说人话提到的症状、后果、事实断言在本条收益栏和来源栏都没有依据；**【自造机制】**说人话对收益栏数据做了原研究没做的因果或机制解读；**【不自足】**说人话引用了读者没见过的说法再去评价它。
+Trước đó, chúng tôi đã thực hiện 2 vòng quét máy tính. 19 Từ này là Giải thích dễ hiểu Chuyện gì thế? 6 Tất cả các đoạn trích đều khẳng định mục lợi ích Một vấn đề mới chỉ được phát hiện ra bởi sự cố nước lạnh, cho thấy việc quét máy tính không có đủ khả năng. Sau đó gửi 6 Một trường kiểm tra agent Dòng đường song song, bao gồm: book/ Tất cả. 32 Một tài liệu、544 Một. mục Mỗi người agent Nhận cùng một kết luận：
 
-同时给了六类**不算问题**的反例，防止误报：措辞不同但内容一致、把术语通俗化、把 HR/RR 换算成日常说法、自足的逻辑转折、广为人知或本行内已交代来历的说法、末尾的行动建议。
+Bốn loại câu hỏi cần tìm：**【Số liệu mới】**Giải thích dễ hiểu Số trong bài viết này mục lợi ích Không tìm thấy；**【Những sự thật mới】**Giải thích dễ hiểu Những triệu chứng, hậu quả và thực tế được đề cập trong bài viết này mục lợi ích và mục nguồn Không có lý do nào；**【Cơ chế tự chế】**Giải thích dễ hiểu Đúng vậy mục lợi ích Dữ liệu giải thích nguyên nhân hoặc cơ chế mà nghiên cứu ban đầu không làm；**【Không đủ khả năng】**Giải thích dễ hiểu Những câu nói mà người đọc không thấy được sau đó đánh giá nó。
 
-共报出 104 处。抽查三处（第 2 节喝热水的对照组、第 24 节急诊分诊的北京口径、第 31 节定向医学生的服务期）全部属实，遂按报告逐条核对处置。
+Trong khi đó có 6 lớp.**Không có vấn đề.**Các trường hợp ngược lại, để ngăn chặn thông báo sai lầm: ngôn ngữ khác nhau nhưng nội dung phù hợp, phổ biến các thuật ngữ, HR/RR Chuyển đổi thành lời nói hàng ngày, chuyển hướng logic tự nhiên, lời nói phổ biến hoặc đã thay đổi trong dòng truyền thống, đề xuất hành động cuối cùng。
 
-## 修了什么
+Báo cáo chung 104 Ở đâu? Đánh giá 3 điểm 2 Nhóm kiểm soát uống nước nóng 24 Bệnh viện cấp cứu ở Bắc Kinh tiêu chí đánh giá Thứ hai. 31 (trong thời gian phục vụ cho sinh viên y tế) hoàn toàn đúng và được kiểm tra theo báo cáo。
 
-**口径写反或写窄（最要紧的一类）**
+## Điều gì đã được sửa?
 
-| 条目 | 原文 | 收益栏实际写的 |
+**tiêu chí đánh giá Tác lại hoặc viết nhỏ nhất）**
+
+| mục | Nguồn gốc | mục lợi ích Thực sự viết |
 |---|---|---|
-| 31 节定向医学生 | 规培「这 3 年算在服务期里」 | 「违约的培训年限**不**计入服务期」，意思相反 |
-| 24 节急诊分诊 | 10 分钟/30 分钟/4 小时是通用时限 | 「四级标准为全国口径，**响应时间为北京市标准**」 |
-| 24 节异地就医 | 报销「低一截」 | 「保持**合理差异**」，原文没说方向 |
-| 9 节谣言 | 「自己也没核实就转」可罚 | 两条罚则的要件都是**明知**是假 |
-| 11 节挖矿 | 「也**要**罚 5 万到 50 万」 | 「**可**罚」，罚款是裁量项 |
-| 12 节进货 | 「**直接**认定为知情」 | 「**可以**认定（有证据证明确实不知道的除外）」 |
-| 28 节进食障碍 | 「单独拿出来看都预测不了」 | 「**校正**既往节食与精神症状后」 |
-| 29 节失业 | 「差距里有近四分之一由抽烟喝酒解释」 | 「控制了健康行为的那批研究 HR 低 24%」，不是同一个量 |
-| 23 节童工 | 「出了事按私下赔偿谈」 | 《禁止使用童工规定》第十条恰恰规定了单位的法定赔偿义务 |
-| 1 节肠镜 | 「做一次肠镜」降到 0.98% | 「**邀请**做肠镜」，NordICC 是意向筛查分析，实际受检率约四成 |
-| 2 节喝热水 | 「放两分钟就能砍掉大半」 | 对照组是「等 **4 分钟**以上」，没有两分钟这一档 |
-| 2 节步数 | 「7800 步以上基本摊平」 | 趋平点分年龄：≥60 岁 6000–8000 步、<60 岁 8000–10000 步 |
+| 31 Định hướng cho sinh viên y tế | "Điều này" 3 Năm trong thời gian phục vụ」 | 「Thời hạn đào tạo bị vi phạm**Không.**"Trong thời gian phục vụ" nghĩa là ngược lại. |
+| 24 Phòng cấp cứu | 10 Một phút/30 Một phút/4 Giờ là thời gian chung | 「Các tiêu chuẩn cấp 4 trên toàn quốc tiêu chí đánh giá，**Thời gian đáp ứng tiêu chuẩn thành phố Bắc Kinh**」 |
+| 24 Phong trào kinh tế | Báo cáo "đối với mức độ thấp nhất"」 | 「Giữ**Sự khác biệt hợp lý**」，Bản gốc không nói hướng nào. |
+| 9 Tin đồn | 「Tôi đã không kiểm tra bản thân mình, nhưng tôi đã bị phạt. | Điều kiện của hai quy tắc phạt là:**Tôi biết.**Đúng rồi. |
+| 11 Quá trình khai thác | 「Và**Tôi muốn**Hình phạt 5 Đúng rồi. 50 Một triệu đô la」 | 「**Có.**Hình phạt, hình phạt là điều phán quyết |
+| 12 Giảm nhập khẩu | 「**trực tiếp**Định nghĩa là thông tin」 | 「**Tôi có thể.**Cụ thể có bằng chứng cho thấy thực sự không biết）」 |
+| 28 Rối loạn ăn uống | 「Không thể dự đoán được.」 | 「**Chuyển đổi**Sau khi ăn uống và các triệu chứng tâm thần」 |
+| 29 Sự thất nghiệp | 「Gần 1/4 khoảng cách được giải thích bởi việc hút thuốc và uống rượu」 | 「Những nghiên cứu kiểm soát hành vi sức khỏe HR Thấp hơn 24%」，Không giống nhau |
+| 23 Làm việc trẻ em | 「Điều này được giải quyết theo cách riêng tư.」 | 《Quyết định cấm việc làm cho trẻ em Điều 10 Chính xác quy định các nghĩa vụ bồi thường pháp lý của đơn vị |
+| 1 Thủy hoạ | 「"Hãy làm một lần tiêm" xuống 0.98% | 「**Lời mời**Làm ống nghiệm ruột」，NordICC Trong khi đó, số lượng người được kiểm tra thực tế là khoảng 40%. |
+| 2 Giống nước nóng | 「Chỉ cần 2 phút, bạn có thể cắt đứt phần lớn.」 | Nhóm kiểm soát là: **4 Một phút**Không có 2 phút nữa. |
+| 2 Số bước | 「7800 Bước trên, sự bình đẳng cơ bản」 | Sự bình đẳng tuổi tác：≥60 Năm tuổi 6000–8000 Bước、<60 Năm tuổi 8000–10000 Bước |
 
-**删掉收益栏查不到的事实、机制与频率断言**：安全带的「撞成重伤」、头盔的「不扣扣子等于没戴」、带状疱疹的「很少致命」与神经痛、血尿的「常常自己就停」、8 节杀妻骗保案的搜索记录与制动印痕、9 节卖肾案的「iPad 2」与自造金额「四五十万」、13 节的「多半两个人一起没」「拉架的人常常是最后被算进去的」「车最容易被找到」、13 节异物的压迫止血机制、17 节压疮的「破皮发黑」、20 节维生素 K 的口服对比与尿布的红屁股成因、21 节境外驾照的拒赔、25 节的养老金冒领、27 节的产后复查项目与住院费用、28 节填充剂的栓塞机制、29 节的「会转接」「主动上门」「骗子最集中」、30 节睾丸扭转的「常伴恶心呕吐」与户外的「不是做哪种运动」、31 节的网贷一刀切、32 节的人民币折算。
+**Xóa mục lợi ích Những sự thật, cơ chế và tần suất không thể nhìn thấy được**："Bây đập nặng" trên dây an toàn, "không đeo dây an toàn" trên mũ bảo hiểm, "không đeo dây an ninh" trên dây an toàn, "rất ít gây tử vong" với cơn đau thần kinh, chảy máu, "thường tự dừng lại".」、8 Hồ sơ tìm kiếm và dấu ấn phanh về vụ giết người và lừa đảo、9 Thị nạn bán cắp「iPad 2」Với số tiền tự tạo "4,500,000"」、13 "Phần lớn hai người không ở bên nhau" "Những người vướng mắc thường là người cuối cùng được tính vào"」、13 Thiết bị ngăn chặn máu áp lực、17 "Cái tóc đen bị vỡ"」、20 Tiết kiệm vitamin K Sự khác biệt giữa lời nói và bút lông đỏ、21 Việc từ chối bằng lái xe ngoài biên giới、25 Nghề về lương hưu、27 Chương trình kiểm tra sau sinh và chi phí tại bệnh viện、28 Cơ chế đóng băng của chất lấp、29 Các chương trình sẽ chuyển đổi, hoạt động lên cánh cửa, những kẻ lừa đảo tập trung nhiều nhất」、30 Thủy hoạ lật lại "sự nôn nôn thường xuyên" và "không thể thao gì ngoài trời"」、31 Các khoản vay trực tuyến đã bị phá vỡ、32 Khấu trừ tiền dân sự。
 
-**补来源而不是删**（内容属实、只是本条没写出处）：
+**Phép lại Nguồn thay vì loại bỏ**（Điều đó đúng, nhưng không có gì trong bài viết này.）：
 
-- 6 节维生素 C：病程缩短 8%、极端运动人群 RR 0.48 本就写在备注、同属一篇 Cochrane，挪进收益栏。
-- 7 节失业金：补《社会保险法》第四十八条（领金期间参加职工医保、医保费从失业保险基金支付、个人不缴）。
-- 10 节婚检：补《民法典》第一千零五十三条（撤销权自知道或应当知道之日起一年内提出）。
-- 1 节艾滋检测：原写「可匿名」，核实只找到**保密**的依据（《全国艾滋病检测工作管理办法》规定工作人员不得泄露姓名、住址、检测结果），没找到免实名的官方规定。保密不等于匿名，故条目标题和正文一并改为「结果保密」，并补该办法进来源栏。
+- 6 Tiết kiệm vitamin C：Tốc độ bệnh giảm 8%、Những người vận động cực đoan RR 0.48 Ông viết: Ghi chú Một người đồng nghiệp Cochrane，Dẫn đi mục lợi ích。
+- 7 Số tiền cứu trợ thất nghiệp: bổ sung theo Điều 48 của Luật Bảo hiểm Xã hội bảo hiểm y tế của người lao động Chi phí bảo hiểm y tế bảo hiểm thất nghiệp Quỹ thanh toán, cá nhân không thanh toán）。
+- 10 Đánh giá hôn nhân: bổ sung Bộ luật Dân sự Điều 1.553: quyền hủy bỏ được đưa ra trong vòng một năm kể từ ngày tự biết hoặc nên biết）。
+- 1 Báo cáo HIV: "Có thể ẩn danh", xác minh chỉ tìm thấy**Bảo mật**Theo quy định của Đạo luật quản lý công việc kiểm tra HIV/AIDS quốc gia, các nhân viên không được tiết lộ tên, địa chỉ, kết quả kiểm tra) không tìm thấy quy định chính thức không có tên thật. Sự bí mật không phải là vô danh, vì vậy mục tiêu đề và nội dung chính Một trong số đó là "tầm kín kết quả" và bổ sung vào phương pháp này. mục nguồn。
 
-**顺带修第 7 节的条内引用错位**（agent 额外发现，与说人话无关）：第 5 条把医疗救助指到第 8 条（应为第 11 条）、第 8 条把法律援助和资助参保指到第 2、8 条（自指，应为第 3、10、11 条）、第 11 条把 LPR 四倍指到第 13 条（应为第 16 条）、第 19 和 21 条把居民医保指到第 8 条（应为第 10 条）、第 22 条把救助站指到第 3 条（应为第 4 条）。随后全书扫了一遍越界引用（引用条号超出该节条目数），没有其他命中；这类「范围内但指错」只能人工发现。
+**Lần thứ ba 7 Quý vị không đúng trong các đoạn**（agent Ngoài ra, Giải thích dễ hiểu Không liên quan: 5 Điều này đề cập đến điều khoản cứu trợ y tế 8 Điều 3 11 Điều 2 8 Điều này đưa các khoản hỗ trợ pháp lý và tài trợ cho bảo hiểm đến 2、8 Điều 4 có nghĩa là: 3、10、11 Điều 2 11 Đạo luật LPR Bốn lần chỉ đến đoạn 13 Điều 3 16 Điều 2 19 và 21 Điều này đề cập đến bảo hiểm y tế của người dân 8 Điều 3 10 Điều 2 22 Điều này đề cập đến các trạm cứu trợ 3 Điều 3 4 Bài viết: Sau đó, toàn bộ cuốn sách được quét qua các giới hạn trích dẫn: mục số), không có các cú đánh khác; Những loại "trong phạm vi nhưng chỉ sai" này chỉ có thể được phát hiện bằng cách nhân tạo.。
 
-## 我自己在修的过程中犯的两处同型错误
+## Tôi đã làm hai sai lầm tương tự trong quá trình sửa chữa.
 
-值得单独记下来，因为它说明这个错误有多容易犯：
+Điều này đáng chú ý bởi vì nó cho thấy sai lầm này dễ dàng như thế nào.：
 
-1. 第 28 节医美失明条，我把原来的栓塞机制改写成「48 例里六成发生在鼻背、眉间和额头」——这个「六成」是我凭印象写的。收益栏的实际数字是鼻部 56.3%、眉间 27.1%、前额 18.8%、鼻唇沟 14.6%，而且一例可涉及多个部位、相加超过 100%，根本不能合并成「六成」。已改为逐项照抄。
-2. 第 27 节剖宫产条，我把 WHO 的「超过 10% 之后**没有证据显示**死亡下降」写成「母婴死亡率**不再下降**」。缺乏证据和证明无效是两回事。已改回原口径。
+1. Thứ nhất 28 Tôi đã viết lại cơ chế tắc nghẽn cũ thành「48 Trong trường hợp này, 60% xảy ra ở mũi, lưng, lông mày và mông. mục lợi ích Số thực tế là mũi. 56.3%、Ưu tiên 27.1%、Số tiền trước 18.8%、Hộp mũi 14.6%，Và một trường hợp có thể liên quan đến nhiều phần, cộng nhiều hơn. 100%，Không thể được kết hợp thành "60%". Đã được chuyển thành bản sao từng phần。
+2. Thứ nhất 27 Tôi đã đưa ra một bài báo về WHO "Thêm hơn" 10% Sau đó**Không có bằng chứng cho thấy**Tỷ lệ tử vong giảm" được viết là "người mẹ và trẻ sơ sinh" tỷ lệ tử vong**Không xuống nữa.**」。Không có bằng chứng và không có hiệu lực là hai điều. Đã được chuyển đổi tiêu chí đánh giá。
 
-**教训**：改写说人话时必须当场打开收益栏照抄，不能凭刚读过的印象复述。
+**Bài học**：Chuyển đổi Giải thích dễ hiểu Khi cần phải mở cửa ngay tại chỗ mục lợi ích Tác giả, không thể lặp lại bằng những ấn tượng mà bạn vừa đọc。
 
-## 判断为不改的情况
+## Đánh giá tình hình không thay đổi
 
-说人话里引用别节内容、但**带了明确跨节标注**的（如第 3 节第 20 条讲红包时标了「（第 24 节…）」），不按新增事实处理——读者不会误以为是本条研究的结论，性质与「脸色差」那种凭空出现的断言不同。这一条口径写进了 CLAUDE.md 之外的判断惯例，这里记一笔备查。
+Giải thích dễ hiểu Trong bài viết này, chúng tôi đã trích dẫn nội dung của các đoạn khác, nhưng**Đánh dấu rõ ràng giữa các đoạn**Như v. 3 Chương 3 20 Khi nói về chiếc bánh đỏ, nó được đánh dấu là: 24 Chương 3…）」），Người đọc sẽ không nhầm nghĩ rằng kết luận của nghiên cứu này là khác biệt với những tuyên bố không rõ ràng về "những khuôn mặt xấu". Bài viết này tiêu chí đánh giá Đăng vào. CLAUDE.md Một bài kiểm tra ở đây cho thấy những hành vi xét xử khác.。
 
-## 规则已同步
+## Các quy tắc đã được đồng bộ
 
-CLAUDE.md 的说人话规则原先只禁「收益栏里没有的**数字**」，这次翻车的绝大多数都不是数字。已补成：不能新增的还包括症状、事实断言和机制解读；说人话必须自足，禁止「『XX』不是瞎编」「『XX』是真的」这类要靠前置说法才读得懂的写法。
+CLAUDE.md của Giải thích dễ hiểu Đạo luật ban đầu chỉ cấm:" mục lợi ích Không có**Số**」，Phần lớn các chuyến bay này không phải là con số. Được bổ sung: Những điều không thể được bổ sung cũng bao gồm các triệu chứng, tuyên bố thực tế và giải thích cơ chế; Giải thích dễ hiểu Bắt buộc phải tự phục vụ, cấm「『XX』Không phải mù quáng」「『XX』"Đúng vậy" là cách viết mà người ta phải đọc trước khi nói.。

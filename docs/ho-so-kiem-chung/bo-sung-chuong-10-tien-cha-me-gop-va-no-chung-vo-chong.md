@@ -1,41 +1,43 @@
-# 第 10 节追加两条（父母出资买房、夫妻共同债务）来源ho-so-kiem-chung（2026-09-08）
+# Hồ sơ kiểm chứng: Chương 10 tiền cha mẹ góp và nợ chung vợ chồng — 2026-09-08
 
-起因：读者提到短视频里的情节——离婚分房产时，出资方父母拿出一份只有自己子女签字的借款协议，主张当年买房的钱是借款，另一方因此要分担债务。本节原来只有「钱账先看法律默认规则」一条讲民法典的财产默认规则，没有父母出资购房的性质认定，也没有夫妻共同债务的认定规则，补两条。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-工具：WebSearch + WebFetch；最高人民法院公报站（gongbao.court.gov.cn）WebFetch 返回 502，改用 curl 经本机代理抓原始 HTML（页面为 GBK）后本地解析。
+Nguyên nhân: Khi người đọc đề cập đến câu chuyện trong đoạn video ngắn về việc ly hôn chia sẻ bất động sản, cha mẹ bên đầu tư đưa ra một thỏa thuận vay chỉ được ký bởi con cái của họ, tuyên bố rằng tiền mua nhà trong năm đó là tiền vay, do đó bên kia phải chia sẻ nợ. Phần này chỉ có một câu nói: "Báo tiền trước khi xem các quy tắc mặc định của pháp luật". Bộ luật Dân sự Các quy tắc mặc định về tài sản, không xác định bản chất của việc gia đình đầu tư để mua nhà, và không xác định các quy tắc về nợ chung của cặp vợ chồng, bổ sung hai điều。
 
-## 第 11 条「父母出资买房，在转账的时候就把是借是送写清楚」
+Công cụ：WebSearch + WebFetch；Đài thông báo của Tòa án Nhân dân Tối cao（gongbao.court.gov.cn）WebFetch Trở lại 502，Chuyển đổi curl Nhận nguyên thủy bằng đại diện tự nhiên HTML（Trang này là GBK）Phân tích địa phương sau。
 
-### 婚姻家庭编解释（一）第二十九条
-- 页面：<https://www.court.gov.cn/fabu/xiangqing/282071.html> ：WebFetch 打开；法释〔2020〕22 号，2021 年 1 月 1 日施行
-- 引句：「当事人结婚前，父母为双方购置房屋出资的，该出资应当认定为对自己子女个人的赠与，但父母明确表示赠与双方的除外。当事人结婚后，父母为双方购置房屋出资的，依照约定处理；没有约定或者约定不明确的，按照民法典第一千零六十二条第一款第四项规定的原则处理。」
-- 该链接第 8 节彩礼条已在用，页面可达
+## Thứ nhất 11 Điều "Cha mẹ đầu tư để mua một ngôi nhà, và khi chuyển khoản, họ cho vay và gửi một cách rõ ràng」
 
-### 婚姻家庭编解释（二）第八条
-- 页面：<https://www.court.gov.cn/zixun/xiangqing/452771.html> ：WebFetch 打开；法释〔2025〕1 号，2024 年 11 月 25 日审判委员会第 1933 次会议通过，2025 年 2 月 1 日施行，共 23 条
-- 引句（第八条）：「婚姻关系存续期间，夫妻购置房屋由一方父母全额出资，如果赠与合同明确约定只赠与自己子女一方的，按照约定处理；没有约定或者约定不明确的，离婚分割夫妻共同财产时，人民法院可以判决该房屋归出资人子女一方所有，并综合考虑共同生活及孕育共同子女情况、离婚过错、对家庭的贡献大小以及离婚时房屋市场价格等因素，确定是否由获得房屋一方对另一方予以补偿以及补偿的具体数额。婚姻关系存续期间，夫妻购置房屋由一方父母部分出资或者双方父母出资，如果赠与合同明确约定相应出资只赠与自己子女一方的，按照约定处理；没有约定或者约定不明确的，离婚分割夫妻共同财产时，人民法院可以根据当事人诉讼请求，以出资来源及比例为基础，综合考虑共同生活及孕育共同子女情况、离婚过错、对家庭的贡献大小以及离婚时房屋市场价格等因素，判决房屋归其中一方所有，并由获得房屋一方对另一方予以合理补偿。」
-- 同批发布的涉婚姻家庭纠纷典型案例 <https://www.court.gov.cn/zixun/xiangqing/452761.html> ：WebFetch 打开；案例二（范某某与许某某离婚纠纷案）要旨「婚姻关系存续期间，由一方父母全额出资购置的房屋转移登记至夫妻双方名下，离婚分割夫妻共同财产时，可以根据该财产的出资来源情况，判决该房屋归出资方子女所有」，判归出资方子女、补偿另一方 7 万元。案例只作为理解条文的旁证，正文未引数字
-- 民法典第一千零六十二条第一款第四项（继承或者受赠的财产为夫妻共同财产）已在本节第 10 条核实过，见 `10-ket-hon-co-dang-khong.md`
-- 未核到：解释（二）没有关于「父母出资是借款还是赠与」的举证规则条文，全文 23 条里也没有夫妻共同债务条文（WebFetch 全文核对），所以正文不写「法院一律不认借条」这类结论
+### Gia đình hôn nhân giải thích (1) Điều 29
+- Trang：<https://www.court.gov.cn/fabu/xiangqing/282071.html> ：WebFetch mở cửa; Lời giải thích〔2020〕22 Số 1，2021 Năm 1 Mặt trăng 1 Ngày hành động
+- Câu trích dẫn: "Người phụ huynh đầu tư mua nhà cho cả hai bên trước khi kết hôn nên được coi là quà tặng cho con của họ, nhưng cha mẹ không rõ ràng là quà tặng cho cả hai bên. Người có liên quan được xử lý theo thỏa thuận, sau khi họ kết hôn, khi cha mẹ của họ mua nhà cho cả hai bên; Không có thỏa thuận hoặc thỏa thuận không rõ ràng, theo Bộ luật Dân sự Các nguyên tắc xử lý quy định tại khoản 4 của Điều 1.662。」
+- Bài viết liên kết 8 Các mã màu đã được sử dụng, trang có thể truy cập
 
-## 第 12 条「配偶一方大额借的钱，你没签字也没追认，不自动变成你的债」
+### Định nghĩa về hôn nhân và gia đình Điều 8
+- Trang：<https://www.court.gov.cn/zixun/xiangqing/452771.html> ：WebFetch mở cửa; Lời giải thích〔2025〕1 Số 1，2024 Năm 11 Mặt trăng 25 Ủy ban ngày xét xử 1933 Hội nghị tiếp theo được thông qua，2025 Năm 2 Mặt trăng 1 Ngày hành động, chung 23 Đạo luật
+- Lời trích dẫn: Điều 8 "Trong suốt cuộc hôn nhân, vợ chồng mua nhà được hoàn toàn tài trợ bởi cha mẹ của một người, nếu hợp đồng cho phép cho phép chỉ cho một người con của họ, được xử lý theo thỏa thuận; Trong trường hợp không có thỏa thuận hoặc thỏa thuận không rõ ràng, các cặp vợ chồng chia sẻ tài sản chung của vợ chồng ly hôn, Tòa án Nhân dân có thể phán quyết rằng ngôi nhà đó là tài sản của một bên trong con cái của nhà đầu tư và tích hợp xem xét các yếu tố như sống chung và sinh con chung, sai lầm ly hôn, quy mô đóng góp cho gia đình và giá thị trường nhà ở khi ly hôn, để xác định liệu một bên có được nhà được đền bù cho người khác hay không và số tiền cụ thể của sự đền bù cho người khác. Trong thời gian của mối quan hệ hôn nhân, vợ chồng mua nhà được chi trả một phần cho cha mẹ của một người hoặc cha mẹ của cả hai người, nếu hợp đồng trao tặng đã thỏa thuận rõ ràng rằng chi trả tương ứng chỉ cho một phần của con cái của họ, được xử lý theo thỏa thuận; Trong trường hợp không có thỏa thuận hoặc thỏa thuận không rõ ràng, các cặp vợ chồng chia sẻ tài sản chung của ly hôn, Tòa án Nhân dân có thể, theo yêu cầu của các bên trong vụ kiện, tài trợ Nguồn Và dựa trên tỷ lệ, xem xét tích hợp các yếu tố như sống chung và sinh con chung, sai lầm về ly hôn, quy mô đóng góp của gia đình và giá thị trường nhà ở khi ly hôn, quyết định nhà được sở hữu bởi một bên trong hai bên và được đền bù hợp lý cho một bên trong hai bên.。」
+- Các trường hợp điển hình của các vụ tranh chấp gia đình liên quan đến hôn nhân <https://www.court.gov.cn/zixun/xiangqing/452761.html> ：WebFetch mở cửa; Trường hợp thứ hai (Phần thứ hai của vụ tranh chấp ly hôn) nhằm mục đích là "trong thời gian của mối quan hệ hôn nhân, việc chuyển nhà được mua bằng toàn bộ vốn đầu tư của cha mẹ của một người được đăng ký vào tên của hai người vợ chồng, khi ly hôn chia sẻ tài sản chung của cặp vợ chồng, có thể được đầu tư dựa trên tài sản đó. Nguồn Trường hợp, phán quyết rằng ngôi nhà sẽ trở thành sở hữu của con cái của người đầu tư", phán quyết trở thành sở hữu của con cái người đầu tư, bồi thường cho người khác 7 Vàng đồng. Các trường hợp chỉ là bằng chứng cho sự hiểu biết của văn bản. nội dung chính Số không ghi
+- Bộ luật Dân sự Điều 662, điều thứ tư (1) (c) của quy định này được quy định tại quy định tại 10 Điều này đã được xác minh. `10-ket-hon-co-dang-khong.md`
+- Không được xác nhận: giải thích (2) Không có quy tắc ghi nhận về "các khoản tiền của cha mẹ là vay hay là quà tặng", toàn văn bản 23 Điều này không bao gồm các khoản nợ chung của cặp vợ chồng.（WebFetch Đánh giá toàn văn bản) nội dung chính Không viết: "Phán tòa không chấp nhận". giấy vay nợ "Những kết luận như vậy".
 
-### 民法典第一千零六十四条
-- 页面：<https://www.spp.gov.cn/spp/fl/202006/t20200602_463888.shtml> ：WebFetch 打开
-- 引句：「夫妻双方共同签名或者夫妻一方事后追认等共同意思表示所负的债务，以及夫妻一方在婚姻关系存续期间以个人名义为家庭日常生活需要所负的债务，属于夫妻共同债务。夫妻一方在婚姻关系存续期间以个人名义超出家庭日常生活需要所负的债务，不属于夫妻共同债务；但是，债权人能够证明该债务用于夫妻共同生活、共同生产经营或者基于夫妻双方共同意思表示的除外。」
-- 注意用词是「共同签名」不是「共同签字」
+## Thứ nhất 12 Điều này nói: "Mọi khoản nợ lớn của một người vợ hoặc chồng, mà bạn không ký và không ghi nhận, không tự động biến thành khoản nợ của bạn.」
 
-### 民间借贷规定第十五、十六条
-- 页面：<http://gongbao.court.gov.cn/Details/94b6623974526df7d2430a3c73f050.html> ：WebFetch 502，curl 经代理抓到 24 KB GBK 页面本地解析成功
-- 版本：2015 年 6 月 23 日审判委员会第 1655 次会议通过，据 2020 年 8 月 18 日第 1809 次会议决定第一次修正，据 2020 年 12 月 23 日第 1823 次会议决定第二次修正（条号按第二次修正版）
-- 引句（第十五条第二款）：「被告抗辩借贷行为尚未实际发生并能作出合理说明的，人民法院应当结合借贷金额、款项交付、当事人的经济能力、当地或者当事人之间的交易方式、交易习惯、当事人财产变动情况以及证人证言等事实和因素，综合判断查证借贷事实是否发生。」
-- 引句（第十六条）：「原告仅依据金融机构的转账凭证提起民间借贷诉讼，被告抗辩转账系偿还双方之前借款或者其他债务的，被告应当对其主张提供证据证明。被告提供相应证据证明其主张后，原告仍应就借贷关系的成立承担举证责任。」
-- 两条条文另经 WebSearch 摘要复核，文字一致；条号只对第二次修正版成立，引用时已注明版本
+### Bộ luật Dân sự Chương 1 664
+- Trang：<https://www.spp.gov.cn/spp/fl/202006/t20200602_463888.shtml> ：WebFetch Mở ra
+- Lời trích dẫn: "Các khoản nợ chung của hai bên trong hôn nhân, chẳng hạn như các khoản nợ chung được ký kết chung hoặc một bên trong hôn nhân thừa nhận sau đó, và các khoản nợ chung của một bên trong hôn nhân trong suốt cuộc sống gia đình trong danh tính cá nhân, thuộc về các khoản nợ chung của cặp vợ chồng". Các khoản nợ của một bên trong hôn nhân vượt quá nhu cầu sống chung của gia đình trong thời gian tồn tại của mối quan hệ hôn nhân, trong danh tính cá nhân, không thuộc về khoản nợ chung của hai bên; Tuy nhiên, chủ nợ có thể chứng minh khoản nợ được sử dụng cho cuộc sống chung, hoạt động chung sản xuất của cặp vợ chồng hoặc dựa trên ý muốn chung của cặp vợ chồng.。」
+- Lưu ý rằng từ "đồng ký" không phải là "đồng ký".」
 
-## 判定说明
+### Điều 15 và 16 quy định cho vay dân sự
+- Trang：<http://gongbao.court.gov.cn/Details/94b6623974526df7d2430a3c73f050.html> ：WebFetch 502，curl Được bắt bởi đại lý. 24 KB GBK Trang địa phương phân tích thành công
+- Phiên bản：2015 Năm 6 Mặt trăng 23 Ủy ban ngày xét xử 1655 Hội nghị tiếp theo được thông qua 2020 Năm 8 Mặt trăng 18 Đáng ngày 1809 Cuộc họp tiếp theo quyết định sửa đổi lần đầu tiên, theo 2020 Năm 12 Mặt trăng 23 Đáng ngày 1823 Hội nghị tiếp theo quyết định sửa đổi thứ hai:）
+- Câu trích dẫn: "Điều thứ hai của Điều 15 là: "Người bị cáo đối kháng với hành vi vay chưa thực sự xảy ra và có thể đưa ra lời giải thích hợp lý, Tòa án Nhân dân nên kết hợp các yếu tố và sự kiện như số tiền vay, số tiền giao hàng, khả năng kinh tế của các bên, cách giao dịch địa phương hoặc giữa các bên, thói quen giao dịch, tình trạng thay đổi tài sản của các bên và lời khai của các nhân chứng, để đưa ra quyết định tổng thể để kiểm tra xem thực tế vay đã xảy ra hay không.。」
+- Câu trích dẫn: "Người nộp đơn chỉ dựa trên giấy chứng nhận chuyển khoản của các tổ chức tài chính để khởi kiện các vụ vay dân sự, người bị buộc tội phản đối việc thanh toán nợ hoặc các khoản nợ khác của hai bên trước khi cơ quan chuyển khoản trả, người bị buộc tội phải cung cấp bằng chứng cho tuyên bố của mình". Sau khi bị cáo cung cấp bằng chứng phù hợp để chứng minh tuyên bố của mình, người nộp đơn vẫn phải chịu trách nhiệm về việc thành lập mối quan hệ vay。」
+- Hai bài viết khác WebSearch Bản tóm tắt, đánh giá lại, văn bản phù hợp; Điều này chỉ có hiệu lực cho phiên bản sửa đổi thứ hai và đã ghi nhận phiên bản khi tham khảo
 
-- 两条口径都是金钱：换回的是购房款这一笔（几十万到上百万元量级）在离婚分割时的归属与债务分担，按条目格式的金额阈值（万元级为大）定收益量级「大」
-- 成本三项均为零：出资当天写一页说明并签字、不在配偶借条上签字，都不花钱、不占时间，第 12 条要一点毅力（拒绝家人或配偶的签字要求），标 毅力=些；第 11 条标 毅力=否
-- 证据等级都定 A：全部来自现行有效的法律与司法解释条文，条文本身给出可核对的规则，不依赖判断
-- 正文没有写「只有一方签字的借条一定不算共同债务」：民法典第一千零六十四条第二款留了「用于夫妻共同生活」的例外，购房款变成夫妻共有或共同居住的房屋时，债权人往往能证到这一层，实务上各地裁判并不统一，本节没有找到给出比例的官方统计，因此正文只写举证责任的分配和两层质证的顺序
-- 顺带修正：原第 15 条（现第 17 条）正文里的「第 2 条的健康收益」「第 5 条的关系质量」「第 3、4、6 条」是本节早期版本的编号，与现在的条目对不上，改成按现编号引用（第 8、15、9、10 到 12、16 条）
+## Định nghĩa
+
+- 2 bài viết tiêu chí đánh giá Tất cả đều là tiền: đổi lại, số tiền mua nhà này (năm trăm triệu đến hàng triệu đô la) được chia sẻ giữa thuộc về và nợ khi ly hôn. mục Giá trị thâm hụt số tiền theo định dạng (vàn) lớn mức độ lợi ích "Nó lớn".」
+- Chi phí Cả ba đều là 0: viết một trang thông báo và ký vào ngày đầu tư, không có vợ chồng giấy vay nợ Đăng ký trên, không tốn tiền, không tốn thời gian. 12 Điều này đòi hỏi phải mạnh mẽ hơn một chút (không chấp nhận yêu cầu chữ ký của gia đình hoặc vợ/chồng)=Những người khác; Thứ nhất 11 Nguyên tắc:=Không
+- Mức độ bằng chứng Chắc chắn. A：Tất cả đều xuất phát từ các điều khoản giải thích pháp lý và pháp lý hiện hành, và các điều khoản cho thấy các quy tắc có thể xác minh được mà không phụ thuộc vào phán quyết.
+- nội dung chính Không có chữ "chỉ có một bên chữ ký" giấy vay nợ Không phải là nợ chung". Bộ luật Dân sự Điều 1664, điều thứ hai để lại ngoại lệ "được sử dụng cho cuộc sống chung của cặp vợ chồng", khi tiền mua nhà trở thành nhà chung hoặc chung sống của cặp vợ chồng, các chủ nợ thường có thể chứng minh rằng tầng này, các thẩm phán thực tế không thống nhất ở khắp nơi, và điều này không tìm thấy số liệu thống kê chính thức cho thấy tỷ lệ, do đó nội dung chính Chỉ viết theo thứ tự phân bổ trách nhiệm chứng minh và hai cấp chứng minh
+- Bài viết được sửa đổi: 15 Bài viết hiện tại 17 Đạo luật nội dung chính "Thứ thứ hai" 2 Chế độ sức khỏe Lợi ích "Cái thứ hai" 5 Quality of Relationship (Tình chất của mối quan hệ) 3、4、6 Điều "" là số của các phiên bản đầu tiên của phần này, tương tự như hiện tại mục Xin lỗi, chuyển đổi thành trích dẫn theo số hiện tại: 8、15、9、10 đến 12、16 Đạo luật）

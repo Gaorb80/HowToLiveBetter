@@ -1,40 +1,42 @@
-# 口径变更：受益人分四档 · 记录（2026-09-09）
+# Hồ sơ kiểm chứng: Thay đổi tiêu chí phân bốn nhóm người hưởng lợi — 2026-09-09
 
-任务来源：第 13 节第 38 条（撞见斗殴）写完后，读者追问「地上那个人和我零关系、对我人生零影响，为什么要管」。追问指向的是全书口径本身：书号称「每条回答花掉什么、换回什么」，默认主语是读者，但第 13 节有一批条目的「收益」栏写的其实是被救者的存活率，主语被偷换了。作者据此定下受益人口径。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 新规则
+Nhiệm vụ Nguồn Chương 2: 13 Chương 3 38 Sau khi viết bài viết, người đọc hỏi: "Người đàn ông trên trái đất không liên quan gì đến tôi, không ảnh hưởng gì đến cuộc sống của tôi, tại sao lại quan tâm". Tham khảo toàn bộ cuốn sách tiêu chí đánh giá Bản thân: cuốn sách có tên là "Mỗi câu trả lời chi tiêu gì, đổi lại gì" và chủ đề mặc định là người đọc. 13 Một số chương trình mục "Trong những năm qua, Lợi ích "Điều đã được viết là sự sống sót của người được cứu, và lời nói chính đã bị trộm đi". Các tác giả đã đưa ra người hưởng lợi tiêu chí đánh giá。
 
-受益人分四档，按「这份好处将来回到读者身上的期望」从高到低：① 读者自己；② 配偶和直系亲属（父母、子女、祖父母外祖父母、孙子女外孙子女）；③ 朋友、同事和其他亲属——互惠关系，帮出去的将来可能回来；④ 陌生人——档次最低但不是零：回报概率小，且不了解对方性格，另有被讹、被反咬、被报复的一面。不同档不合并计算，写到第 ④ 档必须把风险面和好处一起写。受益人档次不改变收益量级（量级仍从「收益」栏机械套），只影响这条值不值得花那份成本，写在备注里。规则同时写进 CLAUDE.md（新增「收益算给谁（受益人口径）」一节，含涉他条目的三步写法）和 README（「怎么读」之后的两段），检索页 index.html 两处同步：<noscript> 兜底块（关掉 JS 和爬虫才看得到）和真正可见的 doc-head 副标题。第一次只改了 noscript 那处，作者反馈「页面上只看见『每一条都回答两个问题』」，补改 doc-head。doc-head 那句按惯例不带数字。
+## Các quy tắc mới
 
-第一版写成了「只算自己和直系亲属，朋友同事陌生人一律不计入」，是作者原话的误读，当天即改成上面这版四档。误读的痕迹已从 CLAUDE.md、README、index.html 和第 13 节导语、第 2、15 条备注里清掉；第 38 条的标题在误读期间去掉了「打 110」，本轮补回为「要报警就退到安全距离打 110」，备注里那句「保护的是地上那个人，不是你」改写成「属于受益人里最低的一档，愿不愿意花这个时间你自己权衡」。
+người hưởng lợi Phần 4 được phân loại từ cao xuống thấp theo "sự mong đợi của người đọc về lợi ích này trong tương lai".：① Người đọc chính mình；② Người vợ và người thân trực tiếp: cha mẹ, con cái, ông bà ngoại, cháu trai, cháu trai）；③ Những người bạn, đồng nghiệp và người thân khác có thể trở lại trong tương lai để giúp đỡ；④ Người lạ được đánh giá thấp nhất nhưng không phải là 0: khả năng trả lại nhỏ, không hiểu về tính cách của người khác, một mặt khác là bị đánh đập, bị cắn, bị trả thù. Không kết hợp các tính toán khác nhau, viết vào mục ④ Các tài liệu phải ghi lại rủi ro và lợi ích. người hưởng lợi Tỷ lệ không thay đổi mức độ lợi ích (Thực lượng vẫn còn từ:" Lợi ích "Số máy bếp", chỉ ảnh hưởng đến giá trị mà không đáng để chi tiêu Chi phí Nó viết: Ghi chú Rhi. Các quy tắc được viết vào cùng lúc CLAUDE.md（"Điều mới" Lợi ích Tôi muốn nói với ai. người hưởng lợi tiêu chí đánh giá "Bản 1, liên quan đến ông ấy. mục (văn khoái) và README（「"How to Read" sau hai đoạn), tìm lại trang index.html Sự đồng bộ：<noscript> Bức đá: JS và thực sự có thể nhìn thấy doc-head Phó tiêu đề 。 Lần đầu tiên chỉ thay đổi noscript Ở đó, người viết trả lời "trong trang chỉ thấy 'mỗi câu hỏi trả lời hai câu hỏi'". doc-head。doc-head Đó là một câu nói không có chữ số theo thói quen.。
 
-## 全书盘查结果
+Phiên bản đầu tiên được viết là "Chỉ bao gồm bản thân và người thân trực tiếp, bạn bè và đồng nghiệp và người lạ không bao giờ được tính đến". Những dấu vết sai lầm đã được tìm thấy CLAUDE.md、README、index.html và số 13 Lời chỉ dẫn: 2、15 Đạo luật Ghi chú Tẩy sạch; Thứ nhất 38 Đạo luật tiêu đề Khi đọc sai, hãy xóa "thấm" 110」，Lần này được bổ sung với câu: "Đưa cảnh sát trở lại khoảng cách an toàn để tấn công". 110」，Ghi chú Trong bài viết này, câu nói "được bảo vệ là người trên trái đất, không phải là bạn" được chuyển thành "người thuộc về". người hưởng lợi Một trong những điểm ít nhất là bạn không muốn dành thời gian này để cân nhắc chính mình.」。
 
-用「有人|别人|他人|陌生人|旁人|路人|对方|同事|朋友|邻居|见义勇为|救助|身边人」扫全部 471 条标题，命中 37 条，逐条判读后需要改的只有 9 条：
+## Kết quả kiểm tra toàn bộ sách
 
-- 绝大多数命中条目本来就是纯自利账，主线是避免读者自己被处罚或被骗（不偷拍、不借身份证、不替陌生人带东西、不接陌生人给的糖、不在别人机器上跑程序、场子里有人递东西就走等），一字未动。
-- 儿童条目（安全座椅、窗户限位器、儿童近水）与养老、育儿、怀孕各节的受益人是子女和父母，本来就落在第二档，不动。
-- 第 13 节第 40 条（见义勇为受伤之后的钱）算的是读者自己受伤后怎么把钱拿回来，是自利条目，不动。
+"Ai đó"|Những người khác|Những người khác|Người lạ|Những người bên cạnh|Người đi đường|Người khác|Đồng nghiệp|Bạn bè|Hàng xóm|Nhìn về sự can đảm|Cứu hộ|Những người xung quanh "tạo sạch mọi thứ" 471 Đạo luật tiêu đề Đánh đạn. 37 Điều này chỉ cần được sửa đổi sau khi đọc từng điều. 9 Đạo luật：
 
-改动的 9 处：
+- Phần lớn các vụ tấn công mục Đó là một cuốn sách tự do, chủ yếu là để tránh người đọc bị trừng phạt hoặc lừa dối (không lấy hình ảnh, không lấy giấy tờ nhận dạng, không mang đồ cho người lạ, không nhận kẹo từ người lạ, không chạy chương trình trên máy của người khác, không có người giao hàng trên trang web).。
+- Trẻ em mục (trung ghế an toàn, máy giới hạn cửa sổ, trẻ em gần nước) và các giai đoạn về tuổi già, nuôi con, mang thai người hưởng lợi Những đứa trẻ và cha mẹ đã rơi xuống hạng hai, bất động.。
+- Thứ nhất 13 Chương 3 40 Điều này là tự ích kỷ của người đọc về cách trả lại tiền sau khi bị thương. mục Không động.。
 
-| 位置 | 改法 |
+Sự thay đổi 9 Ở đâu：
+
+| Địa điểm | Sự thay đổi |
 |---|---|
-| 第 13 节导语 | 加一句受益人口径：主线是自己和配偶直系亲属，对朋友同事次之，对陌生人不是零收益但档次最低、还带被讹和被卷进案子的一面 |
-| 第 13 节第 1 条（心肺复苏） | 说人话开头改成「你最可能按的是自家人」，收益栏补入居家发生比例 |
-| 第 13 节第 2 条（有人倒地、老人摔倒） | 备注写明这套判断首先给自家老人用，对陌生人时剩下的是免责条款和「别乱搬」 |
-| 第 13 节第 15 条（抽搐） | 备注写明主线是家里有癫痫的人，对陌生人做同样动作收益降一档但也不担责 |
-| 第 13 节第 16 条（低血糖） | 备注写明默认对象是自己或家里的糖尿病人 |
-| 第 13 节第 17 条（触电） | 备注点明「先断电再碰人」是纯自利规则 |
-| 第 13 节第 26 条（溺水） | 备注点明「不下水」是自利规则，且真要救的多半是自家孩子 |
-| 第 13 节第 27 条（噎住） | 备注点明最常发生在自家饭桌上 |
-| 第 13 节第 38 条（撞见斗殴） | 标题改为「退开走人……；要报警就退到安全距离打 110」，正文把报警写成可选并交给读者权衡；备注写明报警的好处落在最低一档 |
-| 第 8 节第 14 条（身边人扬言） | 备注写明算的是同住的配偶父母子女，且送诊权法律上只给近亲属 |
+| Thứ nhất 13 Lời dạy | Thêm: người hưởng lợi tiêu chí đánh giá Đường chính là họ hàng trực tiếp của mình và vợ/chồng, bạn bè và đồng nghiệp, người lạ không phải là 0. Lợi ích Tuy nhiên, điểm thấp nhất còn là một phần của việc bị trói buộc và bị đưa vào vụ án. |
+| Thứ nhất 13 Chương 3 1 Bài viết: Phục hồi tim và phổi） | Giải thích dễ hiểu Khi tôi bắt đầu, tôi bắt đầu nói rằng, "Bạn có thể làm điều tốt nhất với gia đình mình". mục lợi ích Tỷ lệ gia nhập nhà |
+| Thứ nhất 13 Chương 3 2 Một người rơi xuống, một người già rơi xuống.） | Ghi chú Trong khi đó, ông viết rằng những phán quyết này được đưa ra trước tiên cho người già trong gia đình, còn lại cho người lạ là những điều khoản miễn trừ và "Đừng di chuyển.」 |
+| Thứ nhất 13 Chương 3 15 Bài viết:） | Ghi chú Những người trong gia đình có khốn và làm tương tự với những người lạ Lợi ích Thêm một lớp nhưng không chịu trách nhiệm |
+| Thứ nhất 13 Chương 3 16 Bài viết dưới đây:） | Ghi chú Đặt mục tiêu mặc định là người mắc bệnh tiểu đường của mình hoặc trong gia đình |
+| Thứ nhất 13 Chương 3 17 Lưu ý:） | Ghi chú Định nghĩa: "Hãy tắt điện trước khi tiếp xúc với người khác" là một quy tắc ích kỷ. |
+| Thứ nhất 13 Chương 3 26 Bài viết:） | Ghi chú Định nghĩa "không uống nước" là một quy tắc ích kỷ, và hầu hết những người được cứu là những đứa trẻ trong gia đình |
+| Thứ nhất 13 Chương 3 27 Lưu ý:） | Ghi chú Đám sáng thường xảy ra trên bàn ăn nhà |
+| Thứ nhất 13 Chương 3 38 Bài viết:） | tiêu đề Đổi thành "Người bỏ đi"……；Cảnh sát cảnh báo quay trở lại khoảng cách an toàn 110」，nội dung chính Đặt cảnh báo là có thể lựa chọn và đặt cân đối cho người đọc; Ghi chú Những lợi ích của việc viết cảnh báo rõ ràng ở mức tối thiểu |
+| Thứ nhất 8 Chương 3 14 Những người xung quanh nói） | Ghi chú Đăng ký là con cái của cha mẹ của người phối ngẫu sống cùng với nhau, và quyền điều trị pháp lý chỉ dành cho người thân gần gũi |
 
-## 新增核实
+## Tiêu chuẩn mới
 
-心脏骤停的居家发生比例取自已经引用过的同一篇论文，本轮补取数字：Zheng J 等 (2023), BASIC-OHCA registry, The Lancet Public Health, <https://doi.org/10.1016/S2468-2667(23)00173-1>——38,227 例非创伤性院外心脏骤停中「30 282 (79.2%) had a cardiac arrest at home」，同篇「7121 (20.3%) received bystander cardiopulmonary resuscitation」「441 (1.2%) of 38 227 survived」。PubMed 页面本次只返回 cookie 提示，数字复核于 Europe PMC REST 接口返回的 abstractText。
+Tỷ lệ tỷ lệ ngưng tim ở nhà được lấy từ cùng một bài báo đã được trích dẫn.：Zheng J Được rồi. (2023), BASIC-OHCA registry, The Lancet Public Health, <https://doi.org/10.1016/S2468-2667(23)00173-1>——38,227 Các trường hợp đột quỵ tim trong bệnh viện không chấn thương「30 282 (79.2%) had a cardiac arrest at home」，Bài viết này「7121 (20.3%) received bystander cardiopulmonary resuscitation」「441 (1.2%) of 38 227 survived」。PubMed Trang chỉ quay lại lần này cookie Cảnh báo rằng số tái kiểm tra là Europe PMC REST Giao diện trở lại abstractText。
 
-## 未做的事
+## Những gì không được làm
 
-没有给条目加「受益人」这个可筛选维度（那要动成本标签格式和 index.html 的解析与筛选面板），也没有删除任何条目：四档里最低的一档也不是零收益，删条目没有依据。条目数与各项统计不变，仍是 471 条、A 299 / B 123 / C 49、性价比极高 83 / 高 236 / 一般 152。
+Không cho mục "Cái gì?" người hưởng lợi "Điều này có thể được lọc, nó sẽ di chuyển". nhãn chi phí hình thức và index.html của phân tích và lọc bảng), cũng không xóa bất kỳ mục Một điểm thấp nhất trong bốn điểm không phải là 0. Lợi ích Tháo lại. mục Không có bằng chứng. mục Số lượng và số liệu thống kê không thay đổi 471 Đạo luật、A 299 / B 123 / C 49、Giá cả rất cao 83 / cao 236 / Thông thường 152。

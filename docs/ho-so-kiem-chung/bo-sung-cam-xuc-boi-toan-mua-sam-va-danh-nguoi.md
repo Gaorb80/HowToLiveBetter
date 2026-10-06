@@ -1,67 +1,69 @@
-# add-3569 ho-so-kiem-chung（2026-09-07）
+# Hồ sơ kiểm chứng: Cảm xúc bói toán mua sắm và đánh người — 3569, 2026-09-07
 
-说明：本轮 WebSearch 配额已用尽，检索全靠 WebFetch 直开 URL、Crossref / Europe PMC / Semantic Scholar 接口和搜索引擎 HTML 页（Bing/DDG/Sogou/Yandex 多数被拦或返回无关结果，Yahoo 和 Brave 部分可用）。下列每个 URL/DOI 都实际用 WebFetch 打开过。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 第 3 节第 17 条（生气离场）
+Giải thích: Chuyến xe WebSearch Quota đã hết, thu hồi hoàn toàn WebFetch Khởi thẳng. URL、Crossref / Europe PMC / Semantic Scholar Interface và Search Engine HTML Trang（Bing/DDG/Sogou/Yandex Nhiều người bị chặn hoặc quay trở lại không liên quan đến kết quả，Yahoo và Brave Một phần có sẵn) Dưới đây là URL/DOI Thực tế. WebFetch Được mở。
 
-| 来源 | 打开方式 | 结果 | 原文引句 |
+## Thứ nhất 3 Chương 3 17 Lưu ý:）
+
+| Nguồn | Cách mở cửa | Kết quả | Nguồn gốc |
 |---|---|---|---|
-| Webb, Miles & Sheeran 2012, DOI 10.1037/a0027600 | Europe PMC REST（query=DOI） | 已核实题名、期刊、年份、摘要 | "306 experimental comparisons"; distraction d = 0.27; reappraisal of emotional stimulus d = 0.36; perspective taking d = 0.45; suppressing emotional experience d = -0.04; "cognitive change had a small-to-medium effect" |
-| Carlsmith, Wilson & Gilbert 2008, DOI 10.1037/a0012165 | Europe PMC REST | 已核实题名、期刊、年份、摘要 | "Three studies showed that (a) one reason for this is that people who punish continue to ruminate about the offender, whereas those who do not punish 'move on' and think less about the offender, and (b) people fail to appreciate the different affective consequences of witnessing and instigating punishment." |
-| Lench, Flores & Bench 2011, DOI 10.1037/a0024244（愤怒决策偏差备选） | Europe PMC REST | 摘要不含愤怒专属数字，未采用 | — |
-| Lerner & Tiedens 2006, DOI 10.1002/bdm.515 | Crossref 题名检索确认 DOI；非荟萃分析、摘要未取到 | 未采用 | — |
+| Webb, Miles & Sheeran 2012, DOI 10.1037/a0027600 | Europe PMC REST（query=DOI） | Tên đề tài, tạp chí, năm, tóm tắt đã được xác minh | "306 experimental comparisons"; distraction d = 0.27; reappraisal of emotional stimulus d = 0.36; perspective taking d = 0.45; suppressing emotional experience d = -0.04; "cognitive change had a small-to-medium effect" |
+| Carlsmith, Wilson & Gilbert 2008, DOI 10.1037/a0012165 | Europe PMC REST | Tên đề tài, tạp chí, năm, tóm tắt đã được xác minh | "Three studies showed that (a) one reason for this is that people who punish continue to ruminate about the offender, whereas those who do not punish 'move on' and think less about the offender, and (b) people fail to appreciate the different affective consequences of witnessing and instigating punishment." |
+| Lench, Flores & Bench 2011, DOI 10.1037/a0024244（Sự thiên vị về quyết định giận dữ） | Europe PMC REST | Bản tóm tắt không chứa số độc quyền của sự tức giận, không được sử dụng | — |
+| Lerner & Tiedens 2006, DOI 10.1002/bdm.515 | Crossref Tên truy xuất xác nhận DOI；Không phân tích gộp Không có bản tóm tắt | Không được áp dụng | — |
 
-## 第 3 节第 18 条（抑郁）
+## Thứ nhất 3 Chương 3 18 Bệnh trầm cảm）
 
-| 来源 | 打开方式 | 结果 | 原文引句 |
+| Nguồn | Cách mở cửa | Kết quả | Nguồn gốc |
 |---|---|---|---|
-| Noetel 等 2024 BMJ, DOI 10.1136/bmj-2023-075847 | Europe PMC REST | 已核实 | "218 studies with 495 arms and 14,170 participants"; walking/jogging "Hedges' g -0.62, 95% credible interval -0.80 to -0.45"; yoga "g -0.55, -0.73 to -0.36"; strength training "g -0.49, -0.69 to -0.29" |
-| Golden 等 2005 Am J Psychiatry, DOI 10.1176/appi.ajp.162.4.656 | Europe PMC REST | 已核实 | bright light in SAD "eight studies, having an effect size of 0.84 and 95% CI of 0.60 to 1.08"; nonseasonal "three studies; effect size=0.53, 95% CI=0.18 to 0.89"; 检索区间 1975-01 到 2003-07 |
-| Karyotaki 等 2021 JAMA Psychiatry, DOI 10.1001/jamapsychiatry.2020.4364 | Europe PMC REST（作者+题名+年份检索，返回 DOI） | 已核实 | "Guided iCBT was associated with more effectiveness than unguided iCBT (MD in posttreatment PHQ-9 scores, -0.8; 95% CI, -1.4 to -0.2)"; PHQ-9 >9 时有指导更优；两者均优于对照 |
-| 国家卫健委 12356 通知 <https://www.gov.cn/zhengce/zhengceku/202412/content_6994470.htm> | 直开 | 已核实 | "确保于2025年5月1日0时前，实现拨打'12356'电话号码接通心理援助热线的功能"；"每日提供不少于18小时心理援助服务"；国卫医政函〔2024〕259号 |
+| Noetel Được rồi. 2024 BMJ, DOI 10.1136/bmj-2023-075847 | Europe PMC REST | Được xác minh | "218 studies with 495 arms and 14,170 participants"; walking/jogging "Hedges' g -0.62, 95% credible interval -0.80 to -0.45"; yoga "g -0.55, -0.73 to -0.36"; strength training "g -0.49, -0.69 to -0.29" |
+| Golden Được rồi. 2005 Am J Psychiatry, DOI 10.1176/appi.ajp.162.4.656 | Europe PMC REST | Được xác minh | bright light in SAD "eight studies, having an effect size of 0.84 and 95% CI of 0.60 to 1.08"; nonseasonal "three studies; effect size=0.53, 95% CI=0.18 to 0.89"; Khu vực tìm kiếm 1975-01 đến 2003-07 |
+| Karyotaki Được rồi. 2021 JAMA Psychiatry, DOI 10.1001/jamapsychiatry.2020.4364 | Europe PMC REST（Nhà văn+Tên đề+Năm thu hồi và trả lại DOI） | Được xác minh | "Guided iCBT was associated with more effectiveness than unguided iCBT (MD in posttreatment PHQ-9 scores, -0.8; 95% CI, -1.4 to -0.2)"; PHQ-9 >9 Khi có sự hướng dẫn tốt hơn, Cả hai đều tốt hơn so với so sánh |
+| Ủy ban Y tế Quốc gia 12356 Thông báo <https://www.gov.cn/zhengce/zhengceku/202412/content_6994470.htm> | Khởi thẳng. | Được xác minh | "Đảm bảo 2025 Năm 5 Mặt trăng 1 Ngày 0 Trước thời gian, thực hiện cuộc gọi'12356'Số điện thoại kết nối dây nóng hỗ trợ tâm lý"；"Mỗi ngày có ít hơn 18 Dịch vụ trợ giúp tâm lý hàng giờ"；Thông điệp của Quốc phòng Y tế〔2024〕259 Số 1 |
 
-## 第 5 节第 20 条（网购规则）
+## Thứ nhất 5 Chương 3 20 Quy tắc mua hàng trực tuyến）
 
-| 来源 | 打开方式 | 结果 | 原文引句 |
+| Nguồn | Cách mở cửa | Kết quả | Nguồn gốc |
 |---|---|---|---|
-| 消保法 <https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html> | 直开（npc.gov.cn 两个链接 SSL 握手失败；gov.cn 2013 链接 404；samr PDF 抽出文本乱码） | 已核实 | 第五十五条"增加赔偿的金额为消费者购买商品的价款或者接受服务的费用的三倍；增加赔偿的金额不足五百元的，为五百元"；第四十四条"网络交易平台提供者明知或者应知销售者或者服务者利用其平台侵害消费者合法权益，未采取必要措施的，依法与该销售者或者服务者承担连带责任" |
-| 网络直播营销管理办法（试行） <https://www.gov.cn/zhengce/zhengceku/2021-04/23/content_5601682.htm> | 直开 | 已核实 | 七部门；2021 年 5 月 25 日施行；第十八条"虚构或者篡改交易、关注度、浏览量、点赞量等数据流量造假""发布虚假或者引人误解的信息，欺骗、误导用户"；第二十八条"违反本办法，给他人造成损害的，依法承担民事责任" |
-| 反不正当竞争法 2025 修订 <https://www.ssf.gov.cn/portal/rootfiles/2025/09/01/1758444945285569-1758444945303119.pdf> | 直开 PDF（npc.gov.cn 页面 SSL 失败；samr 2023 页面证书校验失败） | 已核实为 2025 修订版，2025 年 10 月 15 日施行 | 第九条"经营者不得通过组织虚假交易、虚假评价等方式，帮助其他经营者进行虚假或者引人误解的商业宣传"；第二十五条"处一百万元以下的罚款；情节严重的，处一百万元以上二百万元以下的罚款，可以并处吊销营业执照" |
-| 民法典 <https://www.court.gov.cn/zixun/xiangqing/233181.html> | 直开 | 已核实 | 第五百八十六条"不得超过主合同标的额的百分之二十"；第五百八十七条"给付定金的一方不履行债务……无权请求返还定金；收受定金的一方不履行债务……应当双倍返还定金" |
-| 个人信息保护法 <https://www.stats.gov.cn/gk/tjfg/xgfxfg/202503/t20250310_1958923.html> | 直开（npc.gov.cn SSL 失败，改用国家统计局转载页） | 已核实 | 第二十四条"不得对个人在交易价格等交易条件上实行不合理的差别待遇" |
-| 山东六起网络不正当竞争典型案例 <https://www.samr.gov.cn/jjj/fbzdjz/art/2025/art_cbaed1c006584baeb6823a6b01325ba4.html> | 直开 | 已核实 | 菏泽某公司"组织'刷手'进行虚假交易共75笔，涉及本金682190元"；罚款数字页面未写 |
+| Đạo luật bảo hiểm <https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html> | Khởi thẳng.（npc.gov.cn Hai liên kết SSL Nhấn tay thất bại；gov.cn 2013 Liên kết 404；samr PDF Xóa mã lỗi văn bản） | Được xác minh | Điều 55"Số tiền bồi thường được tăng gấp ba lần chi phí mua hàng hóa hoặc nhận dịch vụ của người tiêu dùng; Số tiền bồi thường được tăng lên dưới 500 USD, lên đến 500 USD"；Điều 44"Nhà cung cấp nền tảng giao dịch trực tuyến biết hoặc nên biết rằng người bán hoặc dịch vụ sử dụng nền tảng của mình vi phạm lợi ích hợp pháp của người tiêu dùng và không thực hiện các biện pháp cần thiết và chịu trách nhiệm theo pháp luật với người bán hoặc dịch vụ đó." |
+| Thử nghiệm quản lý tiếp thị trực tiếp trên mạng） <https://www.gov.cn/zhengce/zhengceku/2021-04/23/content_5601682.htm> | Khởi thẳng. | Được xác minh | 7 bộ phận；2021 Năm 5 Mặt trăng 25 Ngày thực thi; Điều 18"Dữ liệu truyền thông giả mạo hoặc giả mạo như giao dịch, quan tâm, số lượt xem, số lượt xem""Phát hành thông tin sai hoặc gây hiểu lầm, lừa dối, lừa dối người dùng"；Điều 28"Vi phạm quy định này, gây thiệt hại cho người khác, chịu trách nhiệm dân sự theo pháp luật" |
+| Luật cạnh tranh bất hợp pháp 2025 Tỉnh sửa <https://www.ssf.gov.cn/portal/rootfiles/2025/09/01/1758444945285569-1758444945303119.pdf> | Khởi thẳng. PDF（npc.gov.cn Trang SSL Thất bại；samr 2023 Bài kiểm tra giấy chứng nhận trang thất bại） | Đã được xác minh là 2025 Bản sửa đổi，2025 Năm 10 Mặt trăng 15 Ngày hành động | Điều 9"Các nhà khai thác không được phép tổ chức giao dịch giả mạo, đánh giá giả mạo, và các cách khác để giúp các nhà khai thác khác đưa ra quảng cáo thương mại giả mạo hoặc gây hiểu lầm."；Điều 25"Đánh phạt ít hơn 1 triệu USD; Tình huống nghiêm trọng, phạt hơn 1 triệu đồng và dưới 2 triệu đồng, cũng có thể hủy bỏ giấy phép hoạt động" |
+| Bộ luật Dân sự <https://www.court.gov.cn/zixun/xiangqing/233181.html> | Khởi thẳng. | Được xác minh | Điều 586"Không được vượt quá 20% số tiền hợp đồng chính"；Điều 587"Đưa tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Một bên không hoàn thành nợ……Không được yêu cầu trả lại tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng ； Được tiếp nhận tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng Một bên không hoàn thành nợ……Cần trả gấp đôi tiền đặt cọc bảo đảm giao kết hoặc thực hiện hợp đồng" |
+| Luật bảo vệ thông tin cá nhân <https://www.stats.gov.cn/gk/tjfg/xgfxfg/202503/t20250310_1958923.html> | Khởi thẳng.（npc.gov.cn SSL Thất bại, thay đổi Cục Thống kê Quốc gia Chuyển trang） | Được xác minh | Điều 24"Không được đối xử khác biệt không hợp lý đối với cá nhân trong các điều kiện giao dịch như giá giao dịch" |
+| 6 trường hợp điển hình của sự cạnh tranh không hợp lý trên mạng ở Shandong <https://www.samr.gov.cn/jjj/fbzdjz/art/2025/art_cbaed1c006584baeb6823a6b01325ba4.html> | Khởi thẳng. | Được xác minh | Một công ty"Tổ chức'Làm sạch tay'Giao dịch giả 75 Số tiền liên quan đến tiền mặt 682190 Nguyên nhân"；Các trang số phạt không được viết |
 
-## 第 5 节第 21 条（查抽检/认证）
+## Thứ nhất 5 Chương 3 21 Bài viết:/Chứng nhận）
 
-| 来源 | 打开方式 | 结果 | 原文引句 |
+| Nguồn | Cách mở cửa | Kết quả | Nguồn gốc |
 |---|---|---|---|
-| 市场监管总局 2024 年产品质量国家监督抽查情况通报 <https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/zljds/art/2025/art_02676c16ac634fd9a48ec6ea10eb000d.html> | 从 samr 质量监督司栏目页找到后直开 | 已核实 | "抽查检验23764家企业生产经营的25250批次产品""监督抽查不合格率为14.3%"；流通领域（电商）"抽查7297批次……抽查不合格率为23.5%""较上年上升1.8个百分点"；流通领域（实体店）"抽查8055批次……抽查不合格率为15.1%" |
-| 2024 年 26 种网售产品抽查通报 <https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/zljds/art/2025/art_2dac570dc84840c18bc2b6ad73aba2f8.html> | 直开 | 404，未采用 | — |
-| 国家认监委官网 <https://www.cnca.gov.cn/> | 直开 | 已核实首页有"认证结果"入口，链接指向 <http://cx.cnca.cn/CertECloud/result/skipResultList> | 查询平台本身返回 HTTP 521，条目备注已说明 |
-| 能源效率标识管理办法 <https://www.gov.cn/zhengce/2021-11/30/content_5713245.htm> | 直开 | 已核实 | 发改委、质检总局令第 35 号，2016 年 6 月 1 日施行；第三条"具体产品实行目录管理"；第七条标识含"能效等级、能效指标……能效信息码"；第二十七条"伪造、冒用能效标识或者利用能效标识进行虚假宣传的"依节约能源法第七十三条处罚 |
+| Cơ quan quản lý thị trường 2024 Thông báo về việc kiểm tra chất lượng sản phẩm quốc gia hàng năm <https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/zljds/art/2025/art_02676c16ac634fd9a48ec6ea10eb000d.html> | Từ samr Quality Oversight, trang web của Quản lý Quản lý chất lượng | Được xác minh | "Phân tích kiểm tra 23764 Nhà sản xuất kinh doanh 25250 Hàng loạt sản phẩm""Tỷ lệ không qua kiểm tra giám sát là 14.3%"；E-commerce trong lĩnh vực phân phối）"Tham khảo sát 7297 Số lượng……Tỷ lệ không qua kiểm tra là 23.5%""Tăng so với năm ngoái 1.8 Một phần trăm"；Các cửa hàng thực tế trong lĩnh vực phân phối）"Tham khảo sát 8055 Số lượng……Tỷ lệ không qua kiểm tra là 15.1%" |
+| 2024 Năm 26 Các sản phẩm bán hàng trực tuyến <https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/zljds/art/2025/art_2dac570dc84840c18bc2b6ad73aba2f8.html> | Khởi thẳng. | 404，Không được áp dụng | — |
+| Cơ quan giám sát quốc gia <https://www.cnca.gov.cn/> | Khởi thẳng. | Trang đầu đã được xác minh"Kết quả chứng nhận"Đăng nhập, đường dẫn liên kết <http://cx.cnca.cn/CertECloud/result/skipResultList> | Các nền tảng truy vấn đã trở lại HTTP 521，mục Ghi chú Được giải thích |
+| Phương pháp quản lý hiệu quả năng lượng <https://www.gov.cn/zhengce/2021-11/30/content_5713245.htm> | Khởi thẳng. | Được xác minh | Ủy ban cải cách, Cơ quan kiểm tra chất lượng 35 Số 1，2016 Năm 6 Mặt trăng 1 Ngày thực thi; Điều 3"Thực hiện quản lý danh mục sản phẩm cụ thể"；Điều 7 bao gồm:"Tỷ lệ hiệu quả năng lượng, chỉ số hiệu quả năng lượng……mã thông tin hiệu quả"；Điều 27"Những người giả mạo, giả sử hiệu quả năng lượng hoặc sử dụng hiệu quả năng lượng để quảng bá giả"Hình phạt theo Điều 73 của Luật tiết kiệm năng lượng |
 
-## 第 6 节第 15 条（算命）
+## Thứ nhất 6 Chương 3 15 Định mệnh）
 
-| 来源 | 打开方式 | 结果 | 原文引句 |
+| Nguồn | Cách mở cửa | Kết quả | Nguồn gốc |
 |---|---|---|---|
-| Forer 1949, DOI 10.1037/h0059240 | Crossref 确认题名/期刊/卷页（44(1):118-123）；psycnet 直开为 Loading；经 r.jina.ai 代理打开 psycnet doiLanding 取到摘要 | 题名、期刊核实；摘要只核实到结论句，学生人数与评分均值未取到 | "Acceptance by subject or analyst is no proof of correctness of interpretations made from case histories, projective tests, crystal-gazing, or graphology." |
-| Carlson 1985 Nature, DOI 10.1038/318419a0 | Crossref 确认题名/卷页（318:419-425）；nature.com 直开经 idp 跳转后只显示摘要首句；Europe PMC、Semantic Scholar 无摘要 | 题名核实；结果数字未取到，条目已标 TODO | "Two double-blind tests were made of the thesis that astrological 'natal charts' can be used to describe accurately personality traits of test subjects." |
-| 最高检 息县算命诈骗 <https://www.spp.gov.cn/zdgz/202607/t20260728_732935.shtml> | Yahoo 检索到 12309 镜像后改为 spp.gov.cn 直开 | 已核实 | "被害人有50余人，被骗金额从数千元至上万元不等""累计追回赃款200余万元""改判有期徒刑十一年，并处罚金10万元"；供养套餐最高 3888 元 |
-| 重庆高院算命诈骗案 <http://cqgy.cqfygzfw.gov.cn/article/detail/2023/02/id/7139916.shtml> | 直开 | 证书域名不匹配打不开，未采用 | — |
-| 湖北荆门检察 网络算命 以案释法 <https://jm.hbjc.gov.cn/>... | 直开 | 证书过期，未采用 | — |
+| Forer 1949, DOI 10.1037/h0059240 | Crossref Định danh chủ đề/Tạp chí/Các trang（44(1):118-123）；psycnet Khởi mở Loading；Thông qua r.jina.ai Trợ lý mở psycnet doiLanding Nhận bản tóm tắt | Tên đề, xác minh tạp chí; Bản tóm tắt chỉ xác minh cho đến khi kết luận rằng số lượng học sinh và điểm trung bình không được lấy | "Acceptance by subject or analyst is no proof of correctness of interpretations made from case histories, projective tests, crystal-gazing, or graphology." |
+| Carlson 1985 Nature, DOI 10.1038/318419a0 | Crossref Định danh chủ đề/Các trang（318:419-425）；nature.com Thường xuyên idp Chỉ hiển thị đoạn đầu của bản tóm tắt sau khi nhảy；Europe PMC、Semantic Scholar Không có tóm tắt | Đánh giá danh sách; Kết quả là không có con số. mục Được đánh dấu TODO | "Two double-blind tests were made of the thesis that astrological 'natal charts' can be used to describe accurately personality traits of test subjects." |
+| Cụ thể, điều tra cao nhất của Hồ Chí Minh về gian lận <https://www.spp.gov.cn/zdgz/202607/t20260728_732935.shtml> | Yahoo Nhận lại 12309 Hình ảnh sau đó được chuyển thành spp.gov.cn Khởi thẳng. | Được xác minh | "Những nạn nhân có 50 Những người còn lại bị lừa dối với số tiền từ hàng ngàn đến hàng chục ngàn đô la""Thu hồi thu hồi tích lũy 200 Hàng ngàn đô la""Cải án 11 năm và phạt tiền 10 Mán đô la"；Cung cấp gói hàng cao nhất 3888 Nguyên nhân |
+| Chuyện gian lận của trường cao cấp Chongqing <http://cqgy.cqfygzfw.gov.cn/article/detail/2023/02/id/7139916.shtml> | Khởi thẳng. | Tên miền giấy chứng nhận không phù hợp không mở, không được áp dụng | — |
+| Hồ Chí Minh Cảnh sát Thanh toán mạng và giải thích <https://jm.hbjc.gov.cn/>... | Khởi thẳng. | Chứng chỉ đã hết hạn, chưa được áp dụng | — |
 
-## 第 9 节第 16 条（打人的账）
+## Thứ nhất 9 Chương 3 16 Bài viết:）
 
-| 来源 | 打开方式 | 结果 | 原文引句 |
+| Nguồn | Cách mở cửa | Kết quả | Nguồn gốc |
 |---|---|---|---|
-| 治安管理处罚法 2025 <https://www.spp.gov.cn/spp/fl/202506/t20250627_699863.shtml> | 直开 | 已核实 | 第五十一条"处五日以上十日以下拘留，并处五百元以上一千元以下罚款……处十日以上十五日以下拘留，并处一千元以上二千元以下罚款"；第九条"因民间纠纷引起的打架斗殴……情节较轻的，公安机关可以调解处理"；第一百四十四条"本法自2026年1月1日起施行" |
-| 刑法 <https://www.spp.gov.cn/spp/fl/201802/t20180206_364975.shtml> | 直开 | 已核实 | 第二百三十四条"故意伤害他人身体的，处三年以下有期徒刑、拘役或者管制"；致人重伤三年以上十年以下 |
-| 最高法 人身损害赔偿解释 2022 修正 <https://www.court.gov.cn/zixun/xiangqing/357071.html> | Brave 检索到后直开 | 已核实 | 法释〔2022〕14 号，2022 年 5 月 1 日施行；第六至十一条 医疗费、误工费、护理费、交通费、住院伙食补助费、营养费；第十二条"按照受诉法院所在地上一年度城镇居民人均可支配收入标准，自定残之日起按二十年计算。但六十周岁以上的，年龄每增加一岁减少一年；七十五周岁以上的，按五年计算" |
-| 最高检、公安部 轻伤害案件指导意见 <https://www.spp.gov.cn/spp/xwfbh/wsfbt/202303/t20230302_604352.shtml> | Yahoo 检索到后直开 | 已核实 | "2022年，全国检察机关受理轻伤害案件7万余件""多因婚姻、家庭、邻里纠纷或者偶然事件引发""当事人双方达成和解并已实际履行的，应当依法从宽处理，符合不起诉条件的，应当作出不起诉决定" |
-| 最高检 轻伤害案件典型案例 <https://www.spp.gov.cn/xwfbh/dxal/202303/t20230302_605116.shtml> | 直开 | 已核实 | 卢某案：孙某轻伤二级（左侧第 4、5、6 肋骨骨折），"卢某赔偿孙某11.3万元"，不起诉；石某案：汪某轻伤二级（右手桡骨骨折），石某未赔偿，故意伤害罪"判处有期徒刑十个月" |
-| 两高 量刑指导意见（试行）2021 <https://www.court.gov.cn/zixun/xiangqing/312301.html> 及 <https://www.spp.gov.cn/spp/zdgz/202107/t20210707_523208.shtml> | 直开 | 两页均为新闻稿、无全文，轻伤量刑起点未取到，未采用 | — |
+| Luật hình phạt quản lý an ninh 2025 <https://www.spp.gov.cn/spp/fl/202506/t20250627_699863.shtml> | Khởi thẳng. | Được xác minh | Điều 51"5 ngày hoặc ít hơn 10 ngày bị giam giữ và bị phạt ít hơn 500 đồng và ít hơn 1000 đồng……10 ngày hoặc ít hơn 15 ngày bị giam giữ và 1 nghìn đồng hoặc ít hơn 2 nghìn đồng bị phạt"；Điều 9"Cuộc đụng độ do tranh chấp dân sự gây ra……Tình huống dễ dàng hơn, các cơ quan an ninh công cộng có thể hòa giải xử lý"；Chương 144"Đạo luật này 2026 Năm 1 Mặt trăng 1 Hoạt động từ ngày" |
+| Bộ luật Hình sự <https://www.spp.gov.cn/spp/fl/201802/t20180206_364975.shtml> | Khởi thẳng. | Được xác minh | Chương 234"Những người cố ý gây tổn thương cho người khác có thể bị kết án tù, giam giữ hoặc kiểm soát ít hơn ba năm"；Bệnh nhân bị thương nặng hơn 3 năm và dưới 10 năm |
+| Luật pháp cao nhất giải thích về chi phí thiệt hại cá nhân 2022 sửa đổi <https://www.court.gov.cn/zixun/xiangqing/357071.html> | Brave Đưa lại ngay sau | Được xác minh | Lời giải thích〔2022〕14 Số 1，2022 Năm 5 Mặt trăng 1 Ngày thực thi; Điều 6 đến 11, chi phí y tế, chi phí thất nghiệp, chi phí chăm sóc, chi phí giao thông, chi phí trợ cấp lương thực, chi phí nuôi dưỡng; Điều 12"Theo tiêu chuẩn thu nhập có sẵn cho mỗi cư dân thị trấn trong một năm tại địa điểm của tòa án bị cáo, được tính theo hai mươi năm kể từ ngày xác định tuổi thọ. Tuy nhiên, những người trên 60 tuổi, tuổi tác tăng thêm một năm và giảm thêm một năm; Người trên 75 tuổi, tính theo năm năm" |
+| Đánh giá cao nhất Bộ Công an Thông tin hướng dẫn về các trường hợp gây tổn thương nhẹ <https://www.spp.gov.cn/spp/xwfbh/wsfbt/202303/t20230302_604352.shtml> | Yahoo Đưa lại ngay sau | Được xác minh | "2022 Năm, Cơ quan công tố quốc gia chấp nhận các vụ thương tích nhẹ 7 Hơn 1 triệu.""Sự cố xảy ra trong hôn nhân, gia đình, hàng xóm""Các bên liên quan đã đạt được thỏa thuận và đã thực hiện, nên được xử lý rộng rãi theo pháp luật, tuân thủ các điều kiện không buộc tội, và nên đưa ra quyết định không buộc tội." |
+| Các trường hợp điển hình của vụ thương tích nhẹ <https://www.spp.gov.cn/xwfbh/dxal/202303/t20230302_605116.shtml> | Khởi thẳng. | Được xác minh | Chuyện Lu: Tấn thương nhẹ cấp 2 (về bên trái) 4、5、6 Biểu xương xương），"Xuân Xuân Xuân Xuân 11.3 Mán đô la"，Không truy tố; Cụ thể: Cụ thể bị thương nhẹ cấp 2 (quyết xương xương tay phải), Cụ thể không được bồi thường, cố ý gây tổn thương"10 tháng tù" |
+| Hai lời chỉ dẫn về hình phạt cao:）2021 <https://www.court.gov.cn/zixun/xiangqing/312301.html> và <https://www.spp.gov.cn/spp/zdgz/202107/t20210707_523208.shtml> | Khởi thẳng. | Cả hai trang đều là báo cáo, không đầy đủ, không được đưa ra, không được áp dụng. | — |
 
-## 打不开或未采用的检索路径
-- WebSearch：配额耗尽（200/200）。
-- DuckDuckGo html：全部返回验证码页；Sogou：antispider 跳转；Yandex：验证码；Bing 大多数中文查询返回无关结果；Brave 后半程 429。
-- npc.gov.cn 全部链接 SSL 握手失败，法律原文改用 samr.gov.cn / court.gov.cn / stats.gov.cn / ssf.gov.cn 的转载页。
+## Hướng dẫn tìm kiếm không mở hoặc không được sử dụng
+- WebSearch：Số lượng đã hết（200/200）。
+- DuckDuckGo html：Tất cả quay lại trang mã xác minh；Sogou：antispider Chuyển；Yandex：Mã xác minh；Bing Hầu hết Tiếng Trung Câu hỏi trả lời không liên quan；Brave Phần sau 429。
+- npc.gov.cn Tất cả liên kết SSL Hỗ tay thất bại, pháp luật thay đổi samr.gov.cn / court.gov.cn / stats.gov.cn / ssf.gov.cn Trang chuyển nhượng。

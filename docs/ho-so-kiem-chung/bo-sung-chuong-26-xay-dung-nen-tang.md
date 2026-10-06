@@ -1,70 +1,72 @@
-# 第 26 节「做一个网站或平台」· ho-so-kiem-chung（2026-09-08）
+# Hồ sơ kiểm chứng: Chương 26 xây dựng nền tảng — 2026-09-08
 
-任务来源：读者要做一个直播网站，以及一个用户可以上去发东西卖的平台，问要办什么手续、走什么流程、服务器该在哪买。全书原有覆盖只有第 11 节第 14 条的 ICP 备案与等级保护，其余（增值电信许可、EDI、网络文化经营许可证、视听许可、电商法平台义务、涉税信息报送、内容治理、实名、未成年人、通知删除、数据出境、平台代收代付）零覆盖。按与读者约定新开第 26 节，11 条，另出长文 docs/lam-nen-tang-can-nhung-giay-phep-gi.md。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-为什么新开一节而不是并入第 11、12 节：第 11 节的读者是受雇的技术人，第 12 节的读者是开店做生意的人，做平台的人两者都不是，拆开会让同一件事分散在三节里互相跳转。全书目录本来就是场景导向，新增一个场景不破坏体例。
+Nhiệm vụ Nguồn Người đọc sẽ xây dựng một trang web phát trực tiếp, và một nền tảng mà người dùng có thể truy cập để bán hàng, hỏi những thủ tục cần thực hiện, những quy trình cần thực hiện, các máy chủ cần mua ở đâu. Tất cả các cuốn sách được bao gồm chỉ trong đoạn 11 Chương 3 14 Đạo luật ICP Đăng ký và bảo vệ cấp độ, phần còn lại của giấy phép viễn thông、EDI、giấy phép kinh doanh văn hóa mạng - Giấy phép xem và nghe, nghĩa vụ của nền tảng e-commerce, liên quan đến thuế Thông tin chuyển giao, quản lý nội dung, tên thật, người trẻ, thông báo xóa, xuất dữ liệu, thanh toán thay thế trên nền tảng) không bao gồm. Theo thỏa thuận với độc giả 26 Chương 3，11 Bài viết khác: docs/lam-nen-tang-can-nhung-giay-phep-gi.md。
 
-工作方式：本轮由四个检索子任务分头找官方原文（电信与备案、直播与视听、电商法平台义务、支付结算），主任务复核关键引句后写条目。下表「复核」列标明主任务是否亲自打开原页核对。
+Tại sao bắt đầu một đoạn mới thay vì kết hợp với một đoạn 11、12 Chương 2: 11 Những người đọc của chương này là những kỹ thuật viên được tuyển dụng. 12 Các độc giả của chương trình là những người mở cửa hàng để kinh doanh, những người làm nền tảng không phải là cả hai, và việc mở ra sẽ làm cho cùng một thứ phân tán trong ba chương trình nhảy lẫn nhau. Tất cả danh sách sách đều hướng về cảnh tượng, thêm một cảnh tượng không phá hoại bản thân。
 
-## 电信许可、备案、服务器（第 2、4、11 条）
+Cách làm việc: Quá trình này được phân loại bởi bốn nhiệm vụ thu hồi (trình bản chính thức, điện thoại và hồ sơ, phát trực tiếp và video, các nghĩa vụ của nền tảng luật thương mại điện tử, thanh toán) và được viết sau câu quan trọng của nhiệm vụ chính. mục 。 Dưới đây là danh mục "Check" để xác định liệu nhiệm vụ chính của bạn đã tự mở trang chính để xác minh.。
 
-| URL | 复核 | 原文引句 |
+## Thông tin liên lạc, hồ sơ, máy chủ: 2、4、11 Đạo luật）
+
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://www.gov.cn/gongbao/content/2011/content_1860864.htm> 、<https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997034.html> | 否（子任务取得） | 互联网信息服务管理办法第三条 经营性指「通过互联网向上网用户有偿提供信息或者网页制作等服务活动」；第四条「国家对经营性互联网信息服务实行许可制度；对非经营性互联网信息服务实行备案制度。未取得许可或者未履行备案手续的，不得从事互联网信息服务」；第十九条 无证经营的罚则。该办法已于 2024-12-06 经国务院令第 797 号第二次修订，797 号令只改第五条 |
-| <https://www.gov.cn/gongbao/content/2016/content_5139478.htm> | 否 | 电信条例第七条 许可制度；第十三条 增值电信业务条件；第六十九条「没收违法所得，处违法所得3倍以上5倍以下罚款；没有违法所得或者违法所得不足5万元的，处10万元以上100万元以下罚款；情节严重的，责令停业整顿」 |
-| <https://www.gov.cn/gongbao/content/2017/content_5240090.htm> | 否 | 电信业务经营许可管理办法（工信部令第 42 号）第六条 注册资本 100 万／1000 万；第十一条 60 日审查期；第十四条 有效期 5 年；第二十四条 接入服务提供者「不得为未依法取得经营许可证或者履行非经营性互联网信息服务备案手续的单位或者个人提供接入或者代收费等服务」 |
-| <https://www.miit.gov.cn/zwgk/zcwj/wjfb/tg/art/2020/art_e98406cd89844f7e92ea1bcf3b5301e0.html> | 是 | 工信部关于发布《电信业务分类目录（2015年版）》的通告，2015-12-28，自 2016-03-01 施行。B21、B11、B14、B25 的定义原文取自目录官方 .doc 附件 <https://www.miit.gov.cn/cms_files/filemanager/oldfile/miit/n1146295/n1652858/n1652930/n4509627/c4564595/part/4564599.doc> |
-| <https://www.miit.gov.cn/gyhxxhb/jgsj/cyzcyfgs/bmgz/xxtxl/art/2024/art_84a0cfa0ebd049bbbe751dca9a008e56.html> | 否 | 非经营性互联网信息服务备案管理办法（信产部令第 33 号，2024 年经工信部令第 68 号修订）第五条「未经备案，不得在中华人民共和国境内从事非经营性互联网信息服务」；第十八条 接入服务提供者不得为未备案者提供接入；第二十二条 罚 1 万元、拒不改正关闭网站 |
+| <https://www.gov.cn/gongbao/content/2011/content_1860864.htm> 、<https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997034.html> | Không thành công） | Cách quản lý dịch vụ thông tin Internet Điều 3 Hoạt động kinh doanh là "các hoạt động cung cấp dịch vụ, chẳng hạn như cung cấp thông tin hoặc tạo trang web cho người dùng trả tiền qua Internet". Điều IV: Hệ thống cấp phép quốc gia cho các dịch vụ thông tin Internet hoạt động; Thực hiện hệ thống lưu trữ cho các dịch vụ thông tin Internet không hoạt động. Không được cấp phép hoặc không thực hiện thủ tục đăng ký và không được tham gia vào các dịch vụ thông tin Internet". Điều 19 Luật phạt cho hoạt động không có giấy chứng nhận. Điều này đã được thực hiện 2024-12-06 Thông qua Quốc vụ viện Đánh giá 797 Lần thứ hai sửa đổi，797 Đạo luật chỉ sửa đổi Điều 5 |
+| <https://www.gov.cn/gongbao/content/2016/content_5139478.htm> | Không | Điều 7 quy định về hệ thống cấp phép điện tử; Điều 13 - Điều kiện hoạt động truyền thông tăng giá trị; Điều 69: "Việc tịch thu thu nhập bất hợp pháp, thu nhập bất hợp pháp 3 Hơn gấp đôi 5 bồi thường ít hơn hai lần; Không có thu nhập bất hợp pháp hoặc thu nhập bất hợp pháp 5 100 đô la. 10 Hơn 1 nghìn đô la 100 Hình phạt dưới 10.000 USD; Tình hình nghiêm trọng, yêu cầu ngừng hoạt động」 |
+| <https://www.gov.cn/gongbao/content/2017/content_5240090.htm> | Không | Phương pháp quản lý giấy phép hoạt động kinh doanh viễn thông 42 Điều 6: Số vốn đăng ký 100 Một triệu đô la／1000 Tỷ phú; Điều 11 60 Thời gian kiểm tra ngày; Điều 14 Thời hạn hiệu lực 5 Năm; Điều 24 Các nhà cung cấp dịch vụ truy cập "không được phép cung cấp các dịch vụ như truy cập hoặc thanh toán cho các đơn vị hoặc cá nhân thực hiện thủ tục đăng ký dịch vụ thông tin Internet không hoạt động mà không được cấp phép hoạt động bất hợp pháp.」 |
+| <https://www.miit.gov.cn/zwgk/zcwj/wjfb/tg/art/2020/art_e98406cd89844f7e92ea1bcf3b5301e0.html> | Đúng vậy | Bộ Công nghiệp Thông tin về việc công bố danh sách phân loại hoạt động điện tử silicon（2015 Báo cáo năm，2015-12-28，Tự trị 2016-03-01 Thực hiện。B21、B11、B14、B25 Định nghĩa gốc lấy từ danh mục chính thức .doc Phụ lục <https://www.miit.gov.cn/cms_files/filemanager/oldfile/miit/n1146295/n1652858/n1652930/n4509627/c4564595/part/4564599.doc> |
+| <https://www.miit.gov.cn/gyhxxhb/jgsj/cyzcyfgs/bmgz/xxtxl/art/2024/art_84a0cfa0ebd049bbbe751dca9a008e56.html> | Không | Phương pháp quản lý hồ sơ dịch vụ thông tin Internet không hoạt động: 33 Số 1，2024 Lệnh của Bộ Thông tin Công nghiệp 68 Điều 5: "Không được khai thác các dịch vụ thông tin Internet không hoạt động trong Cộng hòa Nhân dân Trung Quốc mà không đăng ký"; Điều 18 Các nhà cung cấp dịch vụ truy cập không được cung cấp quyền truy cập cho người chưa đăng ký; Điều 22 Các hình phạt 1 Mán Yuan từ chối không sửa chữa việc đóng website |
 
-查询入口：增值电信业务经营许可证查 tsm.miit.gov.cn，网站备案查 beian.miit.gov.cn。后者在本机 WebFetch 返回 521，只能确认域名由工信部 2019 年公告指定，未能实测查询功能。
+Quá trình nhập cảnh: Thêm giá trị kiểm tra giấy phép hoạt động kinh doanh viễn thông tsm.miit.gov.cn，Đăng ký trang web beian.miit.gov.cn。Người cuối cùng đang trên máy bay WebFetch Trở lại 521，Chỉ xác nhận tên miền từ Bộ Thông tin Công nghiệp 2019 Thông báo năm xác định, không thể kiểm tra chức năng truy vấn。
 
-## 直播、网络文化与视听（第 3、6、7、8 条）
+## Video, truyền hình trực tiếp, văn hóa mạng và nghe trực tuyến 3、6、7、8 Đạo luật）
 
-| URL | 复核 | 原文引句 |
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://zwgk.mct.gov.cn/zfxxgkml/scgl/202012/t20201206_918194.html> | 否 | 网络表演经营活动管理办法（文市发〔2016〕33 号）第四条「应当根据《互联网文化管理暂行规定》，向省级文化行政部门申请取得《网络文化经营许可证》，许可证的经营范围应当明确包括网络表演」；第二条 游戏技法展示或解说「参照本办法进行管理」；第十三条 视频资料「保存时间不得少于60日」 |
-| <https://zwgk.mct.gov.cn/zfxxgkml/zcfg/bmgz/202012/t20201204_905340.html> | 否 | 互联网文化管理暂行规定（文化部令第 51 号，2017 年经令第 57 号修订）第九条 20 日内决定、许可证有效期 3 年、届满前 30 日续办；第二十一条 擅自经营的「责令停止经营性互联网文化活动，予以警告，并处30000元以下罚款；拒不停止经营活动的，依法列入文化市场黑名单」 |
-| <https://www.gov.cn/zhengce/2022-08/23/content_5722664.htm> | 否 | 互联网视听节目服务管理规定（56 号令）第七条 须取得《信息网络传播视听节目许可证》；第八条 申请人应「具备法人资格，为国有独资或国有控股单位」；第二十四条 擅自从事的警告、责令改正、可处 3 万元以下罚款 |
-| <https://www.gov.cn/zhengce/zhengceku/2021-02/10/content_5586472.htm> | 否 | 国信办发文〔2021〕3 号第 9 项 三证对应关系原文 |
-| <https://www.cac.gov.cn/2016-11/04/c_1119847629.htm> | 否 | 互联网直播服务管理规定第七条 建立直播内容审核平台；第八条 即时阻断能力；第十二条「后台实名、前台自愿」「基于移动电话号码等方式的真实身份信息认证」；第十六条 内容与日志保存六十日 |
-| <https://www.cac.gov.cn/2020-10/22/c_1604928959588622.htm> 、<https://www.gov.cn/gongbao/2023/issue_10806/202311/content_6913813.html> | 否 | 未成年人保护法第七十六条 不满 16 周岁不得开通直播发布者账号；未成年人网络保护条例第三十一、四十四条 |
-| <https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm> | 否 | 中央网信办秘书局 2026-04-13 通知第 7 项 打赏按 8 周岁、16 周岁分档的原文 |
+| <https://zwgk.mct.gov.cn/zfxxgkml/scgl/202012/t20201206_918194.html> | Không | Cách quản lý hoạt động kinh doanh biểu diễn trực tuyến〔2016〕33 Điều IV: "Điều này phải được thực hiện theo các quy định tạm thời của Quản lý văn hóa Internet và phải được thực hiện với các cơ quan hành chính văn hóa cấp tỉnh. giấy phép kinh doanh văn hóa mạng Vâng, phạm vi hoạt động của giấy phép phải rõ ràng bao gồm việc biểu diễn trực tuyến". Điều 2 trình bày hoặc giải thích các kỹ thuật chơi game "được quản lý theo phương pháp này"; Điều 13 Thông tin video: "Thời gian lưu trữ không thể ít hơn 60 Ngày」 |
+| <https://zwgk.mct.gov.cn/zfxxgkml/zcfg/bmgz/202012/t20201204_905340.html> | Không | Điều khoản tạm thời quản lý văn hóa Internet của Bộ Văn hóa 51 Số 1，2017 Đạo luật 57 Điều 9 (cải sửa) 20 Quyết định trong ngày, hiệu lực của giấy phép 3 Năm, trước khi kết thúc 30 Hoạt động hàng ngày; Điều 21 Các hoạt động văn hóa trực tuyến tự do "được lệnh dừng hoạt động văn hóa trực tuyến hoạt động, được cảnh báo, và đang ở 30000 Các hình phạt sau đây: Những người từ chối không ngừng hoạt động được đưa vào danh sách đen của thị trường văn hóa theo pháp luật」 |
+| <https://www.gov.cn/zhengce/2022-08/23/content_5722664.htm> | Không | Quy định quản lý dịch vụ phát sóng trực tuyến（56 Điều 7 cần phải có giấy phép phát hành chương trình truyền hình và nghe trên mạng thông tin truyền hình; Điều 8 Người nộp đơn phải "có đủ điều kiện hợp pháp, là một đơn vị độc quyền hoặc nắm giữ của nhà nước"; Điều 24 cảnh báo, yêu cầu sửa chữa, có thể sử dụng 3 Hình phạt dưới 10.000 USD |
+| <https://www.gov.cn/zhengce/zhengceku/2021-02/10/content_5586472.htm> | Không | Văn phòng Tài chính〔2021〕3 Số 2 9 Nguồn gốc của mối tương quan của 3 chứng minh |
+| <https://www.cac.gov.cn/2016-11/04/c_1119847629.htm> | Không | Điều 7 quy định quản lý dịch vụ phát trực tuyến Internet là thiết lập một nền tảng kiểm tra nội dung phát trực tuyến; Điều 8 Khả năng chặn ngay lập tức; Điều 12 "Hãy xác nhận danh tính thực tế của người dùng, tự nguyện của người dùng" và "Hãy xác nhận thông tin thực tế dựa trên số điện thoại di động". Điều 16 Nội dung và nhật ký được lưu giữ trong 60 ngày |
+| <https://www.cac.gov.cn/2020-10/22/c_1604928959588622.htm> 、<https://www.gov.cn/gongbao/2023/issue_10806/202311/content_6913813.html> | Không | Điều 76 của Đạo luật Bảo vệ Trẻ Em không hài lòng 16 Sinh nhật không được phép mở tài khoản phát hành trực tiếp; Điều 31 và 44 của quy định bảo vệ mạng dành cho trẻ em |
+| <https://www.cac.gov.cn/2026-04/13/c_1777815804150225.htm> | Không | Cục Thư ký Cục Trung ương Internet 2026-04-13 Thông báo 7 Các giải thưởng theo 8 Sinh nhật、16 Bản gốc của bản ghi ngày sinh nhật |
 
-重要口径变化：2022 年四部门意见与广电发〔2020〕78 号写的是未成年人一律不得打赏，2026 年 4 月通知改为分档且未写废止前两份文件，官方无衔接说明。条目按新文件写，并在备注里点明旧口径已不准确。
+Điều quan trọng tiêu chí đánh giá Sự thay đổi：2022 4 năm quan điểm và phát hành truyền thông〔2020〕78 Nó viết rằng trẻ em không được phép thưởng.，2026 Năm 4 Thông báo hàng tháng được chuyển thành tài liệu phân khúc và hai tài liệu trước đó không bị hủy bỏ, không có thông báo chính thức liên kết. mục Nó được viết theo các tài liệu mới và Ghi chú Một chút ngày mai tiêu chí đánh giá Không chính xác。
 
-## 电商法平台义务与涉税报送（第 5、9 条）
+## Luật thương mại điện tử liên quan đến thuế Chuyển tiếp: 5、9 Đạo luật）
 
-| URL | 复核 | 原文引句 |
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://flk.npc.gov.cn/detail?id=2c909fdd678bf17901678bf8af050b81> | 否（子任务从该库下载 docx 正式文本逐字提取） | 电子商务法第十条 登记义务与四类例外；第二十七条 核验登记；第二十八条 向市场监管部门与税务部门报送；第三十一条「保存时间自交易完成之日起不少于三年」；第四十二、四十三、四十四、四十五条 通知删除与 15 日；第八十条、第八十四条 罚则 |
-| <https://www.gov.cn/gongbao/content/2021/content_5602020.htm> | 是 | 网络交易监督管理办法（市场监管总局令第 37 号，2021-05-01 施行）第八条 年交易额 10 万元的零星小额口径；第二十四条「至少每六个月核验更新一次」；第二十五条 每年 1 月和 7 月报送；第三十一条 三年保存 |
-| <https://www.gov.cn/gongbao/2025/issue_12146/202507/content_7030983.html> 、<https://www.gov.cn/zhengce/zhengceku/202506/content_7029727.htm> | 否 | 互联网平台企业涉税信息报送规定（国务院令第 810 号，2025-06-20 公布施行）第四条「应当于季度终了的次月内……报送」；第十条 罚 2 万到 10 万元、情节严重停业整顿并处 10 万到 50 万元 |
-| <https://www.court.gov.cn/zixun/xiangqing/233181.html> | 否 | 民法典第一千一百九十五、一千一百九十六、一千一百九十七条 通知删除与连带责任 |
+| <https://flk.npc.gov.cn/detail?id=2c909fdd678bf17901678bf8af050b81> | Không: Subtasks được tải về từ thư viện docx Thu thập văn bản chính thức theo từng chữ） | Luật thương mại điện tử Điều 10 Trách nhiệm đăng ký với bốn loại ngoại lệ; Điều 27 kiểm tra đăng ký; Điều 28 báo cáo cho cơ quan quản lý thị trường và cơ quan thuế; Điều 31:"Thời gian lưu trữ không ít hơn ba năm kể từ ngày giao dịch hoàn thành"; Điều 423, 434, 45: thông báo xóa và 15 Ngày; Điều 84, Điều 84, Luật hình phạt |
+| <https://www.gov.cn/gongbao/content/2021/content_5602020.htm> | Đúng vậy | Các biện pháp quản lý giám sát giao dịch mạng: 37 Số 1，2021-05-01 (trực hành) Điều 8 Số lượng giao dịch hàng năm 10 Khoản nhỏ của 1 triệu đô la tiêu chí đánh giá ； Điều 24: "Điều kiểm tra được cập nhật ít nhất mỗi sáu tháng"; Điều 25 Mỗi năm 1 Mặt trăng và 7 Chuyên chuyển hàng tháng; Điều 31 Bảo tồn 3 năm |
+| <https://www.gov.cn/gongbao/2025/issue_12146/202507/content_7030983.html> 、<https://www.gov.cn/zhengce/zhengceku/202506/content_7029727.htm> | Không | Các doanh nghiệp nền tảng Internet liên quan đến thuế Thông tin chuyển giao quy định: Quốc vụ viện Đánh giá 810 Số 1，2025-06-20 Điều IV: "Trong tháng sau cuối quý"……Chuyển lại". Điều 10 Hình phạt 2 Đúng rồi. 10 Hành động này đã bị đình trệ nghiêm trọng. 10 Đúng rồi. 50 Mán đô la |
+| <https://www.court.gov.cn/zixun/xiangqing/233181.html> | Không | Bộ luật Dân sự Điều 1195, 1196, 1197, thông báo về việc loại bỏ và liên kết trách nhiệm |
 
-## 支付结算红线（第 1 条）
+## Các khoản thanh toán được thanh toán bằng đường đỏ 1 Đạo luật）
 
-| URL | 复核 | 原文引句 |
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://www.gov.cn/gongbao/2024/issue_11086/202401/content_6924970.html> | 否 | 非银行支付机构监督管理条例（国务院令第 768 号，2024-05-01 施行）第二条 支付业务定义；第六条 须经人民银行批准取得支付业务许可；第八条 注册资本最低 1 亿元且为实缴货币资本；第二十七条 备付金定义与禁止挪用；第四十七条 罚则原文 |
-| <https://www.gov.cn/gongbao/2024/issue_11546/202408/content_6970979.html> | 否 | 实施细则（中国人民银行令〔2024〕第 4 号）第六十八条「擅自设立非银行支付机构、从事或者变相从事支付业务，是指未经中国人民银行批准，根据用户提交的电子支付指令转移货币资金等情形」；第七十七条 废止 2010 年第 2 号令 |
-| <https://www.spp.gov.cn/xwfbh/wsfbt/201901/t20190131_407161.shtml> | 否 | 两高 2019 年解释第一条三种情形、第三条「情节严重」为非法经营数额 500 万元以上或违法所得 10 万元以上、第四条「情节特别严重」标准 |
+| <https://www.gov.cn/gongbao/2024/issue_11086/202401/content_6924970.html> | Không | Quy định giám sát và quản lý các tổ chức thanh toán không ngân hàng Quốc vụ viện Đánh giá 768 Số 1，2024-05-01 (trực hành) Điều 2 Định nghĩa kinh doanh thanh toán; Điều 6 cần thông qua Ngân hàng Nhân dân Trung Quốc phê duyệt để được cấp phép hoạt động thanh toán; Điều 8 Số vốn đăng ký tối thiểu 1 Doanh nghiệp có giá trị trị hơn 1 tỷ USD và vốn tiền mặt; Điều 27 định nghĩa và cấm sử dụng tiền dự phòng; Điều 47 Điều 47 |
+| <https://www.gov.cn/gongbao/2024/issue_11546/202408/content_6970979.html> | Không | Thực hiện các quy tắc Trung Quốc Ngân hàng Nhân dân Trung Quốc Định nghĩa〔2024〕Thứ nhất 4 Điều 68: "Bất hợp pháp để thành lập tổ chức thanh toán phi ngân hàng, tham gia hoặc thay đổi hoạt động thanh toán là không có Trung Quốc Ngân hàng Nhân dân Trung Quốc chấp thuận chuyển tiền tệ theo các trường hợp như lệnh thanh toán điện tử do người dùng nộp".; Điều 77 bị bãi bỏ 2010 Năm thứ 1 2 Đạo luật |
+| <https://www.spp.gov.cn/xwfbh/wsfbt/201901/t20190131_407161.shtml> | Không | 2 cao 2019 Năm giải thích ba tình huống đầu tiên. Điều 3 "Thảm họa nghiêm trọng" cho số lượng hoạt động bất hợp pháp 500 Hơn 10.000 USD hoặc thu nhập bất hợp pháp 10 Hơn 1 triệu đô la, tiêu chuẩn thứ tư: "Thảm họa đặc biệt nghiêm trọng" |
 
-关键限定，已写进条目备注：官方文件里没有「二清」一词；两高解释列举的三种情形是虚构交易套现、单位银行结算账户套现、支票套现，没有把「平台代收代付」直接列为情形之一。因此条目只写法条与解释的口径，不写「平台代收就是犯罪」。
+Định nghĩa quan trọng, đã được ghi mục Ghi chú Không có từ "định nghĩa" trong tài liệu chính thức. Hai trường hợp được giải thích cao được liệt kê là các trường hợp giao dịch giả mạo, thanh toán tài khoản ngân hàng đơn vị, thanh toán phiếu kiểm tra, không đưa ra một trong những trường hợp trực tiếp là "trong nền tảng thanh toán thanh toán". Vì vậy, mục Chỉ viết các điều luật và giải thích tiêu chí đánh giá Không viết: "Việc thay đổi nền tảng là tội ác".」。
 
-## 顺带修掉的两处过期条号
+## Hai số lỗi đã được sửa đổi liên tục
 
-网络安全法 2025 年 10 月 28 日修正、2026 年 1 月 1 日施行，条文顺序调整。修改决定原文含「将第五十九条改为第六十一条」。据此：
+Luật an ninh mạng 2025 Năm 10 Mặt trăng 28 Ngày sửa đổi、2026 Năm 1 Mặt trăng 1 Ngày hiệu lực, điều chỉnh thứ tự của văn bản. Quyết định sửa đổi có nội dung "sửa đổi Điều 559 thành Điều 61". Theo đó：
 
-- 第 11 节第 14 条原引「网络安全法（第二十一、五十九条）」，已改为第二十三、六十一条，并保留旧条号对照，URL 换成中央网信办登载的修正后全文 <https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm>。第二十三条第（三）项「留存相关的网络日志不少于六个月」经主任务打开原页核对。
-- 第 11 节另一条原引「第二十七、六十三条」，其中第二十七条（禁止非法侵入他人网络）现为第二十九条，已核对；法律责任章里原第六十三条的新条号未在修改决定的对应关系表中列出，本次未能确认，来源栏据实注明「修正后法律责任章条号有调整，本次未逐条核实」。
+- Thứ nhất 11 Chương 3 14 Điều 21 và 59 của Luật An ninh mạng đã được sửa đổi thành điều 23 và 61 và giữ nguyên điều cũ.，URL Bài viết hoàn chỉnh đã được sửa đổi để được đăng tải bởi Trung tâm Internet Trust <https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm>。Điều 23 Chương 3: "Lịch lưu trữ mạng liên quan ít nhất 6 tháng" được mở qua nhiệm vụ chính để xác minh trang gốc。
+- Thứ nhất 11 Một phần khác có tên "Điều 27 và 63", trong đó có Điều 27 (được cấm xâm nhập bất hợp pháp vào mạng của người khác) hiện có tên gọi là "Điều 27". Điều 29 , đã được xác minh; trách nhiệm pháp lý Điều 63 không được liệt kê trong bảng tương ứng sửa đổi quyết định, và lần này không thể xác nhận, mục nguồn Theo ghi nhận thực tế, sau khi sửa đổi trách nhiệm pháp lý Chương số có điều chỉnh, lần này không được xác minh từng đoạn」。
 
-## 打不开或未取得
+## Không mở hoặc không có
 
-- 本会话 WebSearch 配额 200 次已由子任务用尽，后段定位全部依靠 gov.cn 公报页逐号探测与政策库检索接口。
-- 电子商务法在中国政府网未找到可用的全文页（<https://www.gov.cn/gongbao/content/2018/content_5320991.htm> 与 <http://www.gov.cn/xinwen/2018-08/31/content_5318220.htm> 均 404），改引国家法律法规数据库 flk.npc.gov.cn 的条目页，该页为前端渲染，浏览器可读、脚本抓取不到正文。
-- 「有撮合和资金处理功能的电商平台必须申请 EDI 许可」的官方明文未取得。工信部办事指南只有「按照业务界定申请相应的电信业务经营许可」，且答过「网约车平台只需做网站备案」「权益类、大宗商品交易平台只需做网站备案」。条目因此只写 B21 定义，不下结论。
-- 把「无证从事经营性互联网文化活动」或「擅自从事互联网视听节目服务」直接认定为非法经营罪的两高司法解释或指导性案例未取得；现有解释（法释〔2000〕12 号）针对的是擅自经营国际或涉港澳台电信业务。
-- 因无证经营支付业务被人民银行处罚或被判刑的官方案例未取得，人民银行行政处罚公示栏抽查的批次里没有该违法类型。
-- npc.gov.cn 全站 HTTPS 握手失败，mps.gov.cn 全站 521，多个省通信管理局站点握手失败或 502。
-- 《互联网直播服务管理规定》《关于加强网络直播打赏规范管理的通知》两份文件官方页面均未标注文号，来源栏只写发布单位与日期。
-- 中国政府网 2025 年 7 月转发的《互联网文化管理暂行规定》登的是 2011 年未修订原文，其第二十一条仍引已废止的《无照经营查处取缔办法》。本节一律用文化和旅游部现行文本，此坑记在这里备查。
+- Hội nghị WebSearch Quảng cáo 200 Tiếp theo đã được sử dụng bởi các nhiệm vụ phụ, vị trí tiếp theo hoàn toàn phụ thuộc vào gov.cn Thông báo Khám Khám Khám Khám Khám Khám Khám Khám Khám Khám Khám。
+- Luật thương mại điện tử Trung Quốc Các trang văn bản đầy đủ không được tìm thấy trên Internet của chính phủ（<https://www.gov.cn/gongbao/content/2018/content_5320991.htm> Với <http://www.gov.cn/xinwen/2018-08/31/content_5318220.htm> Tương đương 404），Thay đổi cơ sở dữ liệu quy định pháp luật quốc gia flk.npc.gov.cn của mục Trang, trang được chiếu ở đầu, trình duyệt có thể đọc, kịch bản không thể thu thập được nội dung chính。
+- 「Các nền tảng thương mại điện tử có khả năng chụp ảnh và xử lý tiền cần phải nộp đơn EDI Không có thông báo chính thức về giấy phép". Chỉ dẫn hoạt động của Bộ Công nghiệp và Truyền thông chỉ đơn giản là "đầu xin giấy phép hoạt động kinh doanh điện tử phù hợp theo định nghĩa kinh doanh" và trả lời "chỉ cần phải đăng ký trang web" "chỉ cần đăng ký trang web cho các loại quyền lợi, các nền tảng giao dịch hàng hóa hàng hóa". mục Vì vậy, chỉ viết B21 Định nghĩa và kết luận。
+- Không có hai trường hợp pháp lý giải thích hoặc hướng dẫn cao về tội khai thác bất hợp pháp của "sự khai thác hoạt động văn hóa Internet hoạt động không có giấy phép" hoặc "sự khai thác các dịch vụ phát thanh trực tuyến không được phép"; Định nghĩa hiện có〔2000〕12 Định hướng: Định hướng hoạt động liên quan đến hoạt động viễn thông quốc tế hoặc liên quan đến Hồng Kông。
+- Do không có giấy chứng nhận hoạt động, các doanh nghiệp được thanh toán Ngân hàng Nhân dân Trung Quốc Không có chương trình chính thức về hình phạt hoặc kết án, Ngân hàng Nhân dân Trung Quốc xử phạt hành chính Không có loại bất hợp pháp này trong số các hàng được công bố.。
+- npc.gov.cn Tất cả nhà ga HTTPS Nhấn tay thất bại，mps.gov.cn Tất cả nhà ga 521，Một số địa điểm của cơ quan truyền thông tỉnh đã thất bại hoặc 502。
+- 《Các thông báo về việc tăng cường quản lý các quy tắc thưởng trực tiếp trên mạng đã được đưa ra trên hai trang chính thức của tài liệu này. mục nguồn Chỉ viết đơn vị và ngày phát hành。
+- Trung Quốc Internet của chính phủ 2025 Năm 7 Những điều khoản tạm thời về quản lý văn hóa Internet được chuyển tiếp theo là: 2011 Bản gốc không được sửa đổi Điều 21 Các cơ quan quản lý vẫn đưa ra các biện pháp cấm việc kiểm tra hoạt động không có giấy phép được bãi bỏ. Bài viết này được sử dụng theo văn bản hiện tại của Bộ Văn hóa và Du lịch.。

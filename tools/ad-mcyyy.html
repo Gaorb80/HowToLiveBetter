@@ -1,13 +1,13 @@
-<!-- ads/mcyyy.webp 的源文件（README 底部「广告位」里那张横幅）。改完重新出图（Windows + Chrome）：
+<!-- ads/mcyyy.webp Tài liệu nguồn（README Banner ở phía dưới "trung quảng cáo" Quá trình sửa lại（Windows + Chrome）：
      "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu ^
        --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,400 ^
        --screenshot=D:\projects\HowToLiveBetter\ads\mcyyy.png ^
        D:\projects\HowToLiveBetter\tools\ad-mcyyy.html
-     Chrome 只能出 png（约 540KB），再转成 webp（约 55KB）后删掉 png，转换借 mcyyy-next 里的 sharp：
+     Chrome Chỉ có thể ra ngoài thôi. png（Khoảng 540KB），Trở thành webp（Khoảng 55KB）Sau đó xóa png，Chuyển đổi vay mcyyy-next Lilly sharp：
        cd D:\projects\mcyyy-next
        node -e "require('sharp')('D:/projects/HowToLiveBetter/ads/mcyyy.png').webp({quality:84}).toFile('D:/projects/HowToLiveBetter/ads/mcyyy.webp')"
-     截图必须用绝对路径，相对路径 headless 会报「系统找不到指定的路径」。
-     背景图 tools/ad-mcyyy-bg.webp 来自服务器官网自己的主视觉，换广告主就整份复制一份改。 -->
+     Đồ chụp phải được thực hiện theo hướng tuyệt đối, theo hướng tương đối headless Báo cáo: "System không tìm thấy con đường được chỉ định」。
+     Hình ảnh tools/ad-mcyyy-bg.webp Trong khi đó, các nhà quảng cáo đã thay đổi từ cái nhìn chính của máy chủ để sao chép toàn bộ một sự thay đổi.。 -->
 <!doctype html><meta charset="utf-8">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -33,16 +33,16 @@ h1{margin-top:14px;font-size:76px;line-height:1;letter-spacing:.04em;font-weight
 <div class="bg"></div>
 <div class="scrim"></div>
 <div class="in">
-  <div class="kicker">MINECRAFT JAVA 版生存服务器</div>
-  <h1>永恒世界</h1>
-  <div class="sub">Folia 多线程内核，人多也不卡；mcMMO 修仙玩法</div>
+  <div class="kicker">MINECRAFT JAVA Phiên bản Survival Server</div>
+  <h1>Thế giới vĩnh cửu</h1>
+  <div class="sub">Folia Cốt lõi đa sợi dây, nhiều người không bị mất điện；mcMMO Trò chơi thần linh</div>
   <div class="chips">
-    <div class="c">领地 · 经济 · 传送</div>
-    <div class="c">每小时全服备份</div>
-    <div class="c">纯净生存</div>
+    <div class="c">Lãnh thổ; Kinh tế; Truyền thông</div>
+    <div class="c">Hoạt động giải trí:</div>
+    <div class="c">Sự sống tinh khiết</div>
   </div>
   <div class="addr">
-    <div class="ip"><span>游戏地址</span>1.mcyyy.com</div>
-    <div class="site">官网 4.mcyyy.com</div>
+    <div class="ip"><span>Địa chỉ trò chơi</span>1.mcyyy.com</div>
+    <div class="site">Trang web chính thức 4.mcyyy.com</div>
   </div>
 </div>

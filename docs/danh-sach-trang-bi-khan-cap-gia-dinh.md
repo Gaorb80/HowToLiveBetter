@@ -1,4 +1,4 @@
-# Danh sách trang bị khẩn cấp cho gia đình: Mua gì, để ở đâu, bao lâu kiểm tra một lần
+# Danh sách trang bị khẩn cấp gia đình
 
 Tương ứng với Mục 26 Chương 1 trong cuốn sách (Chuẩn bị đủ bình chữa cháy, chăn dập lửa, mặt nạ phòng khói thoát hiểm và túi sơ cấp cứu). Danh sách này chỉ liệt kê những vật dụng cần thường xuyên có sẵn trong nhà, không hướng dẫn chi tiết cách thao tác. Kỹ năng thoát hiểm đám cháy, ép tim hồi sinh tim phổi (CPR), cầm máu lớn, bỏng, ngộ độc khí CO ngay tại hiện trường cần làm gì đều được viết cụ thể tại Chương 13. Cách chọn và lắp đặt thiết bị báo khói, báo khí CO xem tại Mục 3 Chương 1. Ống dẫn gas và bếp gas xem tại Mục 4 Chương 1.
 

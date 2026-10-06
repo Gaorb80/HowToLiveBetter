@@ -1,32 +1,34 @@
-# ho-so-kiem-chung：第 15 节补 2 条 + 回填第 24 节病历条的 TODO
+# Hồ sơ kiểm chứng: Bổ sung chương 15 và mục hồ sơ bệnh án — 2, 24
 
-核实日期：2026-09-07。全书 344 → 346 条；第 24 节第 6 条由 C 级（来源 TODO）改为 A 级。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-**这一轮同时更正前两份ho-so-kiem-chung里的一处判断错误。** 本轮早些时候在国务院政策文件库检索《商品房屋租赁管理办法》《房地产经纪管理办法》《医疗纠纷预防和处理条例》《医疗机构病历管理规定》都返回空，据此在
-[bo-sung-benh-man-tinh-bao-hiem-cham-soc-dai-han-va-quyen-du-lieu-ca-nhan.md](bo-sung-benh-man-tinh-bao-hiem-cham-soc-dai-han-va-quyen-du-lieu-ca-nhan.md) 和 [24-25-kham-benh-va-viec-sau-khi-qua-doi.md](24-25-kham-benh-va-viec-sau-khi-qua-doi.md)
-里写了「不在国务院政策文件库中」。这个结论是错的，原因是检索参数用了 `searchfield=title|default`——带上 `default` 会把正文命中的规划类文件混进来并挤掉标题精确命中的结果。改成 `searchfield=title` 后，四份文件全部一次命中。以那两份记录里相关行为准的结论作废，以本文件为准。
+Ngày xác minh：2026-09-07。Tất cả sách 344 → 346 Đạo luật: Thứ nhất 24 Chương 3 6 Đạo luật C cấp độ: Nguồn TODO）Trở thành A cấp độ。
+
+**Đây cũng là một trong những giải đấu được thực hiện cùng lúc.ho-so-kiem-chungMột trong những sai lầm。** Đây là một chiếc xe đạp. Quốc vụ viện Các quy định về việc quản lý hồ sơ bệnh tại các cơ sở y tế đã trở lại trống rỗng.
+[bo-sung-benh-man-tinh-bao-hiem-cham-soc-dai-han-va-quyen-du-lieu-ca-nhan.md](bo-sung-benh-man-tinh-bao-hiem-cham-soc-dai-han-va-quyen-du-lieu-ca-nhan.md) và [24-25-kham-benh-va-viec-sau-khi-qua-doi.md](24-25-kham-benh-va-viec-sau-khi-qua-doi.md)
+Nó viết: "Không". Quốc vụ viện Trong thư viện tài liệu chính sách". Kết luận này là sai, bởi vì các tham số thu hồi được sử dụng. `searchfield=title|default`——Đưa nó lên `default` Tôi sẽ... nội dung chính Các tài liệu kế hoạch sống được trộn vào và tháo ra tiêu đề Kết quả xác định. Chuyển đổi `searchfield=title` Sau đó, tất cả bốn tài liệu đều bị tấn công cùng một lúc.。 Các kết luận liên quan đến hành vi trong hai hồ sơ này được bãi bỏ, theo quy định của tài liệu này.。
 
 ---
 
-## 一、逐条核对到的原文
+## 1 - Bản gốc được xác minh từng đoạn
 
-| 来源 | 核对到的原文 | 用在哪 |
+| Nguồn | Bản gốc được xác minh | Đi đâu? |
 | --- | --- | --- |
-| 《医疗纠纷预防和处理条例》（国务院令第 701 号）<https://www.gov.cn/zhengce/zhengceku/2018-08/31/content_5318057.htm> | 第十五条「医疗机构及其医务人员应当按照国务院卫生主管部门的规定，填写并妥善保管病历资料。」「任何单位和个人不得篡改、伪造、隐匿、毁灭或者抢夺病历资料。」第十六条「患者有权查阅、复制其门诊病历、住院志、体温单、医嘱单、化验单（检验报告）、医学影像检查资料、特殊检查同意书、手术同意书、手术及麻醉记录、病理资料、护理记录、医疗费用以及国务院卫生主管部门规定的其他属于病历的全部资料。」「患者要求复制病历资料的，医疗机构应当提供复制服务，并在复制的病历资料上加盖证明印记。复制病历资料时，应当有患者或者其近亲属在场。医疗机构应患者的要求为其复制病历资料，可以收取工本费，收费标准应当公开。」「患者死亡的，其近亲属可以依照本条例的规定，查阅、复制病历资料。」 | 第 24 节第 6 条（回填） |
-| 《医疗机构病历管理规定（2013 年版）》<http://www.gov.cn/gongbao/content/2014/content_2600084.htm> | 「医疗机构应当指定部门或者专（兼）职人员负责受理复制病历资料的申请。」「在申请人在场的情况下复制；复制的病历资料经申请人和医疗机构双方确认无误后，加盖医疗机构证明印记。」「医疗机构复制病历资料，可以按照规定收取工本费。」另列可复制的病历种类，含医学影像检查资料、病理报告、检验报告等 | 同上 |
-| 《房地产经纪管理办法》（住建部、发展改革委、人社部令第 8 号，2016 年第 29 号令修改）<http://www.gov.cn/gongbao/content/2011/content_1918920.htm> | 第二十四条「房地产交易当事人约定由房地产经纪机构代收代付交易资金的，应当通过房地产经纪机构在银行开设的客户交易结算资金专用存款账户划转交易资金。」第十八条「房地产经纪服务实行明码标价制度……在经营场所醒目位置标明房地产经纪服务项目、服务内容、收费标准以及相关房地产价格和信息。」第十九条「两家或者两家以上房地产经纪机构合作开展同一宗房地产经纪业务的，只能按照一宗业务收取佣金，不得向委托人增加收费。」第十七条「房地产经纪机构提供代办贷款、代办房地产登记等其他服务的，应当向委托人说明服务内容、收费标准等情况，经委托人同意后，另行签订合同。」 | 第 15 节「二手房让中介代收房款」 |
-| 《商品房屋租赁管理办法》（住建部令第 6 号）<http://www.gov.cn/gongbao/content/2011/content_1845070.htm> | 第八条「出租住房的，应当以原设计的房间为最小出租单位，人均租住建筑面积不得低于当地人民政府规定的最低标准。厨房、卫生间、阳台和地下储藏室不得出租供人员居住。」第九条「出租人应当按照合同约定履行房屋的维修义务并确保房屋和室内设施安全……房屋租赁合同期内，出租人不得单方面随意提高租金水平。」 | 第 15 节「别租隔断房」 |
+| 《Điều khoản phòng ngừa và xử lý tranh chấp y tế Quốc vụ viện Đánh giá 701 Số 1）<https://www.gov.cn/zhengce/zhengceku/2018-08/31/content_5318057.htm> | Điều 15 "Các cơ quan y tế và nhân viên y tế của họ phải tuân thủ Quốc vụ viện Các quy định của cơ quan quản lý y tế, lấp đầy và lưu giữ đúng hồ sơ bệnh nhân. "Bất kỳ đơn vị và cá nhân nào cũng không được giả mạo, giả mạo, che giấu, tiêu diệt hoặc cướp thông tin về bệnh nhân. Điều 16 "Người bệnh có quyền xem xét, sao chép hồ sơ khám bệnh, hồ sơ nhập viện, hồ sơ nhiệt độ, hồ sơ y tế, hồ sơ xét nghiệm, báo cáo kiểm tra), thông tin kiểm tra hình ảnh y tế, giấy đồng ý kiểm tra đặc biệt, giấy đồng ý phẫu thuật, hồ sơ phẫu thuật và tê liệt, hồ sơ bệnh lý, hồ sơ chăm sóc, chi phí y tế và Quốc vụ viện Tất cả các thông tin khác liên quan đến hồ sơ bệnh tật được quy định bởi cơ quan y tế. "Những bệnh nhân yêu cầu sao chép hồ sơ bệnh nhân, cơ quan y tế phải cung cấp dịch vụ sao chép và dán dấu chứng minh trên hồ sơ bệnh nhân sao chép. Khi sao chép hồ sơ bệnh nhân, bệnh nhân hoặc người thân gần gũi của họ phải có mặt. Các cơ quan y tế có thể thu phí lao động theo yêu cầu của bệnh nhân để sao chép hồ sơ bệnh nhân của họ, và tiêu chuẩn lệ phí phải được công bố. "Những người thân cận của bệnh nhân đã qua đời có thể xem và sao chép hồ sơ bệnh nhân theo quy định của quy định này.。」 | Thứ nhất 24 Chương 3 6 Lưu ý:） |
+| 《Quy định quản lý hồ sơ bệnh tại các cơ sở y tế（2013 Phiên bản năm）》<http://www.gov.cn/gongbao/content/2014/content_2600084.htm> | 「Cơ quan y tế phải chỉ định các bộ phận hoặc nhân viên đặc biệt chịu trách nhiệm chấp nhận các hồ sơ bệnh nhân sao chép. "Copy lại khi người nộp đơn có mặt; Các hồ sơ bệnh nhân được sao chép được xác nhận là không sai bởi cả người nộp đơn và cơ quan y tế. "Các cơ quan y tế có thể sao chép hồ sơ bệnh nhân, có thể thu phí làm việc theo quy định. "Các loại hồ sơ bệnh nhân khác có thể được sao chép, bao gồm thông tin kiểm tra hình ảnh y tế, báo cáo bệnh nhân, báo cáo kiểm tra, v.v. | Tương tự |
+| 《Các nhà môi giới quản lý bất động sản: Ủy ban Phát triển và Cải cách Bộ nhân sự cho biết 8 Số 1，2016 Năm thứ 1 29 Đạo luật sửa đổi）<http://www.gov.cn/gongbao/content/2011/content_1918920.htm> | Điều 24: "Các bên tham gia giao dịch bất động sản được ký kết bởi cơ quan môi giới bất động sản để trả tiền thay thế cho giao dịch, phải phân phối các khoản giao dịch thông qua tài khoản lưu trữ riêng của tài khoản thanh toán giao dịch khách hàng được mở tại ngân hàng của cơ quan môi giới bất động sản". Điều 18: Dịch vụ môi giới bất động sản áp dụng hệ thống đánh giá mã thông minh……Đánh dấu các dự án dịch vụ môi giới bất động sản, nội dung dịch vụ, tiêu chuẩn lệ phí và giá và thông tin liên quan đến bất động sản tại địa điểm hoạt động. 」 Điều 19 "Hai hoặc hơn hai cơ quan môi giới bất động sản hợp tác trong cùng một hoạt động môi giới bất động sản, chỉ có thể thu phí theo một hoạt động và không được tăng phí cho người ủy thác". Điều 17 "Các cơ quan môi giới bất động sản cung cấp các dịch vụ thay thế cho các khoản vay, thay thế cho việc đăng ký bất động sản, các dịch vụ khác, phải giải thích cho nhà ủy nhiệm về nội dung dịch vụ, tiêu chuẩn lệ phí, và ký hợp đồng thay thế theo sự đồng ý của nhà ủy quyền.。」 | Thứ nhất 15 Chương "Nhà sử dụng cho người trung gian trả tiền cho nhà"」 |
+| 《Quy định quản lý thuê nhà hàng hóa 6 Số 1）<http://www.gov.cn/gongbao/content/2011/content_1845070.htm> | Điều 8 "Nhà thuê phải được thuê với căn phòng được thiết kế ban đầu là một đơn vị thuê tối thiểu, và diện tích nhà thuê không được thấp hơn các tiêu chuẩn tối thiểu được quy định bởi chính phủ dân tộc địa phương. Nhà bếp, nhà vệ sinh, bành trướng và phòng lưu trữ dưới lòng đất không được thuê để người dân sống. Điều 9: Người thuê nhà phải thực hiện nghĩa vụ bảo trì nhà theo hợp đồng và đảm bảo an toàn cho nhà và các thiết bị nội thất.……Trong thời gian hợp đồng thuê nhà, người thuê nhà không được tự nguyện tăng mức thuê nhà。」 | Thứ nhất 15 Chương "Đừng thuê phòng riêng biệt"」 |
 
-## 二、仍然未取得
+## 2 vẫn chưa đạt được
 
-| 想找的 | 结果 |
+| Tìm kiếm | Kết quả |
 | --- | --- |
-| 《社会保险法》全文（养老保险个人账户继承、遗属待遇的法律依据） | 该库只收国务院系统文件，全国人大制定的法律不在其中；最高检法律栏目未收录；npc.gov.cn 的猜测链接返回导航页。第 25 节相关 TODO 保留 |
-| 丧葬补助金、遗属抚恤金的具体标准 | 人社部文件不在该库，mohrss.gov.cn 本机不可访问。第 25 节相关 TODO 保留 |
-| 交强险责任限额、儿童微量元素检测通知、已故存款人小额存款简化提取 | 用 `searchfield=title` 重试仍无命中 |
+| 《Đạo luật Bảo hiểm Xã hội toàn văn: Tài khoản cá nhân bảo hiểm hưu trí, cơ sở pháp lý đối xử về di sản） | Thư viện chỉ nhận Quốc vụ viện Các tài liệu hệ thống, luật pháp của người dân quốc gia không có trong đó; Hồ sơ pháp lý của Tòa án Tối cao không được đưa vào；npc.gov.cn Đánh giá của các liên kết trở lại trang hướng dẫn. Thứ nhất 25 Liên quan TODO Giữ |
+| Các tiêu chuẩn cụ thể về trợ cấp tang lễ, lương hưu thừa kế | Các tài liệu của Bộ nhân sự không có trong thư viện，mohrss.gov.cn Không được truy cập. Thứ nhất 25 Liên quan TODO Giữ |
+| Giới hạn trách nhiệm bảo hiểm tăng cường, thông báo kiểm tra các yếu tố nhỏ trẻ em, đơn giản hóa việc rút tiền gửi nhỏ của người đã chết | Được sử dụng `searchfield=title` Thử nghiệm lại vẫn chưa thành công |
 
-## 三、口径与收益量级
+## Ba: tiêu chí đánh giá Với mức độ lợi ích
 
-- 二手房交易资金专户定「金钱、大」：单笔金额几十万到几百万，是全书单笔最大的一件事。
-- 隔断房定「金钱、中」：直接后果是被查处时搬家、押金与已付租金损失，属数百到数千元一档；消防风险写在备注里，不换算进收益量级（本书不做跨口径换算）。
-- 第 24 节病历条口径与量级不变（金钱、中），只是证据等级由 C 升为 A。
+- Các chuyên gia về giao dịch tiền mặt cho biết: "Tiền lớn": một số tiền từ hàng trăm triệu đến hàng triệu đô la là một trong những thứ lớn nhất trong một cuốn sách.。
+- "Tiền" trong phòng: hậu quả trực tiếp là việc di chuyển, tiền gửi và mất tiền thuê đã được thanh toán, từ hàng trăm đến hàng ngàn đô la; Nguy cơ hỏa hoạn Ghi chú Không đổi tiền. mức độ lợi ích (Bài này không được viết qua) tiêu chí đánh giá Đổi lại）。
+- Thứ nhất 24 Lịch sử bệnh tật tiêu chí đánh giá Tôi không thể thay đổi số lượng của tiền, nhưng tôi chỉ có thể thay đổi số lượng của tiền. Mức độ bằng chứng Từ: C Tăng lên A。

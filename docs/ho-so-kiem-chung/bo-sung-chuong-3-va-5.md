@@ -1,47 +1,49 @@
-# add-35 ho-so-kiem-chung（2026-09-07，全部用 WebFetch 打开；WebFetch 打不开时用 curl 试过并注明）
+# Hồ sơ kiểm chứng: Chương 3 và 5 — 35, 2026-09-07
 
-## 第 5 节
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-### 高收益/保本/稳赚
-1. <https://jrgz.tj.gov.cn/ztlm/ztzl/jrjfwphjr/202006/t20200625_2744709.html> — 打开成功。页题「郭树清谈非法集资风险：收益率超6%需谨慎」，2018-06-27，注明是银保监会主席郭树清在第十届陆家嘴论坛讲话。原句：「收益率超过6%的就要打问号，超过8%的就很危险，10%以上就要准备损失全部本金。」
-   - 原银保监会/金融监管总局官网（<https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=194158>）打开后为模板占位页（动态渲染），未取到正文，条目里写 TODO。
-2. <https://www.gov.cn/gongbao/content/2018/content_5323101.htm> — 打开成功。银发〔2018〕106 号，2018-04-27。原句：第二条「金融机构开展资产管理业务时不得承诺保本保收益。出现兑付困难时，金融机构不得以任何形式垫资兑付。」；第六条「向投资者传递『卖者尽责、买者自负』的理念，打破刚性兑付。」（pbc.gov.cn 的 <https://www.pbc.gov.cn/tiaofasi/144941/3581332/3730258/index.html> 也打开了，只有 PDF 链接和文号、日期）
-3. <https://www.gov.cn/gongbao/content/2021/content_5588815.htm> — 打开成功。国务院令第 737 号，2021-01-26 签署，2021-05-01 施行。第二十五条原文：「非法集资人、非法集资协助人应当向集资参与人清退集资资金。清退过程应当接受处置非法集资牵头部门监督。任何单位和个人不得从非法集资中获取经济利益。因参与非法集资受到的损失，由集资参与人自行承担。」（<https://www.gov.cn/zhengce/content/2021-02/10/content_5586521.htm> 404）
+## Thứ nhất 5 Chương 3
 
-### 打赏/充值
-4. <https://www.nppa.gov.cn/xxfb/ywdt/202412/t20241216_877445.html> — 打开成功，2024-12-13。原句：「中国国内游戏市场实际销售收入3257.83亿元人民币，同比增长7.53%，再创新高」「游戏用户规模6.74亿人，同比增长0.94%，为历史新高点」；发布人为中国音数协游戏工委主任委员张毅君。人均 480 元 = 3257.83 / 6.74 自算。
-5. <https://www.court.gov.cn/zixun/xiangqing/230181.html> — 打开成功。法发〔2020〕17 号，2020-05-15，第 9 条原文：「限制民事行为能力人未经其监护人同意，参与网络付费游戏或者网络直播平台『打赏』等方式支出与其年龄、智力不相适应的款项，监护人请求网络服务提供者返还该款项的，人民法院应予支持。」（旧链接 <http://www.court.gov.cn/zixun-xiangqing-230181.html> 404；cicc.court.gov.cn 重定向过多；<https://www.court.gov.cn/fabu/xiangqing/236501.html> 是指导意见（三）法发〔2020〕20 号，不是本文件）
-6. <https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html> — 打开成功。国新出发〔2021〕14 号，2021-08-30。原句：「所有网络游戏企业仅可在周五、周六、周日和法定节假日每日20时至21时向未成年人提供1小时网络游戏服务」。
-7. 民法典第十九条、第一百四十五条 — 未核实。试过：http(s)://www.npc.gov.cn/npc/c30834/202006/75ba6483b8344591abd07917e1d25cc8.shtml（https 握手失败；curl 走 http 被重定向到首页）、<https://www.npc.gov.cn/npc/c2/c30834/202006/t20200602_306457.html>（同上）、<https://www.gov.cn/xinwen/2020-06/01/content_5516649.htm>（404）、<https://www.gov.cn/zhengce/2020-06/01/content_5516649.htm>（404）、flk.npc.gov.cn（纯 JS 页）。条目里写 TODO，不引条款内容。
+### cao Lợi ích/Báo cáo/Đứng vững
+1. <https://jrgz.tj.gov.cn/ztlm/ztzl/jrjfwphjr/202006/t20200625_2744709.html> — Đánh thành công. Chủ đề của trang: "Gio Quang nói về những rủi ro gây quỹ bất hợp pháp: Lợi ích Tỷ lệ vượt quá 6%Cẩn thận」，2018-06-27，Cần lưu ý rằng Chủ tịch Hội đồng Bảo an Ngân hàng, ông Nguyễn Xuân, đã phát biểu tại Diễn đàn Môi Lại lần thứ 10. Câu trả lời: Lợi ích Tỷ lệ vượt quá 6%của phải hỏi số, hơn 8%Có nguy hiểm.，10%Chúng ta sẽ phải sẵn sàng để mất hết tiền của mình.。」
+   - Cơ quan bảo vệ ngân hàng nguyên tử/Tổng cục Giám sát tài chính Trang web chính thức（<https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=194158>）Khi mở nó, nó sẽ chiếm vị trí của các trang mô hình (trình chiếu động), không được lấy nội dung chính ， mục Trong bài viết TODO。
+2. <https://www.gov.cn/gongbao/content/2018/content_5323101.htm> — Đánh thành công. Sơn bạc〔2018〕106 Số 1，2018-04-27。Lời bài hát: Điều 2 "Các tổ chức tài chính không thể cam kết bảo hiểm khi quản lý tài sản" Lợi ích 。 Khi gặp khó khăn trong việc thanh toán, các tổ chức tài chính không được sử dụng bất kỳ hình thức nào để thanh toán. 」； Điều 6: Đưa cho các nhà đầu tư ý tưởng của người bán trách nhiệm, người mua tự tin, phá vỡ thanh toán cứng rắn。」（pbc.gov.cn của <https://www.pbc.gov.cn/tiaofasi/144941/3581332/3730258/index.html> Nó cũng được mở, chỉ có PDF Liên kết và số văn bản, ngày）
+3. <https://www.gov.cn/gongbao/content/2021/content_5588815.htm> — Đánh thành công. Quốc vụ viện Đánh giá 737 Số 1，2021-01-26 Đăng ký，2021-05-01 Hoạt động. Điều 25: "Người gây quỹ bất hợp pháp, những người hỗ trợ gây quỹ bất hợp pháp phải rút vốn từ những người tham gia gây quỹ". Quá trình thanh toán phải được giám sát bởi các bộ phận quản lý huy động vốn bất hợp pháp. Bất kỳ đơn vị nào và bất kỳ cá nhân nào cũng không được hưởng lợi ích kinh tế từ việc huy động vốn bất hợp pháp. Những tổn thất do tham gia gây quỹ bất hợp pháp do người tham gia gây quỹ tự chịu。」（<https://www.gov.cn/zhengce/content/2021-02/10/content_5586521.htm> 404）
 
-### 杠杆
-8. <https://www.csrc.gov.cn/csrc/c106256/c1654005/content.shtml> — 打开成功。《证券公司融资融券业务管理办法》证监会令第 117 号，2015-07-01。第十二条原文：「对未按照要求提供有关情况、从事证券交易时间不足半年、缺乏风险承担能力、最近20个交易日日均证券类资产低于50万元或者有重大违约记录的客户，以及本公司的股东、关联人，证券公司不得为其开立信用账户。」
-9. <https://www.sse.com.cn/services/tradingservice/margin/edu/c/10074042/files/a1f1c4833302451fb9130dbb94116c56.pdf> — 打开成功（PDF）。含「从事证券交易不足6个月」「最近20个交易日日均证券类资产低于50万元」「维持担保比例 130%」「强制平仓」「融资融券期限最长不超过6个月」等表述。条目未引 130% 这个数字（2023 年修订后比例由券商约定），只写「维持担保比例线」。
-   - <https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20250616_10782015.shtml> 打开成功但只有通知页和 docx 附件，未取到条文。
+### Giải thưởng/Cung cấp
+4. <https://www.nppa.gov.cn/xxfb/ywdt/202412/t20241216_877445.html> — Khởi mở thành công，2024-12-13。Câu trả lời: Trung Quốc Thu nhập bán hàng thực tế của thị trường game trong nước 3257.83 Tỷ lệ tăng trưởng so với tỷ đồng 7.53%，"Phần lớn người dùng trò chơi" 6.74 Một tỷ người, tăng trưởng so với 0.94%，"Đây là một thời điểm cao nhất trong lịch sử". Giới thiệu Trung Quốc Ủy viên giám đốc của Ủy ban Công nghiệp Phương pháp Phương pháp Phương pháp Phương pháp. Nhân dân trung bình 480 Nguyên nhân = 3257.83 / 6.74 Tự tính。
+5. <https://www.court.gov.cn/zixun/xiangqing/230181.html> — Đánh thành công. Pháp phát hành〔2020〕17 Số 1，2020-05-15，Thứ nhất 9 Điều nguyên: "Người hạn chế khả năng hành vi dân sự mà không có sự đồng ý của người giám hộ của mình, chi tiêu theo cách như trò chơi trả tiền trực tuyến hoặc nền tảng phát trực tuyến 'bước thưởng' không phù hợp với độ tuổi và trí tuệ của mình, người giám hộ yêu cầu nhà cung cấp dịch vụ trực tuyến trả lại khoản tiền đó, Tòa án Nhân dân nên hỗ trợ". "Xin hệ cũ" <http://www.court.gov.cn/zixun-xiangqing-230181.html> 404；cicc.court.gov.cn Chuyển hướng quá nhiều；<https://www.court.gov.cn/fabu/xiangqing/236501.html> Cụ thể, các thông tin hướng dẫn:〔2020〕20 Không phải trong tài liệu này）
+6. <https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html> — Đánh thành công. Quốc gia mới bắt đầu〔2021〕14 Số 1，2021-08-30。Câu trả lời: "Tất cả các công ty chơi game trực tuyến chỉ có thể hoạt động vào những ngày thứ Sáu, thứ Bảy, Chủ nhật và các ngày lễ hợp pháp. 20 Thời gian tới 21 Cung cấp cho trẻ vị thành niên 1 Dịch vụ trò chơi trực tuyến hàng giờ」。
+7. Bộ luật Dân sự Điều 19 Một trăm bốn mươi lăm điều kiện không được xác minh. Tôi đã thử.：http(s)://www.npc.gov.cn/npc/c30834/202006/75ba6483b8344591abd07917e1d25cc8.shtml（https Nhấn tay thất bại；curl Đi thôi. http Được chuyển hướng sang trang đầu）、<https://www.npc.gov.cn/npc/c2/c30834/202006/t20200602_306457.html>（Tương tự）、<https://www.gov.cn/xinwen/2020-06/01/content_5516649.htm>（404）、<https://www.gov.cn/zhengce/2020-06/01/content_5516649.htm>（404）、flk.npc.gov.cn（Tự nhiên JS Trang: mục Trong bài viết TODO，Không đưa ra các điều khoản。
 
-### 分散
-10. <https://doi.org/10.1111/j.1540-6261.1952.tb01525.x> — DOI 解析到 Wiley（<https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1952.tb01525.x>，403 拒绝抓取）；改用 Crossref 元数据 <https://api.crossref.org/works/10.1111/j.1540-6261.1952.tb01525.x> 打开成功：Portfolio Selection, Harry Markowitz, The Journal of Finance, 7(1), 77–91, 1952-03。DOI 有效；全文未读，条目只写该文的基本结论，不引数字。
+### Đánh giá
+8. <https://www.csrc.gov.cn/csrc/c106256/c1654005/content.shtml> — Đánh thành công. Quản lý hoạt động tài chính của Tập đoàn chứng khoán 117 Số 1，2015-07-01。Điều 12: "Các trường hợp không được cung cấp theo yêu cầu, chưa đầy 6 tháng kinh doanh chứng khoán, không có khả năng chấp nhận rủi ro, gần đây 20 Các loại chứng khoán trên mỗi ngày giao dịch thấp hơn 50 Cụ thể, các công ty chứng khoán không được phép mở tài khoản tín dụng cho khách hàng có hồ sơ vỡ nợ lớn, và các cổ đông, người liên quan của công ty.。」
+9. <https://www.sse.com.cn/services/tradingservice/margin/edu/c/10074042/files/a1f1c4833302451fb9130dbb94116c56.pdf> — Khởi mở thành công（PDF）。Có "sự kinh doanh chứng khoán không đủ" 6 Một tháng. 20 Các loại chứng khoán trên mỗi ngày giao dịch thấp hơn 50 "Để duy trì" bảo lãnh Ví dụ: 130%」「"Thời hạn tài trợ không vượt quá thời hạn" 6 "Mỗi tháng" như thế. mục Không được dẫn 130% Những con số này（2023 Tỷ lệ sau khi sửa đổi năm được thỏa thuận bởi các nhà môi giới), chỉ viết "giữ lại" bảo lãnh Dòng ví dụ」。
+   - <https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20250616_10782015.shtml> mở thành công nhưng chỉ thông báo trang và docx Phụ lục, không có nội dung。
 
-### 应急金
-11. <https://www.gov.cn/zhengce/content/2015-03/31/content_9562.htm> — 打开成功。存款保险条例，国令第 660 号，2015-02-17 签署，2015-05-01 施行。第五条原文：「存款保险实行限额偿付，最高偿付限额为人民币50万元。」
-12. 「3 到 6 个月」未找到官方或学术原文，标 C。
+### Sự phân tán
+10. <https://doi.org/10.1111/j.1540-6261.1952.tb01525.x> — DOI Phân tích Wiley（<https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1952.tb01525.x>，403 Không muốn bắt được; Chuyển đổi Crossref Dữ liệu cơ bản <https://api.crossref.org/works/10.1111/j.1540-6261.1952.tb01525.x> Khởi mở thành công：Portfolio Selection, Harry Markowitz, The Journal of Finance, 7(1), 77–91, 1952-03。DOI hiệu quả; Không đọc hết. mục Chỉ cần viết kết luận cơ bản của văn bản mà không đưa ra số。
 
-### 未收
-13. 可选第 6 条「社保和基本商业保险先于任何投资」：本次未找到官方原文，按要求不收。
+### Số tiền khẩn cấp
+11. <https://www.gov.cn/zhengce/content/2015-03/31/content_9562.htm> — Đánh thành công. Đạo luật bảo hiểm tiền gửi, Nghị định 660 Số 1，2015-02-17 Đăng ký，2015-05-01 Hoạt động. Điều 5: "Giảm bảo tiền gửi thực hiện thanh toán giới hạn, tối đa thanh toán giới hạn là đồng nhân dân tệ 50 Mán đô la。」
+12. 「3 đến 6 Tháng "không tìm thấy bản gốc chính thức hoặc học thuật, nhãn C。
 
-## 第 3 节
+### Không nhận được
+13. Vị trí: 6 Điều "Bảo hiểm xã hội và thương mại cơ bản trước bất kỳ khoản đầu tư nào": Không có bản gốc chính thức được tìm thấy và không được nhận theo yêu cầu。
 
-### 到点就睡
-14. <https://doi.org/10.1001/jamapediatrics.2016.2341> — DOI 重定向到 jamanetwork（403）；改用 Europe PMC <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1001/jamapediatrics.2016.2341&resultType=core&format=json> 打开成功，摘要：Carter, Rees, Hale, Bhattacharjee, Paradkar (2016) JAMA Pediatrics；20 项研究、125198 名儿童（均龄 14.5 岁）；睡前使用设备：睡眠不足 OR 2.17 (1.42–3.32)、睡眠质量差 OR 1.46 (1.14–1.88)、白天嗜睡 OR 2.72 (1.32–5.61)；仅有设备在场：OR 1.79 (1.39–2.31)、1.53 (1.11–2.10)、2.27 (1.54–3.35)。
-15. <https://doi.org/10.1016/j.socscimed.2015.11.037> — DOI 重定向到 Elsevier linkinghub（只返回 Redirecting）；Europe PMC 同法打开成功，摘要：Exelmans & Van den Bulck (2016) Social Science & Medicine；844 名 18–94 岁弗拉芒成人，横断面；约 60% 把手机带上床；关灯后收发信息/打电话显著预测 PSQI 得分更差，「particularly longer sleep latency, worse sleep efficiency, more sleep disturbance and more daytime dysfunction」，并与失眠和疲劳得分相关。
-16. <https://wjw.fujian.gov.cn/jggk/csxx/xcc/mtbd/202603/t20260323_7114382.htm> — 打开成功。福建省卫健委「媒体报道」栏转载健康报，2026-03-23。原句：「2025年我国居民夜间平均睡眠时长为6.97小时，较上一年增加7分钟」「平均入睡时间为0:10，比上一年提前8分钟」（另有大学生「凌晨2点后入睡者占比达21%」，未引）。
-   - 中国睡眠研究会官网 <https://www.zgsmyjh.org/nd.jsp?id=945>（证书过期；curl -k 取到的是「正在查询中」JS 页）、<http://m.zgsmyjh.org/nd.jsp?id=945>（证书域名不匹配；curl 取到的页面无正文），条目写 TODO。
-   - <https://www.shanghai.gov.cn/nw4411/20240322/a20f396702c944cd8585283f8446694c.html> 打开成功（2024 年数据 6.75 小时，解放日报转载），未采用。
-17. <https://doi.org/10.1007/s10508-018-1248-x> — Springer 页面 403；Europe PMC 同法打开成功：Grubbs, Perry, Wilt & Reid (2019). Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis. Archives of Sexual Behavior。摘要结论：色情相关的困扰更适合理解为「moral incongruence」（观念与行为不一致）的函数，而非成瘾本身。摘要未给出效应量。
-18. <https://doi.org/10.1002/sm2.58> — 重定向到 <https://academic.oup.com/smoa/article/3/2/90/6956383>，打开成功：Prause & Pfaus (2015). Viewing Sexual Stimuli Associated with Greater Sexual Responsiveness, Not Erectile Dysfunction. Sexual Medicine；280 名男性；「erectile functioning with a partner appeared unrelated to the hours of VSS being consumed」。
+## Thứ nhất 3 Chương 3
 
-### 深夜不做重大决定
-19. <https://doi.org/10.1111/j.1365-2869.2006.00487.x> — Wiley 403；Europe PMC 同法打开成功：Killgore, Balkin & Wesensten (2006). Impaired decision making following 49 h of sleep deprivation. Journal of Sleep Research；34 名健康志愿者，基线与 49.5 小时不睡后做 Iowa Gambling Task；休息时「rapidly learning to avoid high-risk decks」，缺觉后「strikingly different pattern」，更多选高风险选项；年长者更易受影响。
+### Ngủ đi.
+14. <https://doi.org/10.1001/jamapediatrics.2016.2341> — DOI Chuyển lại jamanetwork（403）；Chuyển đổi Europe PMC <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1001/jamapediatrics.2016.2341&resultType=core&format=json> Open Success, tóm tắt：Carter, Rees, Hale, Bhattacharjee, Paradkar (2016) JAMA Pediatrics；20 Nghiên cứu、125198 Tên của trẻ: 14.5 tuổi); Sử dụng thiết bị trước khi ngủ: thiếu ngủ OR 2.17 (1.42–3.32)、Chất lượng giấc ngủ kém OR 1.46 (1.14–1.88)、Ngủ trong ngày OR 2.72 (1.32–5.61)；Chỉ có thiết bị：OR 1.79 (1.39–2.31)、1.53 (1.11–2.10)、2.27 (1.54–3.35)。
+15. <https://doi.org/10.1016/j.socscimed.2015.11.037> — DOI Chuyển lại Elsevier linkinghub（Chỉ cần quay lại. Redirecting）；Europe PMC Bắt đầu thành công, trích dẫn：Exelmans & Van den Bulck (2016) Social Science & Medicine；844 Tên 18–94 Phi-e-rơ-la-ma đã lớn lên, qua mặt; Khoảng 60% Đưa điện thoại lên giường; Thông tin nhận được sau khi tắt đèn/Điện thoại dự báo đáng kể PSQI Điểm kém hơn，「particularly longer sleep latency, worse sleep efficiency, more sleep disturbance and more daytime dysfunction」，Và liên quan đến điểm số buồn ngủ và mệt mỏi。
+16. <https://wjw.fujian.gov.cn/jggk/csxx/xcc/mtbd/202603/t20260323_7114382.htm> — Đánh thành công. Ủy ban Y tế tỉnh Fujian "Media Reportage" đăng tải báo cáo sức khỏe，2026-03-23。Bài viết đầu tiên：「2025 Người dân Trung Quốc ngủ trung bình một đêm 6.97 Số giờ tăng so với năm ngoái 7 "Thời gian ngủ trung bình là 30 phút". 0:10，Trước năm ngoái 8 Một sinh viên đại học khác gọi là "Thưa sáng". 2 Những người ngủ muộn chiếm tỷ lệ 21%」，Không được dẫn）。
+   - Trung Quốc Học viện nghiên cứu giấc ngủ <https://www.zgsmyjh.org/nd.jsp?id=945>（Thời hạn giấy chứng nhận；curl -k "Điều đang được hỏi"」JS Trang）、<http://m.zgsmyjh.org/nd.jsp?id=945>（Chứng chỉ tên miền không phù hợp；curl Trang được lấy không có nội dung chính ）， mục viết TODO。
+   - <https://www.shanghai.gov.cn/nw4411/20240322/a20f396702c944cd8585283f8446694c.html> Khởi mở thành công（2024 Số liệu hàng năm 6.75 Hoạt động giải trí (được phát hành bởi Liberation Daily)。
+17. <https://doi.org/10.1007/s10508-018-1248-x> — Springer Trang 403；Europe PMC Khởi mở thành công：Grubbs, Perry, Wilt & Reid (2019). Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis. Archives of Sexual Behavior。Kết luận: Những vấn đề liên quan đến tình dục có thể được hiểu như:「moral incongruence」（Phương pháp của sự không phù hợp của ý tưởng với hành vi, chứ không phải là nghiện bản thân. Quá trình không có hiệu quả。
+18. <https://doi.org/10.1002/sm2.58> — Chuyển lại <https://academic.oup.com/smoa/article/3/2/90/6956383>，Khởi mở thành công：Prause & Pfaus (2015). Viewing Sexual Stimuli Associated with Greater Sexual Responsiveness, Not Erectile Dysfunction. Sexual Medicine；280 Tên nam；「erectile functioning with a partner appeared unrelated to the hours of VSS being consumed」。
 
-## 备注
-- 本次 WebSearch 配额在核实中途用尽（200/200），民法典与中国睡眠研究会官网的替代链接只能靠已知 URL 试，未能补齐。
+### Không đưa ra quyết định quan trọng vào ban đêm
+19. <https://doi.org/10.1111/j.1365-2869.2006.00487.x> — Wiley 403；Europe PMC Khởi mở thành công：Killgore, Balkin & Wesensten (2006). Impaired decision making following 49 h of sleep deprivation. Journal of Sleep Research；34 Nhân viên tình nguyện y tế tên tuổi, đường cột và 49.5 Làm việc sau khi ngủ một giờ Iowa Gambling Task；Khi nghỉ ngơi「rapidly learning to avoid high-risk decks」，Sau khi mất ý thức「strikingly different pattern」，Nhiều lựa chọn rủi ro cao hơn; Người già dễ bị ảnh hưởng hơn。
+
+## Ghi chú
+- Lần này WebSearch Quảng cáo đã hết trong quá trình kiểm tra（200/200），Bộ luật Dân sự Với Trung Quốc Các liên kết thay thế cho website của Hội nghiên cứu giấc ngủ chỉ có thể được biết URL Thử, không hoàn thành。

@@ -1,26 +1,28 @@
-# issue #57 约会安全ho-so-kiem-chung（2026-09-30）
+# Hồ sơ kiểm chứng: issue57 an toàn hẹn hò — 2026-09-30
 
-涉及：第 13 节第 42 条（追加在节末，没有顺延条号）；第 8 节第 31 条收益、来源、备注改写；第 8 节第 32 条备注和来源补象山案。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-issue 要的三块里，「避免被事后诬告」已有第 8 节第 31 到 35、41 条覆盖，没有另开条目，只在新条目备注里指路。
+Liên quan đến: 13 Chương 3 42 Điều ((được thêm vào cuối phần, không có số thứ tự); Thứ nhất 8 Chương 3 31 Đạo luật Lợi ích 、 Nguồn 、 Ghi chú Chuyển đổi; Thứ nhất 8 Chương 3 32 Đạo luật Ghi chú và Nguồn Cụ thể của con voi。
 
-## 没收的：网友见面单列一条
-- 初稿写过「网上认识的人头几次见面约在白天人多处、自己去自己回、告诉朋友」一条，和用户商量后撤掉。理由：核心几句是常识，没找到逐字写明的官方页面（搜索只命中搜狐、卡巴斯基），只能给 C；饮料离开视线已在第 22 节第 4 条，杀猪盘已在第 8 节第 3 条。
-- 唯一有新信息的「别发裸照」并进了第 8 节第 32 条备注。
-- 广州市公安局 2025-02-13《网络交友「奔现」 小心是「引狼入室」》（见面 30 分钟偷包、行政拘留）已核对，随该条一起没用。
+issue Trong ba phần cần thiết, "Vì tránh bị cáo buộc sau vụ án" đã có một phần. 8 Chương 3 31 đến 35、41 Không có phần khác mục Chỉ là mới. mục Ghi chú Hướng dẫn。
 
-## 第 8 节第 32 条备注（象山案）
-- 检察日报 2022-12-12（最高检网站）象山韩某案：逐字核对「10人，其中2名女性被侵害时系未成年人」「属于已『着手』的实行行为……应认定为犯罪未遂」「以涉嫌强奸罪、强制猥亵罪对韩某提起公诉」。未遂指的是报警的那一名被害人，双方「并未见面」。只到起诉，正文写「起诉」。
+## Bắt giữ: Người dùng mạng gặp nhau một lần
+- Bài viết đầu tiên viết một câu: "Những người bạn gặp trực tuyến lần đầu tiên gặp nhau ở nhiều nơi trong ngày, tự đi về, nói chuyện với bạn bè", và người dùng đã rút lại sau khi thảo luận. Lý do: Một vài câu trung tâm là thông tin thường, không tìm thấy một trang chính thức được viết một cách cụ thể. Sohu Ông Kawaski, tôi chỉ có thể cho ông C；Dùng đồ uống đã rời khỏi tầm nhìn 22 Chương 3 4 Điều khoản, giết thịt lợn đã được đưa ra 8 Chương 3 3 Đạo luật。
+- "Đừng chụp ảnh trần truồng" là thông tin mới duy nhất được đưa vào 8 Chương 3 32 Đạo luật Ghi chú。
+- Cơ quan An ninh Công cộng của thành phố Guangzhou 2025-02-13《Bạn bè mạng "đã chạy" cẩn thận là "đưa sói vào phòng". 30 Đánh giá thời gian trộm, giam giữ hành chính) đã được xác minh và không được sử dụng cùng với điều khoản này。
 
-## 第 13 节第 42 条（被性侵之后）
-- 北京市人民检察院 2024-09-11 转载中国之声：逐字核对海淀检察院检察官助理原话「无论是未成年人还是成年人……第一时间拨打110报警」「便于侦查机关及时勘查现场、提取物证痕迹、固定证据」。
-- 贵州省民政厅 2024-07-23 转载人民日报《未成年人防性侵手册》：逐字核对「最重要的事情就是留存证据」「体液、毛发、皮屑、通信记录等证据」「不要擅自洗澡、洗衣物、收拾房间、扔东西」。原文面向未成年人，但取证这几句不分年龄。
-- 北京市西城区人民检察院 2018-08-03：逐字核对「在接受身体检查之前尽量不要洗澡」。
-- 世界卫生组织中文实况报道《紧急避孕》（2021-11-09）：逐字核对「女性在未采取有效的避孕保护措施时遭受性侵犯」「可在5天内使用」、左炔诺孕酮妊娠率「1.2%-2.1%」。WHO 2013 性侵临床指南（NBK174251）本机被 reCAPTCHA 和 Cloudflare 拦，没取到原文，未引。
-- 武汉市卫健委 2020-10-12：逐字核对「72小时以内，服药越早，预防妊娠效果越好」和左炔诺孕酮「均为非处方药」。
-- 阻断药时限沿用第 13 节第 38 条已核对的北京市政府页面。
-- 收益量级「大」凭判断：证据、紧急避孕和阻断药都有几天的硬时限，错过就补不回来。
+## Thứ nhất 8 Chương 3 32 Đạo luật Ghi chú (Tình hình núi)）
+- Công tố viên Daily 2022-12-12（Hãng điều tra cao nhất (Supreme Investigation Website) - Trường hợp Yvonne Han: Đăng ký từng chữ「10 Con người trong số đó 2 Phụ nữ bị lạm dụng là người trẻ tuổi "nhà hành động đã bắt đầu"……Đánh giá là cố gắng phạm tội "đưa ra một vụ kiện công khai đối với một người đàn ông bị cáo buộc tội hiếp dâm, cưỡng hiếp". Những người bị tấn công nói về một nạn nhân được cảnh sát cảnh báo, cả hai người "không gặp nhau". Chỉ cần bị cáo buộc, nội dung chính Thư: "Cáo cáo"」。
 
-## 第 8 节第 31 条
-- 原备注写「本条对性别不作区分，男性同样可能是被害人」，不准确：刑法第二百三十六条的被害人只写了妇女，男性被害按第二百三十七条强制猥亵罪。第二百三十七条用北京市公安交管局转载的 2020 修正整合本核对（「强制猥亵他人」，修正案九改的；最高检那份 1997 原文仍是「猥亵妇女」，不能用）。
-- 西城区检察院普法文章补进收益栏：「麻醉、灌醉后实施性侵的，同样构成强奸罪」「是否违背了被害人内心真实意愿」「并非关键」。它不是司法解释，证据等级维持 B，理由改写。
+## Thứ nhất 13 Chương 3 42 Điều 3: Sau khi bị tấn công tình dục）
+- Tòa công tố dân sự thành phố Bắc Kinh 2024-09-11 Chuyển Trung Quốc Lời bài hát: Lời bài hát của trợ lý công tố viên của Tòa án Công tố của Bồ Đào Nha:……Lần đầu tiên gọi 110 Cảnh sát cảnh báo: "Điều dễ dàng cho cơ quan điều tra khám phá tại thời điểm, dấu vết khai thác, bằng chứng cố định」。
+- Cảnh sát dân sự tỉnh Quảng Đông 2024-07-23 Người dân Nhật Bản viết: "Điều quan trọng nhất là giữ lại bằng chứng", "Dữ liệu cơ thể, tóc, vỏ da, hồ sơ giao tiếp" và "Đừng rửa, giặt quần áo, dọn phòng, ném thứ gì đó". Bản gốc dành cho trẻ vị thành niên, nhưng chứng minh các câu này không phân biệt tuổi tác。
+- Văn phòng công tố dân phương Tây thành phố Bắc Kinh 2018-08-03：Đánh giá từng chữ: "Đừng rửa mặt trước khi được kiểm tra"」。
+- Tổ chức Y tế Thế giới Tiếng Trung Báo cáo về tình trạng sơ sinh khẩn cấp》（2021-11-09）：Đáp lại một cách chính xác rằng "người phụ nữ bị xâm hại tình dục khi không có biện pháp tránh thai hiệu quả" có thể 5 Sử dụng trong ngày, tỷ lệ mang thai「1.2%-2.1%」。WHO 2013 Hướng dẫn lâm sàng về lạm dụng tình dục（NBK174251）Cụ thể reCAPTCHA và Cloudflare Không có bản gốc, không có nguồn gốc。
+- Ủy ban Y tế Thành phố Wuhan 2020-10-12：Đăng ký từng chữ「72 Trong vòng vài giờ, thuốc càng sớm, hiệu quả phòng ngừa mang thai càng tốt".」。
+- Thời hạn ngăn ngừa thuốc theo quy định của 13 Chương 3 38 Trang chính quyền thành phố Bắc Kinh đã được phê duyệt。
+- mức độ lợi ích "Điều lớn" theo phán quyết: bằng chứng, biện pháp tránh thai khẩn cấp và thuốc ngăn ngừa đều có thời hạn khắc nghiệt trong vài ngày.。
+
+## Thứ nhất 8 Chương 3 31 Đạo luật
+- Nguyên tắc Ghi chú "Điều này không phân biệt giới tính, đàn ông cũng có thể là nạn nhân" là không chính xác: Bộ luật Hình sự Các nạn nhân của điều 236 chỉ viết về phụ nữ, và các nạn nhân của đàn ông theo điều 237 là phạm tội cưỡng bức khiêu dâm. Điều 237 được chuyển tiếp bởi Cục quản lý giao thông công cộng thành phố Bắc Kinh 2020 sửa đổi tổng hợp chứng minh "bắt buộc vi phạm người khác", sửa đổi thứ chín; Điều tra cao nhất 1997 Bản gốc vẫn là "bạo báng phụ nữ" và không được sử dụng）。
+- Báo cáo của công tố viên khu vực Tây Thành bổ sung mục lợi ích "Việc gây rối loạn tình dục sau khi say rượu cũng là tội phạm cưỡng hiếp" "Có phải trái với ý chí thực sự của nạn nhân" "Không quan trọng". Đó không phải là giải thích của pháp lý. Mức độ bằng chứng Cung cấp B，Lý do để viết lại。

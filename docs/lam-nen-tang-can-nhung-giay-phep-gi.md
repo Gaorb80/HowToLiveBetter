@@ -1,4 +1,4 @@
-# Xây dựng nền tảng cần làm những giấy phép gì: Bảng đối chiếu và bảng quyết định chọn máy chủ
+# Làm nền tảng cần những giấy phép gì
 
 Bài viết chuyên sâu này tương ứng với Chương 26 trong README. Ở đây chỉ đưa ra 3 bảng tổng hợp và một số điểm lưu ý dễ gây nhầm lẫn nhất. Nội dung chi tiết từng điều và nguồn tham khảo đều nằm trong README. Cách đăng ký công ty, khai báo thuế xem tại Chương 12 (Khởi nghiệp và kinh doanh). Những lằn ranh đỏ mà nhân sự kỹ thuật được thuê không được dẫm phải xem tại Chương 11 (Lập trình viên và dân công nghệ).
 
@@ -8,7 +8,7 @@ Một website thường cùng lúc liên quan đến nhiều loại hình dịch
 
 | Việc bạn đang làm | Loại hình kinh doanh tương ứng | Cần thủ tục gì | Căn cứ pháp lý chính |
 |---|---|---|---|
-| Trang tin không thu phí, blog cá nhân, website giới thiệu công ty | Dịch vụ thông tin Internet phi kinh doanh | Đăng ký khai báo ICP (ICP备案). Đây không phải giấy phép kinh doanh, mà là khai báo trình diện cơ quan quản lý trước khi mở site | Điều 4 Biện pháp quản lý dịch vụ thông tin Internet |
+| Trang tin không thu phí, blog cá nhân, website giới thiệu công ty | Dịch vụ thông tin Internet phi kinh doanh | Đăng ký khai báo ICP (ICPBáo cáo). Đây không phải giấy phép kinh doanh, mà là khai báo trình diện cơ quan quản lý trước khi mở site | Điều 4 Biện pháp quản lý dịch vụ thông tin Internet |
 | Thu tiền người dùng qua tài khoản VIP, dịch vụ giá trị gia tăng, nội dung trả phí | Dịch vụ thông tin Internet kinh doanh | Giấy phép kinh doanh dịch vụ viễn thông giá trị gia tăng (Dịch vụ thông tin). Quản lý việc bạn thu tiền từ người dùng | Điều 3, 4, 7 tài liệu trên |
 | Làm cầu nối giữa người mua và người bán, xử lý giao dịch và đơn hàng | Dịch vụ xử lý dữ liệu và giao dịch trực tuyến | Giấy phép kinh doanh dịch vụ viễn thông giá trị gia tăng (B21/EDI). Quản lý việc bạn xử lý giao dịch thay cho người mua và người bán | Mục lục phân loại dịch vụ viễn thông (bản 2015) B21 |
 | Livestream có streamer xuất hiện trước ống kính, livestream game | Biểu diễn trực tuyến (Net performance) | Giấy phép kinh doanh văn hóa mạng (phạm vi kinh doanh gồm biểu diễn mạng). Không có giấy phép này, website không được để streamer lên sóng | Điều 4 Biện pháp quản lý hoạt động kinh doanh biểu diễn mạng |

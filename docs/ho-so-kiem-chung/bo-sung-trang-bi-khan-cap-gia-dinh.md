@@ -1,46 +1,48 @@
-# 第 1 节第 26 条「家庭应急装备」· ho-so-kiem-chung（2026-09-08）
+# Hồ sơ kiểm chứng: Trang bị khẩn cấp gia đình — 1, 26, 2026-09-08
 
-任务来源：读者提出「家里必备的东西，比如止血带」没有单独落点。核对结果是止血带已在第 13 节第 4 条，缺的是装备本身的清单视角：灭火器、灭火毯、逃生呼吸面罩、急救包内容在全书零次出现。按约定不新开一节，在第 1 节末尾加一条，细节放 docs/danh-sach-trang-bi-khan-cap-gia-dinh.md。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-工具说明：WebSearch 本轮可用；中国政府网检索 API（sousuo.www.gov.cn/search-gov/data）对「家庭应急物资储备」「全国火灾情况」两个词均返回 code 1001 无结果，改用 WebSearch 定位官方 URL 再逐个 WebFetch 打开。国家消防救援局 119.gov.cn 全站返回 412，与既往记录一致。两份 GB 55036—2022 的政府站 PDF 下载后 pdftotext 只能取出数字与英文，中文字体无 ToUnicode 映射，本机无 pdftoppm 无法转图，故规范条文正文未取到。
+Nhiệm vụ Nguồn Người đọc đưa ra "những thứ cần thiết trong nhà, chẳng hạn như dây đeo máu" không có điểm riêng biệt. Kết quả kiểm tra là dây dừng máu đã được đưa ra ở 13 Chương 3 4 Điều này thiếu một góc nhìn danh sách về thiết bị: máy thiêu lửa, thảm thiêu lửa, mặt nạ thở trốn thoát, sơ cứu Nội dung gói xuất hiện trong toàn bộ cuốn sách không có lần nào. Theo thỏa thuận, không được mở một đoạn mới, trong đoạn 1 Kết thúc phần thêm một đoạn, thêm chi tiết docs/danh-sach-trang-bi-khan-cap-gia-dinh.md。
 
-## 装备清单本体
+Quảng cáo công cụ：WebSearch Xe có sẵn; Trung Quốc Internet của chính phủ API（sousuo.www.gov.cn/search-gov/data）Cả hai từ "cơ sở vật dụng khẩn cấp trong gia đình" và "cơ sở cháy quốc gia" đều trở lại code 1001 Không kết quả, thay đổi WebSearch Định vị chính thức URL Một lần nữa. WebFetch Cởi mở. Cơ quan cứu hộ cứu hỏa quốc gia 119.gov.cn Tất cả các nhà ga quay lại 412，Đáp lại những gì đã được ghi lại. Hai người GB 55036—2022 Trạm chính phủ PDF Sau khi tải xuống pdftotext Bạn chỉ có thể lấy số và tiếng Anh. Tiếng Trung Chữ không ToUnicode Bản đồ, không có máy bay pdftoppm Không thể di chuyển, do đó quy định các mục nội dung chính Không được。
 
-| URL | 结果 | 原文引句 |
+## Thuộc tính danh sách
+
+| URL | Kết quả | Nguồn gốc |
 |---|---|---|
-| <https://www.mem.gov.cn/kp/shaq/202011/t20201129_372149.shtml> | 打开，应急管理部《全国基础版家庭应急物资储备建议清单》，11 项 | 「灭火器和灭火毯：用于初起火灾的扑救。灭火毯可披覆在身上逃生」；「呼吸面罩：消防过滤式自救呼吸器，用于火灾逃生使用」；「手电筒：防水防爆手电筒。定期充电或更换电池」；「救生哨子：可吹出高频求救信号」；「外用药品：止血粉、止血贴、纱布绷带等，用于处理伤口」；「饮用水：保障每人3天基本饮水需求，至少3升/人」 |
-| <https://yjglj.beijing.gov.cn/art/2020/12/23/art_6058_664632.html> | 打开，北京市应急管理局 2020-12-23 | 基础版为「应急物品、应急工具和应急药物3类应急物资」，扩充版为「食品、个人用品、逃生自救工具、医疗急救用品、重要文件资料5类应急物资」；三点建议「选购资质合法、信誉良好的生产经营企业提供的应急物资」「优先储备基础版的应急物资品种，并根据家庭需要选择储备扩充版的应急物资品种」「熟悉掌握应急物资的正确使用方法，定期对应急物资状况进行检查，并及时更换已过保质期的应急物资」 |
-| <https://www.beijing.gov.cn/ywdt/gzdt/202012/t20201223_2181392.html> | 打开，首都之窗同一消息 | 与上条一致，未列品种明细 |
-| <https://www.bjxch.gov.cn/zt/kpzc/xxxq/pnidpv858729.html> | 打开，北京市西城区政府，标注北京市应急管理局 2020-06-03 | 基础版品种：「具备收音功能的手摇充电电筒」「救生哨」「毛巾纸巾或湿纸巾」「呼吸面罩」「多功能组合剪刀」「应急逃生绳」「灭火器或防火毯」，药具类含抗感染、抗感冒类医药品、医用外科口罩、纱布绷带、碘伏棉棒 |
-| <https://www.hnhx.gov.cn/portal/zwgk/zdlyxxgk/aqscly/nqs/webinfo/2024/10/phone1730446548918943.htm> | 打开，取到文号 | 国家防灾减灾救灾委员会办公室《关于进一步加强应急抢险救灾物资保障体系和能力建设的指导意见》，国防减救办发〔2024〕13 号，2024-09-23；附件 2 为《家庭应急物资储备指导目录》，页面只给 wps 附件链接，品种未取到 |
-| <http://yjglj.lf.gov.cn/UploadFiles/2024-11-04/jrtxpnaxrp6cbxl2.pdf> | 下载成功，pdftotext 只出序号 1–16、1–31，中文不可提取 | — |
-| <https://www.emerinfo.cn/2020-05/09/c_1210610040.htm> | Socket is closed，未打开 | — |
+| <https://www.mem.gov.cn/kp/shaq/202011/t20201129_372149.shtml> | Bộ quản lý khẩn cấp mở danh sách khuyến nghị dự trữ vật dụng khẩn cấp cho gia đình》，11 Các mục | 「Thiết bị cứu hỏa và thảm cứu hỏa: được sử dụng để cứu nạn cháy ban đầu. "Bạn có thể trốn thoát bằng tấm thảm tắt lửa". "Mái hít thở: Máy hít tự cứu tự cứu tự cứu tự cứu được sử dụng để thoát khỏi đám cháy". "Thắp đèn: Thắp đèn chống nổ nước". Thường xuyên sạc hoặc thay đổi pin". "Thông báo cứu hộ: tín hiệu cứu hộ có thể phát sóng cao tốc"; "Các loại thuốc khác: thuốc ngăn ngừa bột máu, thuốc đệm máu, dây đệm nước xuống, và những loại thuốc khác để điều trị vết thương". "Tiếng uống: Đảm bảo cho mọi người" 3 Nguồn nước uống cơ bản, ít nhất 3 Tăng lên/Người dân」 |
+| <https://yjglj.beijing.gov.cn/art/2020/12/23/art_6058_664632.html> | Khởi mở, Cơ quan quản lý khẩn cấp thành phố Bắc Kinh 2020-12-23 | Phiên bản cơ bản là "Thông dụng khẩn cấp, công cụ khẩn cấp và thuốc khẩn cấp". 3 "Thông dụng khẩn cấp", phiên bản mở rộng là "thông dụng thực phẩm, dụng cụ cá nhân, công cụ tự cứu thoát, y tế". sơ cứu Công cụ, tài liệu quan trọng 5 "Thông dụng khẩn cấp" 3 điểm đề nghị "Sử dụng vật liệu khẩn cấp hợp pháp, được cung cấp bởi các doanh nghiệp sản xuất có uy tín" "Các loại vật liệu khẩn cấp có bản dự trữ cơ bản ưu tiên và các loại vật liệu khẩn cấp cần được lựa chọn theo bản dự trữ mở rộng của gia đình" "Hãy làm quen với cách sử dụng đúng các loại vật liệu khẩn cấp, kiểm tra tình trạng vật liệu khẩn cấp thường xuyên và thay thế các loại vật liệu khẩn cấp đã qua thời hạn bảo trì trong thời gian thích hợp".」 |
+| <https://www.beijing.gov.cn/ywdt/gzdt/202012/t20201223_2181392.html> | mở cửa sổ của thủ đô cùng thông tin | Theo quy định trên, các giống không được liệt kê rõ ràng |
+| <https://www.bjxch.gov.cn/zt/kpzc/xxxq/pnidpv858729.html> | Khởi mở, chính quyền thành phố Tây Bắc, đánh dấu Cục quản lý khẩn cấp thành phố Bắc Kinh 2020-06-03 | Phiên bản cơ bản: "Lâm sạc tay với chức năng vô tuyến" "Làm cứu hộ" "Tọa khăn hoặc khăn bôi trơn" "Mask hít thở" "Sắt kết hợp đa chức năng" "Tải thoát hiểm khẩn cấp" "Đá tắt lửa hoặc thảm phòng ngừa" , loại thuốc chống nhiễm trùng, loại thuốc chống cảm lạnh, mặt nạ phẫu thuật y tế, dây chuyền thác, gậy cotton. |
+| <https://www.hnhx.gov.cn/portal/zwgk/zdlyxxgk/aqscly/nqs/webinfo/2024/10/phone1730446548918943.htm> | mở, lấy số chữ | Văn phòng của Ủy ban phòng chống thảm họa và cứu trợ quốc gia về việc tiếp tục tăng cường hệ thống bảo vệ vật liệu cứu trợ khẩn cấp và xây dựng năng lực〔2024〕13 Số 1，2024-09-23；Phụ lục 2 Thư mục hướng dẫn dự trữ vật liệu khẩn cấp cho gia đình mẹ, trang chỉ cho wps Liên kết phụ kiện, giống không được lấy |
+| <http://yjglj.lf.gov.cn/UploadFiles/2024-11-04/jrtxpnaxrp6cbxl2.pdf> | Tải thành công，pdftotext Chỉ cần đặt số 1–16、1–31，Tiếng Trung Không được khai thác | — |
+| <https://www.emerinfo.cn/2020-05/09/c_1210610040.htm> | Socket is closed，Không mở | — |
 
-结论：2024 年国家层面的目录（5 类，基础版 16 品种、扩展版 31 品种）确实存在，但逐项名称未取到原文，docs 长文按此标了 TODO；条目正文只引 2020 年应急管理部的 11 项清单，那份逐项说明有可核对的原文。
+Kết luận：2024 Danh mục cấp quốc gia（5 Bài học, bản gốc 16 Các loại, phiên bản mở rộng 31 giống) có tồn tại, nhưng tên cá nhân không có nguồn gốc，docs Bài viết dài được đánh dấu như thế TODO；mục nội dung chính Chỉ cần ghi 2020 Bộ quản lý khẩn cấp hàng năm 11 Danh sách các mục, từng mục cho thấy có bản gốc xác minh。
 
-## 灭火器与呼吸器的选购、检查、报废
+## Mua, kiểm tra và loại bỏ các thiết bị tắt lửa và máy hô hấp
 
-| URL | 结果 | 原文引句 |
+| URL | Kết quả | Nguồn gốc |
 |---|---|---|
-| <https://www.wusheng.gov.cn/gasylbzj/c109568/zzzq/content/content_1988424970198126592.html> | 打开，武胜县市场监督管理局消费提示，2025-11-11 | 「手提式灭火器为强制性认证产品（CCC认证），产品上应标示CCC标志的符号」；「贮压式灭火器应装压力指示器（二氧化碳灭火器除外），压力指示器的指针应指示在绿色区域范围内」；执行标准「GB 4351-2023《手提式灭火器》强制性国家标准」；报废年限按 XF 95：「水基型灭火器—6年」「干粉灭火器—10年」「二氧化碳灭火器—12年」 |
-| <https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E86ED3A7E05397BE0A0AB82A> | 打开，全国标准信息公共服务平台 | GB 21976.7-2012《建筑火灾逃生避难器材 第7部分：过滤式消防自救呼吸器》，强制性国家标准，2012-11-05 发布、2013-06-01 实施，2023-12-04 复审结论继续有效；页面无条文正文 |
-| <https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202307/t20230726_3207767.html> | 打开，消防法（2021 修正）全文 | 第二十四条「消防产品必须符合国家标准；没有国家标准的，必须符合行业标准。禁止生产、销售或者使用不合格的消防产品以及国家明令淘汰的消防产品。依法实行强制性产品认证的消防产品，由具有法定资质的认证机构按照国家标准、行业标准的强制性要求认证合格后，方可生产、销售、使用」 |
-| <https://www.mem.gov.cn/hd/gzly/lyhf/202110/t20211002_399529.shtml> | 打开，应急管理部留言回复（消防救援局，2021-10-02） | 对干粉灭火器首次维修年限的答复是「不同种类灭火器的首次维修时间是不一样的，具体请向当地消防救援机构进行咨询」，未给统一年限，故条目与长文不写首次维修年限 |
-| <https://wglj.gz.gov.cn/attachment/7/7296/7296992/8986976.pdf> 、 <http://gsfm.jsnu.edu.cn/_upload/article/files/e6/6c/4bc3d6b247fbbee583350dd8b445/262a6a3f-c6b0-41c1-85a1-916be18af79e.pdf> | 两份 GB 55036—2022 全文 PDF 均下载成功，中文不可提取 | 10.0.8 条与表 10.0.8 的报废年限未能逐字核对，报废年限改引市场监管部门消费提示里的 XF 95 口径 |
-| 国家标准全文公开系统（openstd.samr.gov.cn）按 GB 55036 查询 | 打开，页面提示「您所查询的标准系统尚未收录」 | — |
-| <https://www.119.gov.cn/qmxfgk/sjtj/index.shtml> 、 <https://www.119.gov.cn/qmxfxw/xfyw/2025/45033.shtml> | 均返回 412 | 全国火灾起数与住宅火灾亡人占比未取到官方原文，条目未写火灾统计数字 |
+| <https://www.wusheng.gov.cn/gasylbzj/c109568/zzzq/content/content_1988424970198126592.html> | Khởi mở, khuyến cáo tiêu thụ của Cơ quan giám sát thị trường Wuzhou County，2025-11-11 | 「Máy tắt lửa bằng tay là sản phẩm được chứng nhận bắt buộc（CCCSản phẩm được dán nhãnCCC"Thông tin của chúng tôi". "Các thiết bị tiêu diệt áp suất được trang bị các chỉ số áp suất (ngoại trừ các thiết bị tiêu diệt carbon dioxide) và các chỉ số của các chỉ số áp suất được chỉ ra trong phạm vi khu vực xanh". Các tiêu chuẩn thực hiện「GB 4351-2023《Các tiêu chuẩn quốc gia bắt buộc về việc sử dụng thiết bị tắt lửa bằng tay" Giới hạn bãi bỏ theo XF 95：「Máy tiêu diệt hỏa tiễn nước—6 Năm: "Thợ làm bốc cháy"—10 Năm: "Các máy tiêu diệt CO2—12 Năm」 |
+| <https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E86ED3A7E05397BE0A0AB82A> | Nền tảng dịch vụ công cộng thông tin tiêu chuẩn quốc gia | GB 21976.7-2012《Các công cụ cứu hộ trong vụ cháy xây dựng 7 Phần: Hạt cứu hỏa tự cứu hỏa được lọc, tiêu chuẩn quốc gia bắt buộc，2012-11-05 Xuất bản、2013-06-01 Thực hiện，2023-12-04 Các kết luận của bản xem xét lại vẫn có hiệu lực; Trang không có nội dung nội dung chính |
+| <https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202307/t20230726_3207767.html> | Khởi mở, luật cứu hỏa（2021 sửa đổi) toàn văn bản | Điều 24: "Các sản phẩm cứu hỏa phải tuân thủ các tiêu chuẩn quốc gia; Không có tiêu chuẩn quốc gia, phải phù hợp với tiêu chuẩn của ngành. cấm sản xuất, bán hoặc sử dụng các sản phẩm hỏa hoạn không đủ điều kiện và các sản phẩm hỏa hoạn bị loại bỏ bởi quốc gia. Các sản phẩm hỏa hoạn có hiệu quả thi hành chứng nhận sản phẩm bắt buộc, được sản xuất, bán và sử dụng sau khi được chứng nhận bởi các cơ quan chứng nhận có đủ điều kiện pháp lý theo tiêu chuẩn quốc gia, tiêu chuẩn ngành công nghiệp bắt buộc.」 |
+| <https://www.mem.gov.cn/hd/gzly/lyhf/202110/t20211002_399529.shtml> | Khởi mở, thông điệp của Bộ quản lý khẩn cấp trả lời，2021-10-02） | Câu trả lời cho thời hạn bảo trì đầu tiên của máy thiêu đốt bụi bụi là "Thời gian bảo trì đầu tiên của các loại máy thiêu đốt khác nhau, cụ thể là hãy tham khảo ý kiến của cơ quan cứu trợ cứu hỏa địa phương" và không đưa ra thời hạn duy nhất trong một năm. mục Không viết thời hạn bảo trì lần đầu tiên |
+| <https://wglj.gz.gov.cn/attachment/7/7296/7296992/8986976.pdf> 、 <http://gsfm.jsnu.edu.cn/_upload/article/files/e6/6c/4bc3d6b247fbbee583350dd8b445/262a6a3f-c6b0-41c1-85a1-916be18af79e.pdf> | Hai người GB 55036—2022 Bài viết đầy đủ PDF Tải thành công. Tiếng Trung Không được khai thác | 10.0.8 Bài viết và bảng 10.0.8 Các cơ quan quản lý thị trường đã đưa ra những đề nghị về việc thay đổi thời hạn tháo dỡ. XF 95 tiêu chí đánh giá |
+| Hệ thống công khai toàn văn bản tiêu chuẩn quốc gia（openstd.samr.gov.cn）Theo: GB 55036 Tìm kiếm | Khi mở, trang báo hiệu: "Các hệ thống tiêu chuẩn mà bạn đã truy vấn vẫn chưa được lưu trữ.」 | — |
+| <https://www.119.gov.cn/qmxfgk/sjtj/index.shtml> 、 <https://www.119.gov.cn/qmxfxw/xfyw/2025/45033.shtml> | Tất cả đều trở lại 412 | Số người chết trong các vụ hỏa hoạn trên toàn quốc và số người chết trong các vụ hỏa hoạn trong nhà chưa được xác định chính thức. mục Không ghi được số liệu thống kê cháy |
 
-## 收益证据
+## Lợi ích Bằng chứng
 
-| URL | 结果 | 原文引句 |
+| URL | Kết quả | Nguồn gốc |
 |---|---|---|
-| Europe PMC REST，DOI 10.1002/14651858.CD005014.pub3 | 打开，Kendrick D 等 2012 Cochrane 综述，98 项研究、2,605,044 人 | 伤害发生率 IRR 0.89（95% CI 0.78 到 1.01）；在家中开展的干预 IRR 0.75（0.62 到 0.91）；不提供安全设备的干预 IRR 0.78（0.66 到 0.92）；安全行为：可用烟雾报警器 OR 1.81（1.30 到 2.52）、逃生计划 OR 2.01（1.45 到 2.77）、药品安全存放 OR 1.53（1.27 到 1.84）、清洁用品安全存放 OR 1.55（1.22 到 1.96）、楼梯防护门 OR 1.61（1.19 到 2.17）、插座保护盖 OR 2.69（1.46 到 4.96）；「缺乏证据表明家庭安全干预措施降低了热烧伤或中毒发生率」 |
+| Europe PMC REST，DOI 10.1002/14651858.CD005014.pub3 | Mở ra，Kendrick D Được rồi. 2012 Cochrane Phân tích，98 Nghiên cứu、2,605,044 Người dân | Tỷ lệ thương tích IRR 0.89（95% CI 0.78 đến 1.01）；Sự can thiệp tại nhà IRR 0.75（0.62 đến 0.91）；Không có sự can thiệp của thiết bị an ninh IRR 0.78（0.66 đến 0.92）；Hành động an toàn: Cảnh báo khói có sẵn OR 1.81（1.30 đến 2.52）、Kế hoạch trốn thoát OR 2.01（1.45 đến 2.77）、Chất giữ thuốc an toàn OR 1.53（1.27 đến 1.84）、Bảo quản an toàn các đồ dùng sạch OR 1.55（1.22 đến 1.96）、Cửa bảo vệ cầu thang OR 1.61（1.19 đến 2.17）、Chuỗi bảo vệ OR 2.69（1.46 đến 4.96）；「Thiếu bằng chứng cho thấy can thiệp an ninh gia đình làm giảm tỷ lệ bị bỏng nóng hoặc nhiễm độc」 |
 
-定级说明：条目定 B 并标争议。理由是收益一侧只有这一份 Cochrane，其主结果的置信区间跨过 1，且「不发装备」组的效应量与整体相当，说明降低伤害的主要来源不是装备本身；官方清单是权威文件但不含任何效应量。收益量级按死亡率口径的相对降幅套阈值：IRR 0.89 对应约 11% 落在 10–20% 区间，记「中」，不记「大」。成本按一套几百元记 钱=少、时间=少、毅力=否。
+Định nghĩa: mục Chắc chắn B và biểu tượng Có tranh cãi 。 Lý do là Lợi ích Một bên chỉ có một Cochrane，Kết quả chính khoảng tin cậy Quay qua 1，Và hiệu quả của nhóm "không trang bị" tương đương với tổng thể, cho thấy việc giảm thiệt hại là một trong những yếu tố chính. Nguồn Không phải là thiết bị; Danh sách chính thức là tài liệu có thẩm quyền nhưng không có bất kỳ hiệu quả nào. mức độ lợi ích Theo: tỷ lệ tử vong tiêu chí đánh giá Tỷ giá giảm tương đối：IRR 0.89 Thỏa thuận 11% Ngã xuống 10–20% Trong khoảng thời gian, ghi "trên" và không ghi "trên". Chi phí Một bộ hàng trăm đô la ghi lại tiền=Không nhiều thời gian.=Thêm sức mạnh.=Không。
 
-## 未解决的 TODO
+## Không được giải quyết TODO
 
-- 国防减救办发〔2024〕13 号附件 2 基础版 16 品种、扩展版 31 品种的逐项名称
-- GB 21976.7—2012 对适用氧含量下限与额定防护时间的条文原文
-- GB 55036—2022 表 10.0.8 灭火器报废年限的规范原文（现按市场监管部门消费提示引 XF 95 口径）
-- 国家消防救援局年度全国火灾情况中住宅火灾亡人占比的官方原文（119.gov.cn 持续 412）
+- Bộ Quốc phòng giảm viện trợ〔2024〕13 Phụ lục số 2 Bản gốc 16 Các loại, phiên bản mở rộng 31 Tên cá nhân của giống
+- GB 21976.7—2012 Bản gốc của văn bản về giới hạn tối thiểu và thời gian bảo vệ oxy áp dụng
+- GB 55036—2022 Bảng 10.0.8 Các quy định về thời hạn hủy bỏ các máy tắt lửa hiện được đưa ra theo quy định của cơ quan quản lý thị trường XF 95 tiêu chí đánh giá）
+- Văn bản chính thức về tỷ lệ người chết trong vụ cháy nhà trong tình trạng cháy quốc gia hàng năm của Cơ quan cứu trợ hỏa hoạn quốc gia（119.gov.cn tiếp tục 412）

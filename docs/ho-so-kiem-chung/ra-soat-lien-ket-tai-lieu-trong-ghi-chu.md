@@ -1,51 +1,53 @@
-# 排查：备注里的文献链接 · 记录（2026-09-21）
+# Hồ sơ kiểm chứng: Rà soát liên kết tài liệu trong ghi chú — 2026-09-21
 
-任务来源：用户在检索页上读到第 2 节第 1 条（戒烟）的备注，里面嵌着一整串英文题录，说「这里怎么还有啊，读者都是中国人，你整个一长串这些放着」。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-此前同一天已经处理过两条（第 2 节第 41 条夜班、第 6 节第 26 条早餐），当时只修了链接最多的两条，没做全书扫查。这一轮补齐。
+Nhiệm vụ Nguồn Người dùng đọc trang truy cập: 2 Chương 3 1 Đạo luật: Ghi chú Trong đó có một loạt bài viết bằng tiếng Anh nói: "Bạn có thể làm gì ở đây? Trung Quốc Con người, hãy để những thứ này lại.」。
 
-## 判据与口径
+Trước đó, đã có hai bài báo được xử lý cùng một ngày. 2 Chương 3 41 Lần làm việc đêm 6 Chương 3 26 Thêm vào đó, chỉ có 2 liên kết được sửa chữa, và không có toàn bộ sách được quét. Đây là một vòng hoàn chỉnh.。
 
-- **文献链接一律进「来源」栏，备注不放。** 备注里至多留一个链接，且只能是指向 docs/ 长文的相对链接。
-- 依据：CLAUDE.md 的通俗化规则明写「**来源栏除外**，文献题录和条款号照原样留着才能核对」——言下之意，英文题录的容身处就是来源栏。备注是给中国读者读的中文正文，塞进一串英文题名和 DOI 既读不懂也不该读。
-- 扫描命令：`grep -c http` 扫全书所有 `- 备注：` 行。
+## Đánh giá và tiêu chí đánh giá
 
-## 处理前后
+- **tài liệu tham khảo "Điều này đã xảy ra". Nguồn "Ồ, Ghi chú Không được.。** Ghi chú Trong đó có một liên kết và chỉ dẫn đến docs/ Liên kết tương đối của văn bản dài。
+- Theo：CLAUDE.md Các quy tắc phổ biến rõ ràng「**mục nguồn Ngoại trừ**，tài liệu tham khảo Các tiêu đề và số điều khoản được giữ nguyên để xác minh". mục nguồn 。 Ghi chú Đúng rồi. Trung Quốc Người đọc đọc Tiếng Trung nội dung chính Trong một loạt các tựa đề tiếng Anh, DOI Không hiểu và không nên đọc。
+- Chỉ thị quét：`grep -c http` Tham khảo toàn bộ sách `- Ghi chú：` Đi。
 
-| | 处理前 | 处理后 |
+## xử lý trước và sau
+
+| | Trước khi xử lý | Sau khi xử lý |
 |---|---|---|
-| 备注里带链接的条目 | 19 条（其中 11 条是整串英文题录嵌在中文里） | **0 条** |
-| 单条备注最多链接数 | 3 个 | 0 个 |
-| 全书文献链接总数 | 1234 | **1234（未变）** |
+| Ghi chú Có liên kết mục | 19 Điều 1 trong số đó 11 Bài viết là một chuỗi các chủ đề tiếng Anh được nhúng vào Tiếng Trung Trò chơi） | **0 Đạo luật** |
+| Đơn vị Ghi chú Số lượng liên kết tối đa | 3 Một. | 0 Một. |
+| Tất cả sách tài liệu tham khảo Tổng số liên kết | 1234 | **1234（Không thay đổi）** |
 
-链接总数不变是这轮的核心不变量：**题录是从备注挪到来源栏，不是删掉**。挪进来源时给每条加了一个中文小尾巴说明它撑的是哪个说法（「（争议方）」「（备注里那项高纯度处方鱼油试验）」之类），免得来源栏变成一串看不出用途的题录。
+Số liên kết không thay đổi là sự không thay đổi cốt lõi của vòng này：**Bài viết có nội dung: Ghi chú Đưa đi mục nguồn Không xóa.**。Dẫn đi Nguồn Và bạn có thể thêm một trong số đó. Tiếng Trung Một cái đuôi nhỏ cho thấy cái gì nó nói: Có tranh cãi "Đây là một câu chuyện rất thú vị. Ghi chú Trong khi đó, các nhà nghiên cứu đã nghiên cứu về các loại dầu cá có chất lượng cao trong nước (như thử nghiệm về dầu cá có độ tinh khiết cao). mục nguồn Trở thành một loạt các bài viết không được sử dụng。
 
-## 逐条清单
+## Danh sách từng mục
 
-第 1 节：第 20 条（流感疫苗 Cochrane）、第 28 条（PrEP，Fonner 2016）、第 29 条（窗口期，广东疾控页面）。
-第 2 节：第 1 条（二手烟 Oberg 2011）、第 9 条（低钠盐争议方 PURE）、第 19 条（加工肉争议方 NutriRECS 指南）、第 20 条（饮酒争议方 Di Castelnuovo 2006）、第 34 条（BMI 争议方 Flegal 2013）、第 41 条（夜班癌症两篇 + 光照 Czeisler，先一轮已处理）。
-第 3 节：第 9 条（两篇争议方 Grubbs 2018、Prause & Pfaus 2015）。
-第 5 节：第 17 条（指数基金争议方 Harvey & Liu 2022）。
-第 6 节：第 1 条（复合维生素 Gaziano 2012）、第 2 条（鱼油 Bhatt 2019 REDUCE-IT）、第 26 条（早餐三篇，先一轮已处理）。
-第 10 节：第 3 条（Perilloux & Kurzban 2015）、第 6 条（Dargie 2015）。
-第 20 节：第 12 条（一般婴儿试验 EAT，Perkin 2016）。
-第 29 节：第 4 条（Kristensen 2012）、第 9 条（Stroebe 2007）。
+Thứ nhất 1 Chương 2: 20 Vaccine chống lại cúm Cochrane）、Thứ nhất 28 Đạo luật（PrEP，Fonner 2016）、Thứ nhất 29 Bài viết: Windows period, Quảng cáo Quảng Đông）。
+Thứ nhất 2 Chương 2: 1 Lưu ý: Oberg 2011）、Thứ nhất 9 Bài viết dưới đây: Có tranh cãi Phía PURE）、Thứ nhất 19 Loại thịt chế biến Có tranh cãi Phía NutriRECS Hướng dẫn: 20 Bài viết: Có tranh cãi Phía Di Castelnuovo 2006）、Thứ nhất 34 Đạo luật（BMI Có tranh cãi Phía Flegal 2013）、Thứ nhất 41 Bài viết: 2 bệnh ung thư đêm + Ánh sáng Czeisler，Vòng đầu tiên đã được xử lý）。
+Thứ nhất 3 Chương 2: 9 Bài viết 2 Có tranh cãi Phía Grubbs 2018、Prause & Pfaus 2015）。
+Thứ nhất 5 Chương 2: 17 Các quỹ chỉ số Có tranh cãi Phía Harvey & Liu 2022）。
+Thứ nhất 6 Chương 2: 1 Bài viết: Vitamin phức hợp Gaziano 2012）、Thứ nhất 2 Loại dầu cá Bhatt 2019 REDUCE-IT）、Thứ nhất 26 Bài viết: 3 bữa sáng, vòng đầu tiên đã được xử lý）。
+Thứ nhất 10 Chương 2: 3 Đạo luật（Perilloux & Kurzban 2015）、Thứ nhất 6 Đạo luật（Dargie 2015）。
+Thứ nhất 20 Chương 2: 12 Bài viết chung của bài kiểm tra trẻ em EAT，Perkin 2016）。
+Thứ nhất 29 Chương 2: 4 Đạo luật（Kristensen 2012）、Thứ nhất 9 Đạo luật（Stroebe 2007）。
 
-## 补全的题名
+## Tên đầy đủ
 
-有 5 条原来在备注里是缩写形式（只有作者、年份、期刊），挪进来源栏要补题名。**没有凭记忆写**，逐条用 Crossref 按 DOI 取回：
+Có. 5 Điều này là Ghi chú Trong đó có dạng viết tắt (chỉ có tác giả, năm, tạp chí) mục nguồn Thêm tên。**Không ghi nhớ**，Sử dụng từng đoạn Crossref Theo: DOI Lấy lại：
 
-| DOI | 取回的题名 |
+| DOI | Tên gọi được lấy lại |
 |---|---|
 | 10.1097/QAD.0000000000001145 | Effectiveness and safety of oral HIV preexposure prophylaxis for all populations（AIDS, 2016） |
 | 10.1001/jama.2012.14641 | Multivitamins in the Prevention of Cancer in Men（JAMA, 2012） |
 | 10.1056/NEJMoa1812792 | Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia（NEJM, 2019） |
-| 10.1007/s10508-018-1248-x | Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis（Arch Sex Behav，**Crossref 记的年份是 2018 不是原文写的 2019**，已按 2018 写） |
+| 10.1007/s10508-018-1248-x | Pornography Problems Due to Moral Incongruence: An Integrative Model with a Systematic Review and Meta-Analysis（Arch Sex Behav，**Crossref Năm được ghi nhớ là 2018 Không có văn bản gốc 2019**，Định nghĩa 2018 viết） |
 | 10.1002/sm2.58 | Viewing Sexual Stimuli Associated with Greater Sexual Responsiveness, Not Erectile Dysfunction（Sexual Medicine, 2015） |
 
-## 校验
+## Thử nghiệm
 
-- 全书 `- 备注：` 行含 http 的条数：**0**。
-- 删除引文后扫了一遍标点，没有留下双句号、空括号或孤立的「。」。
-- `node tools/check-refs.mjs --check`：454 处引用全部指向正确且带锚点，条数未变。
-- `sync-stats.ps1`：条目 600、A 404、链接 1234，八处统计位一个没动。
+- Tất cả sách `- Ghi chú：` Địa điểm http Điều khoản：**0**。
+- Sau khi xóa trích dẫn, bạn sẽ quét các điểm đánh dấu, không để lại hai chữ số, khung trống hoặc cách ly.「。」。
+- `node tools/check-refs.mjs --check`：454 Tất cả các tài liệu được trích dẫn đều hướng đúng và có điểm nhấn, số liệu không thay đổi。
+- `sync-stats.ps1`：mục 600、A 404、Liên kết 1234，8 điểm thống kê 1 không chuyển động。

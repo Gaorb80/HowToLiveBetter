@@ -1,56 +1,58 @@
-# 第 12 节追加三条：注册登记、纳税申报、涉税诈骗 · ho-so-kiem-chung（2026-09-08）
+# Hồ sơ kiểm chứng: Chương 12 đăng ký khai thuế và lừa đảo thuế — 2026-09-08
 
-任务来源：读者问开公司的流程、材料、费用和税怎么报，并说自己注册个体户后接到冒充政府的电话，被导到对方公众号小程序按次收费「代报税」。核对结果是第 12 节原有 14 条里没有注册流程、没有申报义务、没有这类骗局，本次补三条，并顺手修掉一处已经过期的税收引用。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-排序调整：新条按开办顺序插入，原第 6 至 14 条顺移，本节现为 17 条。顺序是主体选择（3）→ 注册登记（6）→ 许可证（7）→ 申报义务（8）→ 发票（9）→ 涉税骗局（10）。节内无「第 12 节第 N 条」形式的交叉引用，顺移不影响其他条目。
+Nhiệm vụ Nguồn Người đọc hỏi về quy trình, vật liệu, chi phí và thuế của công ty, và nói rằng họ đã đăng ký và nhận được một cuộc điện thoại giả vờ của chính phủ, được dẫn đến chương trình nhỏ của công chúng khác theo phí "trả thuế". Kết quả kiểm tra là: 12 Tự nhiên 14 Không có quy trình đăng ký, không có nghĩa vụ khai báo, không có gian lận như vậy, lần này bổ sung ba điều và sửa chữa một tài khoản thuế đã hết hạn.。
 
-工具说明：本轮先由两个检索子任务分头找官方原文，再由主任务逐条复核关键引句。下表的「复核」列标明哪些是主任务亲自打开原页核对过的。npc.gov.cn 经 WebFetch 报 SSL 握手失败，法律条文改引国家税务总局法规库（fgk.chinatax.gov.cn）与最高检门户；mps.gov.cn 全站 521，公安部原页仍拿不到。
+Điều chỉnh thứ tự: Điều mới được nhập theo thứ tự bắt đầu, phần đầu tiên 6 đến 14 Dưới đây là: 17 Định luật: Sự sắp xếp là sự lựa chọn chủ quan（3）→ Đăng ký（6）→ Giấy phép（7）→ nghĩa vụ khai báo（8）→ Sản xuất hóa đơn（9）→ liên quan đến thuế Sự gian lận（10）。Không có "thứ" trong đoạn 12 Chương 3 N hình thức " tham chiếu chéo Không ảnh hưởng đến người khác mục。
 
-## 注册登记（新第 6 条）
+Thông tin công cụ: Lần này được phân loại bởi hai nhiệm vụ thu hồi để tìm ra bản gốc chính thức, sau đó do nhiệm vụ chính đánh giá lại các câu quan trọng từng đoạn. Dưới đây là danh sách "đánh giá" để xác định những gì đã được xác minh bởi nhiệm vụ chính khi mở trang gốc.。npc.gov.cn Thông qua WebFetch Báo chí SSL Hỗ tay thất bại, văn bản pháp luật được thay đổi để đưa vào bộ sưu tập quy định của Cơ quan thuế quan quốc gia（fgk.chinatax.gov.cn）Cổng kiểm tra cao nhất；mps.gov.cn Tất cả nhà ga 521，Bộ Công an Trang gốc vẫn chưa được tìm thấy。
 
-| URL | 复核 | 原文引句 |
+## Đăng ký đăng ký 6 Đạo luật）
+
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://www.gov.cn/gongbao/content/2021/content_5636139.htm> | 是 | 市场主体登记管理条例（国务院令第 746 号，2022-03-01 施行）第十六条「申请办理市场主体登记，应当提交下列材料：（一）申请书；（二）申请人资格文件、自然人身份证明；（三）住所或者主要经营场所相关文件；（四）公司、非公司企业法人、农民专业合作社（联合社）章程或者合伙企业合伙协议；（五）法律、行政法规和国务院市场监督管理部门规定提交的其他材料」；第十九条「对申请材料齐全、符合法定形式的予以确认并当场登记。不能当场登记的，应当在3个工作日内予以登记；情形复杂的，经登记机关负责人批准，可以再延长3个工作日」；第十条「市场主体名称由申请人依法自主申报」；第十三条「市场主体的注册资本或者出资额实行认缴登记制」；第二十一条「营业执照签发日期为市场主体的成立日期」 |
-| <https://www.gov.cn/zhengce/zhengceku/2022-03/02/content_5676403.htm> | 否（子任务取得） | 实施细则（市场监管总局令第 52 号）第二十五条设立登记四项材料；第二十六条「申请办理公司设立登记，还应当提交法定代表人、董事、监事和高级管理人员的任职文件和自然人身份证明」；第十二条 经营范围「按照国家市场监督管理总局发布的经营范围规范目录……自主选择」 |
-| <https://www.gov.cn/zhengce/2014-12/23/content_5023513.htm> | 是 | 财税〔2014〕101 号「自2015年1月1日起，取消或暂停征收12项中央级设立的行政事业性收费」，附件 1 暂停征收项目含「4．企业注册登记费 5．个体工商户注册登记费」 |
-| <https://www.gov.cn/zhengce/zhengceku/2018-05/17/content_5291643.htm> | 否（子任务取得） | 国办发〔2018〕32 号「取消公章刻制审批，实行公章刻制备案管理」「严禁指定公章制作单位制作公章，严禁要求企业前往公安机关办理公章刻制备案」 |
+| <https://www.gov.cn/gongbao/content/2021/content_5636139.htm> | Đúng vậy | Quy định quản lý đăng ký đối tượng thị trường Quốc vụ viện Đánh giá 746 Số 1，2022-03-01 Hoạt động) Điều 16:"Các đơn xin đăng ký tổ chức thị trường phải nộp các tài liệu sau đây: (b) Tài liệu đủ điều kiện của người nộp đơn, giấy chứng nhận là người tự nhiên; (c) Tài liệu liên quan đến nơi cư trú hoặc nơi hoạt động chính; (iv) Điều lệ của công ty, cá nhân của công ty phi công ty, hợp tác xã chuyên nghiệp nông dân, hợp tác xã hoặc thỏa thuận hợp tác của công ty đối tác; (v) Luật pháp, quy định hành chính và Quốc vụ viện Các tài liệu khác được đệ trình theo quy định của cơ quan quản lý giám sát thị trường". Điều 19 "Tình thức hợp pháp xác nhận và đăng ký đầy đủ các tài liệu nộp đơn. Những người không thể được ghi danh tại đó, 3 được đăng ký trong một ngày làm việc; Tình huống phức tạp, được chấp thuận bởi người đứng đầu cơ quan đăng ký và có thể được gia hạn 3 Một ngày làm việc". Điều 10 "Thật tự khai báo danh hiệu đối tượng thị trường bởi người nộp đơn theo pháp luật"; Điều 13 "Việc thực hiện quy định đăng ký vốn đăng ký hoặc khoản đầu tư của đối tượng thị trường"; Điều 21 "Ngày phát hành giấy phép kinh doanh là ngày bắt đầu hoạt động của thị trường"」 |
+| <https://www.gov.cn/zhengce/zhengceku/2022-03/02/content_5676403.htm> | Không thành công） | Quản lý quy định: 52 Điều 25 thiết lập bốn tài liệu đăng ký; Điều 26 "Các công ty nộp đơn xin đăng ký, cũng phải nộp giấy tờ nhiệm vụ của đại diện pháp lý, giám đốc, giám sát viên và người quản lý cấp cao và giấy chứng nhận là người tự nhiên"; Điều 12 phạm vi hoạt động: "Thống kê quy định về phạm vi hoạt động được công bố bởi Cơ quan Quản lý Quản lý Quản lý Quản lý Thị trường Quốc gia"……Sự lựa chọn tự do」 |
+| <https://www.gov.cn/zhengce/2014-12/23/content_5023513.htm> | Đúng vậy | Thuế tài chính〔2014〕101 Chương trình tự do 2015 Năm 1 Mặt trăng 1 Việc bắt đầu, hủy bỏ hoặc tạm dừng thu thuế 12 Các khoản phí quản lý nghề nghiệp được thiết lập ở cấp trung ương" 1 Việc tạm dừng các dự án「4．Thuế đăng ký doanh nghiệp 5．Thuế đăng ký doanh nghiệp cá nhân」 |
+| <https://www.gov.cn/zhengce/zhengceku/2018-05/17/content_5291643.htm> | Không thành công） | Nhà nước〔2018〕32 Chương trình "Từ bỏ việc phê duyệt và thực hiện quản lý hồ sơ ghi chép giấy tờ" nghiêm cấm việc sản xuất giấy tờ của các đơn vị sản xuất giấy tờ, nghiêm cấm yêu cầu các doanh nghiệp đến văn phòng cơ quan an ninh công cộng để chuẩn bị giấy tờ ghi chép giấy tờ.」 |
 
-个体工商户部分：《个体工商户条例》已随《促进个体工商户发展条例》（国务院令第 755 号，2022-11-01 施行）第三十九条废止，个体户登记现直接适用 746 号令与 52 号令，无单独的登记办法；52 号令第二十五条第（四）项的章程或合伙协议不含个体工商户，第二十六条的任职文件只针对公司，故条目写「个体户不用章程」。
+Phần doanh nhân cá nhân: Quy tắc doanh nhân cá nhân đã được áp dụng để thúc đẩy sự phát triển của doanh nhân cá nhân Quốc vụ viện Đánh giá 755 Số 1，2022-11-01 Hoạt động) Điều 39 bị bãi bỏ, đăng ký cá nhân hiện có hiệu lực trực tiếp 746 Đạo luật và 52 Không có cách đăng ký riêng biệt；52 Điều 25 (4) của Nghị định No. 25 không bao gồm các doanh nhân cá nhân, Điều 26 Do đó, các công ty chỉ có thể sử dụng giấy tờ nhiệm vụ của họ. mục "Người cá nhân không cần giấy phép"」。
 
-未写进条目：营业执照工本费、公章刻制费没有全国统一定价文件，只能写「由市场形成」；「高效办成一件事」企业开办清单原文未取到。
+Không được ghi mục : chi phí giấy phép hoạt động, chi phí khắc giấy tờ không có tài liệu giá nhất định quốc gia, chỉ có thể viết "được tạo ra bởi thị trường"; Các doanh nghiệp "Thực hiện một điều hiệu quả" mở danh sách chưa có nguồn gốc。
 
-## 纳税申报（新第 8 条）
+## Thuế khai trương 8 Đạo luật）
 
-| URL | 复核 | 原文引句 |
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://fgk.chinatax.gov.cn/zcfgk/c100010/c5195082/content.html> | 是 | 税收征管法实施细则（国务院令第 362 号）第三十二条「纳税人在纳税期内没有应纳税款的，也应当按照规定办理纳税申报。纳税人享受减税、免税待遇的，在减税、免税期间应当按照规定办理纳税申报」；第七十五条 滞纳金起止时间「自税款缴纳期限届满次日起至……实际缴纳或者解缴税款之日止」 |
-| <https://fgk.chinatax.gov.cn/zcfgk/c100009/c5195081/content.html> | 否（子任务取得） | 税收征管法（2015 修正）第六十二条「未按照规定的期限办理纳税申报和报送纳税资料的……责令限期改正，可以处二千元以下的罚款；情节严重的，可以处二千元以上一万元以下的罚款」；第六十四条第二款「不进行纳税申报，不缴或者少缴应纳税款的……并处不缴或者少缴的税款百分之五十以上五倍以下的罚款」；第三十二条 按日加收「万分之五的滞纳金」；第二十五条 申报义务 |
-| <https://fgk.chinatax.gov.cn/zcfgk/c100012/c5195194/content.html> | 否（子任务取得） | 国家税务总局公告 2019 年第 48 号第三条「纳税人负有纳税申报义务，但连续三个月所有税种均未进行纳税申报的，税收征管系统自动将其认定为非正常户，并停止其发票领用簿和发票的使用」；补申报并接受处罚后「税收征管系统自动解除非正常状态，无需纳税人专门申请解除」 |
-| <https://fgk.chinatax.gov.cn/zcfgk/c100009/c5193028/content.html> | 否（子任务取得） | 个人所得税法第十二条「纳税人取得经营所得，按年计算个人所得税，由纳税人在月度或者季度终了后十五日内向税务机关报送纳税申报表，并预缴税款；在取得所得的次年三月三十一日前办理汇算清缴」 |
-| <http://www.npc.gov.cn/zgrdw/npc/xinwen/2019-01/07/content_2070267.htm> | 否（沿用本书既有引用） | 社会保险法第五十七条「用人单位应当自成立之日起三十日内凭营业执照、登记证书或者单位印章，向当地社会保险经办机构申请办理社会保险登记」 |
+| <https://fgk.chinatax.gov.cn/zcfgk/c100010/c5195082/content.html> | Đúng vậy | Luật áp dụng quy định về thuế quan Quốc vụ viện Đánh giá 362 Điều 32: "Người nộp thuế không phải nộp thuế trong thời gian nộp thuế, cũng phải nộp thuế theo quy định". Người nộp thuế được hưởng giảm thuế và được miễn thuế, trong thời gian giảm thuế và được miễn thuế, phải nộp thuế theo quy định". Điều 75: Thời gian trễ thanh toán: "Từ ngày trễ nộp thuế đến ngày tiếp theo".……Cho đến ngày thực sự nộp hoặc thanh toán thuế」 |
+| <https://fgk.chinatax.gov.cn/zcfgk/c100009/c5195081/content.html> | Không thành công） | Luật thuế（2015 sửa đổi) Điều 62: "Những người không nộp hồ sơ khai thuế và thông tin về thuế theo thời hạn được quy định……Quyết định sửa đổi thời hạn, có thể phạt ít hơn 2 nghìn đồng; "Điều này có thể xảy ra nếu tình hình nghiêm trọng và có thể bị phạt 2 nghìn đồng hoặc ít hơn 10 nghìn đồng". Điều 64 (2): "Những người không nộp khai thuế, không nộp hoặc ít nộp thuế"……và phạt ít hơn năm mươi phần trăm của số thuế không được nộp hoặc không được nộp". Điều 32 tăng thêm "tỷ lệ trì hoãn 5 nghìn đồng" mỗi ngày; Điều 25 nghĩa vụ khai báo |
+| <https://fgk.chinatax.gov.cn/zcfgk/c100012/c5195194/content.html> | Không thành công） | Thông báo của Tổng Cục Thuế Quốc gia 2019 Năm thứ 1 48 Số 1 Điều 3 "Người nộp thuế có nghĩa vụ nộp thuế, nhưng không nộp thuế cho tất cả các loại thuế trong ba tháng liên tiếp, hệ thống kiểm soát thuế sẽ tự động xác định họ là người không bình thường và ngừng sử dụng sổ thu nhập và hóa đơn phát hành của họ". Sau khi nộp đơn và nhận được hình phạt, "hệ thống quản lý thuế tự động dỡ bỏ tình trạng bất thường, không cần phải nộp đơn đặc biệt cho người nộp thuế.」 |
+| <https://fgk.chinatax.gov.cn/zcfgk/c100009/c5193028/content.html> | Không thành công） | Điều 12 của Luật Thuế Thuế cá nhân: "Người nộp thuế thu được thu nhập kinh doanh, tính theo thu nhập cá nhân hàng năm, nộp hồ sơ khai thuế và tiền thuế cho cơ quan thuế trong vòng 15 ngày sau khi kết thúc tháng hoặc quý; Việc thanh toán tiền gửi trước ngày 31 tháng 3 năm sau khi thu được」 |
+| <http://www.npc.gov.cn/zgrdw/npc/xinwen/2019-01/07/content_2070267.htm> | Không） | Điều 57 của Luật Bảo hiểm Xã hội: "Các đơn vị nhân viên phải nộp đơn đăng ký bảo hiểm xã hội cho cơ quan quản lý bảo hiểm xã hội địa phương trong vòng 30 ngày kể từ ngày thành lập, bằng giấy phép kinh doanh, chứng chỉ đăng ký hoặc dấu ấn của đơn vị.」 |
 
-## 涉税诈骗（新第 10 条）
+## liên quan đến thuế Sự gian lận 10 Đạo luật）
 
-| URL | 复核 | 原文引句 |
+| URL | Đánh giá lại | Nguồn gốc |
 |---|---|---|
-| <https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5243181/content.html> | 是 | 国家税务总局 2025-09-17「税务部门不会通过微信小程序、电话、短信等方式索要银行卡密码、支付密码、账户余额及与银行卡收付款项相关的短信验证码」；「一些不法分子冒充税务干部以提供『帮办纳税申报』『税收优惠代办』『政策辅导』等为名接触纳税人」；「可拨打12366纳税缴费服务热线或主管税务机关固定电话进行核实」 |
-| <https://jiangsu.chinatax.gov.cn/art/2023/8/28/art_23038_432322.html> | 是 | 国家税务总局扬州市税务局 2023-08-28「税务稽查部门开展税务稽查工作有严格的规定和程序，必须出示检查通知书和检查证」；「税款只能通过电子税务局或者在办税大厅缴纳，税务部门不会提供指定账号」 |
-| <https://fgk.chinatax.gov.cn/zcfgk/c100011/c5239044/content.html> | 是 | 涉税专业服务管理办法（试行）（国家税务总局令第 58 号，2025-05-01 施行）第三十二条第（七）项「以税务机关和税务人员的名义敲诈纳税人、扣缴义务人的」；第三十三条按情节分档罚款 |
-| <https://www.spp.gov.cn/spp/fl/202506/t20250627_699863.shtml> | 否（沿用本书既有引用） | 治安管理处罚法（2025 修订，2026-01-01 施行）第六十二条「冒充国家机关工作人员招摇撞骗的，处十日以上十五日以下拘留，可以并处一千元以下罚款；情节较轻的，处五日以上十日以下拘留」 |
-| <https://www.spp.gov.cn/zdgz/201612/t20161221_176278.shtml> | 否（子任务取得） | 法发〔2016〕32 号「冒充国家机关工作人员实施电信网络诈骗犯罪，同时构成诈骗罪和招摇撞骗罪的，依照处罚较重的规定定罪处罚」；「冒充司法机关等国家机关工作人员实施诈骗的」酌情从重 |
+| <https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5243181/content.html> | Đúng vậy | Tổng Cục Thuế Quốc gia 2025-09-17「Các bộ phận thuế sẽ không yêu cầu mật khẩu thẻ ngân hàng, mật khẩu thanh toán, số dư tài khoản và mã xác minh thư liên quan đến thanh toán bằng thẻ ngân hàng thông qua các chương trình tin nhắn nhỏ, điện thoại, tin nhắn". "Một số kẻ phạm tội đã giả vờ làm việc của nhân viên thuế để cung cấp cho người nộp thuế những thông tin như: "Hỗ trợ nộp thuế", "Hỗ trợ giảm thuế" và "Hướng dẫn chính sách". "Tôi có thể gọi". 12366 Đăng ký điện thoại cố định của dịch vụ thanh toán thuế hoặc cơ quan thuế có thẩm quyền」 |
+| <https://jiangsu.chinatax.gov.cn/art/2023/8/28/art_23038_432322.html> | Đúng vậy | Cơ quan thuế của thành phố Yangzhou 2023-08-28「Các cơ quan kiểm tra thuế có quy định và thủ tục nghiêm ngặt trong việc thực hiện kiểm tra thuế và phải trình bày thông báo kiểm tra và giấy chứng nhận kiểm tra". "Các khoản thuế chỉ được thanh toán thông qua Cục thuế điện tử hoặc tại phòng thuế, và Cục thuế sẽ không cung cấp tài khoản cụ thể.」 |
+| <https://fgk.chinatax.gov.cn/zcfgk/c100011/c5239044/content.html> | Đúng vậy | liên quan đến thuế Phương pháp quản lý dịch vụ chuyên nghiệp (Phương pháp thử nghiệm) 58 Số 1，2025-05-01 (b) Điều 32 (7): "Việc lừa đảo người nộp thuế, bắt giữ người bắt buộc nhân danh các cơ quan thuế và nhân viên thuế"; Điều 33: Hình phạt theo giai đoạn |
+| <https://www.spp.gov.cn/spp/fl/202506/t20250627_699863.shtml> | Không） | Luật hình phạt quản lý an ninh（2025 Tỉnh sửa，2026-01-01 Hoạt động) Điều 62, "Tình trạng lừa đảo nhân viên cơ quan quốc gia có thể bị giam giữ ít hơn 10 ngày và ít hơn 15 ngày và có thể bị phạt ít hơn 1000 đồng; Tình hình dễ dàng hơn, bị giam giữ ít hơn 5 ngày và dưới 10 ngày」 |
+| <https://www.spp.gov.cn/zdgz/201612/t20161221_176278.shtml> | Không thành công） | Pháp phát hành〔2016〕32 Đạo luật: "Cách phạm tội lừa đảo mạng lưới điện tử với nhân viên của cơ quan quốc gia, đồng thời là tội lừa đảo và lừa đảo, bị kết án theo các quy định trừng phạt nặng nề". "Việc giả vờ các nhân viên của các cơ quan quốc gia như cơ quan tư pháp thực hiện gian lận" được loại bỏ nếu cần thiết |
 
-未写进条目：税务总局没有一句「办税一律不收费」的统一声明，只有单个办税事项标注「收费标准：不收费」和各地「不会提供指定账号」的提示，条目按后者写；专门以「冒充税务机关工作人员」定罪的最高法、最高检典型案例未找到，条目只引法条与两高一部意见。
+Không được ghi mục Cục thuế: Không có một tuyên bố thống nhất về "không tính thuế" mà chỉ có một số văn phòng thuế đánh dấu "điều chuẩn tính phí: không tính phí" và các địa điểm khác "không cung cấp tài khoản được xác định". mục Đọc theo sau này; Không có trường hợp điển hình của luật pháp cao nhất, điều tra cao nhất, đặc biệt là "sự giả vờ của nhân viên của cơ quan thuế". mục Chỉ trích các điều khoản và hai phần cao hơn。
 
-## 顺带修掉的一处过期引用
+## Một trích dẫn đã lỗi thời đã được sửa chữa
 
-原第 7 条（现第 9 条）「发票只按真实交易开」引的是财政部 税务总局公告 2023 年第 19 号的「月销售额 10 万元以下免征增值税」。经核实，增值税法自 2026-01-01 施行，起征点改由国务院规定：财政部 税务总局公告 2026 年第 10 号第一条「自2026年1月1日至2027年12月31日……（一）以一个月为一个计税期间的，起征点为月销售额10万元。以一个季度为一个计税期间的，起征点为季度销售额30万元。（二）按次纳税的，起征点为每次（日）销售额1000元」；第六条「在2025年12月31日前制发文件规定的国内环节增值税优惠政策同时停止执行」；配套的国家税务总局公告 2026 年第 4 号已明确废止 2023 年第 1 号公告。金额门槛没变，依据全换，条目已按增值税法第二十三条与 2026 年第 10 号重写，页面均由主任务打开核对。
+Nguyên nhân 7 Bài viết hiện tại 9 Điều này dẫn đến: "Các hóa đơn chỉ được phát hành theo các giao dịch thực tế". Bộ Tài chính Thông báo của Tổng Cục Thuế 2023 Năm thứ 1 19 Số lượng bán hàng hàng tháng 10 Doanh nghiệp không được đánh thuế giá trị tăng giá dưới 1 triệu USD". Định luật thuế giá trị tăng lên đã được xác minh 2026-01-01 Hoạt động, điểm khởi điểm Quốc vụ viện Điều khoản: Bộ Tài chính Thông báo của Tổng Cục Thuế 2026 Năm thứ 1 10 Bài đầu tiên: 2026 Năm 1 Mặt trăng 1 Ngày tới ngày 2027 Năm 12 Mặt trăng 31 Ngày……（(a) Khoảng một tháng trong thời gian tính thuế, điểm khởi điểm là doanh số bán hàng hàng tháng 10 Vàng đồng. Các doanh số bán hàng trong quý được tính theo thời gian tính thuế, điểm khởi điểm là doanh số bán hàng quý 30 Vàng đồng. (b) Khoản bán hàng mỗi ngày, bắt đầu theo thuế tiếp theo: 1000 "Điều gì?" Điều 6: 2025 Năm 12 Mặt trăng 31 Đồng thời, chính sách ưu đãi thuế giá trị gia tăng trên nội địa được quy định trong các tài liệu được đưa ra trước ngày này sẽ bị ngừng thực hiện". Thông báo của Cục thuế quốc gia hỗ trợ 2026 Năm thứ 1 4 Định nghĩa đã được bãi bỏ 2023 Năm thứ 1 1 Thông báo số: Thâm số không thay đổi, dựa trên sự thay đổi hoàn toàn, mục Luật thuế giá trị gia tăng Điều 23 Với 2026 Năm thứ 1 10 Đổi lại, các trang đều được mở để xác minh bởi nhiệm vụ chính。
 
-- <https://fgk.chinatax.gov.cn/zcfgk/c100009/c5237365/content.html> 增值税法全文，第二十三条「小规模纳税人发生应税交易，销售额未达到起征点的，免征增值税」
-- <https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247434/content.html> 财政部 税务总局公告 2026 年第 10 号
+- <https://fgk.chinatax.gov.cn/zcfgk/c100009/c5237365/content.html> Luật thuế giá trị gia tăng toàn văn bản, Điều 23 "Người đóng thuế nhỏ thực hiện các giao dịch phải nộp thuế, doanh số bán hàng chưa đạt điểm khởi điểm, miễn thuế giá trị gia tăng」
+- <https://fgk.chinatax.gov.cn/zcfgk/c102416/c5247434/content.html> Bộ Tài chính Thông báo của Tổng Cục Thuế 2026 Năm thứ 1 10 Số 1
 
-## 打不开或未取得
+## Không mở hoặc không có
 
-- npc.gov.cn 经 WebFetch 报 SSL 握手失败，法律条文改引税务总局法规库与最高检门户
-- mps.gov.cn 全站 521，公安部关于冒充国家机关工作人员诈骗的原页未取得
-- 经营范围规范表述目录无可逐字核对的官方 HTML 全文页
-- 《税务登记管理办法》现行修订本的非正常户条号（第三十八、三十九条）未拿到原件复核，条目改引 2019 年第 48 号公告
+- npc.gov.cn Thông qua WebFetch Báo chí SSL Hỗ tay thất bại, điều khoản pháp luật thay đổi, đưa ra thư viện quy định và cửa hàng kiểm tra cao nhất của Cục thuế quan
+- mps.gov.cn Tất cả nhà ga 521，Bộ Công an Trang ban đầu về giả vờ gian lận của nhân viên cơ quan quốc gia không được tìm thấy
+- Các quy định về phạm vi hoạt động của công ty không được xác minh theo từng chữ HTML Trang đầy đủ
+- 《Các biện pháp quản lý đăng ký thuế cho phép không có bản sao sao của tài liệu đã được sửa đổi không hợp lệ (các số 38 và 39), mục Thay đổi hướng dẫn 2019 Năm thứ 1 48 Thông báo số

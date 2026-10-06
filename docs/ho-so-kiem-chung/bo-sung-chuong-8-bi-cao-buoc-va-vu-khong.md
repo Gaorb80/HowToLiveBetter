@@ -1,59 +1,61 @@
-# 第 8 节追加「被指控与被诬告之后」5 条 · ho-so-kiem-chung（2026-09-09）
+# Hồ sơ kiểm chứng: Chương 8 bị cáo buộc và vu khống — 5, 2026-09-09
 
-任务来源：读者原话——「有没有避免被诬告的，国内很多女的诬告强奸，有个男的关了几年了，清白的，有证据也没用，而且女的随便诬陷也没事」。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 对读者前提的处理
+Nhiệm vụ Nguồn Người đọc đã nói: "Có người bị cáo buộc không, nhiều phụ nữ trong nước đã bị cáo buộc cưỡng hiếp, một người đàn ông đã bị giam trong nhiều năm, rõ ràng, không có bằng chứng, và phụ nữ cũng không bị mắc kẹt bất cứ điều gì.」。
 
-读者的问题里有三个可核查的断言，本次分开处理：
+## Việc xử lý giả định của người đọc
 
-1. **「很多女的诬告」**——全国范围内没有公开的诬告立案与处理统计。国务院政策文件库、最高检、最高法均查不到按性别或按罪名统计的诬告数据，本书的规则是数字必须能在原文中找到，所以正文不写发生率，也不写性别分布，第 31 条备注里明说了这一点。同理，读者提到的个案本次无法定位到可核对的官方通报，正文不引个案。
-2. **「有证据也没用」**——制度层面写得很清楚，缺的是执行而不是条文：刑诉法第五十五条的定案标准要求排除合理怀疑，第二百条第（三）项规定证据不足应当作出无罪判决，第五十六条要求排除刑讯逼供取得的供述，第二百五十二、二百五十三条给了申诉和再审的通道。所以落成第 32 条，同时在备注里写明「这些是制度写明的底线，不是结果保证」，并声明本书没有中国刑事案件无罪率、申诉改判率的可核对官方数据，因此不写比例。
-3. **「随便诬陷也没事」**——不准确，但读者感觉的来源是真实的。《治安管理处罚法》（2025 年修订）第五十条把捏造事实诬告陷害列为治安违法，《刑法》第二百四十三条是诬告陷害罪；但同一条第三款写明「不是有意诬陷，而是错告，或者检举失实的，不适用前两款的规定」——要追究对方需要证明「捏造事实」加「有意诬陷」，而不是证明「我没做过」，这两件事的举证难度差得很远。第 31 条正文把条款和这条界线一起写出来，不夸大也不否认。
+Trong câu hỏi của độc giả, có ba tuyên bố có thể kiểm chứng được, lần này được xử lý một cách riêng biệt.：
 
-## 落点
+1. **「Những lời tuyên bố của nhiều phụ nữ」**——Không có quy trình khai báo công khai và xử lý thống kê trên toàn quốc. Quốc vụ viện Các thư viện tài liệu chính sách, kiểm tra tối cao và luật pháp tối cao đều không kiểm tra dữ liệu cáo buộc theo giới tính hoặc theo thống kê tội phạm, và quy tắc của cuốn sách là số phải được tìm thấy trong bản gốc, vì vậy nội dung chính Không ghi tỷ lệ xảy ra, không ghi phân bố giới tính, 31 Đạo luật Ghi chú Rhim nói về điều này. Đồng thời, các trường hợp mà độc giả đề cập không thể xác định vị trí của họ đến thông báo chính thức có thể xác minh được. nội dung chính Không đưa ra vụ án。
+2. **「Không có bằng chứng.」**——Ở cấp độ hệ thống, những gì thiếu là việc thực hiện chứ không phải các điều khoản: Các tiêu chuẩn quy định của Điều 55 của Đạo luật Trình sự đòi hỏi phải loại bỏ nghi ngờ hợp lý, Điều 200 (3) quy định rằng bằng chứng thiếu hụt nên được đưa ra phán quyết không tội, Điều 56 đòi hỏi phải loại trừ việc đưa ra lời khai bị buộc tội, Điều 2502, 2503 cung cấp đường dẫn cho khiếu nại và xét xử lại. Vì vậy, chúng tôi đã xuống hạng 32 Trong khi đó, Ghi chú Nó viết rằng: "Đây là những dòng chữ của hệ thống, không phải là sự đảm bảo kết quả" và tuyên bố rằng cuốn sách không có. Trung Quốc Dữ liệu chính thức có thể xác minh về tỷ lệ vô tội trong các vụ án hình sự, tỷ lệ phàn nàn, và do đó không viết tỷ lệ。
+3. **「Không có vấn đề gì khi bị mắc kẹt」**——Không chính xác, nhưng người đọc cảm thấy Nguồn Đúng vậy. Luật hình phạt quản lý an ninh》（2025 Điều 50 đã đưa ra những cáo buộc giả mạo về sự thật và bị mắc kẹt như là bất hợp pháp an ninh. Bộ luật Hình sự Điều 243 là cáo buộc phạm tội; Tuy nhiên, điều thứ ba cũng nói rằng "không có ý định lừa đảo, mà là cáo buộc sai, hoặc cáo buộc sai lệch, không áp dụng các quy định của hai điều khoản trước" để theo dõi người khác cần phải chứng minh "sự thật được chế tạo" với "sự lừa đảo có ý định" chứ không phải chứng minh "tôi không làm được", hai điều này là rất khó để chứng minh. Thứ nhất 31 Đạo luật nội dung chính Điều khoản này được viết cùng với dòng này, không quá mức hay phủ nhận.。
 
-不新开节。第 8 节原第 5 条「被指控或被传唤，先请律师，不私了、不删记录」已经覆盖了委托律师的时点、传唤时长、不得强迫自证其罪、不私了不删记录，以及诬告陷害罪和国家赔偿的存在。缺的是事前那一侧和事后的具体救济，所以按本节既有做法在末尾追加 5 条（第 29 至 33 条），并在第 5 条备注加了指向第 31、32、33 条的一句。
+## Điểm hạ cánh
 
-## 五条与各自的原文
+Không có phần mới. Thứ nhất 8 Lịch sử 5 Điều "được buộc tội hoặc bị triệu tập, trước tiên yêu cầu luật sư, không lừa dối, không xóa hồ sơ" đã bao gồm thời gian ủy quyền cho luật sư, thời gian triệu tập, không buộc tội, không lừa dối không xóa hồ sơ, và sự tồn tại của tội phạm và bồi thường quốc gia. Điều thiếu là sự trợ giúp cụ thể về phía trước và sau, vì vậy theo quy định của mục này, đã được thực hiện thêm vào cuối. 5 Điều 3 29 đến 33 (c) và (c) 5 Đạo luật Ghi chú Thêm vào mục 31、32、33 Một câu。
 
-| 条 | 来源 | 核到的关键内容 |
+## Điều 5 và bản sao của nó
+
+| Đạo luật | Nguồn | Các nội dung quan trọng |
 |---|---|---|
-| 29 | 刑法第二百三十六条（最高检转载 1997 年文本，该条未经修正案修改） | 「以暴力、胁迫或者其他手段强奸妇女的，处三年以上十年以下有期徒刑」；奸淫不满十四周岁幼女以强奸论、从重；情节恶劣或多人的处十年以上、无期或死刑 |
-| 30 | 刑法第二百七十四条（2020 年修正整合文本）；法释〔2013〕10 号 | 三档量刑与罚金；数额较大 2000–5000 元以上、数额巨大 3 万–10 万元以上、数额特别巨大 30 万–50 万元以上；二年内三次以上为「多次敲诈勒索」 |
-| 31 | 治安管理处罚法（2025 年 6 月 27 日修订，2026 年 1 月 1 日施行）第五十条；刑法第二百四十三条 | 诬告陷害处 5 日以下拘留或 1000 元以下罚款，情节较重 5 至 10 日拘留并可并处 1000 元以下罚款；诬告陷害罪 3 年以下、造成严重后果 3 至 10 年、国家机关工作人员从重；错告与检举失实不适用 |
-| 32 | 刑事诉讼法（2018 年修正）第五十五、五十六、二百、二百五十二、二百五十三条 | 定案须排除合理怀疑；非法方法取得的供述、证言、被害人陈述应当排除且各阶段发现均应排除；证据不足应作无罪判决；申诉与应当重新审判的情形 |
-| 33 | 国家赔偿法第十七、十九、三十三、三十五条；最高检 2026 年 5 月通知 | 拘留逮捕后撤案、不起诉、判无罪的可获赔；人身自由按上年度职工日平均工资算；精神损害抚慰金与消除影响恢复名誉；自己故意作虚伪供述或伪造有罪证据的国家不赔。日标准自 2026 年 5 月 18 日起 495.94 元（上一年度 475.52 元），依据是国家统计局 2026 年 5 月 15 日公布的 2025 年城镇非私营单位年平均工资 129441 元 |
+| 29 | Bộ luật Hình sự Điều 236: Đánh giá cao nhất 1997 Văn bản hàng năm, Điều này không được sửa đổi） | 「Những người đàn bà bị bạo lực, cưỡng bức hoặc các phương tiện khác, bị kết án dưới 3 năm tù giam". Những đứa con gái từ mười bốn tuổi trở đi, những đứa con gái từ bốn mươi bốn tuổi trở đi, những đứa con gái từ mười bốn tuổi trở đi, Những người có tình huống tồi tệ hoặc nhiều người hơn 10 năm, không án tử hình hoặc tử hình |
+| 30 | Bộ luật Hình sự Điều 274（2020 Cửa đổi văn bản tích hợp hàng năm); Lời giải thích〔2013〕10 Số 1 | 3 loại hình phạt và hình phạt; Số lượng lớn hơn 2000–5000 Số lượng lớn hơn. 3 Một triệu đô la–10 Hơn 1 nghìn đô la, một số lượng rất lớn 30 Một triệu đô la–50 Hơn 10.000 USD; Hơn 3 lần trong 2 năm là "sự cưỡng bức nhiều lần"」 |
+| 31 | Luật hình phạt quản lý an ninh（2025 Năm 6 Mặt trăng 27 Ngày sửa đổi，2026 Năm 1 Mặt trăng 1 Ngày có hiệu lực) Điều 50; Bộ luật Hình sự Điều 243 | Cáo cáo bị mắc kẹt 5 bị giam giữ sau ngày 1000 Các hình phạt sau đây, tình huống nặng hơn 5 đến 10 Ngày bị giam giữ và có thể bị giam giữ 1000 Các hình phạt sau đây: Thẩm án tội phạm 3 Những người trẻ tuổi có những hậu quả nghiêm trọng 3 đến 10 Năm, người lao động của cơ quan quốc gia giảm cân; Những cáo buộc sai lầm và cáo buộc sai lệch không áp dụng |
+| 32 | Luật kiện hình sự（2018 Điều 556, 566, 200, 2502, 2503 | Các trường hợp xác định phải loại bỏ những nghi ngờ hợp lý; Những lời khai, lời khai và tuyên bố của nạn nhân được lấy bằng cách bất hợp pháp phải bị loại bỏ và các phát hiện phải được loại bỏ theo từng giai đoạn; Bằng chứng thiếu hụt nên bị kết án vô tội; Các trường hợp khiếu nại và việc xét xử lại |
+| 33 | Điều 17, 19, 33 và 35 của Luật Bồi thường Quốc gia; Đánh giá cao nhất 2026 Năm 5 Thông báo hàng tháng | Cắt giữ, không truy tố, không bị buộc tội; tự do cá nhân Số tiền lương trung bình cho mỗi ngày làm việc trong năm trước; Phục hồi danh dự của những người bị tổn hại tâm thần và loại bỏ những ảnh hưởng; Các quốc gia đã cố tình làm lời khai giả mạo hoặc giả mạo bằng chứng tội lỗi sẽ không bị thiệt hại. Giới tiêu chuẩn ngày 2026 Năm 5 Mặt trăng 18 Mặt trời mọc 495.94 Năm ngoái 475.52 Tương tự là: Cục Thống kê Quốc gia 2026 Năm 5 Mặt trăng 15 Ngày công bố 2025 Tỷ lệ lương trung bình mỗi năm của các đơn vị phi tư nhân 129441 Nguyên nhân |
 
-## 取源与踩到的坑
+## Nguồn và crater
 
-- **《治安管理处罚法》2025 年修订版**：国务院政策文件库只收 2005 年原始文本（这个库不收全国人大制定的法律的新版本），最高检法律栏目也没有。最终取北京市公安局官网转载的全文（`gaj.beijing.gov.cn`），核对了修订通过日期、第五十条原文和第一百四十四条的施行日期 2026 年 1 月 1 日。按本仓库既有做法，在来源栏注明「转载全文」。
-- **刑法第二百七十四条**：最高检那份是 1997 年原始文本，该条经《刑法修正案（八）》修改（增加「多次敲诈勒索」、增设十年以上档和罚金），不能直接抄。本条沿用第 13 节裸聊敲诈那条已经用过的整合文本链接（北京市公安交管局转载），金额标准另引法释〔2013〕10 号原文（最高法官网可直连）。
-- **国家赔偿日标准**：最高检 2026 年 5 月 19 日的发布页可直连，逐字核到 495.94 元、生效日 2026 年 5 月 18 日与计算依据。这个数字每年 5 月更新，所以第 33 条备注写明「用的时候查当年的数字，别直接套本条这个」。
-- **第 29 条为什么给 B**：刑法第二百三十六条只写了「其他手段」四个字，「醉酒或昏睡状态下无法有效同意」是司法通说，本次未取得可逐字核对的现行公开解释（针对未成年人的两高两部解释不适用于成年人这一侧），所以从法条到具体情形的推论按 B 级处理，并在备注里写明这层界限。
+- **《Luật hình phạt quản lý an ninh》2025 Bản sửa đổi hàng năm**：Quốc vụ viện Thư viện chính sách chỉ được truy cập 2005 Văn bản gốc của năm (thư viện này không chứa phiên bản mới của luật do người dân quốc gia đưa ra), cũng không có danh sách pháp luật điều tra tối cao. Cuối cùng, toàn bộ văn bản được tải về từ website chính thức của Cơ quan An ninh Công cộng Bắc Kinh（`gaj.beijing.gov.cn`），Báo cáo xác nhận ngày thông qua của sửa đổi, bản gốc của Điều 50 và ngày có hiệu lực của Điều 144 2026 Năm 1 Mặt trăng 1 Ngày. Theo cách thức đã được áp dụng trong kho này, mục nguồn Đánh dấu "Tải lại toàn văn bản"」。
+- **Bộ luật Hình sự Điều 274**：Đây là bài kiểm tra cao nhất. 1997 Bài viết gốc của năm Bộ luật Hình sự Điều 8 sửa đổi: Đưa thêm "các lần cưỡng hiếp", thêm 10 lần phạt và phạt), không thể sao chép trực tiếp. Điều này được áp dụng theo 13 Cụ thể, thông tin này đã được đưa ra bởi các nhà quản lý giao thông công cộng của thành phố Bắc Kinh.〔2013〕10 Có thể truy cập trực tiếp vào website của Tòa án Tối cao）。
+- **tiêu chuẩn ngày bồi thường quốc gia**：Đánh giá cao nhất 2026 Năm 5 Mặt trăng 19 Các trang phát hành ngày có thể được liên kết trực tiếp, theo từng chữ đến 495.94 Ngày có hiệu lực 2026 Năm 5 Mặt trăng 18 Ngày và tính toán dựa trên. Số này mỗi năm. 5 Tháng cập nhật, vì vậy 33 Đạo luật Ghi chú Ông viết: "Để xem số trong năm khi sử dụng, đừng sử dụng điều này trực tiếp.」。
+- **Thứ nhất 29 Điều khoản tại sao cho B**：Bộ luật Hình sự Điều 236 chỉ viết "các phương tiện khác" bốn từ, "không thể đồng ý hiệu quả trong tình trạng say hoặc buồn ngủ" là một tuyên bố của tư pháp, và lần này không có sự giải thích công khai hiện tại có thể được xác nhận một cách cụ thể. B được xử lý, và Ghi chú Trong đó có một giới hạn rõ ràng.。
 
-## 同步改的计数与文件
+## Số liệu và tài liệu đồng bộ
 
-- `README.md`：问题索引表加一行（被指控与被诬告）；第 8 节的章节描述补「被指控与被诬告后的救济、以举报相要挟的敲诈」；条目数 462 → **467**，证据等级 → **A 299·B 119·C 49**，链接数 881 → **889**，性价比 → **83（18%）/ 233（50%）/ 151（32%）**；「怎么读」里的 295 条 → 299 条、81 条 → 83 条。
-- `index.html`：meta / og / twitter description、JSON-LD 的 `numberOfPages`、页内「全书 30 节 462 条」全部对齐（节数不变）。
-- `tools/og.html` 与 `og.png`：三个数字改完后重新截图。
-- `CLAUDE.md`：第 8 节的目录说明补这条救济链。
-- `book/08-dung-de-ban-than-roi-vao-bay-nguy-hiem.md`：第 5 条备注加了指向第 31、32、33 条的一句。
+- `README.md`：Chỉ số vấn đề được thêm một dòng ((được buộc tội và bị buộc tội); Thứ nhất 8 Phần của chương này mô tả thêm "sự cưỡng hiếp giữa những kẻ bị cáo buộc và những người bị cáo buộc sau khi bị cáo buộc". mục Số lượng 462 → **467**，Mức độ bằng chứng → **A 299·B 119·C 49**，Số liên kết 881 → **889**，Giá cả giới tính → **83（18%）/ 233（50%）/ 151（32%）**；「Làm thế nào để đọc? 295 Đạo luật → 299 Đạo luật、81 Đạo luật → 83 Đạo luật。
+- `index.html`：meta / og / twitter description、JSON-LD của `numberOfPages`、Trang "Tất cả sách" 30 Chương 3 462 Điều "Tất cả đều phù hợp"）。
+- `tools/og.html` Với `og.png`：3 chữ số được chụp lại sau khi thay đổi。
+- `CLAUDE.md`：Thứ nhất 8 Thư mục của chương trình giải thích chuỗi cứu trợ này。
+- `book/08-dung-de-ban-than-roi-vao-bay-nguy-hiem.md`：Thứ nhất 5 Đạo luật Ghi chú Thêm vào mục 31、32、33 Một câu。
 
-计数复核方式同前两节，按 index.html 的 `parse()` 同规则重算全书：条目 467、A 299·B 119·C 49、极高 83·高 233·一般 151、`- 来源：`与`- 备注：`行内 http(s) 链接 889，两组合计均等于 467。
+Phân tích tính toán cũng giống như hai đoạn trước, theo: index.html của `parse()` Đánh giá lại toàn bộ sách theo các quy tắc： mục 467、A 299·B 119·C 49、Tối cao 83·cao 233·Thông thường 151、`- Nguồn：`Với`- Ghi chú：`Nhập vào http(s) Liên kết 889，Cả hai kết hợp đều bằng 467。
 
-## 追加：第 34 条与郭利案（同日，读者提出「有个男的索赔奶粉被抓」）
+## Lưu ý: 34 Cùng ngày với vụ Guo Li, người đọc đã đưa ra một tuyên bố: "Một người đàn ông yêu cầu bột sữa được bắt.」）
 
-读者说的是郭利案（涉事品牌是「施恩」，不是三鹿本身；两者都属 2008 年三聚氰胺事件）。这个案子暴露了本轮第 30 条的一个盲区：第 30 条写的是「对方拿把柄向你索财按敲诈勒索处理」，照字面读会让人以为「索赔要价高 = 敲诈」，而郭利案的官方结论正好相反。因此追加第 34 条，并回填第 30、33 两条的备注。
+Người đọc nói rằng trường hợp Guo Li là thương hiệu liên quan là "Thanh" chứ không phải là ba con khỉ. Cả hai đều là 2008 Cụ thể, sự cố polyamide năm 3... Vụ án này đã tiết lộ 30 Một khu vực mù: 30 Điều đó viết rằng "người khác dùng tay của mình để lấy tiền của bạn để xử lý bằng cách cưỡng hiếp" và đọc theo nghĩa đen sẽ khiến người ta nghĩ rằng "sự yêu cầu sẽ có giá cao". = Trong khi đó, các quan chức đã đưa ra kết luận chính thức về vụ Quo Li là ngược lại. Do đó, thêm 34 Địa chỉ: 30、33 2 bài viết Ghi chú。
 
-核到的官方原文：
+Bản gốc chính thức：
 
-- **广东省人民检察院再审建议**（河源市人民检察院转载，`jcy.heyuan.gov.cn/node/142`；广东省检察院原站 `gd.jcy.gov.cn` 本机 TLS 证书验证失败，故引转载页并在来源栏注明）：郭利之女检查结果「双肾中央集合系统内可见数个点状强回声」；2009 年 6 月双方达成协议，施恩公司补偿 40 万元，郭利出具书面材料表示不再追诉并放弃赔偿要求；此后公司报案，潮安县人民法院以敲诈勒索罪判处有期徒刑五年。检察机关的三句理由逐字引入正文：「现有证据不足以证实郭利主观上具有非法占有的目的」「有权利向奶粉的生产厂家索赔，其索赔行为有法律依据」「消费者对损害其合法权益的行为，有权通过大众传播媒介予以揭露、批评」。2017 年 4 月 7 日广东省高级人民法院再审宣告无罪。
-- **国家赔偿决定书**（广东法院网裁判文书选登，广东省高级人民法院赔偿委员会（2018）粤委赔 11 号）：再审改判理由原句「原审认定郭利以非法占有为目的，使用威胁、要挟的方法，强行索取财物行为的事实不清，证据不足，郭利的行为性质未超出民事纠纷的范畴」；羁押 2009 年 7 月 23 日至 2014 年 7 月 22 日共 1826 天；按 2016 年度全国职工日平均工资 258.89 元计算人身自由赔偿金 472733.14 元；精神损害抚慰金 165450 元；郭利提出的十年精神损害抚慰金 8888 万元等请求超出部分不予支持，误工费、生命健康权赔偿、财产损失、律师费、看守所生活费补贴等被认定为不属于国家赔偿的法定范围。
+- **Nghị quyết của Công tố viên Nhân dân tỉnh Quảng Đông**（Văn phòng công tố dân tộc thành phố Riyadh，`jcy.heyuan.gov.cn/node/142`；Trạm chính của Công tố viên tỉnh Quảng Đông `gd.jcy.gov.cn` Tự động TLS Bằng chứng không thành công, do đó chuyển trang và mục nguồn Lưu ý: Kết quả kiểm tra phụ nữ của Guo Li cho thấy một số âm thanh mạnh mẽ trong hệ thống tập trung trung hai con」；2009 Năm 6 Hai bên đã đạt được thỏa thuận để đền bù cho công ty từ thiện 40 Trong khi đó, ông đã đưa ra các tài liệu văn bản cho biết ông không truy tố và từ bỏ yêu cầu bồi thường. Sau đó, công ty đã đưa tin rằng Tòa án Nhân dân Tâm An bị kết án 5 năm tù giam vì tội lừa đảo. Các cơ quan công tố đưa ra ba lý do theo từng chữ nội dung chính "Các bằng chứng hiện có không đủ để chứng minh rằng Guo Li chủ quan có mục đích sở hữu bất hợp pháp". "Các yêu cầu đối với các nhà sản xuất bột sữa có quyền, các yêu cầu của họ có cơ sở pháp lý". "Các hành động gây tổn hại đến lợi ích hợp pháp của họ, quyền của người tiêu dùng để tiết lộ và phê bình thông qua phương tiện truyền thông đại chúng.」。2017 Năm 4 Mặt trăng 7 Tòa án Nhân dân cao cấp tỉnh Quảng Đông tuyên bố không có tội。
+- **Sách quyết định bồi thường quốc gia**（Văn bản thẩm phán trực tuyến của Tòa án Quảng Đông được bầu, Ủy ban Khả năng của Tòa án Nhân dân cao cấp Quảng Đông（2018）Động thái của Ủy ban 11 N°): Khi xét lại nguyên lý: "Vụ án ban đầu đã xác định rằng Guoli có mục đích chiếm hữu bất hợp pháp, sử dụng các phương pháp đe dọa, cản trở, không rõ thực tế về hành vi đòi tài sản, không có bằng chứng đầy đủ, bản chất hành vi của Guoli không vượt ra khỏi phạm vi tranh chấp dân sự"; Bị bắt giữ 2009 Năm 7 Mặt trăng 23 Ngày tới ngày 2014 Năm 7 Mặt trăng 22 Nhật Bản 1826 Trời, Theo: 2016 Mức lương trung bình mỗi ngày của công nhân quốc gia 258.89 Xét số tự do cá nhân Trả tiền 472733.14 Nguyên nhân: Sự tổn thương tâm thần 165450 Nguyên nhân: Nguyên bố của ông Guo Li về tiền trợ cấp tâm lý trong 10 năm 8888 Các yêu cầu vượt quá một phần không được hỗ trợ, tiền lương sai lầm, bảo hiểm quyền sức khỏe cuộc sống, thiệt hại tài sản, tiền luật sư, trợ cấp bảo hộ được xác định là không nằm trong phạm vi pháp lý của bảo hiểm quốc gia.。
 
-写作决定：
+Quyết định viết：
 
-- **第 34 条给 B**，因为它是单个案例而不是可推广的比例。它同时证明两件事——索赔本身合法，以及仍然可能被立案——正文和备注都写明了这一点，不把「无罪」写成必然结果。
-- **读者转述里的两处细节没有写进正文**：一是「年薪几十万、腿瘸了、老婆也没了」这类个人境况，官方文书里没有可逐字核对的记载；二是「三鹿让他过去，过去就被抓了」的具体经过，检察院通报只写了「公司报案后郭利被抓获」，所以正文只保留「对方约你去他所在地面谈时要留意，报案和立案通常发生在对方所在地」这一句可操作的提示，不复述细节。
-- **第 33 条备注补了这个案子的实际算法**，因为它说明了两件容易误解的事：日标准用的是作出赔偿决定时适用的年度标准（羁押结束于 2014 年，用的却是 2016 年度的 258.89 元），以及国家赔偿的法定范围不含误工费、律师费和财产损失。
+- **Thứ nhất 34 Đọc cho B**，Vì nó là một trường hợp riêng lẻ chứ không phải là tỷ lệ có thể được quảng bá. Nó cũng chứng minh rằng hai điều này là hợp pháp và vẫn có thể bị kiện. nội dung chính và Ghi chú Và tất cả chúng ta đều viết ra điều này rõ ràng, không viết "không tội" như là một kết quả nhất định.。
+- **Hai chi tiết trong bản dịch của người đọc không được viết nội dung chính**：Một là những tình huống cá nhân như: "Những trăm ngàn người được trả lương mỗi năm, đôi chân bị ngã, vợ cũng không còn", mà không có ghi chép nào có thể xác nhận bằng chữ trong tài liệu chính thức; Thứ hai là thông tin cụ thể về "Thứ con khỉ đã đưa anh ta qua, đã bị bắt trước đây", và thông báo của công tố viên chỉ viết rằng "Goo Li bị bắt sau khi báo cáo của công ty". nội dung chính Chỉ cần giữ một gợi ý có thể hoạt động: "Hãy chú ý khi người khác nói chuyện với bạn trên mặt đất, các vụ việc và vụ kiện thường xảy ra ở nơi người khác", và không nhắc lại chi tiết.。
+- **Thứ nhất 33 Đạo luật Ghi chú Điều này hoàn thiện các thuật toán thực tế của trường hợp này.**，Vì nó cho thấy hai điều dễ hiểu sai lầm: tiêu chuẩn ngày được sử dụng là tiêu chuẩn hàng năm áp dụng khi đưa ra quyết định bồi thường 2014 năm, nhưng sử dụng 2016 Năm 258.89 Các khoản bồi thường của quốc gia không bao gồm tiền lương sai, phí luật sư và thiệt hại tài sản.。
 
-追加后的计数：条目 **468**、A 299·B **120**·C 49、极高 83·高 **234**·一般 151、链接 **891**，README 徽章与正文段、index.html 的 meta/OG/JSON-LD 与页内计数、tools/og.html 与 og.png 均已重新对齐。
+Số lượng tiếp theo: mục **468**、A 299·B **120**·C 49、Tối cao 83·cao **234**·Thông thường 151、Liên kết **891**，README Bộ huy chương và nội dung chính Bài viết、index.html của meta/OG/JSON-LD Số lượng trong trang、tools/og.html Với og.png Tất cả đã được sắp xếp lại。

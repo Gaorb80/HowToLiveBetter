@@ -1,6 +1,6 @@
 [← Quay lại mục lục](../README.md)
 
-# Cơ thể nhận biết thời gian thế nào, và vì sao làm ca đêm lại tàn phá sức khỏe
+# Đồng hồ sinh học và ca đêm
 
 Đây là bài viết phân tích chuyên sâu cho Mục 40 Chương 2 (Làm ca đêm càng lâu, nguy cơ bệnh tim mạch càng cao). Mục trong sách chỉ tính toán bài toán chi phí - lợi ích, bài viết này giải thích cơ chế khoa học đằng sau.
 

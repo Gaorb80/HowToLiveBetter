@@ -1,51 +1,53 @@
-# 追加：第 5 节第 40 到 45 条，保险
+# Hồ sơ kiểm chứng: Sáu mục bảo hiểm — 5, 40, 45
 
-2026-09-29。用户问「到底有没有必要买保险」。全书原来已经有五条讲具体险种：第 5 节第 25、26 条，第 7 节第 20 条，第 21 节第 4 条，第 17 节第 6 条。缺的是两样：一条总纲说什么该买、什么不该买；再有几条买之前、出事后的动作。六条都补在第 5 节末尾，没有插在中间，后面的条号不顺延。
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
 
-## 1. 保险法（2015 修正）
-- URL：<https://flk.npc.gov.cn/detail?id=2c909fdd678bf17901678bf7c4060811>。按国家法律法规数据库 API 查，sxx=3（有效），公布和施行日期都是 2015-04-24，docx 全文逐字核对。
-- 第十五条：保险合同成立后，投保人可以解除合同。
-- 第十六条：如实告知。第三款写着「自合同成立之日起超过二年的，保险人不得解除合同；发生保险事故的，保险人应当承担赔偿或者给付保险金的责任」。第四款写着故意不告知的，合同解除前的事故不赔，保费不退。这条放进了第 7 节第 20 条备注。
-- 第二十六条：人寿保险以外的保险，诉讼时效二年；人寿保险五年。都「自其知道或者应当知道保险事故发生之日起计算」。
-- 第三十三、三十四条：给无民事行为能力人投保死亡保险的限制，未成年子女除外，但给付总和不得超过限额。以死亡为给付条件的合同要经被保险人同意并认可保额。
-- 第三十九、四十一、四十二条：受益人指定、变更，以及保险金作为遗产的三种情形和同一事件死亡推定受益人在先。
-- 第四十七条：投保人解除合同，保险人 30 日内退还现金价值。
+2026-09-29。Người dùng hỏi: "Bạn có cần phải mua bảo hiểm không?" Trong cuốn sách này, đã có 5 bài viết về các loại nguy hiểm cụ thể: 5 Chương 3 25、26 Điều 3 7 Chương 3 20 Điều 3 21 Chương 3 4 Điều 3 17 Chương 3 6 Định luật: Có hai yếu tố thiếu sót: một bản tóm tắt về những gì nên mua và những gì không nên mua; Một số hành động trước và sau khi mua. Tất cả 6 điều này đều được bổ sung vào 5 Kết thúc câu, không đính vào giữa, số chữ sau không liên tục。
 
-## 2. 保险法司法解释（三）（2020 修正）
-- URL：<https://flk.npc.gov.cn/detail?id=ff808181799df4000179ac03d7f21115>，sxx=3，2021-01-01 施行。
-- 第九条第二款第三项：「约定的受益人包括姓名和身份关系，保险事故发生时身份关系发生变化的，认定为未指定受益人。」
-- 第十条第二款：变更受益人未通知保险人，保险人主张变更对其不发生效力的，法院支持。
+## 1. Luật bảo hiểm（2015 sửa đổi）
+- URL：<https://flk.npc.gov.cn/detail?id=2c909fdd678bf17901678bf7c4060811>。Cơ sở dữ liệu pháp luật và quy định quốc gia API Đánh giá，sxx=3（Có hiệu lực), thông báo và ngày hiệu lực 2015-04-24，docx Đăng ký toàn văn bản từng chữ。
+- Điều 15: Sau khi hợp đồng bảo hiểm được ký kết, nhà đầu tư có thể hủy hợp đồng。
+- Điều 16: Thông báo chính xác. Điều 3 viết: "Người bảo hiểm không thể hủy hợp đồng hơn hai năm kể từ ngày hợp đồng được thành lập; Trong trường hợp xảy ra tai nạn bảo hiểm, người bảo hiểm phải chịu trách nhiệm bồi thường hoặc trả tiền bảo hiểm". Điều 4 viết rằng không có thông báo cố tình, không bị thiệt hại trong tai nạn trước khi hợp đồng bị hủy, không bị bảo hiểm trả lại. Điều này được đưa vào 7 Chương 3 20 Đạo luật Ghi chú。
+- Điều 26 Đáp lại: Bảo hiểm ngoài bảo hiểm nhân thọ, thời hạn kiện là hai năm; 5 năm bảo hiểm nhân thọ. "Từ khi họ biết hoặc nên biết về ngày xảy ra tai nạn bảo hiểm」。
+- Điều 33-34: Giới hạn bảo hiểm tử vong đối với những người không có khả năng hành vi dân sự, ngoại trừ trẻ em vị thành niên, nhưng tổng số không được vượt quá giới hạn. Thỏa thuận để trả tiền cho cái chết phải được chấp thuận và chấp nhận bởi người bảo hiểm。
+- Điều 349, 41, 42: người hưởng lợi Định danh, thay đổi, và ước tính tử vong trong ba trường hợp và cùng một sự kiện của tiền bảo hiểm như là di sản người hưởng lợi Đầu tiên。
+- Điều 47: Nhà đầu tư bảo hiểm hủy hợp đồng, nhà bảo hiểm 30 Giá trị tiền mặt trong ngày。
 
-## 3. 商业银行代理保险业务管理办法（银保监办发〔2019〕179 号）
-- URL：<https://www.gov.cn/zhengce/zhengceku/2019-12/03/content_5457853.htm>，2019-10-01 施行。
-- 第三十条：单证和宣传材料不得出现「存款」「储蓄」「与银行共同推出」等字样。
-- 第三十一条：封面不小于 72 号字标明「保险合同」，不小于二号字标明保险公司名称。
-- 第三十二条：年收入低于当地居民人均可支配收入、年龄超过 65 周岁，或期缴产品投保人超过 60 周岁，原则上卖保单利益确定的产品，不得系统自动核保现场出单。
-- 第三十六条：保险期间超过一年的，约定 15 日犹豫期，自投保人收到保单并书面签收之日起算。
-- 第四十二条：不得允许保险公司人员在银行营业场所销售。
-- 第四十九条：不得与储蓄存款等混淆销售、简单类比、把不确定收益承诺为保证收益。
-- 第六十七、六十八条：犹豫期提示语原文；「15日」指自然日。
+## 2. Luật bảo hiểm pháp lý giải thích 3）（2020 sửa đổi）
+- URL：<https://flk.npc.gov.cn/detail?id=ff808181799df4000179ac03d7f21115>，sxx=3，2021-01-01 Thực hiện。
+- Điều 9 Điều 2 Điều 3: "Được thỏa thuận" người hưởng lợi Bao gồm tên và liên quan đến danh tính, sự thay đổi liên quan đến danh tính khi xảy ra tai nạn bảo hiểm, được xác định là không xác định người hưởng lợi。」
+- Điều 10 Chương 2: Thay đổi người hưởng lợi Không thông báo cho người bảo hiểm, người bảo hiểm tuyên bố thay đổi không có hiệu lực, tòa án ủng hộ。
 
-## 4. 其他规章
-- 健康保险管理办法（银保监会令 2019 年第 3 号）第十五条：长期健康险犹豫期不得少于 15 天。<https://www.gov.cn/zhengce/zhengceku/2019-12/04/content_5458542.htm>
-- 人身保险业务基本服务规定（保监会令 2010 年第 4 号）第十五条：犹豫期内对一年以上新单回访，回访内容含退保损失和犹豫期权利。<http://www.gov.cn/gongbao/content/2010/content_1702219.htm>
-- 一年期以上人身保险产品信息披露规则（银保监规〔2022〕24 号）：产品说明书要列明犹豫期起算时间、天数和权利。<https://www.gov.cn/zhengce/zhengceku/2023-01/04/content_5735014.htm>
-- 关于规范短期健康保险业务有关问题的通知（银保监办发〔2021〕7 号）：个人短期健康险综合赔付率每半年在公司官网披露，并给了计算公式。<https://www.gov.cn/zhengce/zhengceku/2021-01/12/content_5579193.htm>
-- 人身保险公司保险条款和保险费率管理办法（保监会令 2011 年第 3 号）第八条定义定期寿险、终身寿险，第十二条定义意外伤害保险。<http://www.gov.cn/gongbao/content/2012/content_2163594.htm>。这份办法 2015 年有修订，本轮只核了 2011 年原文，定义条是否改过没有核。
+## 3. Cách quản lý hoạt động bảo hiểm đại diện của ngân hàng thương mại〔2019〕179 Số 1）
+- URL：<https://www.gov.cn/zhengce/zhengceku/2019-12/03/content_5457853.htm>，2019-10-01 Thực hiện。
+- Điều 30: Các giấy chứng nhận và tài liệu quảng cáo không được xuất hiện trong các từ như "tạp tiền", "tạp tiền tiết kiệm", "được phát hành chung với ngân hàng".。
+- Điều 31: Không nhỏ hơn 72 chữ số ký hiệu " hợp đồng bảo hiểm" và không nhỏ hơn chữ số hai ký hiệu tên của công ty bảo hiểm。
+- Điều 32: Thu nhập hàng năm thấp hơn thu nhập thịnh vượng của người dân địa phương, lớn hơn tuổi 65 Sinh nhật, hoặc tuổi thọ của người bảo hiểm sản phẩm 60 Ngày sinh nhật, nguyên tắc bán sản phẩm xác định lợi ích bảo hiểm, không được đặt hàng tại chỗ tự động bảo hiểm hạt nhân hệ thống。
+- Điều 36: Thời hạn bảo hiểm dài hơn một năm, thỏa thuận 15 Thời gian ngần ngại, tính từ ngày người tự bảo hiểm nhận được bảo hiểm và chữ ký bằng văn bản。
+- Điều 42: Không cho phép nhân viên của công ty bảo hiểm bán hàng tại nơi hoạt động của ngân hàng。
+- Điều 49: Không được nhầm lẫn với bán hàng, so sánh đơn giản, không chắc chắn như tiền lưu trữ Lợi ích Thỏa thuận để đảm bảo Lợi ích。
+- Điều 67 và 68: Thời kỳ ngần ngại；「15 Ngày" là ngày tự nhiên。
 
-## 5. 代理退保的风险提示
-- 五部门联合风险提示（2026-02-06）：从中央网信办官网转载页逐字取，<https://www.cac.gov.cn/2026-02/06/c_1772110875635198.htm>。原文有「“全额退保”……等均属不实信息」「不仅可能支付高额服务费，如欲中途退出，甚至可能因“违约”而陷入官司」，以及收集手机卡、银行卡、保单、家庭住址、子女就读学校等信息。
-- 宁夏金融监管局（2026-06-16）：nfra.gov.cn 分局页面是前端渲染，用无头 Chrome 取的正文。原文有「约定在退保成功后收取退保金额30%至50%的高额代理费」「可拨打12378银行保险消费者投诉维权热线……该渠道全程免费」，还有减额交清、保单贷款、暂停缴费等保全服务，以及可能涉嫌违反治安管理处罚法、诬告陷害或敲诈勒索共同犯罪。
-- 湖南金融监管局（2025-07-23）：同样用无头 Chrome 取。里面是张女士退保 3 个月后确诊乳腺癌的案例。它写的代理费是「20% - 50%甚至更多」，和宁夏的口径不同，条目用了宁夏的 30% 到 50%。
+## 4. Các quy định khác
+- Các biện pháp quản lý bảo hiểm y tế 2019 Năm thứ 1 3 Điều 15: Thời gian ngần ngại về sức khỏe lâu dài không thể ít hơn 15 Thiên Đàng。<https://www.gov.cn/zhengce/zhengceku/2019-12/04/content_5458542.htm>
+- Quy định về các dịch vụ cơ bản trong kinh doanh bảo hiểm cá nhân 2010 Năm thứ 1 4 Điều 15: Các chuyến thăm duy nhất mới hơn một năm trong thời gian ngần ngại, nội dung trong chuyến thăm này bao gồm tiền bảo hiểm mất và quyền ngần ngại。<http://www.gov.cn/gongbao/content/2010/content_1702219.htm>
+- Quy tắc tiết lộ thông tin sản phẩm bảo hiểm cá nhân dài hơn một năm〔2022〕24 Số: Chỉ thị sản phẩm phải liệt kê thời gian, ngày và quyền bắt đầu thời gian ngần ngại。<https://www.gov.cn/zhengce/zhengceku/2023-01/04/content_5735014.htm>
+- Thông báo về các vấn đề về quy định kinh doanh bảo hiểm y tế ngắn hạn〔2021〕7 Số: Số tiền bảo hiểm sức khỏe ngắn hạn của cá nhân được công bố mỗi nửa năm trên trang web của công ty và đưa ra công thức tính toán。<https://www.gov.cn/zhengce/zhengceku/2021-01/12/content_5579193.htm>
+- Điều khoản bảo hiểm của công ty bảo hiểm cá nhân và cách quản lý phí bảo hiểm 2011 Năm thứ 1 3 (Tạm dịch: Điều 8 Định nghĩa bảo hiểm nhân thọ thường xuyên, bảo hiểm nhân thọ suốt đời, Điều 12 Định nghĩa bảo hiểm thiệt hại bất ngờ。<http://www.gov.cn/gongbao/content/2012/content_2163594.htm>。Cách này 2015 Năm đã được sửa đổi, chiếc xe này chỉ là hạt nhân 2011 Nguyên tắc không hạt nhân có thay đổi không。
 
-## 没有写的
-- 未成年人死亡保额的具体限额：网上流传的「不满 10 周岁 20 万元、10 到 18 周岁 50 万元」出自保监会 2015 年的通知。本轮只在保险公司官网转载页见到，没找到政府站原文，条目只写「有限额」。
-- 「银行渠道 20% 家庭年收入、趸交 4 倍」这类保费占收入比例：检索结果只指向商业机构的转载，没有核到监管原文，没写。
-- 各类保险的具体价格：没有官方统计。第 41 条成本栏写的是「作者粗估，无官方数字」。
+## 5. Thông báo về rủi ro của đại lý bảo hiểm
+- Gợi ý về rủi ro chung của 5 lĩnh vực（2026-02-06）：Bài viết này được trích từ trang web chính thức của Cơ quan Tài chính Trung ương.，<https://www.cac.gov.cn/2026-02/06/c_1772110875635198.htm>。Nguồn gốc: "Tổng số bảo hiểm"”……Những thông tin khác là "không chỉ có khả năng trả phí dịch vụ cao, bỏ đi, hoặc thậm chí có thể bị đưa vào tòa án vì sai trái" và thu thập thông tin về thẻ điện thoại di động, thẻ ngân hàng, chính sách, địa chỉ gia đình, trường học của con cái.。
+- Cơ quan quản lý tài chính của Ningxia（2026-06-16）：nfra.gov.cn Các trang phân vùng được chiếu ở phía trước, không có đầu Chrome lấy nội dung chính 。 Bản gốc có "được thỏa thuận thu về tiền bảo hiểm sau khi bảo hiểm thành công". 30%đến 50%"Bạn có thể gọi điện" 12378 Người tiêu dùng bảo hiểm ngân hàng khiếu nại……Tất cả các hoạt động trên kênh này là miễn phí", cũng như các dịch vụ bảo hiểm như thanh toán chiết khấu, khoản vay bảo hiểm, tạm dừng thanh toán, và có thể bị nghi ngờ vi phạm luật hình phạt quản lý an ninh, cáo buộc mắc kẹt hoặc lừa đảo các tội chung.。
+- Cơ quan quản lý tài chính Hunan（2025-07-23）：Và không có đầu. Chrome Đưa đi. Trong đó có bà Zhang được bảo hiểm. 3 Bệnh ung thư vú được xác định một tháng sau. Nó viết rằng phí đại lý là「20% - 50%và nhiều hơn nữa". tiêu chí đánh giá Không giống nhau. mục Giới thiệu: 30% đến 50%。
 
-## 收益量级与证据等级
-- 第 40 条定 C、收益中：这是取舍的办法，不是某个可量化的收益。
-- 第 41 条定 C、收益大：保额在数十万元级，按金钱口径套「万元级」算大。沿用第 29 节第 13 条的口径。
-- 第 42 条定 A、收益中：期限和退还金额都有明文。能省下的是交的保费和现金价值之差，没有官方统计，按常见的数百到数千元取中。
-- 第 43、44 条定 B、收益中：规定写得清楚，但没有亏损金额的统计。
-- 第 45 条定 A、收益大：条文明确，保额在数十万元级。
+## Không được viết
+- Những giới hạn cụ thể về bảo hiểm tử vong của trẻ vị thành niên: "Sự bất mãn" trên mạng 10 Sinh nhật 20 Mán đô la、10 đến 18 Sinh nhật 50 "Mán Yên" từ Cảnh sát 2015 Thông báo năm: Những chiếc xe này chỉ được tìm thấy trên trang web chính thức của công ty bảo hiểm và không tìm thấy bản gốc của trang web của chính phủ. mục Chỉ cần viết "được giới hạn"」。
+- 「Các kênh ngân hàng 20% Thu nhập hàng năm của gia đình 4 Cần gấp đôi" các loại bảo hiểm này chiếm tỷ lệ thu nhập: kết quả thu hồi chỉ hướng đến chuyển nhượng của các tổ chức thương mại, không kiểm tra bản gốc quản lý, không viết。
+- Giá cụ thể của các loại bảo hiểm: Không có thống kê chính thức. Thứ nhất 41 Đạo luật Chi phí Ông viết: "Các tác giả không đánh giá cao, không có số liệu chính thức.」。
+
+## mức độ lợi ích Với Mức độ bằng chứng
+- Thứ nhất 40 Định luật C、Lợi ích Trung: Đây là một cách để hy sinh, không phải là một cách để đo lường Lợi ích。
+- Thứ nhất 41 Định luật C、Lợi ích Lớn: Số tiền bảo hiểm hàng trăm nghìn USD, theo số tiền tiêu chí đánh giá Đơn vị "hàng đồng" là lớn hơn. Sử dụng 29 Chương 3 13 Đạo luật tiêu chí đánh giá。
+- Thứ nhất 42 Định luật A、Lợi ích Trung: Thời hạn và số tiền hoàn lại đều được ghi rõ ràng. Những gì có thể được tiết kiệm là sự khác biệt về giá trị bảo hiểm và tiền mặt được thanh toán, không có số liệu thống kê chính thức, theo hàng trăm đến hàng ngàn đô la bình thường.。
+- Thứ nhất 43、44 Định luật B、Lợi ích Trung: Quy định được viết rõ ràng nhưng không có số liệu thống kê về khoản lỗ。
+- Thứ nhất 45 Định luật A、Lợi ích Người lớn: Đúng vậy, mức bảo hiểm là hàng trăm ngàn yuan。
