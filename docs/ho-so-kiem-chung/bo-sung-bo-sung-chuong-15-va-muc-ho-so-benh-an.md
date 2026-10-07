@@ -1,0 +1,34 @@
+# Hồ sơ kiểm chứng: Bổ sung chương 15 và mục hồ sơ bệnh án — 2, 24
+
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
+
+Ngày xác minh：2026-09-07。Tất cả sách 344 → 346 Đạo luật: Thứ nhất 24 Chương 3 6 Đạo luật C cấp độ: Nguồn TODO）Trở thành A cấp độ。
+
+**Đây cũng là một trong những giải đấu được thực hiện cùng lúc.ho-so-kiem-chungMột trong những sai lầm。** Đây là một chiếc xe đạp. Quốc vụ viện Các quy định về việc quản lý hồ sơ bệnh tại các cơ sở y tế đã trở lại trống rỗng.
+[bo-sung-benh-man-tinh-bao-hiem-cham-soc-dai-han-va-quyen-du-lieu-ca-nhan.md](bo-sung-benh-man-tinh-bao-hiem-cham-soc-dai-han-va-quyen-du-lieu-ca-nhan.md) và [24-25-kham-benh-va-viec-sau-khi-qua-doi.md](24-25-kham-benh-va-viec-sau-khi-qua-doi.md)
+Nó viết: "Không". Quốc vụ viện Trong thư viện tài liệu chính sách". Kết luận này là sai, bởi vì các tham số thu hồi được sử dụng. `searchfield=title|default`——Đưa nó lên `default` Tôi sẽ... nội dung chính Các tài liệu kế hoạch sống được trộn vào và tháo ra tiêu đề Kết quả xác định. Chuyển đổi `searchfield=title` Sau đó, tất cả bốn tài liệu đều bị tấn công cùng một lúc.。 Các kết luận liên quan đến hành vi trong hai hồ sơ này được bãi bỏ, theo quy định của tài liệu này.。
+
+---
+
+## 1 - Bản gốc được xác minh từng đoạn
+
+| Nguồn | Bản gốc được xác minh | Đi đâu? |
+| --- | --- | --- |
+| 《Điều khoản phòng ngừa và xử lý tranh chấp y tế Quốc vụ viện Đánh giá 701 Số 1）<https://www.gov.cn/zhengce/zhengceku/2018-08/31/content_5318057.htm> | Điều 15 "Các cơ quan y tế và nhân viên y tế của họ phải tuân thủ Quốc vụ viện Các quy định của cơ quan quản lý y tế, lấp đầy và lưu giữ đúng hồ sơ bệnh nhân. "Bất kỳ đơn vị và cá nhân nào cũng không được giả mạo, giả mạo, che giấu, tiêu diệt hoặc cướp thông tin về bệnh nhân. Điều 16 "Người bệnh có quyền xem xét, sao chép hồ sơ khám bệnh, hồ sơ nhập viện, hồ sơ nhiệt độ, hồ sơ y tế, hồ sơ xét nghiệm, báo cáo kiểm tra), thông tin kiểm tra hình ảnh y tế, giấy đồng ý kiểm tra đặc biệt, giấy đồng ý phẫu thuật, hồ sơ phẫu thuật và tê liệt, hồ sơ bệnh lý, hồ sơ chăm sóc, chi phí y tế và Quốc vụ viện Tất cả các thông tin khác liên quan đến hồ sơ bệnh tật được quy định bởi cơ quan y tế. "Những bệnh nhân yêu cầu sao chép hồ sơ bệnh nhân, cơ quan y tế phải cung cấp dịch vụ sao chép và dán dấu chứng minh trên hồ sơ bệnh nhân sao chép. Khi sao chép hồ sơ bệnh nhân, bệnh nhân hoặc người thân gần gũi của họ phải có mặt. Các cơ quan y tế có thể thu phí lao động theo yêu cầu của bệnh nhân để sao chép hồ sơ bệnh nhân của họ, và tiêu chuẩn lệ phí phải được công bố. "Những người thân cận của bệnh nhân đã qua đời có thể xem và sao chép hồ sơ bệnh nhân theo quy định của quy định này.。」 | Thứ nhất 24 Chương 3 6 Lưu ý:） |
+| 《Quy định quản lý hồ sơ bệnh tại các cơ sở y tế（2013 Phiên bản năm）》<http://www.gov.cn/gongbao/content/2014/content_2600084.htm> | 「Cơ quan y tế phải chỉ định các bộ phận hoặc nhân viên đặc biệt chịu trách nhiệm chấp nhận các hồ sơ bệnh nhân sao chép. "Copy lại khi người nộp đơn có mặt; Các hồ sơ bệnh nhân được sao chép được xác nhận là không sai bởi cả người nộp đơn và cơ quan y tế. "Các cơ quan y tế có thể sao chép hồ sơ bệnh nhân, có thể thu phí làm việc theo quy định. "Các loại hồ sơ bệnh nhân khác có thể được sao chép, bao gồm thông tin kiểm tra hình ảnh y tế, báo cáo bệnh nhân, báo cáo kiểm tra, v.v. | Tương tự |
+| 《Các nhà môi giới quản lý bất động sản: Ủy ban Phát triển và Cải cách Bộ nhân sự cho biết 8 Số 1，2016 Năm thứ 1 29 Đạo luật sửa đổi）<http://www.gov.cn/gongbao/content/2011/content_1918920.htm> | Điều 24: "Các bên tham gia giao dịch bất động sản được ký kết bởi cơ quan môi giới bất động sản để trả tiền thay thế cho giao dịch, phải phân phối các khoản giao dịch thông qua tài khoản lưu trữ riêng của tài khoản thanh toán giao dịch khách hàng được mở tại ngân hàng của cơ quan môi giới bất động sản". Điều 18: Dịch vụ môi giới bất động sản áp dụng hệ thống đánh giá mã thông minh……Đánh dấu các dự án dịch vụ môi giới bất động sản, nội dung dịch vụ, tiêu chuẩn lệ phí và giá và thông tin liên quan đến bất động sản tại địa điểm hoạt động. 」 Điều 19 "Hai hoặc hơn hai cơ quan môi giới bất động sản hợp tác trong cùng một hoạt động môi giới bất động sản, chỉ có thể thu phí theo một hoạt động và không được tăng phí cho người ủy thác". Điều 17 "Các cơ quan môi giới bất động sản cung cấp các dịch vụ thay thế cho các khoản vay, thay thế cho việc đăng ký bất động sản, các dịch vụ khác, phải giải thích cho nhà ủy nhiệm về nội dung dịch vụ, tiêu chuẩn lệ phí, và ký hợp đồng thay thế theo sự đồng ý của nhà ủy quyền.。」 | Thứ nhất 15 Chương "Nhà sử dụng cho người trung gian trả tiền cho nhà"」 |
+| 《Quy định quản lý thuê nhà hàng hóa 6 Số 1）<http://www.gov.cn/gongbao/content/2011/content_1845070.htm> | Điều 8 "Nhà thuê phải được thuê với căn phòng được thiết kế ban đầu là một đơn vị thuê tối thiểu, và diện tích nhà thuê không được thấp hơn các tiêu chuẩn tối thiểu được quy định bởi chính phủ dân tộc địa phương. Nhà bếp, nhà vệ sinh, bành trướng và phòng lưu trữ dưới lòng đất không được thuê để người dân sống. Điều 9: Người thuê nhà phải thực hiện nghĩa vụ bảo trì nhà theo hợp đồng và đảm bảo an toàn cho nhà và các thiết bị nội thất.……Trong thời gian hợp đồng thuê nhà, người thuê nhà không được tự nguyện tăng mức thuê nhà。」 | Thứ nhất 15 Chương "Đừng thuê phòng riêng biệt"」 |
+
+## 2 vẫn chưa đạt được
+
+| Tìm kiếm | Kết quả |
+| --- | --- |
+| 《Đạo luật Bảo hiểm Xã hội toàn văn: Tài khoản cá nhân bảo hiểm hưu trí, cơ sở pháp lý đối xử về di sản） | Thư viện chỉ nhận Quốc vụ viện Các tài liệu hệ thống, luật pháp của người dân quốc gia không có trong đó; Hồ sơ pháp lý của Tòa án Tối cao không được đưa vào；npc.gov.cn Đánh giá của các liên kết trở lại trang hướng dẫn. Thứ nhất 25 Liên quan TODO Giữ |
+| Các tiêu chuẩn cụ thể về trợ cấp tang lễ, lương hưu thừa kế | Các tài liệu của Bộ nhân sự không có trong thư viện，mohrss.gov.cn Không được truy cập. Thứ nhất 25 Liên quan TODO Giữ |
+| Giới hạn trách nhiệm bảo hiểm tăng cường, thông báo kiểm tra các yếu tố nhỏ trẻ em, đơn giản hóa việc rút tiền gửi nhỏ của người đã chết | Được sử dụng `searchfield=title` Thử nghiệm lại vẫn chưa thành công |
+
+## Ba: tiêu chí đánh giá Với mức độ lợi ích
+
+- Các chuyên gia về giao dịch tiền mặt cho biết: "Tiền lớn": một số tiền từ hàng trăm triệu đến hàng triệu đô la là một trong những thứ lớn nhất trong một cuốn sách.。
+- "Tiền" trong phòng: hậu quả trực tiếp là việc di chuyển, tiền gửi và mất tiền thuê đã được thanh toán, từ hàng trăm đến hàng ngàn đô la; Nguy cơ hỏa hoạn Ghi chú Không đổi tiền. mức độ lợi ích (Bài này không được viết qua) tiêu chí đánh giá Đổi lại）。
+- Thứ nhất 24 Lịch sử bệnh tật tiêu chí đánh giá Tôi không thể thay đổi số lượng của tiền, nhưng tôi chỉ có thể thay đổi số lượng của tiền. Mức độ bằng chứng Từ: C Tăng lên A。

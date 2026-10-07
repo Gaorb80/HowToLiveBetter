@@ -1,0 +1,40 @@
+# Hồ sơ kiểm chứng: Thời gian dùng màn hình của trẻ nhỏ và biến chứng cận thị — 2026-09-21
+
+> Bản dịch máy dự thảo của hồ sơ lịch sử, chưa được rà soát song ngữ. Không dùng các câu trích dẫn ở đây làm căn cứ pháp lý hoặc y khoa; đối chiếu văn bản gốc tại URL nguồn. Xem [ghi chú bản dịch](README.md).
+
+Nhiệm vụ Nguồn Người đọc tiếp tục hỏi: "Có những đứa trẻ, hai, ba, bốn, năm tuổi, nhìn màn hình một thời gian dài, có thực sự không bị tổn thương không?」。
+
+Bài viết được bao gồm: 6 Chương 3 16 Điều này chỉ trả lời cho người lớn: màn hình gây ra bởi sự mệt mỏi và khô mắt, ngược lại. Thứ nhất 30 Tự động ngoài trời 2 Thời gian: 4 Điều này có nghĩa là chúng ta không mua thuốc chữa mắt, nhưng chúng ta không mua thuốc chữa mắt**Không có gì về thời gian màn hình**，Và không nói về hậu quả của việc nhìn gần. Thứ nhất 20 Bài viết chỉ được viết vào năm sinh，1 đến 3 Thằng bé không có gì trong sách. Vì vậy, có hai điều thiếu sót: phân loại màn hình của trẻ sơ sinh, và "Hình ảnh cận cảnh không làm tổn thương".」。
+
+Điểm hạ cánh: 30 Chương 3 4 Điều này được thêm vào 2 Điều 3 5、6 Đạo luật: 5 đến 11 Đạo luật tiếp theo: 7 đến 13。Mục đầu tiên: "Sáu điều đầu tiên là về cái chết và thiệt hại thực sự cho cơ thể". Thứ nhất 7 Đánh giá tiền. Thứ nhất 8、9 Điều "đếm thời gian" được chuyển thành "những thứ tám đầu tiên và hai thứ hai cuối cùng"……Thứ nhất 9 Đánh giá tiền. Thứ nhất 10、11 Điều tính thời gian "Bài liên tục đã sửa đổi mục bị bỏ qua 10、11 Đạo luật tiêu chí đánh giá Lỗi cũ. Trong phần đầu của bài viết, một câu nói khác được thêm vào: 0 Và tôi muốn nói với bạn rằng tôi có thể làm điều gì đó để giúp bạn. 0～3 Năm tuổi、3～6 Trẻ tuổi, trung học, tiểu học 3。
+
+Quảng cáo đã được sửa đổi: trong phần 7 Địa điểm: 2 Ở đâu? 3 Đạo luật 2 Nơi nào, ngay từ đầu 5 Đạo luật 1 Nơi nào, ngay từ đầu 7 Đạo luật 1 Nơi nào, ngay từ đầu 10 và 11 Các điều 1 Cụ thể 2 Ở đâu（book/03 Thứ nhất 23 Câu trả lời: 6→8，book/06 Thứ nhất 16 Quảng cáo chống quan sát 10→12、7→9）。book/33 Thứ nhất 15 Điều này dẫn đến: 30 Chương 3 3 Không bị ảnh hưởng。docs/doi-chieu-tham-chieu.md của diff Chúng ta đã từng đi theo từng bước, không thay đổi bất cứ số chữ cái nào. tiêu đề Đường thay đổi。
+
+## Thứ nhất 30 Chương 3 5 Định hướng thời gian của màn hình）
+
+| Nguồn | Đánh giá lại | Nguồn gốc |
+|---|---|---|
+| <https://www.gov.cn/zhengce/zhengceku/202307/content_6894284.htm>（Ủy ban Y tế Quốc gia Văn phòng phòng phòng ngừa và kiểm soát trẻ em thanh thiếu niên xem xét 10 điều quan trọng về kiến thức cơ bản, Văn phòng bảo vệ quốc gia〔2023〕278 Số 1） | Đúng vậy | Điều 4: Thời gian màn hình điều khiển độ tuổi: "Trong khoảng thời gian gần sử dụng các sản phẩm loại màn hình điện tử, dễ tiêu thụ cho trẻ em, dự trữ thị giác là một nguyên nhân quan trọng cho trẻ em thiếu niên thị giác sớm và tóc cao.。0～3 Trẻ em trẻ tuổi không sử dụng điện thoại di động, máy tính bảng, máy tính và các sản phẩm điện tử như màn hình；3～6 Trẻ em và trẻ em nên tránh tiếp xúc và sử dụng các sản phẩm điện tử như điện thoại di động, máy tính bảng, máy tính và các thiết bị khác như màn hình; Học sinh trung học không được sử dụng màn hình điện tử cho mục đích học tập 15 Thời gian tích lũy mỗi ngày không được vượt quá 1 Một giờ". Bài viết đầu tiên viết rằng "Trẻ em đang 1～3 Thời thơ ấu、4～6 Tầm tuổi học、7 Thời gian học tập sau tuổi phải được kiểm tra quang học thường xuyên, giám sát dự trữ theo dõi」 |
+| <http://www.moe.gov.cn/srcsite/A17/moe_943/s3285/201808/t20180830_346672.html>（Bộ Giáo dục Phân tích kiểm soát toàn diện cho trẻ em, thanh thiếu niên và trẻ em trong 8 lĩnh vực〔2018〕3 Số 1） | Đúng vậy | 「Kiểm soát ý thức việc trẻ em sử dụng các sản phẩm điện tử, đặc biệt là trẻ sơ sinh, và việc sử dụng các sản phẩm điện tử không nhằm mục đích học tập không nên vượt quá một lần 15 phút, mỗi ngày tích lũy không được quá 1 Thời gian……Bạn càng trẻ, thời gian sử dụng điện tử liên tục sẽ càng ngắn」 |
+| Foreman J, Salim AT, Praveen A, et al. (2021). Lancet Digit Health 3(12):e806-e818. <https://doi.org/10.1016/S2589-7500(21)00135-7>（Europe PMC Nhận bản tóm tắt đầy đủ，PMID 34625399） | Đúng vậy | Thêm vào 33 Nghiên cứu、11 Thân vào, đối tượng 3 Từ tháng đến tháng 33 tuổi tác; Chỉ cần thiết bị thông minh OR 1.26（95% CI 1.00–1.60，I²=77%），Kết hợp với máy tính OR 1.77（1.28–2.45，I²=87%）；Kết luận:「might be associated」，Và viết 33 Các nghiên cứu không có phép đo thời gian màn hình đáng tin cậy |
+| Madigan S, McArthur BA, Anhorn C, Eirich R, Christakis DA (2020). JAMA Pediatr 174(7):665-675. <https://doi.org/10.1001/jamapediatrics.2020.0327>（PMID 32202633） | Đúng vậy | 42 Nghiên cứu 18905 Con người; Thời gian màn hình và khả năng ngôn ngữ r=−0.14（95% CI −0.18 đến −0.10），Background TV r=−0.19（−0.33 đến −0.05）；Chương trình giáo dục r=0.13（0.02–0.24）、Xem cùng nhau r=0.16（0.07–0.24）；Khi bạn bắt đầu tiếp xúc với màn hình, bạn sẽ có khả năng ngôn ngữ tốt hơn. r=0.17（0.07–0.27） |
+
+Chắc chắn B：Đề xuất từ các quy định của bảng xếp hạng chính thức, chứ không phải số liệu được thử nghiệm; Nghiên cứu bên kia OR Giới hạn dưới đúng mức. 1.00、Sự khác biệt 87%，Người viết đầu tiên chỉ viết "có thể liên quan". mức độ lợi ích Đặt "trung tâm" thay vì "lớn": tiêu chí đánh giá Đúng vậy tỷ lệ tử vong／Kết thúc sức khỏe, nhưng màn hình và bằng chứng về nguyên nhân gần gũi yếu, thực sự có thử nghiệm ngẫu nhiên đang nhìn thấy ngoài trời. 4 Do đó, không phải theo đường đỏ chính thức, cường độ được cho là "lớn". Chi phí Cố gắng ghi lại "có" để đối phó với sự bất thường trong thời gian dài, và các bậc cha mẹ nên ít nhìn thấy bản thân trước mặt trẻ.。
+
+## Thứ nhất 30 Chương 3 6 Bệnh khớp mắt gần）
+
+| Nguồn | Đánh giá lại | Số |
+|---|---|---|
+| Haarman AEG, Enthoven CA, Tideman JWL, Tedja MS, Verhoeven VJM, Klaver CCW (2020). The Complications of Myopia: A Review and Meta-Analysis. IOVS 61(4):49. <https://doi.org/10.1167/iovs.61.4.49>（PMID 32347918） | Đúng vậy | Dễ dàng theo số lượng（−0.5 đến −3.00 D）、Trong（−3.00 đến −6.00 D）、cao（≤−6.00 D）3 lớp. Phong trào vàng cận thị OR 13.57（95% CI 6.18–29.79）／72.74（33.18–159.48）／845.08（230.05–3104.34）；Phong cách retina 3.15（1.92–5.17）／8.74（7.28–10.50）／12.62（6.65–23.94）；Bệnh nội tạng sau túi 1.56（1.32–1.84）／2.55（1.98–3.28）／4.55（2.66–7.75）；Chứng nội tạng hạt nhân 1.79（1.08–2.97）／2.39（1.03–5.55）／2.87（1.43–5.73）；Mắt màu xanh lá cây 1.59（1.33–1.91）（Dễ dàng）、2.92（1.89–4.52）（Trung cao kết hợp）；>60 Bệnh thị lực tuổi tác 1.71（1.07–2.74）／5.54（3.12–9.85）／87.63（34.50–222.58） |
+| Điều 10 và Điều 9 về tri thức cốt lõi của nghiện | Đúng vậy | 「Nhìn gần 600 Cảm giác gần gũi hơn. Trong nhóm người cận thị cao, tỷ lệ mắc bệnh trong mắt mù như bệnh nội tạng, mắt xanh góc, bệnh mờ mắt cận thị, mất mờ mắt của retina, bệnh thần kinh cận thị rõ ràng cao hơn so với các nhóm khác". Bài viết đầy đủ bắt đầu bằng cách viết: "Sự nhìn gần có thể được kiểm soát và không thể đảo ngược".」 |
+
+Chắc chắn A：phân tích gộp Và tất cả mọi thứ đều được đưa ra một cách đáng kể. OR Với khoảng tin cậy 。 Ghi chú Trong đó có hai giới hạn: tổng thể là nghiên cứu quan sát; Phạm vi gần gũi với sự biến đổi màu vàng 230 đến 3104，Các con số chỉ có thể xem bằng số lượng. mức độ lợi ích "Nó lớn".」。
+
+## Không cố ý. nội dung chính của
+
+- WHO《5 Các hướng dẫn về hoạt động thể chất, tập thể dục và giấc ngủ cho trẻ em dưới tuổi》（2019）Tiêu đề màn hình tuổi：iris.who.int Đây là một ứng dụng đơn trang được chiếu ở đầu và chỉ quay trở lại 755 Không có dấu phím, và không có bản gốc nào có thể xác minh theo từng chữ. Trung Quốc Hai tài liệu chính thức đã bao gồm cùng một điều và có thể được xác nhận từ từ, vì vậy không đưa ra nó。
+- 「"Bộ chiếu ánh sáng xanh trực tiếp làm tổn thương mắt". 6 Chương 3 16 Bài viết: Cochrane Đánh giá đã cho thấy không có bằng chứng, không lặp lại đoạn này。
+
+## Thống kê
+
+Chương trình này và các cuộc họp song song: 2、4、6、23 Đạo diễn 17 Điều 1) Đồng bộ, chạy sync-stats Nhận: Toàn bộ 594 Đạo luật，A 400、B 144、C 50，Có tranh cãi 53、TODO 38，Liên kết 1213。Trong số đó, 2 Đạo luật（1 Đạo luật A、1 Đạo luật B），Tăng nguyên liệu tài liệu tham khảo Liên kết 6 Định luật: Các con số chạy trước và viết lại từ phía bên kia README、index.html、tools/og.html và og.png，Một lần nữa, bên này chạy hết "không thay đổi"」。

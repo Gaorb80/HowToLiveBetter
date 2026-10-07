@@ -1,0 +1,28 @@
+name: Đề xuất bổ sung nội dung
+description: Chủ đề sách chưa đề cập mà bạn cho rằng nên bổ sung
+labels: ['nội dung mới']
+body:
+  - type: markdown
+    attributes:
+      value: Sách chỉ nhận lời khuyên nêu rõ chi phí và lợi ích, với nguồn là bài báo khoa học hoặc văn bản chính thức. Kho gốc yêu cầu người dịch duy trì bản dịch ở fork riêng; đây là fork tiếng Việt.
+  - type: input
+    id: topic
+    attributes:
+      label: Chủ đề
+      placeholder: 'Ví dụ: Cách xét chức danh nghề nghiệp'
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Bạn muốn sách trả lời câu hỏi gì?
+      description: 'Nêu cụ thể, ví dụ: Cần đến cơ quan nào và chuẩn bị giấy tờ gì?'
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Nguồn bạn biết (không bắt buộc)
+      description: Liên kết bài báo, quy định pháp luật hoặc văn bản chính thức.
+    validations:
+      required: false

@@ -1,0 +1,27 @@
+name: 'Báo lỗi: Nội dung sai hoặc đã lỗi thời'
+description: Số liệu sai, quy định thay đổi, nguồn không mở được hoặc diễn đạt chưa đúng
+title: 'Chương X, mục Y: '
+labels: ['báo lỗi']
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Mục nào?
+      description: Ghi số chương và số mục, ví dụ chương 32, mục 2.
+      placeholder: Chương X, mục Y
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Nội dung nào chưa đúng?
+      description: Trích câu gốc rồi giải thích nội dung cần sửa.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Căn cứ
+      description: Bài báo khoa học (DOI hoặc PubMed), nguyên văn quy định pháp luật hoặc trang cơ quan chính thức. Không dùng bài thuật lại trên Zhihu, tài khoản WeChat hay Baijiahao.
+    validations:
+      required: true
